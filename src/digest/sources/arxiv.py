@@ -1,5 +1,4 @@
 from datetime import datetime, timedelta
-from typing import List, Union, Optional
 from urllib.parse import urlencode
 
 import requests
