@@ -3,7 +3,6 @@ from datetime import datetime, timedelta, timezone
 import pytest
 from digest.sources.arxiv import ArxivSearch
 import requests
-from digest.sources.arxiv import ArxivSearch
 
 
 # Dummy response class for mocking requests.get responses.
@@ -104,7 +103,9 @@ def test_parse_response(arxiv_search: ArxivSearch) -> None:
     assert "cs.AI" in entry.categories
 
 
-def test_execute_request(monkeypatch: pytest.MonkeyPatch, arxiv_search: ArxivSearch) -> None:
+def test_execute_request(
+    monkeypatch: pytest.MonkeyPatch, arxiv_search: ArxivSearch
+) -> None:
     # Define a fake GET that returns our dummy XML response.
     def fake_get(url: str, params: str) -> DummyResponse:
         return DummyResponse(dummy_xml_response(), 200)
