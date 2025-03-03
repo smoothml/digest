@@ -2,7 +2,7 @@ from xml.etree import ElementTree
 from datetime import datetime, timedelta, timezone
 import pytest
 import requests
-from src.digest.sources.arxiv import ArxivSearch
+from digest.sources.arxiv import ArxivSearch
 
 
 # Dummy response class for mocking requests.get responses.
