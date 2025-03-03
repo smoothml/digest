@@ -150,13 +150,21 @@ class ArxivSearch:
         entries = []
         for element in root.findall("atom:entry", ns):
             entry_id = ArxivSearch._get_element_text(element.find("atom:id", ns))
-            title = ArxivSearch._get_element_text(element.find("atom:title", ns)).strip()
-            summary = ArxivSearch._get_element_text(element.find("atom:summary", ns)).strip()
+            title = ArxivSearch._get_element_text(
+                element.find("atom:title", ns)
+            ).strip()
+            summary = ArxivSearch._get_element_text(
+                element.find("atom:summary", ns)
+            ).strip()
             published = datetime.fromisoformat(
-                ArxivSearch._get_element_text(element.find("atom:published", ns)).replace("Z", "+00:00")
+                ArxivSearch._get_element_text(
+                    element.find("atom:published", ns)
+                ).replace("Z", "+00:00")
             )
             updated = datetime.fromisoformat(
-                ArxivSearch._get_element_text(element.find("atom:updated", ns)).replace("Z", "+00:00")
+                ArxivSearch._get_element_text(element.find("atom:updated", ns)).replace(
+                    "Z", "+00:00"
+                )
             )
             authors = [
                 ArxivSearch._get_element_text(author.find("atom:name", ns))
