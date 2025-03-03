@@ -7,17 +7,17 @@ import requests
 
 # Dummy response class for mocking requests.get responses.
 class DummyResponse:
-    def __init__(self, content: bytes, status_code: int = 200):
+    def __init__(self, content: bytes, status_code: int = 200) -> None:
         self.content = content
         self.status_code = status_code
 
-    def raise_for_status(self):
+    def raise_for_status(self) -> None:
         if self.status_code != 200:
             raise requests.HTTPError(f"Status code: {self.status_code}")
 
 
 @pytest.fixture
-def arxiv_search():
+def arxiv_search() -> ArxivSearch:
     return ArxivSearch()
 
 
