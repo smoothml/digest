@@ -135,6 +135,12 @@ class ArxivSearch:
         return response
 
     @staticmethod
+    def _get_element_text(element: ET.Element | None) -> str:
+        if element is None or element.text is None:
+            raise ValueError("Missing expected element text")
+        return element.text
+
+    @staticmethod
     def _parse_response(content: bytes) -> list[ArxivEntry]:
         root = ET.fromstring(content)
         ns = {
@@ -143,23 +149,26 @@ class ArxivSearch:
         }
         entries = []
         for element in root.findall("atom:entry", ns):
-            entry_id = element.find("atom:id", ns).text
-            title = element.find("atom:title", ns).text.strip()
-            summary = element.find("atom:summary", ns).text.strip()
+            entry_id = ArxivSearch._get_element_text(element.find("atom:id", ns))
+            title = ArxivSearch._get_element_text(element.find("atom:title", ns)).strip()
+            summary = ArxivSearch._get_element_text(element.find("atom:summary", ns)).strip()
             published = datetime.fromisoformat(
-                element.find("atom:published", ns).text.replace("Z", "+00:00")
+                ArxivSearch._get_element_text(element.find("atom:published", ns)).replace("Z", "+00:00")
             )
             updated = datetime.fromisoformat(
-                element.find("atom:updated", ns).text.replace("Z", "+00:00")
+                ArxivSearch._get_element_text(element.find("atom:updated", ns)).replace("Z", "+00:00")
             )
             authors = [
-                author.find("atom:name", ns).text
+                ArxivSearch._get_element_text(author.find("atom:name", ns))
                 for author in element.findall("atom:author", ns)
             ]
             categories = [
                 cat.attrib["term"] for cat in element.findall("atom:category", ns)
             ]
-            primary = element.find("arxiv:primary_category", ns).attrib["term"]
+            primary_elem = element.find("arxiv:primary_category", ns)
+            if primary_elem is None or "term" not in primary_elem.attrib:
+                raise ValueError("Missing primary category")
+            primary = primary_elem.attrib["term"]
 
             entries.append(
                 ArxivEntry(
