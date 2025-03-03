@@ -1,6 +1,7 @@
 from xml.etree import ElementTree
 from datetime import datetime, timedelta, timezone
 import pytest
+from digest.sources.arxiv import ArxivSearch
 import requests
 from digest.sources.arxiv import ArxivSearch
 
@@ -39,7 +40,7 @@ def dummy_xml_response() -> bytes:
     """
 
 
-def test_default_date_range(arxiv_search) -> None:
+def test_default_date_range(arxiv_search: ArxivSearch) -> None:
     start, end = arxiv_search._default_date_range(None, None)
     yesterday = datetime.now(timezone.utc) - timedelta(days=1)
     expected_start = datetime(
@@ -56,14 +57,14 @@ def test_default_date_range(arxiv_search) -> None:
     assert end == expected_end
 
 
-def test_build_query_condition(arxiv_search) -> None:
+def test_build_query_condition(arxiv_search: ArxivSearch) -> None:
     single = arxiv_search._build_query_condition("test", "abstract")
     assert single == 'abs:"test"'
     multiple = arxiv_search._build_query_condition(["foo", "bar"], "title")
     assert multiple == '(ti:"foo" OR ti:"bar")'
 
 
-def test_build_category_condition(arxiv_search) -> None:
+def test_build_category_condition(arxiv_search: ArxivSearch) -> None:
     assert arxiv_search._build_category_condition(None) == ""
     assert arxiv_search._build_category_condition("cs.AI") == "cat:cs.AI"
     multiple_cat = arxiv_search._build_category_condition(["cs.AI", "cs.CL"])
@@ -71,14 +72,14 @@ def test_build_category_condition(arxiv_search) -> None:
     assert multiple_cat == expected
 
 
-def test_build_date_condition(arxiv_search) -> None:
+def test_build_date_condition(arxiv_search: ArxivSearch) -> None:
     start = datetime(2022, 1, 1, 0, 0)
     end = datetime(2022, 1, 1, 23, 59)
     condition = arxiv_search._build_date_condition(start, end)
     assert condition == "submittedDate:[202201010000 TO 202201012359]"
 
 
-def test_build_search_query(arxiv_search) -> None:
+def test_build_search_query(arxiv_search: ArxivSearch) -> None:
     conditions = [
         "cat:cs.AI",
         'abs:"test"',
@@ -91,7 +92,7 @@ def test_build_search_query(arxiv_search) -> None:
     )
 
 
-def test_parse_response(arxiv_search) -> None:
+def test_parse_response(arxiv_search: ArxivSearch) -> None:
     entries = arxiv_search._parse_response(dummy_xml_response())
     assert len(entries) == 1
     entry = entries[0]
@@ -103,9 +104,9 @@ def test_parse_response(arxiv_search) -> None:
     assert "cs.AI" in entry.categories
 
 
-def test_execute_request(monkeypatch, arxiv_search) -> None:
+def test_execute_request(monkeypatch: pytest.MonkeyPatch, arxiv_search: ArxivSearch) -> None:
     # Define a fake GET that returns our dummy XML response.
-    def fake_get(url, params) -> DummyResponse:
+    def fake_get(url: str, params: str) -> DummyResponse:
         return DummyResponse(dummy_xml_response(), 200)
 
     monkeypatch.setattr(requests, "get", fake_get)
