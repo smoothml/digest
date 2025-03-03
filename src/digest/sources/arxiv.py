@@ -1,4 +1,4 @@
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from urllib.parse import urlencode
 
 import requests
@@ -61,7 +61,7 @@ class ArxivSearch:
         """
         # Default the submission date range to previous day if not provided.
         if submitted_range_start is None or submitted_range_end is None:
-            yesterday = datetime.utcnow() - timedelta(days=1)
+            yesterday = datetime.now(timezone.utc) - timedelta(days=1)
             submitted_range_start = datetime(
                 year=yesterday.year,
                 month=yesterday.month,
