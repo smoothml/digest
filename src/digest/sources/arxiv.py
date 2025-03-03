@@ -24,11 +24,11 @@ class ArxivEntry(BaseModel):
     id: str
     title: str
     summary: str
-    authors: List[str]
+    authors: list[str]
     published: datetime
     updated: datetime
     primary_category: str
-    categories: List[str]
+    categories: list[str]
 
 
 class ArxivSearch:
