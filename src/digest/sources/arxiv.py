@@ -20,6 +20,7 @@ class ArxivEntry(BaseModel):
         primary_category (str): The primary category term.
         categories (List[str]): All categories associated with the paper.
     """
+
     id: str
     title: str
     summary: str
@@ -66,10 +67,18 @@ class ArxivSearcher:
         if submitted_range_start is None or submitted_range_end is None:
             yesterday = datetime.utcnow() - timedelta(days=1)
             submitted_range_start = datetime(
-                year=yesterday.year, month=yesterday.month, day=yesterday.day, hour=0, minute=0
+                year=yesterday.year,
+                month=yesterday.month,
+                day=yesterday.day,
+                hour=0,
+                minute=0,
             )
             submitted_range_end = datetime(
-                year=yesterday.year, month=yesterday.month, day=yesterday.day, hour=23, minute=59
+                year=yesterday.year,
+                month=yesterday.month,
+                day=yesterday.day,
+                hour=23,
+                minute=59,
             )
 
         # Map the field to its query prefix.
@@ -80,7 +89,11 @@ class ArxivSearcher:
         # Build the query phrases, wrapping them in quotes to enforce phrase searching.
         phrase_queries = [f'{field_prefix}"{phrase}"' for phrase in queries]
         # If multiple phrases, join them with OR and wrap with parentheses.
-        query_condition = phrase_queries[0] if len(phrase_queries) == 1 else "(" + " OR ".join(phrase_queries) + ")"
+        query_condition = (
+            phrase_queries[0]
+            if len(phrase_queries) == 1
+            else "(" + " OR ".join(phrase_queries) + ")"
+        )
 
         # Build category condition if provided.
         cat_condition = ""
@@ -114,17 +127,29 @@ class ArxivSearcher:
 
         # Parse the XML response.
         root = ET.fromstring(response.content)
-        ns = {"atom": "http://www.w3.org/2005/Atom", "arxiv": "http://arxiv.org/schemas/atom"}
+        ns = {
+            "atom": "http://www.w3.org/2005/Atom",
+            "arxiv": "http://arxiv.org/schemas/atom",
+        }
 
         entries = []
         for element in root.findall("atom:entry", ns):
             entry_id = element.find("atom:id", ns).text
             title = element.find("atom:title", ns).text.strip()
             summary = element.find("atom:summary", ns).text.strip()
-            published = datetime.fromisoformat(element.find("atom:published", ns).text.replace("Z", "+00:00"))
-            updated = datetime.fromisoformat(element.find("atom:updated", ns).text.replace("Z", "+00:00"))
-            authors = [author.find("atom:name", ns).text for author in element.findall("atom:author", ns)]
-            categories = [cat.attrib["term"] for cat in element.findall("atom:category", ns)]
+            published = datetime.fromisoformat(
+                element.find("atom:published", ns).text.replace("Z", "+00:00")
+            )
+            updated = datetime.fromisoformat(
+                element.find("atom:updated", ns).text.replace("Z", "+00:00")
+            )
+            authors = [
+                author.find("atom:name", ns).text
+                for author in element.findall("atom:author", ns)
+            ]
+            categories = [
+                cat.attrib["term"] for cat in element.findall("atom:category", ns)
+            ]
             primary = element.find("arxiv:primary_category", ns).attrib["term"]
 
             entries.append(
