@@ -31,37 +31,34 @@ class ArxivEntry(BaseModel):
     categories: List[str]
 
 
-class ArxivSearcher:
+class ArxivSearch:
     """Interface class for searching ArXiv.
 
     Provides a method to search ArXiv using various filters
     such as query phrases, field, category, and submission date range.
     """
 
-    BASE_URL = "http://export.arxiv.org/api/query"
+    BASE_URL = "https://export.arxiv.org/api/query"
 
     def search(
         self,
-        query: Union[str, List[str]],
+        query: str | list[str],
         field: str = "abstract",
-        category: Optional[Union[str, List[str]]] = None,
-        submitted_range_start: Optional[datetime] = None,
-        submitted_range_end: Optional[datetime] = None,
-    ) -> List[ArxivEntry]:
+        category: str | list[str] | None = None,
+        submitted_range_start: datetime | None = None,
+        submitted_range_end: datetime | None = None,
+    ) -> list[ArxivEntry]:
         """Search ArXiv and return search results as a list of ArxivEntry models.
 
         Args:
-            query (Union[str, List[str]]): A single phrase or a list of phrases to search for.
-            field (str): The field to search on; either "title" or "abstract". Defaults to "abstract".
-            category (Optional[Union[str, List[str]]]): Category or list of categories to filter on.
-                If None, no category filtering is applied.
-            submitted_range_start (Optional[datetime]): Start datetime for the submittedDate filter.
-                Defaults to the start of the previous day.
-            submitted_range_end (Optional[datetime]): End datetime for the submittedDate filter.
-                Defaults to the end of the previous day.
+            query: A single phrase or a list of phrases to search for.
+            field: The field to search on; either "title" or "abstract". Defaults to "abstract".
+            category: Category or list of categories to filter on. If None, no category filtering is applied.
+            submitted_range_start: Start datetime for the submittedDate filter. Defaults to the start of the previous day.
+            submitted_range_end: End datetime for the submittedDate filter. Defaults to the end of the previous day.
 
         Returns:
-            List[ArxivEntry]: A list of ArxivEntry models representing search results.
+            A list of ArxivEntry models representing search results.
         """
         # Default the submission date range to previous day if not provided.
         if submitted_range_start is None or submitted_range_end is None:
