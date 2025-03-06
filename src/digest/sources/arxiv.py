@@ -4,6 +4,12 @@ from urllib.parse import urlencode
 import requests
 import xml.etree.ElementTree as ET
 from pydantic import BaseModel
+from enum import StrEnum
+
+class ArxivSearchField(StrEnum):
+    """Enumeration of valid fields for Arxiv searches."""
+    ABSTRACT = "abstract"
+    TITLE = "title"
 
 
 class ArxivEntry(BaseModel):
@@ -42,7 +48,7 @@ class ArxivSearch:
     def search(
         self,
         query: str | list[str],
-        field: str = "abstract",
+        field: ArxivSearchField = ArxivSearchField.ABSTRACT,
         category: str | list[str] | None = None,
         submitted_range_start: datetime | None = None,
         submitted_range_end: datetime | None = None,
