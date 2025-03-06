@@ -119,7 +119,7 @@ class ArxivSearch:
         return submitted_range_start, submitted_range_end
 
     @staticmethod
-    def _build_query_condition(query: str | list[str], field: str) -> str:
+    def _build_query_condition(query: str | list[str], field: ArxivSearchField) -> str:
         """
         Construct the query fragment for the given query or queries and field.
 
@@ -130,7 +130,7 @@ class ArxivSearch:
         Returns:
             A query fragment string.
         """
-        field_prefix = "ti:" if field == "title" else "abs:"
+        field_prefix = "ti:" if field == ArxivSearchField.TITLE else "abs:"
         queries = [query] if isinstance(query, str) else query
         phrase_queries = [f'{field_prefix}"{phrase}"' for phrase in queries]
         return (
