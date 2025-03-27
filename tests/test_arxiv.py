@@ -1,8 +1,10 @@
-from xml.etree import ElementTree
 from datetime import datetime, timedelta, timezone
+from xml.etree import ElementTree
+
 import pytest
-from digest.sources.arxiv import ArxivSearch
 import requests
+
+from digest.sources.arxiv import ArxivSearch
 
 
 # Dummy response class for mocking requests.get responses.
