@@ -50,7 +50,7 @@ class WebScraper:
         """
         self.headless = headless
         self.timeout = timeout
-        self.user_agent = user_agent
+        self.user_agent = user_agent or self._get_random_user_agent()
         self.wait_for_cloudflare = wait_for_cloudflare
         self.max_wait_time = max_wait_time
         self._driver: uc.Chrome | None = None
@@ -88,9 +88,8 @@ class WebScraper:
             options.add_argument("--disable-renderer-backgrounding")
             options.add_argument("--disable-backgrounding-occluded-windows")
 
-            # Set realistic user agent if none provided
-            user_agent = self.user_agent or self._get_random_user_agent()
-            options.add_argument(f"--user-agent={user_agent}")
+            # Set user agent
+            options.add_argument(f"--user-agent={self.user_agent}")
 
             # Set window size to avoid headless detection
             options.add_argument("--window-size=1920,1080")
