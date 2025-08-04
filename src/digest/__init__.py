@@ -1,2 +1,3 @@
-def hello() -> str:
-    return "Hello from digest!"
+from digest.utils import register_all_representers
+
+register_all_representers()
