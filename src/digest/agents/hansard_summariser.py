@@ -3,21 +3,20 @@ from datetime import date, datetime
 from string import Template
 from textwrap import dedent
 from typing import Annotated
-from pathlib import Path
 
-import yaml
 from loguru import logger
 from pydantic_ai import Agent, RunContext
 from pydantic_ai.models.openai import OpenAIModel
 from typer import Argument, Option, Typer
 
 from digest.settings import openai_provider
+from digest.site import create_post, format_post, get_all_tags
 from digest.sources.hansard.constants import Persona, HansardSourceType, PERSONA_PROMPTS
 from digest.sources.hansard.main import get_hansard_data_source
 
 cli = Typer(name="hansard")
 
-SYSTEM_PROMPT_TEMPLATE = Template(
+SUMMARY_SYSTEM_PROMPT_TEMPLATE = Template(
     dedent(
         """
         <persona>
@@ -36,19 +35,49 @@ SYSTEM_PROMPT_TEMPLATE = Template(
         """
     )
 )
+SUMMARY_TEMPLATE = Template(
+    dedent(
+        """
+        ## From the Perspective of the ${persona}
+
+        ${summary}
+        """
+    )
+)
+TAG_SYSTEM_PROMPT_TEMPLATE = Template(
+    dedent(
+        """
+        <existing_tags>
+        ${existing_tags}
+        </existing_tags>
+        <task>
+        Generate 1-5 tags for the content provided by the user.
+        A tag is a short lowercase word (no spaces) that represents a topic discussed in the content.
+        Examples: healthcare, economy, environment.
+        </task>
+        """
+    )
+)
 
 hansard_data_source = get_hansard_data_source()
 
 model = OpenAIModel(
-    "gpt-4.1-mini-2025-04-14",
+    "gpt-5-mini-2025-08-07",
     provider=openai_provider,
 )
-agent = Agent(model, deps_type=str)
+summary_agent = Agent(model, deps_type=str)
+tag_agent = Agent(model, deps_type=set[str], output_type=list[str])
 
 
-@agent.system_prompt
+@summary_agent.system_prompt
 def create_system_prompt(ctx: RunContext[str]) -> str:
-    return SYSTEM_PROMPT_TEMPLATE.safe_substitute(persona=ctx.deps)
+    return SUMMARY_SYSTEM_PROMPT_TEMPLATE.safe_substitute(persona=ctx.deps)
+
+
+@tag_agent.system_prompt
+def create_tag_system_prompt(ctx: RunContext[set[str]]) -> str:
+    existing_tags = "\n".join([f"- {tag}" for tag in ctx.deps])
+    return TAG_SYSTEM_PROMPT_TEMPLATE.safe_substitute(existing_tags=existing_tags)
 
 
 async def get_hansard_summary(
@@ -58,10 +87,37 @@ async def get_hansard_summary(
     summaries: dict[Persona, str] = {}
     for persona, prompt in PERSONA_PROMPTS.items():
         logger.info(f"Generating summary for persona: {persona.title()}")
-        result = await agent.run(debate.xml_string, deps=prompt)
+        result = await summary_agent.run(debate.xml_string, deps=prompt)
         logger.info(f"Summary for {persona.title()} persona:\n{result.output}")
         summaries[persona] = result.output
     return summaries
+
+
+async def get_tags(summary: str, existing_tags: set[str]) -> list[str]:
+    result = await tag_agent.run(summary, deps=existing_tags)
+    tags = [tag.lower() for tag in result.output]
+    logger.info(f"Tags: {', '.join(tags)}")
+    return tags
+
+
+def format_hansard_summaries(
+    summaries: dict[Persona, str], source: HansardSourceType
+) -> str:
+    """Format generated summaries as a markdown string.
+
+    Args:
+        summaries: Dictionary of summaries, with Persona as key and summary as value.
+        source: Source of the debate.
+
+    Returns:
+        Formatted summaries as a markdown string.
+    """
+    return "\n\n".join(
+        SUMMARY_TEMPLATE.safe_substitute(
+            persona=persona.value.title(), summary=summary
+        ).strip()
+        for persona, summary in summaries.items()
+    )
 
 
 @cli.command()
@@ -72,29 +128,30 @@ def summarise(
     source: Annotated[
         HansardSourceType, Option(help="Source of debate to summarise.")
     ] = HansardSourceType.DEBATES,
-    output_dir: Annotated[
-        Path | None,
-        Option(
-            help="Path to which summaries will be written. No summary will be written if this is not provided",
-            exists=True,
-            file_okay=False,
-            dir_okay=True,
-        ),
-    ] = None,
+    publish: Annotated[bool, Option(help="Publish summaries as a post.")] = False,
 ) -> None:
     with Runner() as runner:
         try:
             result = runner.run(get_hansard_summary(dt.date(), source))
         except KeyboardInterrupt:
             logger.info("Summarisation cancelled by user")
-    if output_dir:
-        with (output_dir / f"{dt.date()}-{source.value}-summary.yaml").open("w") as f:
-            yaml.dump(
-                result,
-                f,
-                encoding="utf-8",
-                allow_unicode=True,
-                sort_keys=False,
-                width=100,
-                indent=2,
-            )
+    if publish:
+        summary = format_hansard_summaries(result, source)
+        existing_tags = get_all_tags("hansard")
+        with Runner() as runner:
+            try:
+                tags = runner.run(get_tags(summary, existing_tags))
+            except KeyboardInterrupt:
+                logger.info("Tag generation cancelled by user")
+        post_content = format_post(
+            summary,
+            dt.date(),
+            f"{source.value.title()} Summary for {dt.strftime('%B %d, %Y')}",
+            tags=tags,
+        )
+        create_post(
+            site="hansard",
+            content=post_content,
+            post_path=f"{dt.date()}-{source.value}-summary.md",
+            section=source.value,
+        )

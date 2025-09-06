@@ -1,0 +1,24 @@
+baseURL = "https://hansard.digest.com"
+languageCode = "en-gb"
+title = "Hansard Digest"
+themesDir = "../themes"
+theme = "hugo-bearblog"
+enableRobotsTXT = true
+disableKinds = ["taxonomy"]
+ignoreErrors = ["error-disable-taxonomy"]
+
+[permalinks]
+  blog = "/:slug/"
+  tags = "/blog/:slug"
+
+[params]
+  description = "AI generated summaries of Hansard debates"
+  title = "Hansard Digest"
+  enablePostNavigator = true
+
+[markup]
+  [markup.highlight]
+    style = "friendly"
+    lineNos = true
+    lineNumbersInTable = false
+    codeFences = true
