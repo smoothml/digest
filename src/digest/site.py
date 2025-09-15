@@ -66,7 +66,9 @@ def format_post(content: str, dt: date, title: str, tags: list[str]) -> str:
     ).strip()
 
 
-def create_post(site: str, content: str, post_path: str, section: str | None = None) -> None:
+def create_post(
+    site: str, content: str, post_path: str, section: str | None = None
+) -> None:
     """Create a new post.
 
     Args:
