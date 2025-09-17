@@ -16,8 +16,8 @@ class DetailedSummary(BaseModel):
     )
 
 
-class Summary(BaseModel):
-    """Summary output model."""
+class DraftSummary(BaseModel):
+    """Draft summary output model."""
 
     high_level: str = Field(
         ...,
@@ -55,3 +55,12 @@ class Summary(BaseModel):
                 [self._format_detailed_summary(ds) for ds in self.detail]
             ),
         ).strip()
+
+
+class FinalSummary(DraftSummary):
+    """Final summary output model."""
+
+    quality_report: str = Field(
+        ...,
+        description="A quality report detailing the changes made to the draft summary.",
+    )

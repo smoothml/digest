@@ -3,27 +3,56 @@ from datetime import date, datetime
 
 from loguru import logger
 from pydantic_ai import Agent, RunContext
-from pydantic_ai.models.openai import OpenAIModel
+from pydantic_ai.models.openai import OpenAIModel, OpenAIModelSettings
 
 from digest.settings import openai_provider
 from digest.site import create_post, format_post, get_all_tags
 from digest.sources.hansard.constants import HansardSourceType
 from digest.sources.hansard.main import get_hansard_data_source
 from digest.agents.hansard_summariser.prompts import (
+    EDITOR_SYSTEM_PROMPT_TEMPLATE,
     SUMMARY_SYSTEM_PROMPT,
     TAG_SYSTEM_PROMPT_TEMPLATE,
 )
-from digest.agents.hansard_summariser.schemas import Summary
+from digest.agents.hansard_summariser.schemas import DraftSummary, FinalSummary
 
 
 hansard_data_source = get_hansard_data_source()
 
-model = OpenAIModel(
+summary_model = OpenAIModel(
     "gpt-5-mini-2025-08-07",
     provider=openai_provider,
 )
-summary_agent = Agent(model, system_prompt=SUMMARY_SYSTEM_PROMPT, output_type=Summary)
-tag_agent = Agent(model, deps_type=set[str], output_type=list[str])
+summary_agent = Agent(
+    summary_model, system_prompt=SUMMARY_SYSTEM_PROMPT, output_type=DraftSummary
+)
+
+editor_model = OpenAIModel(
+    "gpt-5-2025-08-07",
+    provider=openai_provider,
+)
+editor_model_settings = OpenAIModelSettings(openai_reasoning_effort="high")
+editor_agent = Agent(
+    editor_model,
+    model_settings=editor_model_settings,
+    deps_type=str,
+    output_type=FinalSummary,
+)
+
+tag_agent = Agent(summary_model, deps_type=set[str], output_type=list[str])
+
+
+@editor_agent.system_prompt
+def create_editor_system_prompt(ctx: RunContext[str]) -> str:
+    """Create the editor system prompt.
+
+    Args:
+        ctx: Run context.
+
+    Returns:
+        System prompt.
+    """
+    return EDITOR_SYSTEM_PROMPT_TEMPLATE.safe_substitute(transcript=ctx.deps)
 
 
 @tag_agent.system_prompt
@@ -42,7 +71,7 @@ def create_tag_system_prompt(ctx: RunContext[set[str]]) -> str:
 
 async def get_hansard_summary(
     dt: date, source: HansardSourceType = HansardSourceType.DEBATES
-) -> Summary:
+) -> FinalSummary:
     """Generate a Hansard summary.
 
     Args:
@@ -54,8 +83,12 @@ async def get_hansard_summary(
     """
     debate = hansard_data_source.get(dt, source)
     logger.info(f"Generating summary for {source} on {dt}.")
-    result = await summary_agent.run(debate.xml_string)
-    return result.output
+    draft_summary = await summary_agent.run(debate.xml_string)
+    final_summary = await editor_agent.run(
+        draft_summary.output.to_markdown(), deps=debate.xml_string
+    )
+    logger.info(f"Quality report:\n{final_summary.output.quality_report}")
+    return final_summary.output
 
 
 async def get_tags(summary: str, existing_tags: set[str]) -> list[str]:
@@ -74,7 +107,9 @@ async def get_tags(summary: str, existing_tags: set[str]) -> list[str]:
     return tags
 
 
-def publish_summary(summary: Summary, dt: datetime, source: HansardSourceType) -> None:
+def publish_summary(
+    summary: FinalSummary, dt: datetime, source: HansardSourceType
+) -> None:
     """Publish a Hansard summary.
 
     Args:
