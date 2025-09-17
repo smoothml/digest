@@ -25,5 +25,5 @@ uv run digest hansard summarise YYYY-MM-DD --publish
 Run site:
 
 ```bash
-hugo serve -s site --gc
+hugo serve -s sites/<site-name> --gc
 ```
