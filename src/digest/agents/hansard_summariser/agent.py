@@ -6,15 +6,16 @@ from pydantic_ai import Agent, RunContext
 from pydantic_ai.models.openai import OpenAIModel, OpenAIModelSettings
 
 from digest.settings import openai_provider
-from digest.site import create_post, format_post, get_all_tags
+from digest.site import create_post, format_post, get_all_tags, slugify
 from digest.sources.hansard.constants import HansardSourceType
 from digest.sources.hansard.main import get_hansard_data_source
 from digest.agents.hansard_summariser.prompts import (
     EDITOR_SYSTEM_PROMPT_TEMPLATE,
     SUMMARY_SYSTEM_PROMPT,
     TAG_SYSTEM_PROMPT_TEMPLATE,
+    TITLE_SYSTEM_PROMPT,
 )
-from digest.agents.hansard_summariser.schemas import DraftSummary, FinalSummary
+from digest.agents.hansard_summariser.schemas import DraftSummary, FinalSummary, Summary
 
 
 hansard_data_source = get_hansard_data_source()
@@ -39,6 +40,8 @@ editor_agent = Agent(
     output_type=FinalSummary,
 )
 
+title_agent = Agent(summary_model, system_prompt=TITLE_SYSTEM_PROMPT, output_type=str)
+
 tag_agent = Agent(summary_model, deps_type=set[str], output_type=list[str])
 
 
@@ -52,7 +55,7 @@ def create_editor_system_prompt(ctx: RunContext[str]) -> str:
     Returns:
         System prompt.
     """
-    return EDITOR_SYSTEM_PROMPT_TEMPLATE.safe_substitute(transcript=ctx.deps)
+    return EDITOR_SYSTEM_PROMPT_TEMPLATE.safe_substitute(transcript=ctx.deps).strip()
 
 
 @tag_agent.system_prompt
@@ -66,12 +69,14 @@ def create_tag_system_prompt(ctx: RunContext[set[str]]) -> str:
         System prompt.
     """
     existing_tags = "\n".join([f"- {tag}" for tag in ctx.deps])
-    return TAG_SYSTEM_PROMPT_TEMPLATE.safe_substitute(existing_tags=existing_tags)
+    return TAG_SYSTEM_PROMPT_TEMPLATE.safe_substitute(
+        existing_tags=existing_tags
+    ).strip()
 
 
 async def get_hansard_summary(
     dt: date, source: HansardSourceType = HansardSourceType.DEBATES
-) -> FinalSummary:
+) -> Summary:
     """Generate a Hansard summary.
 
     Args:
@@ -82,13 +87,21 @@ async def get_hansard_summary(
         Summary.
     """
     debate = hansard_data_source.get(dt, source)
-    logger.info(f"Generating summary for {source} on {dt}.")
+    logger.info(f"Generating draft summary for {source} on {dt}.")
     draft_summary = await summary_agent.run(debate.xml_string)
+    logger.info(f"Generating final summary for {source} on {dt}.")
     final_summary = await editor_agent.run(
         draft_summary.output.to_markdown(), deps=debate.xml_string
     )
     logger.info(f"Quality report:\n{final_summary.output.quality_report}")
-    return final_summary.output
+    title = await title_agent.run(final_summary.output.to_markdown())
+    logger.info(f"Title: {title.output}")
+    return Summary(
+        title=title.output,
+        high_level=final_summary.output.high_level,
+        detail=final_summary.output.detail,
+        quality_report=final_summary.output.quality_report,
+    )
 
 
 async def get_tags(summary: str, existing_tags: set[str]) -> list[str]:
@@ -107,9 +120,7 @@ async def get_tags(summary: str, existing_tags: set[str]) -> list[str]:
     return tags
 
 
-def publish_summary(
-    summary: FinalSummary, dt: datetime, source: HansardSourceType
-) -> None:
+def publish_summary(summary: Summary, dt: datetime, source: HansardSourceType) -> None:
     """Publish a Hansard summary.
 
     Args:
@@ -125,14 +136,14 @@ def publish_summary(
         except KeyboardInterrupt:
             logger.info("Tag generation cancelled by user")
     post_content = format_post(
-        summary_str,
-        dt,
-        f"{source.value.title()} Summary for {dt.strftime('%B %d, %Y')}",
+        content=summary_str,
+        dt=dt,
+        title=summary.title,
         tags=tags,
     )
     create_post(
         site="hansard",
         content=post_content,
-        post_path=f"{dt.date()}-{source.value}-summary.md",
+        post_path=f"{dt.date()}-{slugify(summary.title)}.md",
         section=source.value,
     )

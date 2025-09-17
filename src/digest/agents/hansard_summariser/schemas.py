@@ -64,3 +64,12 @@ class FinalSummary(DraftSummary):
         ...,
         description="A quality report detailing the changes made to the draft summary.",
     )
+
+
+class Summary(FinalSummary):
+    """Summary output model."""
+
+    title: str = Field(
+        ...,
+        description="A short title (5-10 words) capturing the essence of the day.",
+    )

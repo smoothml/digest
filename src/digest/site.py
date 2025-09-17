@@ -1,12 +1,20 @@
+import re
 import tomllib
+import unicodedata
 from pathlib import Path
 from string import Template
-from datetime import date
+from datetime import date, datetime
 from textwrap import dedent
 from typing import TypedDict, cast
 
+from loguru import logger
 
 from digest.constants import POST_BASE_PATH_TEMPLATE
+
+_SLUG_STRIP_RE = re.compile(r"[-\s]+")  # Collapse runs of dashes/space
+_SLUG_CLEAN_RE = re.compile(
+    r"[^\w\s-]"
+)  # Drop punctuation (keeps letters, numbers, _, and -)
 
 POST_TEMPLATE = Template(
     dedent(
@@ -49,7 +57,7 @@ def get_post_base_path(site: str, section: str | None = None) -> Path:
     return path
 
 
-def format_post(content: str, dt: date, title: str, tags: list[str]) -> str:
+def format_post(content: str, dt: datetime, title: str, tags: list[str]) -> str:
     """Format a digest post.
 
     Args:
@@ -62,7 +70,7 @@ def format_post(content: str, dt: date, title: str, tags: list[str]) -> str:
         Formatted post.
     """
     return POST_TEMPLATE.safe_substitute(
-        content=content, dt=dt, title=title, tags=tags
+        content=content, dt=dt.date(), title=title, tags=tags
     ).strip()
 
 
@@ -117,3 +125,48 @@ def get_all_tags(site: str) -> set[str]:
         metadata = read_post_metadata(path)
         tags.update(metadata.get("tags", []))
     return tags
+
+
+def slugify(
+    text: str, *, allow_unicode: bool = False, max_length: int | None = 100
+) -> str:
+    """Convert text to a URL slug.
+
+    Performs the following:
+    - lowercases
+    - strips accents (unless allow_unicode=True)
+    - removes punctuation
+    - collapses whitespace/dashes to single '-'
+    - trims leading/trailing '-'
+    - Optionally truncates to `max_length`
+
+    Args:
+        title: Title to convert.
+
+    Returns:
+        Slug string.
+    """
+    text = str(text)
+
+    if len(text) == 0:
+        logger.warning("Empty string provided to slugify")
+        return text
+
+    # Normalize & (optionally) strip accents to ASCII
+    if allow_unicode:
+        text = unicodedata.normalize("NFKC", text)
+    else:
+        text = (
+            unicodedata.normalize("NFKD", text)
+            .encode("ascii", "ignore")
+            .decode("ascii")
+        )
+
+    text = text.lower()
+    text = _SLUG_CLEAN_RE.sub("", text)  # Remove punctuation
+    text = _SLUG_STRIP_RE.sub("-", text).strip("-_")  # Collapse to '-' and trim
+
+    if max_length is not None:
+        text = text[:max_length].rstrip("-")  # Avoid trailing '-' after truncation
+
+    return text

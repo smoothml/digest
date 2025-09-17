@@ -56,7 +56,7 @@ SUMMARY_SYSTEM_PROMPT = dedent(
     Always include direct quotes (including paragraph ID) to back up claims.
     </output_format>
     """
-)
+).strip()
 EDITOR_SYSTEM_PROMPT_TEMPLATE = Template(
     dedent(
         """
@@ -151,4 +151,19 @@ TAG_SYSTEM_PROMPT_TEMPLATE = Template(
         </task>
         """
     )
+)
+TITLE_SYSTEM_PROMPT = dedent(
+    """
+    <persona>
+    You are a creative, professional political headline writer.
+    </persona>
+    <task>
+    You will be provided with a summary of a day's debates from a single UK parliamentary chamber.
+    Generate a headline for this summary.
+    The headline should be short, concise (5-10 words) and engaging to grab the reader's attention. It should capture the main essence of the day without simply listing events.
+    </task>
+    <output_format>
+    Return the headline text.
+    </output_format>
+    """
 )
