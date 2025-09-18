@@ -17,6 +17,7 @@ class Debate(BaseModel):
     date: date
     source: HansardSourceType
     xml_string: str
+    exists: bool = False
 
 
 class HansardDataSource(BaseDataSource[[date, HansardSourceType, bool], Debate]):
@@ -42,15 +43,24 @@ class HansardDataSource(BaseDataSource[[date, HansardSourceType, bool], Debate])
         """
         cache_path = self.name + "/" + self._get_cache_path(dt, source)
         if refresh or not self._exists_in_cache(cache_path):
+            try:
+                content = self._get_content(dt, source)
+                exists = True
+            except requests.exceptions.HTTPError as e:
+                logger.warning(f"Failed to get content for {dt} {source}: {e}")
+                content = ""
+                exists = False
             debate = Debate(
-                date=dt, source=source, xml_string=self._get_content(dt, source)
+                date=dt, source=source, xml_string=content, exists=exists
             )
-            self._store_to_cache(cache_path, debate.xml_string)
+            if debate.exists:
+                self._store_to_cache(cache_path, debate.xml_string)
         else:
             debate = Debate(
                 date=dt,
                 source=source,
                 xml_string=str(self._read_from_cache(cache_path)),
+                exists=True,
             )
         return debate
 

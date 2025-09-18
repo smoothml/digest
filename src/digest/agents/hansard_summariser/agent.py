@@ -76,7 +76,7 @@ def create_tag_system_prompt(ctx: RunContext[set[str]]) -> str:
 
 async def get_hansard_summary(
     dt: date, source: HansardSourceType = HansardSourceType.DEBATES
-) -> Summary:
+) -> Summary | None:
     """Generate a Hansard summary.
 
     Args:
@@ -87,6 +87,9 @@ async def get_hansard_summary(
         Summary.
     """
     debate = hansard_data_source.get(dt, source)
+    if not debate.exists:
+        logger.error(f"No debate found for {dt} {source}")
+        return None
     logger.info(f"Generating draft summary for {source} on {dt}.")
     draft_summary = await summary_agent.run(debate.xml_string)
     logger.info(f"Generating final summary for {source} on {dt}.")
