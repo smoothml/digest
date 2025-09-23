@@ -24,15 +24,19 @@ summary_model = OpenAIModel(
     "gpt-5-mini-2025-08-07",
     provider=openai_provider,
 )
+summary_model_settings = OpenAIModelSettings(openai_reasoning_effort="medium", max_tokens=128000)
 summary_agent = Agent(
-    summary_model, system_prompt=SUMMARY_SYSTEM_PROMPT, output_type=DraftSummary
+    summary_model,
+    model_settings=summary_model_settings,
+    system_prompt=SUMMARY_SYSTEM_PROMPT,
+    output_type=DraftSummary,
 )
 
 editor_model = OpenAIModel(
     "gpt-5-2025-08-07",
     provider=openai_provider,
 )
-editor_model_settings = OpenAIModelSettings(openai_reasoning_effort="high")
+editor_model_settings = OpenAIModelSettings(openai_reasoning_effort="high", max_tokens=128000)
 editor_agent = Agent(
     editor_model,
     model_settings=editor_model_settings,

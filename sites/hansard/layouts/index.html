@@ -1,0 +1,32 @@
+{{ define "main" }}
+<content>
+  {{ with .Content }}
+  {{ . }}
+  {{ end }}
+
+  <h2>Recent Debates</h2>
+  {{ $pages := where .Site.RegularPages "Section" "debates" }}
+  {{ if not (gt (len $pages) 0) }}
+    {{ $pages = .Site.RegularPages }}
+  {{ end }}
+
+  <ul class="blog-posts">
+    {{ range first 5 ($pages.ByDate.Reverse) }}
+    <li>
+      <span>
+        <i>
+          <time datetime='{{ .Date.Format "2006-01-02" }}'>
+            {{ .Date.Format (default "02 Jan, 2006" .Site.Params.dateFormat) }}
+          </time>
+        </i>
+      </span>
+      <a href="{{ .Permalink }}">{{ .Title }}</a>
+    </li>
+    {{ end }}
+  </ul>
+
+  {{ if gt (len (where .Site.RegularPages "Section" "debates")) 0 }}
+  <p><a href="{{ "debates" | relURL }}">All Debates →</a></p>
+  {{ end }}
+</content>
+{{ end }}
