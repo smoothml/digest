@@ -20,33 +20,27 @@ from digest.agents.hansard_summariser.schemas import DraftSummary, FinalSummary,
 
 hansard_data_source = get_hansard_data_source()
 
-summary_model = OpenAIModel(
-    "gpt-5-mini-2025-08-07",
-    provider=openai_provider,
-)
-summary_model_settings = OpenAIModelSettings(openai_reasoning_effort="medium", max_tokens=128000)
-summary_agent = Agent(
-    summary_model,
-    model_settings=summary_model_settings,
-    system_prompt=SUMMARY_SYSTEM_PROMPT,
-    output_type=DraftSummary,
-)
-
-editor_model = OpenAIModel(
+model = OpenAIModel(
     "gpt-5-2025-08-07",
     provider=openai_provider,
 )
-editor_model_settings = OpenAIModelSettings(openai_reasoning_effort="high", max_tokens=128000)
+model_settings = OpenAIModelSettings(
+    openai_reasoning_effort="medium", max_tokens=128000
+)
+summary_agent = Agent(
+    model,
+    model_settings=model_settings,
+    system_prompt=SUMMARY_SYSTEM_PROMPT,
+    output_type=DraftSummary,
+)
 editor_agent = Agent(
-    editor_model,
-    model_settings=editor_model_settings,
+    model,
+    model_settings=model_settings,
     deps_type=str,
     output_type=FinalSummary,
 )
-
-title_agent = Agent(summary_model, system_prompt=TITLE_SYSTEM_PROMPT, output_type=str)
-
-tag_agent = Agent(summary_model, deps_type=set[str], output_type=list[str])
+title_agent = Agent(model, system_prompt=TITLE_SYSTEM_PROMPT, output_type=str)
+tag_agent = Agent(model, deps_type=set[str], output_type=list[str])
 
 
 @editor_agent.system_prompt
@@ -91,14 +85,15 @@ async def get_hansard_summary(
         Summary.
     """
     debate = hansard_data_source.get(dt, source)
+    debate_str = debate.to_markdown()
     if not debate.exists:
         logger.error(f"No debate found for {dt} {source}")
         return None
     logger.info(f"Generating draft summary for {source} on {dt}.")
-    draft_summary = await summary_agent.run(debate.xml_string)
+    draft_summary = await summary_agent.run(debate_str)
     logger.info(f"Generating final summary for {source} on {dt}.")
     final_summary = await editor_agent.run(
-        draft_summary.output.to_markdown(), deps=debate.xml_string
+        draft_summary.output.to_markdown(), deps=debate_str
     )
     logger.info(f"Quality report:\n{final_summary.output.quality_report}")
     title = await title_agent.run(final_summary.output.to_markdown())

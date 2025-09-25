@@ -9,6 +9,7 @@ from pydantic import BaseModel
 
 from digest.sources.base import BaseDataSource
 from digest.sources.hansard.constants import BASE_URL, FILE_PREFIXES, HansardSourceType
+from digest.sources.hansard.xml_parser import xml_to_markdown
 
 
 class Debate(BaseModel):
@@ -18,6 +19,19 @@ class Debate(BaseModel):
     source: HansardSourceType
     xml_string: str
     exists: bool = False
+
+    def to_markdown(self) -> str:
+        """Render the underlying Hansard XML as a Markdown document.
+
+        Maintains association between paragraph text, paragraph IDs, and
+        speaker names by delegating to the XML parser utilities.
+
+        Returns:
+            A Markdown string representation of the debate.
+        """
+        if not self.xml_string:
+            return ""
+        return xml_to_markdown(self.xml_string)
 
 
 class HansardDataSource(BaseDataSource[[date, HansardSourceType, bool], Debate]):
@@ -50,9 +64,7 @@ class HansardDataSource(BaseDataSource[[date, HansardSourceType, bool], Debate])
                 logger.warning(f"Failed to get content for {dt} {source}: {e}")
                 content = ""
                 exists = False
-            debate = Debate(
-                date=dt, source=source, xml_string=content, exists=exists
-            )
+            debate = Debate(date=dt, source=source, xml_string=content, exists=exists)
             if debate.exists:
                 self._store_to_cache(cache_path, debate.xml_string)
         else:

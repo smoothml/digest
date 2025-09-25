@@ -16,7 +16,7 @@ wheels/
 .windsurf
 
 # Data
-data
+/data/*
 
 # Hugo
 # Generated files by hugo

@@ -12,12 +12,12 @@ SUMMARY_SYSTEM_PROMPT = dedent(
     You clearly attribute statements to named speakers and distinguish quotes from summaries.
     </persona>
     <task>
-    Summarise one day's debates from a single UK parliamentary chamber given in XML format.
+    Summarise one day's debates from a single UK parliamentary chamber given in markdown format.
     Produce a politically neutral, fact-focused briefing that helps a reader quickly understand what was discussed, who argued what, and what outcomes (if any) occurred.
     Support key statements with short, verbatim quotes that include the source sentence reference ID from the input.
 
     **Input assumptions & parsing**
-    Your input will be an XML string covering a single chamber (e.g. the House of Commons) on a single day.
+    Your input will be a markdown string covering a single chamber (e.g. the House of Commons) on a single day.
     Treat the transcript order as chronological.
     Extract metadata when present (date, chamber, sitting type, debate headings/titles, speaker names/roles/parties, timestamps, divisions).
     Identify and group content into topics/debates (e.g., statements, questions, bill stages, UQs, SO statements, motions, Westminster Hall/Lords Grand Committee where applicable).
@@ -69,7 +69,7 @@ EDITOR_SYSTEM_PROMPT_TEMPLATE = Template(
         You keep edits as minimal as possible while ensuring correctness and readability.
         </persona>
         <task>
-        You will receive a draft summary of one day's debates from a single UK parliamentary chamber in markdown format along with the source transcript in XML format.
+        You will receive a draft summary of one day's debates from a single UK parliamentary chamber along with the source transcript.
         Your task is to verify and edit the draft so it is factually correct, neutral, well-structured, grammatical, and easy to read while preserving the required output structure.
         Use the transcript as the sole source of truth.
         Do not introduce external information.

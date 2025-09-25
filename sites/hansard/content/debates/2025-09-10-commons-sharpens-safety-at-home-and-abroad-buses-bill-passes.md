@@ -1,0 +1,50 @@
++++
+date = "2025-09-10"
+draft = false
+title = "Commons sharpens safety at home and abroad; buses bill passes"
+tags = ['onlinesafety', 'gaza', 'defence', 'transport', 'biodiversity']
++++
+
+## High-Level Summary
+The Commons held oral questions to the Department for Science, Innovation and Technology (DSIT), Prime Minister’s Questions, two Urgent Questions on developments in the Middle East and NATO, and Report/Third Reading of the Bus Services (No. 2) Bill. DSIT ministers set out actions on digital inclusion, online safety, workplace technology and platform accountability, including adding self-harm content to priority offences under the Online Safety Act. The Prime Minister offered condolences on the death of the Duchess of Kent, condemned Israel’s strike in Doha and supported Poland after Russian drones entered its airspace, alongside answers on standards, carers, Gaza and domestic policy. Ministers later condemned the Doha strike and outlined UK support for Poland and Ukraine; the House presented a marine biodiversity bill, granted leave to a Ten Minute Rule Bill on neurodivergence, approved data regulations, and passed the Bus Services Bill after several divisions.
+
+## Detailed Summary
+### Oral Questions: Science, Innovation and Technology
+- Digital exclusion (Na h‑Eileanan an Iar): Secretary of State Liz Kendall said Building Digital UK had "recently signed a £157 million contract to deliver broadband across the Western Isles" [ref: d849.6/2]. She added the Western Isles contract would "provide cover for 65,000 new premises across the area, including 8,000 in my hon. Friend’s constituency" [ref: d849.8/1].
+- Online Safety Act 2023: Kendall reported that since implementation "6,000 sites have taken action to stop children seeing harmful content online" and that "on Monday I added self-harm material to the list of priority offences" [ref: d850.7/1]. She criticised proposals to scrap the Act: "Reform wants to scrap the Act" [ref: d851.2/1]; on VPNs she said, "I will always be driven by evidence" [ref: d851.4/1], and on complexity: "It is a complex issue" [ref: d851.6/2]. On review, she said, "We need to see how the Act is being implemented and whether and how it works" [ref: d852.2/1].
+- New technologies in the workplace: Kendall said DSIT is supporting adoption "especially through our industrial strategy" [ref: d853.2/1], invited ideas on scaling up SMEs [ref: d853.4/1], and committed to set out further plans, citing AI used to help CV preparation in jobcentres [ref: d853.7/1].
+- Technology companies’ accountability: Minister Kanishka Narayan said Ofcom "has already launched 12 investigations into suspected non-compliance" [ref: d854.4/2], noted self-harm content is now a priority offence [ref: d854.6/1], and welcomed media literacy initiatives: "We welcome collaborative initiatives like Parent Zone’s ‘hit pause’ programme" [ref: d855.0/2]. On abuse and anonymity, he said: "We will look closely at the evidence base" [ref: d855.4/1].
+- Topical questions: Kendall highlighted strengthening protections against self-harm material [ref: d855.7/1]; on AI legislation said, "wherever action is required, I will take it" [ref: d856.1/1]; and on research funding stated UKRI is delivering £86 billion for R&D and invests over £300 million a year in transport innovation [ref: d856.3/1].
+
+### Prime Minister’s Questions (PMQs)
+The Prime Minister offered condolences on the death of the Duchess of Kent [ref: d857.8/1], condemned Israel’s strike in Doha and said he had spoken to the Emir of Qatar to support diplomatic efforts [ref: d857.8/2], and backed Poland after Russian drones entered its airspace [ref: d857.8/3]. On standards, he said, "I strengthened the ministerial code" [ref: d858.2/1]. On support for Kirkcaldy, he confirmed, "we will approve millions to transform Kirkaldy’s high street" subject to business case approval [ref: d859.1/1]. 
+Asked about the UK’s ambassador to Washington, he said, "I have confidence in him" and that the ambassador had expressed "deep regret" over his past association with Epstein [ref: d859.4/1], adding that "full due process was gone through" [ref: d860.2/1]. On carers’ bureaucracy he said, "we are simplifying the system" [ref: d862.0/1]. On Gaza he said, "we have suspended arms that could be used in Gaza" and noted other measures [ref: d863.0/1]. He said, "We will ban fracking for good" [ref: d863.2/1], reiterated police priorities on serious crime [ref: d865.0/1], pledged "13,000 additional police personnel" for communities [ref: d865.2/1], referenced rolling out chickenpox vaccines to protect "500,000 children" [ref: d865.6/1], and reaffirmed support for Ukraine [ref: d867.0/1].
+
+### Urgent Question: Qatar – Israeli strike in Doha
+Foreign Office Minister Hamish Falconer said the Government were "deeply concerned by Israel’s strike in Doha yesterday" and that the Prime Minister and Foreign Secretary had condemned "flagrant violations of Qatar’s sovereignty" [ref: d869.2/1]. He confirmed a diplomatic focus on de-escalation and humanitarian access, including that "the UK is supporting calls for an emergency session of the UN Security Council" [ref: d870.3/1] and that "the UK is supporting a motion for an urgent session of the UN Security Council" [ref: d874.1/1]. He reiterated, "We utterly condemn the violation of Qatar’s sovereignty" [ref: d878.0/1]. On recognition of a Palestinian state, he said a Prime Ministerial determination would be made ahead of UN General Assembly high-level week [ref: d879.0/1].
+
+### Urgent Question: Russian drones – violation of Polish airspace
+Defence Minister Alistair Carns stated that "Poland shot down multiple Russian drones that had entered its airspace" and called Russia’s actions "absolutely and utterly reckless, unprecedented and dangerous" [ref: d886.3/1, d886.3/2]. He noted Poland’s intention to invoke NATO Article 4 [ref: d886.3/3], explained Article 4 as a consultation mechanism [ref: d887.0/1], and outlined UK engagement with allies and support to Poland and Ukraine. On materiel support, he cited recent deliveries including "5 million rounds of munitions" along with other systems during a 50‑day drive [ref: d888.1/2].
+
+### Points of Order
+A Member raised delayed ministerial correspondence on telecoms installation notice periods; the Chair urged a response [ref: d901.1/1, d901.2/1]. Jeremy Corbyn corrected the record regarding a remark made in a previous debate, acknowledging he had made "a mistake" and citing clarification from the former High Commissioner [ref: d901.3/1, d901.3/5].
+
+### Bill Presented: Biodiversity Beyond National Jurisdiction Bill
+The Government introduced a bill to implement the UN Agreement on the Conservation and Sustainable Use of Marine Biological Diversity of Areas Beyond National Jurisdiction. It was read the First time and "to be read a Second time tomorrow" [ref: d902.3/3].
+
+### Ten Minute Rule Motion: Neurodivergence (Screening and Teacher Training) Bill
+Adam Dance described his difficulties with dyslexia and ADHD and proposed universal screening at primary school and teacher training on neurodivergence, stressing that neurodivergence is "not a weakness" [ref: d903.2/6]. The House granted leave—"Question put and agreed to" [ref: d903.2/15]—and the bill was read the First time, with Second Reading scheduled for Friday 21 November [ref: d903.2/19].
+
+### Bus Services (No. 2) Bill [Lords]: Report and Third Reading
+Ministers announced action on floating bus stops, with "statutory guidance on the design of floating bus stops within three months of Royal Assent" [ref: d927.0/7], and brought forward New Clause 38 at the request of the Scottish Government to align Scotland with the zero‑emission bus registration timetable [ref: d927.0/9].
+Debate highlights included arguments from the Conservative benches that the bill focuses on process not passengers and criticism of removing a purpose clause "to improve the performance, accessibility and quality of bus passenger services" [ref: d930.0/4]. Liberal Democrats backed franchising reforms and pressed for explicit byelaw powers to tackle "headphone dodgers" [ref: d939.1/2]. A Member representing Falkirk cautioned against accelerating zero-emission bus deadlines to protect domestic manufacturing capacity [ref: d951.0/9].
+Divisions: the House rejected New Clause 2 (remove time restrictions on disabled concessionary bus passes), Ayes 69, Noes 300 [ref: d981.4/1, d997.1/1]; rejected Amendment 58 (retain Secretary of State consent for non‑mayoral franchising), Ayes 92, Noes 364 [ref: d984.3/1, d984.3/2]; and rejected Amendment 23 (assess impact of ending the £2 fare cap), Ayes 158, Noes 297 [ref: d988.5/1, d988.5/2]. New Clause 38 (Scotland zero‑emission buses) was added [ref: d979.2/12]. The bill passed Third Reading, Ayes 362, Noes 87 [ref: d1000.1/1, d1000.1/3].
+
+### Delegated Legislation
+The House approved the draft Data Protection Act 2018 (Qualifying Competent Authorities) Regulations 2025: "Question agreed to." [ref: d1003.4/2].
+
+### Public Petition: Keighley Picture House
+Robbie Moore presented a petition (5,421 signatures) opposing the sale and redevelopment of Keighley’s Picture House cinema, urging Government engagement with councils to secure its future as a cinema and cultural venue [ref: d1004.2/1, d1004.2/5].
+
+### Adjournment Debate: Urgent Care Centres – Hillingdon (Mount Vernon MIU)
+David Simmonds argued against closing the Mount Vernon minor injuries unit, citing pressure on A&E and a petition of "more than 20,000" signatures [ref: d1005.2/2], and asked the Minister to "ask the trust to think again" [ref: d1007.1/5]. Health Minister Karin Smyth confirmed funding for Hillingdon Hospital’s rebuild with construction to start "between 2027 and 2028" [ref: d1010.1/3], said configuration is for local leaders—"not for someone sat behind a desk in Whitehall" [ref: d1011.0/3]—and undertook to keep in touch and write to the Member on wider implications [ref: d1012.1/2].
