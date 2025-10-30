@@ -35,3 +35,6 @@ hugo.linux
 
 # macOS
 .DS_Store
+
+# IDEs
+.vscode

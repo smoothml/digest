@@ -7,7 +7,7 @@ from pydantic_ai.models.openai import OpenAIModel, OpenAIModelSettings
 
 from digest.settings import openai_provider
 from digest.site import create_post, format_post, get_all_tags, slugify
-from digest.sources.hansard.constants import HansardSourceType
+from digest.sources.hansard.constants import HansardSourceName, HansardSourceType
 from digest.sources.hansard.main import get_hansard_data_source
 from digest.agents.hansard_summariser.prompts import (
     EDITOR_SYSTEM_PROMPT_TEMPLATE,
@@ -73,7 +73,7 @@ def create_tag_system_prompt(ctx: RunContext[set[str]]) -> str:
 
 
 async def get_hansard_summary(
-    dt: date, source: HansardSourceType = HansardSourceType.DEBATES
+    dt: date, source: HansardSourceType = HansardSourceType.COMMONS
 ) -> Summary | None:
     """Generate a Hansard summary.
 
@@ -97,9 +97,9 @@ async def get_hansard_summary(
     )
     logger.info(f"Quality report:\n{final_summary.output.quality_report}")
     title = await title_agent.run(final_summary.output.to_markdown())
-    logger.info(f"Title: {title.output}")
+    logger.info(f"Title: {title.output.title()}")
     return Summary(
-        title=title.output,
+        title=title.output.title(),
         high_level=final_summary.output.high_level,
         detail=final_summary.output.detail,
         quality_report=final_summary.output.quality_report,
@@ -122,7 +122,7 @@ async def get_tags(summary: str, existing_tags: set[str]) -> list[str]:
     return tags
 
 
-def publish_summary(summary: Summary, dt: datetime, source: HansardSourceType) -> None:
+def publish_summary(summary: Summary, dt: datetime, source: HansardSourceName) -> None:
     """Publish a Hansard summary.
 
     Args:

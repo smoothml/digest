@@ -4,14 +4,9 @@
   {{ . }}
   {{ end }}
 
-  <h2>Recent Debates</h2>
-  {{ $pages := where .Site.RegularPages "Section" "debates" }}
-  {{ if not (gt (len $pages) 0) }}
-    {{ $pages = .Site.RegularPages }}
-  {{ end }}
-
+  <h2>Recent Articles</h2>
   <ul class="blog-posts">
-    {{ range first 5 ($pages.ByDate.Reverse) }}
+    {{ range first 10 (.Site.RegularPages.ByDate.Reverse) }}
     <li>
       <span>
         <i>
@@ -24,9 +19,5 @@
     </li>
     {{ end }}
   </ul>
-
-  {{ if gt (len (where .Site.RegularPages "Section" "debates")) 0 }}
-  <p><a href="{{ "debates" | relURL }}">All Debates →</a></p>
-  {{ end }}
 </content>
 {{ end }}

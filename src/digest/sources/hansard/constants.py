@@ -1,4 +1,4 @@
-from enum import StrEnum, auto
+from enum import StrEnum
 from typing import Final
 
 BASE_URL: Final = "https://www.theyworkforyou.com/pwdata/scrapedxml"
@@ -7,9 +7,25 @@ BASE_URL: Final = "https://www.theyworkforyou.com/pwdata/scrapedxml"
 class HansardSourceType(StrEnum):
     """Enum of Hansard data sources."""
 
-    DEBATES = auto()
+    COMMONS = "debates"  # Commons debates
+    LORDS = "lordspages"  # Lords debates
+
+
+class HansardSourceName(StrEnum):
+    """Enum of Hansard data source names."""
+
+    COMMONS = "commons"
+    LORDS = "lords"
 
 
 FILE_PREFIXES: Final = {
-    HansardSourceType.DEBATES: "debates",
+    HansardSourceType.COMMONS: "debates",
+    HansardSourceType.LORDS: "daylord",
 }
+
+SOURCE_TYPE_TO_NAME_MAP: Final = {
+    HansardSourceType.COMMONS: HansardSourceName.COMMONS,
+    HansardSourceType.LORDS: HansardSourceName.LORDS,
+}
+
+SOURCE_NAME_TO_TYPE_MAP: Final = {v: k for k, v in SOURCE_TYPE_TO_NAME_MAP.items()}

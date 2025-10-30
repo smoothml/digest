@@ -10,7 +10,7 @@ from tests import TEST_DATA_DIR
 
 def load_sample_xml() -> str:
     """Load sample XML file.
-    
+
     Returns:
         str: Sample XML file.
     """
@@ -69,7 +69,7 @@ def test_debate_to_markdown_roundtrip() -> None:
     xml = load_sample_xml()
     d = Debate(
         date=date(2025, 9, 1),
-        source=HansardSourceType.DEBATES,
+        source=HansardSourceType.COMMONS,
         xml_string=xml,
         exists=True,
     )
