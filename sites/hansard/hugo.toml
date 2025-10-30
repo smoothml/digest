@@ -1,6 +1,6 @@
-baseURL = "https://hansard.digest.com"
+baseURL = "https://orderly.bot"
 languageCode = "en-gb"
-title = "Hansard Digest"
+title = "Orderly"
 themesDir = "../themes"
 theme = "hugo-bearblog"
 enableRobotsTXT = true
@@ -12,8 +12,8 @@ ignoreErrors = ["error-disable-taxonomy"]
   tags = "/blog/:slug"
 
 [params]
-  description = "AI generated summaries of Hansard debates"
-  title = "Hansard Digest"
+  description = "AI-powered daily digest of UK parliamentary debates. Stay informed with concise, accessible summaries of what's happening inside the belly of the beast."
+  title = "Orderly"
   enablePostNavigator = true
 
 [markup]

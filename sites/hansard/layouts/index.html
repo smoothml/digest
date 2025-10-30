@@ -4,7 +4,11 @@
   {{ . }}
   {{ end }}
 
-  <h2>Recent Articles</h2>
+  {{ with .Site.Params.description }}
+  <p>{{ . }}</p>
+  {{ end }}
+
+  <h3>Recent Articles</h3>
   <ul class="blog-posts">
     {{ range first 10 (.Site.RegularPages.ByDate.Reverse) }}
     <li>
