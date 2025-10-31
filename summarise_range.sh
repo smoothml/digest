@@ -16,13 +16,30 @@ fi
 START_DATE=$1
 END_DATE=${2:-$1}  # Use START_DATE if END_DATE is not provided
 
+# Function to validate date format (works on both macOS and Linux)
+validate_date() {
+    local date_str=$1
+    # Check format with regex
+    if ! [[ $date_str =~ ^[0-9]{4}-[0-9]{2}-[0-9]{2}$ ]]; then
+        return 1
+    fi
+    # Try to parse with date command (platform-specific)
+    if date --version &>/dev/null; then
+        # GNU date (Linux)
+        date -d "$date_str" &>/dev/null
+    else
+        # BSD date (macOS)
+        date -j -f "%Y-%m-%d" "$date_str" &>/dev/null
+    fi
+}
+
 # Validate date format
-if ! date -d "$START_DATE" &>/dev/null; then
+if ! validate_date "$START_DATE"; then
     echo "Error: Invalid start date format. Use YYYY-MM-DD"
     exit 1
 fi
 
-if ! date -d "$END_DATE" &>/dev/null; then
+if ! validate_date "$END_DATE"; then
     echo "Error: Invalid end date format. Use YYYY-MM-DD"
     exit 1
 fi
@@ -49,8 +66,14 @@ while [[ ! "$current_date" > "$END_DATE" ]]; do
     echo "Running Lords summarisation..."
     uv run digest hansard summarise "$current_date" --source lords --publish
     
-    # Move to next date
-    current_date=$(date -I -d "$current_date + 1 day")
+    # Move to next date (platform-specific)
+    if date --version &>/dev/null; then
+        # GNU date (Linux)
+        current_date=$(date -I -d "$current_date + 1 day")
+    else
+        # BSD date (macOS)
+        current_date=$(date -j -v+1d -f "%Y-%m-%d" "$current_date" +%Y-%m-%d)
+    fi
 done
 
 echo ""
