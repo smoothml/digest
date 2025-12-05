@@ -26,11 +26,11 @@ def summarise(
             summary = runner.run(
                 get_hansard_summary(dt.date(), SOURCE_NAME_TO_TYPE_MAP[source])
             )
+            if publish and summary is not None:
+                publish_summary(summary, dt, source)
+            elif summary is not None:
+                logger.info(f"Summary:\n{summary.to_markdown()}")
+            else:
+                logger.error(f"No debate found for {dt.date()} {source}")
         except KeyboardInterrupt:
             logger.info("Summarisation cancelled by user")
-    if publish and summary is not None:
-        publish_summary(summary, dt, source)
-    elif summary is not None:
-        logger.info(f"Summary:\n{summary.to_markdown()}")
-    else:
-        logger.error(f"No debate found for {dt.date()} {source}")

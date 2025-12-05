@@ -135,17 +135,17 @@ def publish_summary(summary: Summary, dt: datetime, source: HansardSourceName) -
     with Runner() as runner:
         try:
             tags = runner.run(get_tags(summary_str, existing_tags))
+            post_content = format_post(
+                content=summary_str,
+                dt=dt,
+                title=summary.title,
+                tags=tags,
+            )
+            create_post(
+                site="hansard",
+                content=post_content,
+                post_path=f"{dt.date()}-{slugify(summary.title)}.md",
+                section=source.value,
+            )
         except KeyboardInterrupt:
-            logger.info("Tag generation cancelled by user")
-    post_content = format_post(
-        content=summary_str,
-        dt=dt,
-        title=summary.title,
-        tags=tags,
-    )
-    create_post(
-        site="hansard",
-        content=post_content,
-        post_path=f"{dt.date()}-{slugify(summary.title)}.md",
-        section=source.value,
-    )
+            logger.info("Publishing cancelled by user")
