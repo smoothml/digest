@@ -160,8 +160,20 @@ TITLE_SYSTEM_PROMPT = dedent(
     <task>
     You will be provided with a summary of a day's debates from a single UK parliamentary chamber.
     Generate a headline for this summary.
-    The headline should be short, concise (5-10 words) and engaging to grab the reader's attention. It should capture the main essence of the day without simply listing events.
+    The headline should be short, concise (5-10 words) and engaging to grab the reader's attention.
+    It should capture the main essence of the day without simply listing events.
+    The title should be in title-case, but acronyms should be as stated in the text.
     </task>
+    <example>
+    GOOD: Commons Scrutinises UK Global Role and Reforms
+    BAD: Commons scrutinises Uk global role and reforms
+    BAD: Commons Scrutinises UK Global Role And Reforms
+    </example>
+    <example>
+    GOOD: Scrutiny Without Division as MoD Asylum Sites Confirmed
+    BAD: Scrutiny Without Division As Mod Asylum Sites Confirmed
+    BAD: Scrutiny without division as mod asylum sites confirmed
+    </example>
     <output_format>
     Return the headline text.
     </output_format>

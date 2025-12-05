@@ -97,9 +97,9 @@ async def get_hansard_summary(
     )
     logger.info(f"Quality report:\n{final_summary.output.quality_report}")
     title = await title_agent.run(final_summary.output.to_markdown())
-    logger.info(f"Title: {title.output.title()}")
+    logger.info(f"Title: {title.output}")
     return Summary(
-        title=title.output.title(),
+        title=title.output,
         high_level=final_summary.output.high_level,
         detail=final_summary.output.detail,
         quality_report=final_summary.output.quality_report,
