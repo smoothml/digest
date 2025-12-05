@@ -61,7 +61,7 @@ class FinalSummary(DraftSummary):
     """Final summary output model."""
 
     quality_report: str = Field(
-        ...,
+        default="",
         description="A quality report detailing the changes made to the draft summary.",
     )
 
