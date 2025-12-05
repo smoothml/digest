@@ -31,6 +31,19 @@ class Heading:
 Block = Speech | Heading
 
 
+@dataclass(frozen=True)
+class Topic:
+    """A single major topic from the debate transcript."""
+
+    id: str
+    title: str
+    blocks: list[Block]
+
+    def to_markdown(self) -> str:
+        """Convert topic blocks to markdown."""
+        return blocks_to_markdown(self.blocks)
+
+
 def _normalize_ws(s: str) -> str:
     return " ".join(s.split())
 
@@ -147,3 +160,57 @@ def blocks_to_markdown(blocks: list[Block]) -> str:
 def xml_to_markdown(xml_string: str) -> str:
     """Convenience function: parse XML and render blocks to Markdown."""
     return blocks_to_markdown(xml_to_blocks(xml_string))
+
+
+def xml_to_topics(xml_string: str) -> list[Topic]:
+    """Split debate into topics by major-heading boundaries.
+
+    Groups blocks from each major-heading (or oral-heading) until the next one.
+    Returns 5-10 topics per day typically.
+
+    Args:
+        xml_string: XML string to parse.
+
+    Returns:
+        List of Topic objects, each containing a title and blocks.
+    """
+    blocks = xml_to_blocks(xml_string)
+    if not blocks:
+        return []
+
+    topics: list[Topic] = []
+    current_topic_blocks: list[Block] = []
+    current_title = ""
+    current_id = ""
+
+    for block in blocks:
+        if isinstance(block, Heading) and block.level in ("oral", "major"):
+            if current_topic_blocks:
+                speech_count = sum(
+                    1 for b in current_topic_blocks if isinstance(b, Speech)
+                )
+                if speech_count >= 2:
+                    topics.append(
+                        Topic(
+                            id=current_id,
+                            title=current_title,
+                            blocks=current_topic_blocks,
+                        )
+                    )
+            current_title = block.text
+            current_id = block.id
+            current_topic_blocks = [block]
+        else:
+            if not current_topic_blocks:
+                current_title = "Untitled"
+                current_id = ""
+            current_topic_blocks.append(block)
+
+    if current_topic_blocks:
+        speech_count = sum(1 for b in current_topic_blocks if isinstance(b, Speech))
+        if speech_count >= 2:
+            topics.append(
+                Topic(id=current_id, title=current_title, blocks=current_topic_blocks)
+            )
+
+    return topics

@@ -61,7 +61,7 @@ class FinalSummary(DraftSummary):
     """Final summary output model."""
 
     quality_report: str = Field(
-        ...,
+        default="",
         description="A quality report detailing the changes made to the draft summary.",
     )
 
@@ -72,4 +72,43 @@ class Summary(FinalSummary):
     title: str = Field(
         ...,
         description="A short title (5-10 words) capturing the essence of the day.",
+    )
+
+
+class TopicSummary(BaseModel):
+    """Summary of a single topic (output from topic_agent)."""
+
+    title: str = Field(..., description="A short title for the topic.")
+    summary: str = Field(
+        ...,
+        description="A 1-2 paragraph summary with quotes and [ref: ID] citations.",
+    )
+
+
+class EditedTopicSummary(TopicSummary):
+    """Edited topic summary with quality report (output from topic_editor_agent)."""
+
+    quality_report: str = Field(
+        default="",
+        description="Quality report detailing the changes made to the topic summary.",
+    )
+
+
+class CombinedSummary(BaseModel):
+    """Output from synthesis_agent."""
+
+    title: str = Field(
+        ..., description="Headline (5-10 words) capturing the essence of the day."
+    )
+    high_level: str = Field(
+        ..., description="3-5 sentence overview of all topics discussed."
+    )
+
+
+class EditedCombinedSummary(CombinedSummary):
+    """Edited combined summary with quality report (output from synthesis_editor_agent)."""
+
+    quality_report: str = Field(
+        default="",
+        description="Quality report detailing the changes made to the combined summary.",
     )
