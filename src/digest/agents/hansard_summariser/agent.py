@@ -87,7 +87,7 @@ async def get_hansard_summary(
     debate = hansard_data_source.get(dt, source)
     debate_str = debate.to_markdown()
     if not debate.exists:
-        logger.error(f"No debate found for {dt} {source}")
+        logger.error(f"No data found for {dt} {source}")
         return None
     logger.info(f"Generating draft summary for {source} on {dt}.")
     draft_summary = await summary_agent.run(debate_str)

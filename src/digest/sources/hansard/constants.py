@@ -23,13 +23,13 @@ class HansardSourceName(StrEnum):
 FILE_PREFIXES: Final = {
     HansardSourceType.COMMONS: "debates",
     HansardSourceType.LORDS: "daylord",
-    HansardSourceType.WESTMINSTER_HALL: "westminster"
+    HansardSourceType.WESTMINSTER_HALL: "westminster",
 }
 
 SOURCE_TYPE_TO_NAME_MAP: Final = {
     HansardSourceType.COMMONS: HansardSourceName.COMMONS,
     HansardSourceType.LORDS: HansardSourceName.LORDS,
-    HansardSourceType.WESTMINSTER_HALL: HansardSourceName.WESTMINSTER_HALL
+    HansardSourceType.WESTMINSTER_HALL: HansardSourceName.WESTMINSTER_HALL,
 }
 
 SOURCE_NAME_TO_TYPE_MAP: Final = {v: k for k, v in SOURCE_TYPE_TO_NAME_MAP.items()}

@@ -118,23 +118,33 @@ class HansardDataSource(BaseDataSource[[date, HansardSourceType, bool], Debate])
         content_found = False
         failed = False
         version_idx = 0
+        response_str = ""
         while not content_found and not failed:
             path = self._get_url_path(dt, source, ascii_lowercase[version_idx])
             response = requests.get(f"{BASE_URL}/{path}")
-            response.raise_for_status()
-            response_str = response.content.strip()
-            root = ElementTree.fromstring(response_str)
-            if root.attrib.get("latest") == "yes":
-                content_found = True
+            if response.status_code == requests.codes.not_found:
+                # Mark interaction as failed if no content found.
+                failed = True
+                if not content_found:
+                    # If no earlier versions found, raise.
+                    response.raise_for_status()
+            elif response.status_code == requests.codes.ok:
+                # If content is found, parse it.
+                response_str = response.content.strip().decode("utf-8")
+                root = ElementTree.fromstring(response_str)
+                if root.attrib.get("latest") == "yes":
+                    content_found = True
+                else:
+                    version_idx += 1
+                    if version_idx >= len(ascii_lowercase):
+                        failed = True
             else:
-                version_idx += 1
-                if version_idx >= len(ascii_lowercase):
-                    failed = True
-        if failed:
+                response.raise_for_status()
+        if failed and content_found:
             logger.warning(
                 f"Latest version not found for {source} on {dt}. Returning latest version."
             )
-        return response_str.decode("utf-8")
+        return response_str
 
 
 def get_hansard_data_source() -> HansardDataSource:

@@ -30,7 +30,5 @@ def summarise(
                 publish_summary(summary, dt, source)
             elif summary is not None:
                 logger.info(f"Summary:\n{summary.to_markdown()}")
-            else:
-                logger.error(f"No debate found for {dt.date()} {source}")
         except KeyboardInterrupt:
             logger.info("Summarisation cancelled by user")
