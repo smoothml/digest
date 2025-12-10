@@ -19,7 +19,7 @@
           </time>
         </i>
       </span>
-      <a href="{{ .Permalink }}">{{ with .Section }}<strong>{{ . | title }}:</strong> {{ end }}{{ .Title }}</a>
+      <a href="{{ .Permalink }}">{{ with .Section }}<strong>{{ . | humanize | title  }}:</strong> {{ end }}{{ .Title }}</a>
     </li>
     {{ end }}
   </ul>
