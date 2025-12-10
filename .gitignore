@@ -37,4 +37,14 @@ hugo.linux
 .DS_Store
 
 # IDEs
+.idea
 .vscode
+.windsurf
+
+# Caches
+.mypy_cache
+.pytest_cache
+.ruff_cache
+
+# Coding agents
+.claude
