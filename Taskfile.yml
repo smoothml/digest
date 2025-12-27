@@ -1,0 +1,51 @@
+version: '3'
+
+dotenv:
+  - '.env'
+
+vars:
+  SITE: '{{.SITE | default "hansard"}}'
+  SITE_TO_URL:
+    map:
+      hansard: orderly.bot
+  SITE_TO_IDENTITY:
+    map:
+      hansard: '{{ env "SITE_IDENTITY_HANSARD" | default (env "SITE_IDENTITY") }}'
+  SITE_TO_USER:
+    map:
+      hansard: '{{ env "SITE_USER_HANSARD" | default (env "SITE_USER") }}'
+  SITE_TO_HOST:
+    map:
+      hansard: '{{ env "SITE_HOST_HANSARD" | default (env "SITE_HOST") }}'
+
+tasks:
+  __validate_site:
+    internal: true
+    requires:
+      vars:
+        - name: SITE
+          enum: [hansard]
+
+  build:
+    deps:
+      - __validate_site
+    vars:
+      URL: '{{index .SITE_TO_URL .SITE}}'
+    cmds:
+      - hugo build -s sites/{{.SITE}} --gc -b {{.URL}}
+
+  deploy:
+    deps:
+      - build
+    vars:
+      HOST: '{{index .SITE_TO_HOST .SITE}}'
+      IDENTITY: '{{index .SITE_TO_IDENTITY .SITE}}'
+      USER: '{{index .SITE_TO_USER .SITE}}'
+    cmds:
+      - rsync -aIP -e "ssh -i {{.IDENTITY}}" sites/{{.SITE}}/public/ {{.USER}}@{{.HOST}}:.
+
+  serve:
+    deps:
+      - __validate_site
+    cmds:
+      - hugo serve -s sites/{{.SITE}} --gc
