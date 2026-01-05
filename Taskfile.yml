@@ -5,9 +5,6 @@ dotenv:
 
 vars:
   SITE: '{{.SITE | default "hansard"}}'
-  SITE_TO_URL:
-    map:
-      hansard: orderly.bot
   SITE_TO_IDENTITY:
     map:
       hansard: '{{ env "SITE_IDENTITY_HANSARD" | default (env "SITE_IDENTITY") }}'
@@ -44,10 +41,8 @@ tasks:
   build:
     deps:
       - __validate_site
-    vars:
-      URL: '{{index .SITE_TO_URL .SITE}}'
     cmds:
-      - hugo build -s sites/{{.SITE}} --gc -b {{.URL}}
+      - hugo build -s sites/{{.SITE}} --gc
 
   deploy:
     deps:
