@@ -129,7 +129,7 @@ get_weekday_name() {
 }
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-SITE_CONTENT_DIR="$SCRIPT_DIR/sites/hansard/content"
+SITE_CONTENT_DIR="$SCRIPT_DIR/../sites/hansard/content"
 SUMMARY_FILES=()
 
 find_existing_summary_files() {
