@@ -46,7 +46,7 @@ SUMMARY_SYSTEM_PROMPT = dedent(
 
     **Style constraints**
     Keep the high-level summary crisp (ideally ≤120 words total).
-    In the detailed section, prefer short paragraphs and bullet points to improve scanability.
+    In the detailed section prefer short paragraphs to improve scanability, but avoid bullet points.
     Attribute positions to speakers by name and role (if available) without asserting party unless explicitly provided.
     Do not include links unless the input provides them.
     </task>
