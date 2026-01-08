@@ -4,12 +4,10 @@ title = "Orderly"
 themesDir = "../themes"
 theme = "hugo-bearblog"
 enableRobotsTXT = true
-disableKinds = ["taxonomy"]
-ignoreErrors = ["error-disable-taxonomy"]
 
 [permalinks]
   blog = "/:slug/"
-  tags = "/blog/:slug"
+  tags = "/tags/:slug"
 
 [params]
   description = "AI-powered daily digest of UK parliamentary debates. Stay informed with concise, accessible summaries of what's happening inside the belly of the beast."

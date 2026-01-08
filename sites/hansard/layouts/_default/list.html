@@ -2,9 +2,6 @@
 <content>
   {{ if .Data.Singular }}
   <h3 style="margin-bottom:0">Filtering for "{{ .Title }}"</h3>
-  <small>
-    <a href="{{ "blog" | relURL }}">Remove filter</a>
-  </small>
   {{ end }}
   <ul class="blog-posts">
     {{ range .Pages }}
@@ -16,7 +13,7 @@
           </time>
         </i>
       </span>
-      <a href="{{ .Permalink }}">{{ .Title }}</a>
+      <a href="{{ .Permalink }}">{{ with .Section }}<strong>{{ . | humanize | title }}:</strong> {{ end }}{{ .Title }}</a>
     </li>
     {{ else }}
     <li>

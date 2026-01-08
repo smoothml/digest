@@ -1,0 +1,10 @@
+{{ define "main" }}
+<content>
+  <h3>Tags</h3>
+  <p>
+    {{ range .Site.Taxonomies.tags.Alphabetical }}
+    <a href="{{ .Page.Permalink }}">#{{ .Page.Title | lower }}</a>&nbsp;
+    {{ end }}
+  </p>
+</content>
+{{ end }}
