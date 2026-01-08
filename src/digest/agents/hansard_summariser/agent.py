@@ -27,20 +27,20 @@ model = OpenAIModel(
 model_settings = OpenAIModelSettings(
     openai_reasoning_effort="medium", max_tokens=128000
 )
-summary_agent = Agent(
+summary_agent = Agent[None, DraftSummary](
     model,
     model_settings=model_settings,
     system_prompt=SUMMARY_SYSTEM_PROMPT,
     output_type=DraftSummary,
 )
-editor_agent = Agent(
+editor_agent = Agent[str, FinalSummary](
     model,
     model_settings=model_settings,
     deps_type=str,
     output_type=FinalSummary,
 )
-title_agent = Agent(model, system_prompt=TITLE_SYSTEM_PROMPT, output_type=str)
-tag_agent = Agent(model, deps_type=set[str], output_type=list[str])
+title_agent = Agent[None, str](model, system_prompt=TITLE_SYSTEM_PROMPT, output_type=str)
+tag_agent = Agent[set[str], list[str]](model, deps_type=set[str], output_type=list[str])
 
 
 @editor_agent.system_prompt
