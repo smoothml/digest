@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/" xmlns:arxiv="http://arxiv.org/schemas/atom">
+  <link href="http://arxiv.org/api/query?search_query=cat:cs.AI&amp;start=0&amp;max_results=10" rel="self" type="application/atom+xml"/>
+  <title>ArXiv Query: cat:cs.AI</title>
+  <id>http://arxiv.org/api/query</id>
+  <updated>2025-01-10T00:00:00-05:00</updated>
+  <opensearch:totalResults>2</opensearch:totalResults>
+  <opensearch:startIndex>0</opensearch:startIndex>
+  <opensearch:itemsPerPage>10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2501.12345v1</id>
+    <updated>2025-01-08T18:00:00Z</updated>
+    <published>2025-01-08T18:00:00Z</published>
+    <title>Advances in Large Language Model Reasoning</title>
+    <summary>
+      We present a comprehensive study of reasoning capabilities in large language
+      models. Our approach demonstrates significant improvements in chain-of-thought
+      reasoning across multiple benchmarks.
+    </summary>
+    <author>
+      <name>Alice Smith</name>
+      <arxiv:affiliation>AI Research Lab</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Bob Jones</name>
+      <arxiv:affiliation>University of Science</arxiv:affiliation>
+    </author>
+    <arxiv:primary_category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CL" scheme="http://arxiv.org/schemas/atom"/>
+    <link href="http://arxiv.org/abs/2501.12345v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2501.12345v1" rel="related" type="application/pdf"/>
+  </entry>
+  <entry>
+    <id>http://arxiv.org/abs/2501.67890v2</id>
+    <updated>2025-01-09T12:30:00Z</updated>
+    <published>2025-01-07T09:15:00Z</published>
+    <title>Neural Architecture Search for Efficient Transformers</title>
+    <summary>
+      This paper introduces a novel neural architecture search method specifically
+      designed for discovering efficient transformer architectures. We achieve
+      state-of-the-art results while reducing computational costs.
+    </summary>
+    <author>
+      <name>Carol Williams</name>
+    </author>
+    <arxiv:primary_category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NE" scheme="http://arxiv.org/schemas/atom"/>
+    <link href="http://arxiv.org/abs/2501.67890v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2501.67890v2" rel="related" type="application/pdf"/>
+  </entry>
+</feed>
