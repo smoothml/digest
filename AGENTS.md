@@ -30,10 +30,10 @@ Key components:
 
 # Commands
 
-Run tests: `uv run pytest -n auto tests/path/to/test`
-Type checking: `uv run mypy src tests`
-Check formatting: `uv run ruff check src tests --fix`
-Apply formatting: `uv run ruff format src tests`
+* Run tests: `uv run pytest -n auto tests/path/to/test`
+* Type checking: `uv run mypy src tests`
+* Check formatting: `uv run ruff check src tests --fix`
+* Apply formatting: `uv run ruff format src tests`
 
 # Rules
 
@@ -45,6 +45,7 @@ Apply formatting: `uv run ruff format src tests`
   - BAD: `python -m this`
   - GOOD: `uv run python -c "print(\"Hello\")"`
   - BAD: `python -c "print(\"Hello\")"`
+* NEVER edit `pyproject.toml` directly to add or remove packages. Always use `uv add package` or `uv remove package`. 
 * Do not add code comments about changes made.
   - GOOD: `def sum(a: int, b: int) -> int: return a + b`
   - BAD: `def sum(a: int, b: int) -> int: return a + b  # Added`
