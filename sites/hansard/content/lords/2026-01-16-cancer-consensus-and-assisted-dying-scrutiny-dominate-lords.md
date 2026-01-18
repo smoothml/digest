@@ -1,0 +1,35 @@
++++
+date = "2026-01-16"
+draft = false
+title = "Cancer Consensus And Assisted Dying Scrutiny Dominate Lords"
+tags = ['healthcare', 'parliament', 'security', 'regulation', 'privacy']
++++
+
+## High-Level Summary
+The House of Lords completed Third Reading of the Unauthorised Entry to Football Matches Bill and passed it; the next step is Royal Assent. Peers then opened Second Reading of the Rare Cancers Bill, with broad cross‑party and Government support, focusing on regulatory review, data‑sharing for trials, and a new national specialty lead. The Government confirmed its cancer plan is imminent and reiterated funding commitments. The Chief Whip announced extended Friday sittings for continued Committee on the Terminally Ill Adults (End of Life) Bill; Members raised travel, faith and access concerns. Committee then scrutinised safeguards, motivations and terminology through probing amendments, several of which were withdrawn; there were no divisions.
+
+## Detailed Summary
+### Unauthorised Entry to Football Matches Bill – Third Reading
+Peers linked the Bill to lessons from Wembley Euro 2021. Lord Parkinson said: “The provisions flow from the review … into the events at the Euros final at Wembley in 2021” [ref: a1955.4/2]. Lord Moynihan supported passage but pressed for wider reforms on touting and steward corruption: “I sought to encourage the Government to address the abuse and corruption of modern-day touts” [ref: a1955.3/2]. 
+
+Minister Lord Lemos said the Bill “will create a clear offence of unauthorised entry and empower courts to impose football banning orders” and is “not about punishing honest mistakes” [ref: a1956.0/3]. The Bill passed: “Bill passed.” [ref: a1957.0/5]. Next step: Royal Assent. Related secondary ticketing issues may return in a future Session, as noted by Lord Moynihan [ref: a1955.3/3].
+
+### Rare Cancers Bill – Second Reading
+Baroness Elliott introduced the Bill to improve outcomes in cancers affecting fewer than 1 in 2,000 people, noting they are “47% of all UK cancer diagnoses” and “55% of cancer deaths” [ref: a1957.3/2]. Core provisions are: a UK‑wide review of orphan medicinal product authorisations [ref: a1957.3/10]; duties to promote research, including a national specialty lead for rare cancers [ref: a1957.3/11]; and data‑sharing by NHS England to facilitate clinical trials [ref: a1957.3/12]. 
+
+Peers broadly supported the Bill while probing timelines and co‑ordination. Lord Patel cautioned the three‑year review “seems rather long” [ref: a1961.0/2]; Lord O’Shaughnessy said the £40 million NIHR brain tumour pledge had “not yet” been met [ref: a1962.0/8]. The Government pledged support: “I am delighted to pledge the Government’s full support for this Bill” [ref: a1984.0/1], said the national cancer plan is “soon to be published” [ref: a1984.0/4], and affirmed it is “committed to exceeding the £40 million target” on brain tumour research [ref: a1984.0/6]. It confirmed the UK‑wide research registry “is live across the UK” [ref: a1984.0/8] and described the review deadline as a legal backstop it expects to beat [ref: a1984.0/12]. Outcome: “Bill read a second time and committed to a Committee of the Whole House.” [ref: a1987.0/5].
+
+### Arrangement of Business – Friday sittings for the Terminally Ill Adults (End of Life) Bill
+The Government Chief Whip announced longer Friday sittings for continued Committee, stating: “Fridays therefore remain the only opportunity to scrutinise the Bill” and he would “seek to adjourn the House at around 5.30 pm today and at 6 pm on subsequent Fridays” [ref: a1987.2/3; a1987.2/4]. 
+
+Members raised concerns about travel, faith and accessibility. Lord Empey warned some would be “effectively excluded from a large part of this debate” [ref: a1988.0/2]. Lord Kennedy confirmed flexibility to adjourn mid‑group if needed [ref: a1990.0/1] and noted the House’s self‑regulation: sitting beyond 3 pm on PMBs has precedent [ref: a1991.1/2]. No divisions occurred; discussions on possible alternatives were left to the usual channels [ref: a1990.2/1].
+
+### Terminally Ill Adults (End of Life) Bill – Committee (safeguards: information, coercion, LPAs, benefits)
+Peers tabled probing amendments to tighten safeguards on information, coercion and eligibility. Baroness Finlay proposed requiring independent contact for information and highlighted that the delegated powers “contain next to no indication of the shape or substance of the regulatory regime” and are “skeleton provision” [ref: a1992.5/5; a1992.5/7]. Baroness O’Loan pointed to delivery gaps and risk of third‑party initiation, pressing for protections against lasting powers of attorney [ref: a1995.0/3; a1995.0/10–a1995.0/11]. Baroness Berger sought to clarify that only the patient can initiate a request [ref: a1997.0/1]; Baroness Coffey proposed an explicit bar on LPA use [ref: a1998.0/1–a1998.0/2]. 
+
+The Minister cautioned on workability and equality law: undefined services; misalignment with DWP Special Rules; and potential ECHR issues from differential treatment [ref: a2016.5/3–a2016.5/9]. The sponsor, Lord Falconer, said the Bill already mandates doctors to explain diagnosis, prognosis, treatments, palliative care and the lethal substance at preliminary discussion and assessment [ref: a2018.0/5–a2018.0/9], and confirmed: “No registered medical practitioner is under any duty to raise the subject” [ref: a2051.0/5–a2051.0/7]. He stressed the decision must be the patient’s “clear, settled and informed wish … voluntarily and … not … coerced” [ref: a2020.2/5–a2020.2/6], and said he would consider whether to spell out the LPA point explicitly [ref: a2020.2/12]. Amendments to add benefits eligibility and other criteria were resisted as inappropriate [ref: a2019.1/3–a2019.1/4]. Outcome: Amendment 27 withdrawn; Amendments 28 and 29 not moved [ref: a2026.1/7–a2026.1/8].
+
+### Terminally Ill Adults (End of Life) Bill – Committee (motivations and terminology)
+On motivations, Lord Weir proposed ineligibility where substantial motivations include being a burden, financial pressure, mental disorder, disability, lack of access to services, or suicidal ideation [ref: a2027.1/2]. Lord Falconer opposed categorical exclusions, saying the Bill is about choice for those with six months or less to live and reasons vary; he was “attracted by the idea” of requiring someone to ask “why” as part of the process [ref: a2051.0/10–a2051.0/11; a2053.3/1–a2053.3/3]. Outcome: Amendments 30ZA and 30 withdrawn [ref: a2055.2/5–a2055.2/6]. 
+
+On terminology, Lord Frost proposed replacing “assistance to end their own life” with “medical help to commit suicide by provision of lethal drugs”, arguing for clarity and avoiding euphemism [ref: a2056.1/2; a2057.1/1–a2057.1/6]. The Minister foresaw no major workability issues but said drafting changes would be needed throughout [ref: a2069.2/1]. Lord Falconer opposed the change, calling the current drafting “clear … non‑emotional” [ref: a2069.3/2–a2069.3/8]. Outcome: Amendment withdrawn; the House adjourned at 5.33 pm [ref: a2070.0/4; a2070.0/6].
