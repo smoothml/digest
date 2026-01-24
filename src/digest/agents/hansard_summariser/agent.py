@@ -39,7 +39,9 @@ editor_agent = Agent[str, FinalSummary](
     deps_type=str,
     output_type=FinalSummary,
 )
-title_agent = Agent[None, str](model, system_prompt=TITLE_SYSTEM_PROMPT, output_type=str)
+title_agent = Agent[None, str](
+    model, system_prompt=TITLE_SYSTEM_PROMPT, output_type=str
+)
 tag_agent = Agent[set[str], list[str]](model, deps_type=set[str], output_type=list[str])
 
 

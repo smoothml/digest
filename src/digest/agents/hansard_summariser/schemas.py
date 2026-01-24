@@ -4,6 +4,7 @@ from digest.agents.hansard_summariser.constants import (
     DETAILED_SUMMARY_POST_TEMPLATE,
     SUMMARY_POST_TEMPLATE,
 )
+from digest.agents.hansard_summariser.utils import strip_quote_references
 
 
 class DetailedSummary(BaseModel):
@@ -73,3 +74,11 @@ class Summary(FinalSummary):
         ...,
         description="A short title (5-10 words) capturing the essence of the day.",
     )
+
+    def to_markdown(self) -> str:
+        """Convert the summary to markdown without quote references.
+
+        Returns:
+            Markdown formatted summary with quote references stripped.
+        """
+        return strip_quote_references(super().to_markdown())
