@@ -52,4 +52,6 @@ Key components:
 * Always use absolute imports.
   - GOOD: `from titanium.module import this`
   - BAD: `from .module import this`
+* Always use a `pytest`-style functional test layout. Never use test classes.
+* Prefer `pystest.mark.parameterize` for implementing tests over many very similar test functions.
 * You must not use `Any`, `object`, `type: ignore`, or `cast()` to bypass typing constraints. These constructs are only permitted in test code when deliberately passing an incorrect type to validate error handling behavior. You may choose to use `Any` when supporting a third-party library where you *must*, but there should be a strong reason to do this. You almost never should.
