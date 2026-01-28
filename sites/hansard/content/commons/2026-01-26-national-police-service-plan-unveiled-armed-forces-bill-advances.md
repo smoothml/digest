@@ -1,0 +1,41 @@
++++
+date = "2026-01-26"
+draft = false
+title = "National Police Service Plan Unveiled; Armed Forces Bill Advances"
+tags = ['employment', 'defence', 'foreignpolicy', 'justice', 'healthcare']
++++
+
+## High-Level Summary
+The Commons sat for Work and Pensions questions covering youth employment support, disability benefits reform, Access to Work delays and the review of communications on state pension age changes for 1950s‑born women. An Urgent Question probed the Diego Garcia/BIOT treaty and Bill, with Ministers stating ratification depends on steps including updating the UK‑US exchange of notes. The Home Secretary presented a Police Reform White Paper proposing a National Police Service, fewer regional forces alongside local policing areas, and expanded use of AI including live facial recognition. The Armed Forces Bill passed Second Reading, advancing plans to extend the covenant in law, establish a Defence Housing Service, reform the service justice system and modernise reservist arrangements; the Bill was committed to a Select Committee and carry‑over agreed. An adjournment debate examined urgent care in Staffordshire, focusing on Cannock’s minor injuries unit and alternative community and urgent care provision.
+
+## Detailed Summary
+### Business before Questions: New Writ
+The House ordered a new writ for the Gorton and Denton constituency following Andrew Gwynne’s appointment to the Manor of Northstead: “That Mr Speaker do his issue his Warrant… for the Borough Constituency of Gorton and Denton”. The motion stood in the name of Jonathan Reynolds.
+
+### Oral Answers to Work and Pensions
+Ministers set out youth employment measures. The Secretary of State said youth hubs would expand to “more than 350 areas… part of our effort to take jobcentre support out of the jobcentres” and linked this to an £820 million youth guarantee. For rural access, Ministers cited “mobile jobcentres, located in vans… [that] can visit a small area”. On apprenticeships, levy changes would prioritise young people after a decline in starts: “there had been a 40% decline in youth apprenticeship starts over the past 10 years”.
+
+On disability benefits, Stephen Timms said PIP claimants had risen from 2 million pre‑pandemic to over 3 million and were set to exceed 4 million by decade’s end, with his review aiming to make PIP “fair and fit for the future”. He reassured that people undergoing cancer treatment can be treated as having LCWRA for universal credit. Members raised Access to Work delays; Ministers acknowledged “there have been some problems” and said resources and prioritisation had been improved.
+
+On state pension age communications (WASPI), Torsten Bell said the Government is retaking the December 2024 decision and would report “before the beginning of March” and clarified the retaken decision “relates narrowly to the question of the communication of the state pension age changes”. He rejected claims of disengagement with the Ombudsman, noting meetings and that “A draft of the action plan… was shared” to give reassurance. Other exchanges covered skills passports and pilots, cost‑of‑living help including the national living wage, free school meals and warm home discount expansion, employer‑led health initiatives under the “Keep Britain Working” review, ESOL referrals via Jobcentres, and topical matters including apprenticeship funding, NEETs, UC migration casework and new fraud enforcement powers.
+
+### Urgent Question: Diego Garcia Military Base and British Indian Ocean Territory Bill
+The Minister said the treaty secures the joint UK‑US base for the long term and explained that ratification requires several steps, including: “before the UK can ratify the treaty, we will need to… update the UK‑US agreement—the exchange of notes”. He criticised procedural tactics in the Lords—“Some have sought to sabotage the process through procedural motions and parliamentary stunts”—while confirming, “The Lords will consider the Commons amendments in due course”.
+
+Questioning focused on sovereignty, the 1966 UK‑US exchange of notes, US positions, costs and Chagossian rights. The Minister said updating the exchange of notes had been envisaged and had occurred before: “updated in 1972 and 1976, twice in 1987, and in 1999”. On costs, he cited a forecast average of “£101 million” per year and a net present value of “£3.4 billion” at publication, subject to updates. On self‑determination, he stated courts had proceeded on the basis that, in BIOT, the relevant right was that “of Mauritians rather than of Chagossians”, while committing to continued engagement with Chagossian communities.
+
+### Statement: Police Reform White Paper
+The Home Secretary announced “a new policing White Paper” setting “a new model for policing… with local policing that protects our communities and national policing that protects us all”. Proposals include a “new national police service” that would initially set standards and lift administrative tasks from local forces, and in time draw in national responsibilities such as counter‑terrorism, serious organised crime and fraud. The Government also proposes replacing “the patchwork of 43 local forces” with fewer regional forces for specialist investigations, alongside smaller local policing areas focused on neighbourhood crime.
+
+Technology and standards measures include “the largest‑ever roll‑out of live facial recognition technologies”, a police.AI programme, a “licence to practice for police officers”, targets and performance standards, and restoring the Home Secretary’s power to dismiss a chief constable. The Shadow Home Secretary argued total officer numbers are falling and opposed mandated mergers into “remote regional mega‑forces”. The Home Secretary defended the focus on neighbourhood policing and said national responsibilities distract local forces, which the reforms seek to address.
+
+### Armed Forces Bill: Second Reading
+The Defence Secretary introduced a Bill to “renew the nation’s contract with those who serve”, improving housing, services and protections. Measures include fully extending the armed forces covenant across central Government, devolved Governments and local authorities; creating a Defence Housing Service to deliver a 10‑year investment programme to renew and upgrade service family accommodation; strengthening the service justice system by making modern protection orders available and issuing a victims’ code; and modernising reserves by aligning recall liabilities and to “increase the maximum age at which reservists can be recalled, from 55 to 65”.
+
+The Opposition supported Second Reading—“we will not seek to divide the House”—while signalling scrutiny on funding, reserves growth and housing delivery. Procedurally, the “Bill accordingly read a Second time” and was “committed to a Select Committee” to report “on or before 30 April 2026”, before recommittal to a Committee of the whole House; carry‑over and a money resolution were agreed.
+
+### Delegated Legislation and Deferred Division
+The House approved the Non‑Domestic Rating (Chargeable Amounts) (England) Regulations 2026. A decision on the Medical Devices (Fees Amendment) Regulations 2026 was deferred: “the Division was deferred until Wednesday 28 January”. A change in membership to the Joint Committee on Statutory Instruments was agreed.
+
+### Adjournment: NHS Urgent Care in Staffordshire
+Josh Newbury highlighted the prolonged closure of Cannock’s minor injuries unit since March 2020, seeking “clarity, fairness and alignment” between national urgent care policy and local delivery. He cited access challenges and demographic need. The Minister said the Government is “determined to change” urgent and emergency care, and that the ICB’s review concluded Cannock MIU demand was “being met elsewhere”. She pointed to alternatives, including Staffordshire being “the first in the midlands to establish a 24/7 integrated care co‑ordination centre” and reported “urgent community response performance… more than 78%… within two hours”. She undertook to continue engagement with local MPs and NHS leaders.
