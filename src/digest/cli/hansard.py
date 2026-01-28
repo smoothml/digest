@@ -5,8 +5,9 @@ from typing import Annotated
 from loguru import logger
 from typer import Argument, Option, Typer
 
-from digest.sources.hansard.constants import SOURCE_NAME_TO_TYPE_MAP, HansardSourceName
-from digest.agents.hansard_summariser.agent import get_hansard_summary, publish_summary
+from digest.services.hansard import create_hansard_summary, publish_hansard_summary
+from digest.sources.hansard.constants import HansardSourceName
+from digest.sources.hansard.main import get_hansard_data_source
 
 cli = Typer(name="hansard")
 
@@ -21,14 +22,16 @@ def summarise(
     ] = HansardSourceName.COMMONS,
     publish: Annotated[bool, Option(help="Publish summaries as a post.")] = False,
 ) -> None:
+    data_source = get_hansard_data_source()
     with Runner() as runner:
         try:
-            summary = runner.run(
-                get_hansard_summary(dt.date(), SOURCE_NAME_TO_TYPE_MAP[source])
-            )
-            if publish and summary is not None:
-                publish_summary(summary, dt, source)
-            elif summary is not None:
+            summary = runner.run(create_hansard_summary(dt.date(), source, data_source))
+            if summary is None:
+                return
+
+            if publish:
+                runner.run(publish_hansard_summary(summary, dt.date(), source))
+            else:
                 logger.info(f"Summary:\n{summary.to_markdown()}")
         except KeyboardInterrupt:
             logger.info("Summarisation cancelled by user")

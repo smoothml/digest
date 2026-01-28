@@ -1,6 +1,8 @@
-from digest.settings import application_settings
-import fsspec
 from pathlib import Path
+
+import fsspec
+
+from digest.settings import application_settings
 
 
 class DataCache:

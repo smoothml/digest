@@ -1,5 +1,6 @@
-import yaml
 from enum import Enum
+
+import yaml
 
 
 def enum_value_representer(dumper: yaml.Dumper, data: Enum) -> yaml.ScalarNode:
