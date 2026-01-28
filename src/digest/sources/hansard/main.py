@@ -1,7 +1,7 @@
 from datetime import date
 from string import ascii_lowercase
-from xml.etree import ElementTree
 from typing import override
+from xml.etree import ElementTree
 
 import requests
 from loguru import logger

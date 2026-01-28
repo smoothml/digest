@@ -1,9 +1,9 @@
 import re
 import tomllib
 import unicodedata
+from datetime import date
 from pathlib import Path
 from string import Template
-from datetime import date, datetime
 from textwrap import dedent
 from typing import TypedDict, cast
 
@@ -25,7 +25,7 @@ POST_TEMPLATE = Template(
         title = "${title}"
         tags = ${tags}
         +++
-        
+
         ${content}
         """
     )
@@ -57,7 +57,7 @@ def get_post_base_path(site: str, section: str | None = None) -> Path:
     return path
 
 
-def format_post(content: str, dt: datetime, title: str, tags: list[str]) -> str:
+def format_post(content: str, dt: date, title: str, tags: list[str]) -> str:
     """Format a digest post.
 
     Args:
@@ -70,7 +70,7 @@ def format_post(content: str, dt: datetime, title: str, tags: list[str]) -> str:
         Formatted post.
     """
     return POST_TEMPLATE.safe_substitute(
-        content=content, dt=dt.date(), title=title, tags=tags
+        content=content, dt=dt, title=title, tags=tags
     ).strip()
 
 

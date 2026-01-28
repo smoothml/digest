@@ -2,9 +2,9 @@ from __future__ import annotations
 
 from datetime import date
 
-from digest.sources.hansard.xml_parser import xml_to_blocks, xml_to_markdown
-from digest.sources.hansard.main import Debate
 from digest.sources.hansard.constants import HansardSourceType
+from digest.sources.hansard.main import Debate
+from digest.sources.hansard.xml_parser import xml_to_blocks, xml_to_markdown
 from tests import TEST_DATA_DIR
 
 

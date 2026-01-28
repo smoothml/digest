@@ -18,6 +18,9 @@ Key components:
 * `sites/<site-name>`: Hugo site for `<site-name>` following the standard Hugo layout.
 * `src/digest`: Main application.
 * `src/digest/agents`: Summariser agents.
+* `scr/digest/cli`: Application CLI.
+* `src/digest/publishers`: Helpers to publish summaries.
+* `src/digest/services`: Orchestration layer.
 * `src/digest/sources`: Data source abstractions.
 * `tests`: Unit and integration tests for the `digest` application.
 * `data`: Raw data examples.
