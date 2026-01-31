@@ -1,0 +1,51 @@
++++
+date = "2026-01-29"
+draft = false
+title = "Lords Press UK–EU Reset, Erasmus+ Return and High Street Relief"
+tags = ['foreignpolicy', 'economy', 'education', 'ai', 'environment']
++++
+
+## High-Level Summary
+The House of Lords began with the introductions of Lord Babudu and Lord Blackwater before a full day covering water‑industry fines, Erasmus+ participation, public trust in politics, NHS hearing‑aid batteries, business rates support for high streets, UK–EU relations, superintelligent AI and UK development assistance. Ministers set out enforcement figures and payment plans for water‑company fines and confirmed discounted UK association to Erasmus+ in 2027. Peers scrutinised a Commons business‑rates statement, including new relief for pubs and a forthcoming high‑streets strategy. The House then held take‑note debates on a UK–EU customs union (featuring four maiden and one valedictory speech) and on development assistance and soft power. Two statutory instruments were approved without division.
+
+## Detailed Summary
+### Introductions: Lord Babudu and Lord Blackwater
+The House introduced two new Members. Baron Babudu "was introduced and took the oath". Baron Blackwater "was introduced and made the solemn affirmation".
+
+### Water Companies: Fines – Oral Question
+Responding to Lord Sikka, Baroness Hayman of Ullock detailed enforcement outcomes: "Ofwat has imposed fines to the value of £122.7 million on Thames Water… The remaining 80% is due by 31 March 2030" and Environment Agency fines total £4.6 million, with none known to be unpaid. She said staged payments aim to protect consumers and continuity: "we put in payment plans because it would not help a water company if we forced it to pay fines so that it went bust", and that fines should be paid "in such a way that it does not impact on consumers". 
+On use of fines, she noted current flows to the Treasury and an intention to hypothecate funds for environmental projects: "we hypothecate the fines so that Defra can decide the projects… and then HMT provides us with the money". She cited specific action in Yorkshire: "Yorkshire Water agreed to pay an enforcement package of £40 million… to prioritise work on… storm overflows", and said she would relay the suggestion that payment plans be announced alongside fines. On executive pay, she stressed companies’ private status but the need for a "tough regulator". She also referenced the Water (Special Measures) Act increasing CEO responsibility for pollution. No decisions were taken; suggestions were taken back to the department.
+
+### Erasmus+ Eligibility (including asylum seekers) – Oral Question
+Baroness Smith of Malvern confirmed that "the UK has agreed terms to join the Erasmus+ programme in 2027" and that inclusion priorities are set by the Commission; "Asylum seekers can benefit" from certain activities. She clarified that asylum seekers could not travel abroad but might join eligible activities while in the UK: "they would not… be able to benefit from travel overseas"; if volunteering or in education, "they could benefit". 
+On cost, she rejected a £9 billion figure, saying the UK will join the last year of this round "at a 30% discount… saving UK taxpayers around £240 million". She emphasised widening access, including state schools, and the forthcoming designation of a national agency to support take‑up: "we will soon be in a position to announce the national agency". Broader questions on youth unemployment and apprenticeships were addressed with a "number one priority" to reduce the number of young people neither earning nor learning, backed by Budget funding.
+
+### Public Trust in National Politics – Oral Question
+Baroness Anderson of Stoke‑on‑Trent set out steps to rebuild confidence, including a strengthened Ministerial Code and transparency, and the creation of the Ethics and Integrity Commission. She also cited the forthcoming Public Office (Accountability) Bill to require public servants "to act truthfully" and an independent review of foreign financial influence. Framing the issue as a "battle for truth", she called for candour and delivery. 
+On safety of elected representatives, she listed measures such as the Joint Election Security Preparedness Unit, the National Protective Security Authority, Operation Bridger for MPs and Operation Ford for councillors and candidates. She undertook to write on questions about the Electoral Commission’s independence and student finance.
+
+### Battery Shortage for NHS Hearing Aids – Oral Question
+Baroness Merron said a specific Energizer hearing‑aid battery is under "supply pressure" but available under "demand management" to ensure fair allocation, with resolution "anticipated to be resolved by 16 March". She noted global concentration of manufacturers and UK investment to improve resilience: "There are only three global manufacturers… investment in Tyne and Wear… to enhance our domestic manufacturing capability". 
+She advised users not to ration hearing‑aid use and to seek alternative distribution, including postal supply, and attributed increased demand partly to "a cyber attack on the alternative supply of batteries". She highlighted expanded community diagnostic centres and record hearing‑test volumes, and said lessons include encouraging a shift to rechargeable batteries.
+
+### Social Security (Scotland) Act 2018 (Carer’s Assistance) (Consequential Modifications) Order 2026 – Motion to Approve
+The House approved the draft Order laid on 8 December 2025: "Motion agreed.".
+
+### Medical Devices (Fees Amendment) Regulations 2026 – Motion to Approve
+The House approved the draft Regulations laid on 16 December 2025: "Motion agreed.".
+
+### Business Rates – Statement (from the House of Commons) and Lords scrutiny
+Peers questioned a Commons statement announcing reforms and support for high streets. Measures included permanently lower multipliers for retail, hospitality and leisure—"the multiplier will fall by around 12p, or 25%, on 1 April"—funded by higher rates on the most expensive properties, and a £4.3 billion transitional support package to cap bill increases at revaluation. A pubs package was introduced: "from April, every pub in England will get 15% off its new business rates bill" with a real‑terms freeze for two further years. A cross‑government high‑streets strategy will follow later in the year. 
+Baroness Neville‑Rolfe criticised "yet another U‑turn" and said the action was "inadequate" for small businesses. Baroness Kramer welcomed some relief but said it amounts to "roughly… only £1,650 per pub" and queried the lack of help for other venues. Lord Livermore pointed to permanent lower rates funded by higher rates on large warehouses and said "three‑quarters of pubs will see their bills either fall or stay flat next year". He confirmed a review of pub valuation for the next revaluation and a review of hotel valuation, and reiterated that a high‑streets strategy will be brought forward. No divisions occurred.
+
+### UK–EU Customs Union – Motion to Take Note
+Lord Newby opened by arguing Brexit has harmed growth and trade and urged closer alignment with the EU, including a customs union. Citing the OBR, he said Brexit will "reduce GDP by 4% over a 15‑year period" and UK‑EU trade will fall by 15%. He urged the Government to set out long‑term aims and act with urgency. The debate featured maiden speeches by Baroness Gill, Lord Docherty, Lord Doyle and Lord Pitt‑Watson, and a valedictory by Lord Offord. 
+Opponents, including Lord Lamont, said a customs union "is emphatically not the way" and warned it would end independent trade deals and create asymmetry like Turkey’s arrangement. Supporters urged practical sectoral agreements; others, like Lord Dodds, highlighted Northern Ireland’s de facto alignment and internal‑market effects. From the Government Front Bench, Baroness Anderson said relations will be reset "without returning to the single market, the customs union or freedom of movement" and confirmed "we aim to reach detailed agreements by the next summit". The Motion to take note was agreed without division.
+
+### Superintelligent AI – Question for Short Debate
+Lord Hunt of Kings Heath urged the Government to lead efforts for an international moratorium on superintelligent AI (ASI), citing the UK AI Security Institute’s warning of a worst‑case scenario of "catastrophic, irreversible loss of control". He referenced industry caution, including Dario Amodei’s call for humanity to "wake up to the dangers", and past arms‑control treaties as models. 
+Peers differed on feasibility. Some warned a moratorium may be unenforceable and advocated stronger domestic governance through the AI Security Institute and the Alan Turing Institute, with enhanced testing and statutory footing. Others pressed for binding international red lines. The Government set out a context‑based regulatory approach via existing regulators—"Regulators are already acting"—and highlighted the AISI’s role in advancing "our scientific understanding of the capabilities and the associated risks" and its international network. No resolution was sought; the debate will inform policy development.
+
+### UK Development Partnership Assistance, Diplomacy and Soft Power – Motion to Take Note
+Baroness Featherstone argued that development is integral to diplomacy and conflict prevention, warning that cuts and institutional changes risk ceding influence: "This is the fight of our lives; it is a moral fight". She highlighted the roles of the BBC World Service and the British Council and concerns about reduced funding and competition for influence. The debate featured maiden speeches from Baroness Hyde and Lord Barber stressing lived experience, justice and delivery, and a valedictory from Lord Browne urging investment in soft power as part of national security. 
+Replying, Lord Lemos said the Government will prioritise humanitarian need, health and climate, back multilaterals, and adopt a new model: moving "from being a donor to being an investor" and shifting to systems strengthening, local delivery and UK expertise. He underlined soft‑power assets, promised a forthcoming soft‑power strategy, and affirmed support for UN humanitarian reform and demining organisations. The Motion to take note was agreed without division.
