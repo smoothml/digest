@@ -1,0 +1,20 @@
++++
+date = "2026-02-05"
+draft = false
+title = "Commons Probes Scotland’s Industrial Shift, Urges SuDS Adoption"
+tags = ['parliament', 'environment', 'energy', 'employment', 'regulation']
++++
+
+## High-Level Summary
+Proceedings opened (Paula Barker in the Chair) with a Select Committee statement on the Scottish Affairs Committee’s fifth report, focusing on deindustrialisation’s legacy and lessons for future transitions. Members questioned Elaine Stewart on skills, funding and apprenticeships; no decisions were taken. A Backbench Business debate then examined sustainable drainage systems (SuDS), with calls for statutory adoption under schedule 3 to the Flood and Water Management Act 2010 and clearer long‑term maintenance. The Minister outlined a planning policy‑led approach, new national standards and live consultations. The motion that the House had considered SuDS was agreed.
+
+## Detailed Summary
+### Scottish Affairs Committee: 2024–25 work and industrial transition
+Elaine Stewart presented the Committee’s fifth report and programme of scrutiny, noting, “we have held more than 54 hours of oral evidence” and, “We have travelled extensively across Scotland”. She focused on the industrial transition inquiry: “Scotland has seen a dramatic change in its industrial landscape”, with long‑term effects on employment and health. Examples included areas where “the employment rate is almost 10% below the Scottish average” and places where the “population has been falling by as much as 10% each decade”. She identified “two transitions that will shape Scotland’s economic future”—the shift from oil and gas to clean energy, and defence skills—and stressed the need to “ensure that no community is asked to shoulder the burden”.
+
+In questions, Stephen Gethins asked about “the impact of the energy profits levy” on businesses that upskill in north‑east Scotland. Stewart highlighted local funding and skills pressures: “800 young people did not get into college… due to a lack of funding”. Patricia Ferguson asked about apprentices; Stewart said it was “absolutely fantastic to see the young people at Babcock and BAE Systems”. Kirsteen Sullivan raised the legacy for young people; Stewart said, “We are now into a fourth generation of unemployed young people”. No Government commitments or decisions were stated; Stewart said the Committee would continue to monitor both transitions.
+
+### Backbench Business: Sustainable drainage systems (SuDS)
+Martin Wrigley opened the debate, moving, “That this House has considered sustainable drainage systems”, and highlighted problems with design, adoption and upkeep—asking, “The problem is: who maintains SuDS?”. He urged commencement of schedule 3 to enable certification and adoption by local authorities: “Let schedule 3 be enacted”, and cited concern that “regulations remain stalled”. Richard Foord raised workforce and data issues, including a “national shortage of skilled professionals” and the need to use “rainfall data from the 2026 dataset”.
+
+Sarah Dyke called for mandatory SuDS in new developments and clearer accountability: “the Government should implement schedule 3”; she said “homeowners are often left paying for poorly maintained systems” and noted many Somerset inspections where “most are found to be inadequate”. She also pointed to Wales: “The Welsh Government have implemented schedule 3”. Aphra Brandreth observed “the Government are yet to make a final decision” on the route to implementation, cited research that many systems “remain unadopted” and said some residents were “left in limbo”. Responding, the Minister, Emma Hardy, said “SuDS are vitally important”, referred to changes to the national planning policy framework and indicated a preference to proceed “through changes to planning policy… rather than commencing schedule 3”. She confirmed research into maintenance funding and that “The consultation is open until 10 March”. The House resolved, “That this House has considered sustainable drainage systems”.
