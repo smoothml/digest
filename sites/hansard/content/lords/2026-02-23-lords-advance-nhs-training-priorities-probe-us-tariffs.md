@@ -1,0 +1,49 @@
++++
+date = "2026-02-23"
+draft = false
+title = "Lords Advance NHS Training Priorities, Probe US Tariffs"
+tags = ['healthcare', 'education', 'economy', 'environment', 'defence']
++++
+
+## High-Level Summary
+The House of Lords began with notice of Lord Browne of Ladyton’s retirement before taking oral questions on biodiversity and national security, higher‑education free speech, progress on the LGBT Veterans Independent Review, and the Government’s new V‑levels. Peers then asked a Private Notice Question on newly announced United States tariffs and their implications for UK trade. The House moved to Report on the Medical Training (Prioritisation) Bill, debating amendments on prioritisation, timing, the NHS‑experience proxy, refugees and overseas campuses, and delegated powers. Ministers resisted changes; amendments were withdrawn or not moved, and no divisions were recorded. Legislative consent from the devolved legislatures is being sought for the Bill.
+
+## Detailed Summary
+### Retirement of a Member: Lord Browne of Ladyton
+The House was notified of the retirement of Lord Browne of Ladyton under the House of Lords Reform Act 2014. Lord Forsyth of Drumlean announced “the retirement, with effect from today, of the noble Lord, Lord Browne of Ladyton”. No further action was required.
+
+### Global Biodiversity Loss and National Security – Oral Question
+Earl Russell asked about the Nature Security Assessment and publication. Baroness Hayman of Ullock said the assessment is informing planning and emphasised it is a planning tool: “this is a strategic tool and not a prediction of future possibilities”. She listed policies including higher tree‑planting rates, peatland restoration, improving water quality, protecting pollinators and ocean legislation.
+Peers asked about food security after flooding, nature‑related financial disclosures, agricultural pollution and progress on targets. The Minister highlighted investment “not just in flood defences but in natural flood management”, work to accelerate TNFD uptake including a UK pilot with “Fifteen businesses” signed up, and said of EU talks that the UK stressed “the importance of not reducing any of our current standards”. No commitment to publish the full assessment was made; next steps not stated in the transcript.
+
+### Free Speech Complaints Scheme – Oral Question
+Lord Skidelsky asked about a letter urging an Office for Students‑run free‑speech complaints scheme. Baroness Smith of Malvern said Ministers had considered the letter and reaffirmed: “our commitment to the complaints scheme has been clearly set out”. While not giving a timetable, she added: “I expect us to be able to introduce the amended complaints scheme sooner rather than later”.
+Peers queried use of secondary legislation, stand‑alone legislation, and sector pressures. The Minister noted: “Students can already express complaints through the Office of the Independent Adjudicator” and that “We will not be leaving academics in legal limbo”. She distinguished legitimate protest from harassment and antisemitism: “protest legitimately—but not, of course, to harass or to promote antisemitism on campus”. The Government is considering options; no timetable was announced.
+
+### LGBT Veterans Independent Review – Oral Question
+Lord Cashman asked about implementing the review’s recommendations and the Financial Recognition Scheme. Lord Coaker said the Government has “implemented 48 of the 49 recommendations, including 14 restorative measures and the LGBT financial recognition scheme”. He said priority would go to the most seriously ill and elderly and that panels and an additional chair would be added to speed decisions.
+Peers raised flexibility, deadlines, record access, extending redress and panel capacity. The Minister said, “It is not the Government’s intention to exclude anyone who is eligible”, reminded veterans to apply “by midnight on 12 December this year”, outlined the reverse‑burden‑of‑proof approach and access to evidence used in refusals, and agreed to expedite appointments to meet the April 2027 deadline. No policy changes were announced.
+
+### V‑levels – Oral Question
+Lord McNicol of West Kilbride asked how the Government will communicate the purpose and value of V‑levels. Baroness Smith of Malvern called them “a once‑in‑a‑generation reform to 16‑19 vocational education” and said a consultation response would be “published soon”.
+Peers asked about work placements, youth unemployment, lessons from T‑levels, regional reach, clarity across qualifications and careers guidance. The Minister cited two weeks’ work experience and funding via the youth guarantee gateway, reported: “Nearly 85,000 students have started a T‑level since the launch in 2020”, and said the aim is clear level‑3 routes via A‑levels, T‑levels and V‑levels. On careers, she stated: “96% of secondary schools and colleges are now in careers hubs”. No decisions were taken.
+
+### US Tariffs – Private Notice Question
+Lord Lamont of Lerwick asked about the impact of increased United States tariffs and the UK’s response. Lord Stockwood said the Supreme Court ruling did not affect most trade under the economic prosperity deal and that “The Business Secretary spoke to his counterpart at the weekend and underlined his concerns”. He said officials are engaging intensively this week.
+Peers pressed on the deal’s status, uncertainty, the EU reset, sector coverage and other talks. The Minister said “we remain the only country that has secured a 10% tariff on auto” and 0% on pharmaceuticals, and that the Government remains “cool‑headed” while negotiating. He noted the EU accounts for “40% of our global trade”, described comparative‑benefit figures as speculative, and said discussions are bilateral. He did not provide precise sectoral proportions: “I do not have the specific numbers to hand”. No policy changes were announced.
+
+### Medical Training (Prioritisation) Bill – Report: Prioritisation of UK graduates
+Lord Patel’s amendments sought to rank UK medical graduates at the top of the Bill’s priority group. He highlighted competition pressures, citing GMC data that in 2023 “77% of doctors completing foundation year 2 did not or could not enter core training”. Peers discussed ethics of international recruitment, bottlenecks and the need to align undergraduate and specialty capacity.
+Baroness Merron opposed creating internal ranking, explaining the Bill uses a binary approach: “This is a binary system: applicants are either prioritised or they are not”. She stressed “prioritisation does not mean exclusion”, confirmed “the Bill does not replace in any way a merit‑based selection”, and referred to “1,000 new specialty training posts over the next three years”. Lord Patel withdrew his amendment: “I wish the Bill to be concluded speedily”.
+
+### Medical Training (Prioritisation) Bill – Report: Timing and NHS‑experience proxy
+Lord Mohammed of Tinsley sought to delay implementation to 2027 and to replace the 2026 immigration‑status proxy with a two‑year NHS‑experience test. He argued that mid‑cycle change risks unfairness: “Legislation, however well motivated, should not disadvantage applicants who acted in good faith”. Supporters cited Oriel’s existing data capture; the Minister replied that, for 2026, the data is self‑declared and unverified.
+Baroness Merron said “another year of inaction would only deepen the frustration felt by UK‑trained doctors”. On Oriel, she said it “cannot be used consistently or fairly for the 2026 round” and that “there is no mechanism for verification”. She committed to define “significant NHS experience” with stakeholders and to update Oriel for autumn 2026: “Our aim is to have this in place in time for the next specialty training round”. Amendment 3 was withdrawn; related amendments were not moved.
+
+### Medical Training (Prioritisation) Bill – Report: Refugees and overseas campuses
+Baroness Lister proposed prioritising refugees, Hong Kong BN(O)s and safe‑route arrivals so displaced doctors could contribute. Baroness Gerada sought to include graduates from Queen Mary University of London (Malta) and Newcastle University (Malaysia), with limits and ministerial caps.
+Baroness Merron resisted changes, saying 2026 prioritisation uses immigration status only as a proxy and future criteria will follow engagement: “the Bill is not about exclusion of any groups or individuals but about prioritisation”; for 2027 onwards, statuses “will not automatically apply”. She argued overseas‑campus students lack equivalent NHS placements: “students will not have undertaken the same number of clinical placements in the NHS”, cited scale and cost—“almost 300 applicants” and “around £25 million over two years”—and said inclusion could undermine widening access. She undertook to review the Act’s effects post‑commencement to avoid “unintended consequences” and confirmed officials will safeguard Maltese fellowship arrangements via “sponsored non‑numbered local fellowship posts”. Amendments were withdrawn.
+
+### Medical Training (Prioritisation) Bill – Report: Delegated powers and commencement
+Lord Mohammed of Tinsley proposed making all regulations under the Act subject to the affirmative procedure. Baroness Merron replied that, given the limited scope of powers, “the negative procedure is appropriate” and noted that the Delegated Powers and Regulatory Reform Committee made no contrary recommendation.
+On commencement, Lord Kamall pressed for timing clarity. The Minister said “the commencement provision in the Bill is absolutely not a mechanism for delay” and that the Government intends to implement as soon as operationally possible, noting industrial action and system readiness may affect the start date. Amendment 14 was withdrawn; other related amendments were not moved. “Northern Ireland, Scottish and Welsh legislative consent sought.”.
