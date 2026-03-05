@@ -1,0 +1,52 @@
++++
+date = "2026-03-02"
+draft = false
+title = "UK Shuns Iran Offensive as Commons Backs Votes at 16"
+tags = ['education', 'foreignpolicy', 'defence', 'electoralreform', 'childsafety']
++++
+
+## High-Level Summary
+The House began with the swearing‑in of a new Member before Education questions focused on support for service families, far‑reaching SEND reforms and proposals to curb mobile phone use in schools. The Prime Minister made a statement on Iran and the wider Middle East, confirming the UK would not join offensive strikes but had authorised limited defensive use of UK bases and outlined support for British nationals. MPs then debated and approved at Second Reading the Representation of the People Bill to introduce votes at 16, pilot automatic voter registration and tighten political donations; a Conservative reasoned amendment was defeated 410–105. Other business included presentation of a Bill on autonomous maritime vessels, approval of multiple statutory instruments, and an adjournment debate on safeguarding in small religious organisations.
+
+## Detailed Summary
+### New Member sworn
+Hannah Spencer took the Oath as the new Member for Gorton and Denton: "Hannah Spencer, for Gorton and Denton.".
+
+### Oral Answers: Education – Service children and SEND reforms
+The Secretary of State for Education paid tribute to UK forces and set out targeted support for service families, including the service pupil premium: "Service pupil premium provided £26 million this financial year.". She agreed to facilitate a meeting on the Garrison Assist project and said moving to digital education, health and care plans would ease transfers between areas: "plans... will be digital, and that will ensure smoother transitions when children move between local authority areas.". The Minister outlined SEND reform objectives to speed support and reduce adversarial processes: "We are determined to work with families and professionals around the country to build a system in which children’s needs are met quickly"; Ofsted’s focus on inclusion and inspections of multi‑academy trusts were highlighted, as was closer monitoring of off‑rolling. She confirmed £4 billion for SEND over three years is within the current spending review but is "new investment" secured as a priority, and assured tribunals will remain a "backstop" for families.
+
+### Oral Answers: Education – EHCP backlog (Cambridgeshire)
+The Minister said Cambridgeshire is receiving targeted help, including a specialist SEND adviser, and that its recovery plan is being monitored. She acknowledged EHCP delays are "unacceptable" and pointed to £200 million for councils via the schools White Paper to increase capacity.
+
+### Oral Answers: Education – Phone use in schools
+Ministers reiterated that "Mobile phones have no place in our schools" and that strengthened guidance makes schools "mobile phone‑free" by default, with Ofsted checking compliance at inspections. Lockable pouches are listed in examples of best practice. A consultation will consider making a statutory ban: "we are consulting on whether a statutory ban is needed". In response to the Opposition, Ministers stressed Ofsted will inspect policies and behaviour hubs will support implementation.
+
+### Oral Answers: Education – SEND in Kent and nationwide provision
+The Department said it has worked with NHS England to support and challenge Kent following inspections in 2019 and 2022, adding that it has moved to address local authority deficits and is "building three new special schools in Kent". Nationally, the Secretary of State promised an inclusive mainstream system backed by £4 billion and "60,000 new specialist places nationwide". She said settings will have a duty to create and follow individual support plans, with a strengthened complaints process. On independent specialist provision, she warned "we cannot continue... allowing money meant for education to be sucked into fuelling the profits of private equity".
+
+### Oral Answers: Education – Student loans
+The Minister said the Government will consider ways to make the student loan system fairer, citing reintroduced maintenance grants and a higher repayment threshold. On the threshold freeze, he noted it "raises £5.9 billion next year" while committing to explore options. He criticised previous threshold freezes under the last Government and said further details will be set out "soon".
+
+### Oral Answers: Early years, speech and language, and reading
+On nursery provision, Ministers said the Best Start strategy is expanding childcare, "saving working families £7,500 a year". On speech and language therapy, £1.8 billion over three years will fund an "experts at hand" offer, alongside £40 million for specialist training and Best Start hubs. For the National Year of Reading 2026, the Secretary of State said improving phonics is a priority and that English hubs are "doubling the reach" of the reading programme, with events and resources for schools and libraries.
+
+### Oral Answers: Free breakfast clubs and Topical Questions
+Ministers reiterated that "Every primary school in England will have a free breakfast club by the end of this Parliament" and said the programme improves attainment and attendance. In Topical Questions, the Secretary of State said the SEND White Paper had been well received and condemned harmful online content encouraging violence, adding: "From September, children will learn about staying safe from violence in the new curriculum.". She said guidance on gender‑questioning children will be statutory and that "we should let children be children", and confirmed further higher education free speech provisions would commence "shortly".
+
+### Prime Minister’s Statement: Iran and the Middle East
+The Prime Minister said the UK "was not involved in the initial strikes on Iran" and that the goal remains a negotiated outcome on Iran’s nuclear ambitions. He described Iran launching "hundreds of missiles and thousands of drones" across the region and confirmed that RAF Akrotiri "was not in response to any decision that we have taken" and that "our bases in Cyprus are not being used by US bombers". UK jets have intercepted Iranian strikes, and the UK "took the decision to accept" US use of "British bases... for that specific and limited defensive purpose" under collective self‑defence; the UK is "not joining US and Israeli offensive strikes". A legal advice summary was published and the decision will be kept under review. Support for British nationals includes rapid deployment teams and consular help: "We are looking at all options to support our people". In exchanges, the Prime Minister distinguished the decision not to join offensive action from permitting defensive basing and stressed that any UK action must be lawful. He assured limits on basing "to defence", emphasised de‑escalation, and stated, "We are not at war"; he also said US use of bases in Cyprus is not permitted and not suitable.
+
+### Point of Order
+Ellie Chowns challenged a claim about the Green Party deputy leader, stating he attended an anti‑war protest, not one "in support of the ayatollah". The Deputy Speaker reminded Members they are responsible for their words and noted that the Member’s contrary view is on the record.
+
+### Bill Presented: Autonomous Maritime Vessels (Regulation) Bill
+Rebecca Smith presented a Bill to regulate autonomous maritime vessels; First Reading was completed and a Second Reading scheduled: "Bill read the First time; to be read a Second time on Friday 17 April".
+
+### Second Reading: Representation of the People Bill
+Opening, the Secretary of State said the Bill secures elections, protects participants, and "extends the vote to younger people, aged 16 and 17 years old". He proposed pilots to "replace this complicated, bureaucratic system with a modern, automated" voter registration, introduced a "know your donor" principle to tighten donation checks, and confirmed repeal of the power to impose a strategy and policy statement on the Electoral Commission. The Bill adds protections for candidates, including "adding a new, statutory aggravating factor" for intimidation and removing the requirement to publish home addresses. The Shadow front bench moved a reasoned amendment citing age‑of‑majority inconsistencies, risks to register accuracy and lack of consultation: "reducing the voting age from 18 to 16 is inconsistent"; "Automatic registration cuts right across that principle". He opposed using bank cards for voter ID—"A name printed on a card is not an identity check"—and argued votes at 16 would enfranchise "children". Other Members supported Second Reading but called for proportional representation, donation caps and a crypto‑ban. Concerns were raised about AI deepfakes and stronger platform duties; one Member described being "the first parliamentary victim of an AI deepfake video attack". A claim of widespread ‘family voting’ at a recent by‑election was contested, and the Chair urged temperate language. Outcome: the Conservative reasoned amendment was defeated (Ayes 105; Noes 410) and the Bill was read a Second time. A programme motion set Public Bill Committee proceedings to conclude by Thursday 23 April 2026, and money and carry‑over resolutions were agreed.
+
+### Delegated Legislation approved
+The House approved a series of statutory instruments, including on the Scotland Act 1998 (Modification of Schedule 5), the Caribbean Development Bank replenishment, a Surrey structural changes order, social security lump sum payment regulations, immigration and nationality fees, lighthouse authority borrowing limits, and two Digital Markets, Competition and Consumers Act ADR regulations.
+
+### Adjournment Debate: Safeguarding in small religious organisations
+Sam Carling urged strengthening the forthcoming mandatory reporting duty to include reasonable suspicion and robust sanctions, citing risks in small religious groups and practices such as shunning; he warned of a "lack of proper sanctions for non‑compliance" in current proposals. The Minister affirmed Government condemnation of abuse and outlined measures including a new child protection authority and a mandatory duty to report—"There will be no exceptions based on religious practices". She highlighted a new offence of obstructing a reporter, "punishable by up to seven years", and undertook to engage on charity regulation and raise medical‑coercion concerns with the Department of Health and Social Care.

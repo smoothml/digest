@@ -1,0 +1,68 @@
++++
+date = "2026-03-02"
+draft = false
+title = "Lords Toughen Crime Bill; UK Limits Role in Iran Conflict"
+tags = ['justice', 'onlinesafety', 'foreignpolicy', 'poverty', 'healthcare']
++++
+
+## High-Level Summary
+The House of Lords took Oral Questions on the Child Poverty Strategy, forest‑risk commodities, developments in the streaming and cinema sector, and violence against NHS staff. Peers then spent most of the day on the Crime and Policing Bill at Report, agreeing significant changes on intimate image abuse, new sexual offences against children under 16, online harms and animal sexual abuse, while rejecting proposals to widen mandatory reporting thresholds and sanctions. A Prime Ministerial Statement on the Middle East confirmed the UK will allow use of British bases by the US for specific, limited defensive purposes against Iran but will not join offensive strikes. Several statutory instruments were approved without division, and later debates returned to the Bill for stalking protection and self‑harm provisions.
+
+## Detailed Summary
+### Retirements of Members
+The House was notified of the retirements of Lord Turnberg and Lord Dykes. Lord Forsyth recorded thanks: "On behalf of the House, I should like to thank both noble Lords for their much‑valued service to the House".
+
+### Child Poverty Strategy – Oral Questions
+Baroness Sherlock said Ministers are progressing legislation to "remove the two‑child limit from April" and it is "expected to lift 450,000 children out of poverty" by the end of the Parliament, with a baseline report this summer and "annual reporting thereafter". She added that, alongside other measures, policies "will lift around 550,000 children out of poverty by the end of this Parliament" and set out the long‑term harms of poverty.
+Peers pressed on pace and scope. Citing current action, Baroness Sherlock said the Government will invest "£39 billion into social and affordable housing... expand[] free school meals to all families on universal credit... [put] £600 million into the holiday activities and food programme, [and] extend[] the warm home discount" as well as removing the two‑child limit. She said the strategy uses "relative low income after housing costs" and a new "deep material poverty" measure, confirmed it "looked at all children" though benefit eligibility depends on immigration status, and agreed that for many families "work is the best route out of poverty" while support is needed for those facing barriers.
+
+### Forest‑Risk Commodities – Oral Questions
+Baroness Hayman of Ullock said the UK "remains steadfast in working with partners to deliver the shared commitment to halt and reverse deforestation... by 2030" and is considering its approach to addressing deforestation impacts in supply chains, promising to "update the House at the earliest opportunity". She reaffirmed climate finance commitments: "We are on track to deliver £11.6 billion in international climate finance by the end of 2025‑26".
+On regulation design, she said frameworks must be "robust and proportionate" and any decision must consider the EU’s deforestation regulation; delays reflect differences between the UK’s illegal‑deforestation model and the EU’s "strict deforestation‑free standard" and alignment with a review of responsible business conduct.
+
+### UK Streaming and Cinema Sector – Oral Questions
+Baroness Twycross said that, given sensitivities, it would not be appropriate to comment on any live or potential merger and that any transaction would be for the CMA to assess, while emphasising the importance of a competitive and diverse streaming market and IP protection. On AI and copyright, she said Ministers are working with the creative and AI sectors and "will publish a comprehensive report and economic impact assessment by 18 March this year".
+She welcomed Ofcom’s recommendation that PSBs and platforms such as YouTube work together to ensure prominence for PSB content and said the Government are considering legislation if needed. Repeatedly, she underlined the goal of a copyright regime that "values and protects human creativity, can be trusted and unlocks innovation" and confirmed publication of a full report and consultation response by 18 March.
+
+### NHS: Violence Against NHS Staff – Oral Questions
+Baroness Merron outlined work with NHS England, employers and trade unions to prevent and reduce violence, including improving prevention, security, reporting and investigation, training and post‑incident support, with new staff standards to be introduced this spring "to ensure that NHS organisations are held to account for improvements". She said Black and Asian nurses report greater exposure to abuse, pointing to the workforce race equality standard and a forthcoming staff standard on tackling racism.
+On funding, she said measures come from trusts’ general budgets, with guidance to ensure effective use. She condemned rising abuse and highlighted the need for better culture and occupational health and well‑being support: "our NHS working cultures need to be more compassionate and more inclusive".
+
+### Statutory Instruments – Motions to Approve
+The House approved without division: the Digital Markets, Competition and Consumers Act 2024 (Alternative Dispute Resolution) (Conferral of Functions) Regulations 2026; the Energy‑Intensive Industry Electricity Support Payments and Levy (Amendment) Regulations 2026; and the Child Benefit and Guardian’s Allowance Up‑rating Order 2026. It also agreed the Report stage order of consideration for the Victims and Courts Bill.
+
+### Crime and Policing Bill (Report): CSA image‑generators – technical amendments and risk‑assessment proposal
+Introducing a suite of amendments, Lord Hanson said they were "minor drafting changes designed to clarify the operation of the new offences" on CSA image‑generators and related provisions. Baroness Kidron’s Amendment 209 sought to mandate provider risk assessments on AI models’ ability to generate CSA images. The Minister responded that the Government had tabled an amendment to confer a regulation‑making power "to enable us to expand the scope of the Online Safety Act to include unregulated generative AI services, such as chatbots" for illegal content duties. The House divided and the amendment was defeated (Ayes 121, Noes 145).
+
+### Crime and Policing Bill (Report): New sexual offences against children under 16
+Baroness Levitt introduced new offences of rape, assault by penetration and causing or inciting penetrative sexual activity with a child under 16, each carrying a maximum of life imprisonment. She explained that "the prosecution does not have to prove that the child did not consent" and, for ages 13–15, any belief the child was 16 or over must be reasonably held. She also announced consultation on close‑in‑age relationships and a post‑implementation review. The House agreed the amendments.
+
+### Crime and Policing Bill (Report): Device‑level blocking of CSAM – proposal withdrawn
+Lord Nash proposed mandating tamper‑proof on‑device software to prevent creating, viewing or sharing CSAM. The Minister said the Government are focused on upstream protections—"we want to make it impossible for children in the UK to take, share or view nude images"—and are working at pace with partners. While sympathetic, he said, "I cannot accept the amendment today" and offered further meetings; the amendment was withdrawn.
+
+### Crime and Policing Bill (Report): Mandatory reporting of child sex offences – thresholds and sanctions debated
+Peers proposed widening triggers for the new duty to report and adding sanctions for failures. Ministers argued that adding criminal or civil sanctions risks creating "a climate of fear" among reporters and said failures would be referred to the Disclosure and Barring Service and professional regulators. Baroness Grey‑Thompson’s civil sanctions amendment was defeated (Ayes 71, Noes 177), and Baroness Walmsley’s amendment to include indicators of abuse was also defeated (Ayes 61, Noes 178). The Government added a power for statutory guidance: "The Secretary of State may issue guidance about the duty under section 77".
+
+### Crime and Policing Bill (Report): Civil claims for child sexual abuse – removal of ‘substantial prejudice’ test
+To implement IICSA recommendations, the Government removed proposed new Section 11ZB(3) from Clause 87, avoiding an extra hurdle for survivors so that only the fair‑trial safeguard remains. Baroness Levitt said the amendment "removes... new Section 11ZB(3)". Members welcomed the change across the House.
+
+### Crime and Policing Bill (Report): Intimate image abuse – new offences, takedown commitments and House‑led changes
+The Government created a new offence of sharing a "semen‑defaced image" without consent and an offence of "creating a copy of" an intimate image shared only temporarily (e.g., screenshotting). They also designated creating or requesting purported sexual deepfakes as priority offences under the Online Safety Act, and committed to bring forward at Third Reading a legal duty for tech platforms to remove reported non‑consensual intimate image abuse within 48 hours: "We will bring forward government Amendments at Third Reading... to take down reported non‑consensual intimate image abuse within 48 hours".
+Peers secured further changes. The House agreed Baroness Owen’s amendment requiring courts to order verified deletion of offending content and disclosure of passwords (Ayes 202, Noes 155), and approved a statutory framework for hashing and a central NCII register to prevent re‑uploads (Amendment 274: Ayes 192, Noes 155; Amendment 276 agreed). The House also created an offence of possessing software whose primary purpose is to create nude images without consent (Ayes 144, Noes 140). The Minister cautioned that "Verified deletion is highly complex in practice" and announced a review of civil and criminal court‑order protections to ensure effective removal.
+
+### Crime and Policing Bill (Report): Nudification tools and incest pornography; parity plan for online/offline regulation
+The Government introduced a new offence banning making, adapting, supplying or offering to supply "a generator of purported intimate images" (including apps, software, AI models and services). They also criminalised the possession or publication of pornographic images portraying sex between relatives and listed it as a priority offence under the Online Safety Act.
+Peers went further. The House amended the incest pornography offence to include step‑relations (Ayes 144, Noes 143), agreed a new platform duty to verify performers’ age and consent and enable withdrawal of consent (Ayes 143, Noes 140), and extended child‑image laws to content where adults mimic children (Ayes 142, Noes 140). While accepting the principle of online/offline parity, Ministers cited operational complexity and committed their joint pornography team to produce a delivery plan "within six months of Royal Assent" on how to close gaps.
+
+### Crime and Policing Bill (Report): Animal sexual abuse – broader offence agreed
+Responding to cross‑party pressure, the Government "replac[ed] the existing offence of intercourse with an animal with a wider offence of sexual activity with an animal". Ministers noted that animal cruelty under the Animal Welfare Act can be charged alongside and carries higher sentences, with powers to disqualify offenders and remove animals.
+
+### Middle East – Prime Minister’s Statement on Iran and the region
+The Prime Minister’s Statement, repeated by Baroness Smith, said the UK did not join the initial US/Israeli strikes on Iran but, following Iranian attacks across the region affecting British personnel and citizens, the Government "took the decision to accept that new request" to allow US use of British bases for specific, limited defensive purposes to destroy missiles at source; "We are not joining US and Israeli offensive strikes". She confirmed a drone hit RAF Akrotiri with no casualties.
+Peers pressed on the legal basis and contingencies. The Leader stressed acting in the national interest and within international law: "we will always answer for and defend our actions and act within international law in this country’s interests", said the FCDO is supporting British nationals and will keep the House informed, and confirmed that protection of civilians in conflict is mandated, not discretionary.
+
+### Crime and Policing Bill (Report): Stalking protection – civil standard confirmed and guidance duty accepted
+Government amendments clarified that the civil standard applies when courts decide whether to make, vary or renew stalking protection orders. Ministers accepted Baroness Brinton’s amendment to require the Secretary of State to issue stalking guidance, mirroring domestic abuse provisions. A proposal for police‑issued stalking protection notices was not moved; Ministers will consider it in an internal review and the Wright KC stalking legislation review and "update the House" within four months.
+
+### Crime and Policing Bill (Report): Serious self‑harm offences – guidance proposal withdrawn
+A proposal to require statutory guidance on the new offences of encouraging or assisting serious self‑harm was withdrawn after the Minister said existing CPS guidance already explains the intent requirement and "will be updated" to reflect the broadened offence; it is "absolutely not" the intention to target vulnerable people or therapeutic support.
