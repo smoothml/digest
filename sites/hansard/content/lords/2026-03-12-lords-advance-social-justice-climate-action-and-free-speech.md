@@ -1,0 +1,57 @@
++++
+date = "2026-03-12"
+draft = false
+title = "Lords Advance Social Justice, Climate Action and Free Speech"
+tags = ['economy', 'environment', 'healthcare', 'poverty', 'education']
++++
+
+## High-Level Summary
+The House of Lords undertook a full day’s business spanning social care, health services, environmental restoration, freedom of speech and hate definitions, fiscal and industrial legislation, carbon pricing for maritime emissions, welfare reform and school safeguarding rules. Ministers set out plans to end unregistered children’s placements, improve heart valve disease care, and accelerate peatland restoration; they also adopted a non‑statutory definition of anti‑Muslim hostility with explicit free‑speech safeguards. Peers passed supply and finance business, amended and returned the National Insurance Contributions (Employer Pensions Contributions) Bill to the Commons, approved extending the UK Emissions Trading Scheme to domestic maritime after defeating a fatal amendment, and passed the Universal Credit (Removal of Two Child Limit) Bill. An industry finance bill completed its Lords stages, and a regret motion on school seclusion/ restraint reporting was withdrawn following ministerial clarifications.
+
+## Detailed Summary
+### Children in Care: Illegal Accommodation – Oral Question
+Peers pressed the Government on ending unregistered placements and securing sufficient regulated care. Baroness Blake said, “unregistered placements must stop” and pointed to powers in the Children’s Wellbeing and Schools Bill for Ofsted monetary penalties, plus £560 million in capital funding to 2029‑30 to increase registered placements and investment in kinship care and early‑help programmes. She later highlighted an “ambitious fostering action plan” with “more than £88 million over the next two years” to reverse the decline in foster carers.
+
+Questions covered data quality, kinship care and provider profits. On data, the Minister accepted, “we have much data, we do not focus on what it is telling us” and promised improvement. On kinship care, she said its profile is raised in the Bill and, when supported, it is “a life‑changer” for children and families. On market profits, she said future regulations will enable “a cap on the profits of non‑local authority, Ofsted‑registered providers of children’s homes”. She could not give timescales for kinship pilots’ reporting (“I will get back to the noble Lord”). No decisions were taken; reforms and implementation continue.
+
+### NHS: Heart Valve Disease – Oral Question
+The Government announced a forthcoming cardiovascular disease modern service framework to standardise care and cut premature mortality. Baroness Merron said it will deliver “consistent, high‑quality and equitable care” and noted waiting‑time progress, with “the number of people waiting over 52 weeks… down 9%” between end‑December 2025 and end‑January 2026.
+
+Members raised early diagnosis, technology (including AI‑assisted stethoscopes), less invasive procedures and inequalities. The Minister said, “we are upping our game here by bringing in AI‑assisted stethoscopes” and reported growth in TAVI activity, “something like a 16% increase on 2024‑25”. She acknowledged disparities: “women are underdiagnosed, they are undertreated and some ethnic minority groups face poorer access” and said tackling them will be central to the framework. The framework is due this year (date not stated in the transcript).
+
+### Peatland Restoration – Oral Question
+The Government underlined multiple benefits of peatland restoration and current targets and funding. Lord Katz said restoration “improves flood resilience by slowing water” and contributes to biodiversity targets, with a commitment “to restoring 40,000 hectares of peatland by 2030” and a one‑year extension to the peatland grant scheme. He noted lowland agricultural peatlands “are responsible for 88% of all emissions from England’s peatlands”.
+
+On horticultural peat, Ministers intend “to legislate for a ban… when parliamentary time allows”. To build delivery capacity, the Government will launch “a new sector capacity grant of over £1 million in the summer”. On wildfire strategy, the Minister undertook to write, adding that “over 675,000 hectares of peatland are now protected…; fewer than 2,000 hectares were burned last year”. Next steps include continued scheme delivery and inter‑government engagement; detailed wildfire updates will be provided in writing.
+
+### Anti‑Muslim Hostility: Non‑statutory Definition – Oral Question
+Baroness Taylor confirmed adoption of a non‑statutory definition centred on protecting individuals while explicitly safeguarding free speech. She said it “provides a shared practical framework” and “explicitly safeguards free speech, making it clear that criticism, debate or even ridicule of religious ideas remain lawful”. She added the definition “does not change the law” but should increase understanding and victim confidence.
+
+Peers queried interaction with hate‑crime recording, education and parallels with antisemitism definitions. The Minister stressed wider actions, including education and community programmes, and said, “we will work with and celebrate our faith and belief communities to improve the understanding of different religions”. She clarified, “There are no blasphemy laws in England” and none are planned, and noted, “Muslims are currently subject to 45% of hate crime” while committing to support affected communities. No legislative change; further debate on the broader statement and ongoing programme delivery were signalled.
+
+### Finance (No. 2) Bill – First Reading
+The House completed formal first reading: “The Bill was brought from the Commons, read a first time and ordered to be printed”. No debate occurred at this stage.
+
+### Supply and Appropriation (Anticipation and Adjustments) (No. 2) Bill – Second Reading and remaining stages
+The House took all remaining stages in one sitting: “Bill read a second time. Committee negatived. Bill read a third time and passed”.
+
+### National Insurance Contributions (Employer Pensions Contributions) Bill – Third Reading
+The Government argued for capping National Insurance exemptions on salary‑sacrificed pension contributions to restrain rapidly rising costs, driven mainly by higher earners. Lord Livermore said costs were “set to treble to £8 billion a year” and “the status quo is neither fair nor fiscally sustainable”. He added that the Bill “introduces a cap of £2,000 under which no employer or employee national insurance contributions will be charged”.
+
+Baroness Neville‑Rolfe criticised the measure as “poorly conceived… prioritises the hope of short‑term tax gain” over sustaining pension saving, but welcomed Lords amendments intended to mitigate impacts, including protecting basic‑rate taxpayers and easing effects on student‑loan repayers. Outcome: “Bill passed and returned to the Commons with amendments” for consideration.
+
+### Greenhouse Gas Emissions Trading Scheme (Extension to Maritime Activities) Order 2026 – Motion to Approve (with amendments debated)
+The Government sought approval to extend the UK ETS to domestic maritime from 1 July 2026, covering CO₂, methane and nitrous oxide for ships ≥5,000 GT, with specified exemptions and a 50% surrender deduction on Great Britain–Northern Ireland routes. Ministers linked the change to potential ETS linkage with the EU and mutual CBAM exemptions, saying it would “protect UK businesses from charges on £7 billion‑worth of goods” and could add “nearly £9 billion to the UK economy by 2040”. They also noted Northern Ireland Assembly approval.
+
+Baroness Hoey’s fatal amendment argued disproportionate harm to Northern Ireland (where “90% of goods… move by sea”) and alleged unfairness compared with Scottish island exemptions, calling the order “a deliberate and calculated attack” and “a new maritime carbon tax”. She criticised late CBAM arguments as “frankly, disgraceful… just smoke and mirrors”. Lord Moynihan’s regret amendment raised procedural and policy concerns, claiming it was “utterly absurd… For every £1 spent on decarbonisation… £8 will be spent on bureaucracy”. Outcome: the fatal amendment was defeated (Ayes 26; Noes 134); the regret amendment was not moved; and the approval motion was agreed. Next steps include implementation from 1 July 2026 and a formal review by end‑2028 (as indicated in debate).
+
+### Universal Credit (Removal of Two Child Limit) Bill – Second Reading and remaining stages
+The Government introduced legislation to abolish the two‑child limit in universal credit within a wider child poverty strategy. Baroness Sherlock said there are “four and a half million children in poverty—900,000 more than there were in 2010” and that removing the limit “will lift 450,000 children out of poverty”. She outlined a monitoring and evaluation framework with a baseline this summer and annual reports thereafter.
+
+Baroness Stedman‑Scott stated, “we on the Opposition Benches do not support this Bill” and argued it is unfair to working taxpayers and fiscally misplaced. Other peers supported the Bill but urged action on the overall benefit cap; as Lord Davies put it, “this policy will [not] achieve all its objectives unless and until we remove the benefit cap”. Responding, the Government maintained that keeping the cap “encourages personal responsibility while maintaining the incentive to work” and that those unable to work are exempted. Outcome: “Bill read a second time… read a third time and passed”.
+
+### Industry and Exports (Financial Assistance) Bill – Second Reading and remaining stages
+The Bill raises statutory limits under the Industrial Development Act 1982 and the Export and Investment Guarantees Act 1991 to sustain and expand support for industry and exporters via UK Export Finance (UKEF). The Minister highlighted that UKEF support of “£14.5 billion… last year is supporting up to 70,000 jobs”. Peers broadly welcomed the update while seeking assurances on risk, transparency, SME access, and sectoral strategy (including steel). The Minister said UKEF “does not provide grants, state aid or equity support” and “complements rather than competes with the commercial sector”, and noted a steel strategy is “imminent”. Outcome: “Bill read a second time… read a third time and passed”.
+
+### Schools (Recording and Reporting of Seclusion and Restraint) (England) Regulations 2025 – Motion to Regret
+Lord Lucas’s regret motion argued the impact assessment underestimated costs and that better data use was needed, calling the package “lackadaisical, unserious and uncaring” and cautioning that recording can take “an hour and a complicated one a day”. The Minister clarified that from April 2026 schools must “record and report each significant incident of force, seclusion or non‑force‑related restraint to parents as soon as possible”, that “there is currently no national dataset” so internal exclusions were used as a proxy, and that monetised analysis focused on independent schools in line with Better Regulation rules. Outcome: motion withdrawn. Next steps include implementation in April 2026 and exploration of training standards with continued engagement.
