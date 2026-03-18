@@ -1,0 +1,53 @@
++++
+date = "2026-03-16"
+draft = false
+title = "Lords Curb LGPS Mandates as Cohesion Plan Set Out"
+tags = ['healthcare', 'economy', 'education', 'security', 'regulation']
++++
+
+## High-Level Summary
+The House of Lords held oral questions on civil service standards during international secondments, NHS digital capability and data platforms, humanist weddings law reform, and a potential domestic visitor levy. A Private Notice Question examined antisemitism on university campuses. Peers agreed a Conduct Committee report. In Report on the Pension Schemes Bill, the House voted to prohibit regulations mandating specific LGPS investments, required benchmarking of LGPS valuations and enabled interim contribution reviews, before later debates on DB surplus and a new value‑for‑money regime. Ministers also outlined a social cohesion action plan, adopting a non‑statutory definition of anti‑Muslim hostility and measures against extremism and antisemitism.
+
+## Detailed Summary
+### UK Public Servants: International Secondments – Question
+Baroness Falkner of Margravine asked what standards apply to civil servants on international secondments and who investigates misconduct. Baroness Anderson of Stoke‑on‑Trent said secondees remain civil servants bound by the Civil Service Code and departmental rules: "Civil servants seconded outside the Civil Service ... are expected to carry out their role with dedication ... integrity, honesty, objectivity and impartiality. The provisions in the Civil Service Code ... continue to apply". She outlined performance review options—by the home department with host input or by the host with departmental consent—and said the framework was reviewed last September with "no additional plans to review". 
+
+On misconduct, she confirmed that a secondment would likely end and "the disciplinary process will be dealt with in their home department". She stressed accountability and training to prevent bullying—"Every member of the Civil Service is subject to the Civil Service Code" and dismissal can follow where appropriate—and described keeping‑in‑touch arrangements and bespoke agreements to maintain oversight.
+
+### NHS: In‑house Software Capabilities – Question
+Viscount Hanworth queried plans to sustain and expand NHS in‑house software capability and reduce reliance on outsourcing. Baroness Merron said NHS England has expanded in‑house engineering and data functions and is "reducing its reliance on outsourced systems", with a shift towards building and operating critical services in‑house. She highlighted digitisation benefits: "94% coverage of electronic patient records is expected by the end of this month, and the digitally mature trusts show a 13% lower cost per admission", and cited national platforms such as the NHS App as the "digital front door", supported by "£2.5 billion of investment in 2025-26". 
+
+On cyber resilience, she referred to investment of £75 million in 2025‑26 and £375 million since 2017. On the Federated Data Platform, she said it "does not centralise or sell patient data. Data remains firmly under NHS control" and is "fully auditable". She pointed to operational outcomes enabled by the platform: "nearly 100,000 extra operations, removed over 600,000 patients from waiting lists ... reduced unnecessary bed days by 15% ... [and] a 10% improvement in cancer diagnosis", while noting the need to build public confidence.
+
+### Humanist Weddings – Question
+Baroness Thornton sought an update on legal recognition of humanist weddings and the timetable. Baroness Levitt said the Government intends to reform weddings law "when parliamentary time allows" to make it "fairer, simpler and more modern" and to allow humanist weddings to be legally recognised, with consultation "early this year". She confirmed Ministers will not use the order‑making power to avoid creating inequalities: "We do not want to create other inequalities with other groups". She outlined two forthcoming consultations (weddings and cohabitation) and one on financial remedies. 
+
+Citing the Law Commission, she argued it would be "anomalous and unfair to privilege these non‑religious belief organisations over religious groups", noted there was "not agreement on all sides", and said concerns about independent/commercial celebrants would be consulted on while reiterating the commitment: "we have made the commitment and it is going to happen". She also highlighted protections against forced or predatory marriage.
+
+### UK Domestic Visitor Levy – Question
+Lord Sharpe of Epsom asked about the impact of a visitor levy on domestic travel costs. Baroness Taylor of Stevenage said the design and scope are under development, consultation has closed, and mayors would decide whether to implement a levy and consult locally; evidence from international schemes suggests modest rates have minimal impact on visitor numbers. She emphasised local discretion and growth aims: devolving the power "puts the power back in the hands of mayors", with system design for each area. 
+
+Clarifications included that the power is for English mayors, any revenue would stay local, and scope would be limited to commercially let short‑term accommodation such as holiday lets, hotels and guest houses. She noted cost‑of‑living concerns but stressed formal local consultation before use of the power.
+
+### Antisemitism on University Campuses – Private Notice Question
+Lord Cryer asked about the prevalence of antisemitism on campuses. Lord Collins of Highbury said there is "no place for antisemitism on university campuses" and highlighted strengthened Office for Students monitoring, universities’ Prevent duties and updated speaker guidance, plus work to co‑design a campus cohesion charter. He detailed measures including £7 million for education and staff training, simplifying complaints, stronger whistleblowing routes, and a ministerial round table on 24 March. 
+
+He stressed that free speech must be protected but not abuse or incitement—"There is absolutely no place for antisemitic abuse or incitement to violence"—and noted OfS condition E6 requiring universities to publish and implement policies to tackle harassment. On hostile actors, he cited investment "to bolster existing support and access to expert advice on national security risk management, including a new academic interference reporting route". He distinguished legitimate criticism of Israel from illegal incitement: "What is very much illegal is to incite the hatred".
+
+### Conduct Committee – Motion to Agree
+Lord Kakkar moved that the Conduct Committee’s 10th Report on the conduct of Lord Chadlington be agreed. He addressed communications sent by Lord Chadlington alleging procedural unfairness, assuring the House that "the committee considered them with great care" and that the decision was "based on the facts and the evidence". Under Standing Order 68 there was no debate; the Motion was agreed.
+
+### Pension Schemes Bill – Report (1st Day), Part 1 (Local Government Pension Scheme)
+Peers debated Local Government Pension Scheme (LGPS) pooling and whether Ministers could mandate investments. Lord Fuller pressed for wider flexibility in pooling and cross‑pool collaboration, while Baroness Noakes tabled Amendment 4 to prevent regulations mandating investments by asset type or location. Minister Lord Katz said the powers were backstops and "not designed to permit government to dictate what that strategy says". The House divided and agreed Amendment 4 (Ayes 276, Noes 165). 
+
+On valuation transparency, Baroness Stedman‑Scott’s Amendment 9 required LGPS actuarial valuations to be benchmarked against insurer pricing and gilt‑based discount rates, with explanations if more prudent assumptions are used. She said some contribution demands appeared to "go well beyond what would be required". The Government urged waiting for the Government Actuary’s Section 13 review by spring 2027, but the House agreed Amendment 9 (Ayes 201, Noes 177). Viscount Younger’s Amendment 12 to make interim reviews of employer contribution rates more accessible and transparent was also agreed (Ayes 198, Noes 171) after he argued for responsiveness to changing circumstances. Government amendments 6–8 (technical clarifications on procurement exemptions) were agreed.
+
+### Social Cohesion Action Plan – Statement
+Ministers presented "Protecting What Matters", an action plan to build confident, cohesive and resilient communities. The plan aims to restore pride in place, regulate home education, link schools across communities, set integration expectations, and strengthen action against extremism. The Secretary of State said, "we have set out our steps towards a more confident, cohesive and united kingdom". The Government adopted a non‑statutory definition of anti‑Muslim hostility—"a clear explanation of unacceptable prejudice, discrimination and hatred targeting Muslims"—and reaffirmed commitment to tackling antisemitism with funding and new measures. 
+
+Responding in the Lords, Baroness Taylor of Stevenage said the definition will aid action while safeguarding free speech: "By describing these distinct forms of hostility, the definition will increase understanding" and it "safeguards our fundamental right to freedom of speech ... It is about the unacceptable behaviour towards people, not the protection of belief systems". She said the extremism definition will be embedded and an annual state of extremism report will include "lists of the groups that meet the definition", with stronger oversight of campus extremism. She also confirmed the Government has "no intention of introducing" any blasphemy law.
+
+### Pension Schemes Bill – Report (1st Day), Part 2 (DB surplus; value for money)
+After a brief adjournment due to a Member’s illness, peers returned to the Pension Schemes Bill. Viscount Thurso’s Amendment 14 (on pre‑1997 indexation issues) was defeated (Ayes 48, Noes 142). Ministers argued for preserving trustee fiduciary independence, warning against redefining trustees’ duties: "Once we begin to qualify or redefine what those best interests are ... we risk undermining that principle". A technical correction (Amendment 21) was agreed, and a proposed review on fiduciary duty and discretionary indexation (Amendment 22) was withdrawn after ministerial assurances. 
+
+On the new value‑for‑money (VFM) framework, Ministers said service quality is integral—"Service quality is a core part of the VFM framework"—and confirmed implementation sequencing: "the first VFM data disclosures and assessment reports will be required in 2028". Government technical amendments adjusted commencement and corrected drafting.

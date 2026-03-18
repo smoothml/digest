@@ -1,0 +1,17 @@
++++
+date = "2026-03-16"
+draft = false
+title = "Government Rejects Automatic By-Elections for MP Defections"
+tags = ['elections', 'parliament', 'electoralreform', 'constitution', 'democracy']
++++
+
+## High-Level Summary
+Westminster Hall debated e‑petition 737660 on automatic by‑elections following Member defections, chaired by Sir Roger Gale. Roz Savage opened for the Petitions Committee, noting more than 129,000 signatures and posing the balance between party affiliation and MPs’ independence. Robbie Moore argued that defections should trigger a by‑election, while Lisa Smart, Charlie Dewhirst and the Minister, Anna Turley, opposed mandating by‑elections, citing MP independence, practical risks and that recall addresses misconduct. The Government said current arrangements strike the right balance, and the motion that the House had considered the petition was agreed.
+
+## Detailed Summary
+### E‑petition 737660: Automatic by‑elections following Member defections
+Roz Savage moved the motion: “That this House has considered e-petition 737660 relating to automatic by-elections following Member defections.”. She reported the petition “gathered more than 129,000 signatures” and framed the core issue as “where the balance should lie” between party affiliation and MPs’ independence. She noted previous proposals, including that “In 2011, a private Member’s Bill proposed that MPs who changed their party affiliation would have to face a by-election”, and contrasted international approaches, for example: “Some, such as India, have adopted strict anti-defection laws”.
+
+Robbie Moore supported automatic by‑elections on defection: “it is only right that a by-election is triggered”, adding this should not apply where an MP is “unfortunate enough to lose the Whip”. John Lamont distinguished leadership changes from constituency mandates, observing “the Prime Minister is appointed by the monarch”. Lisa Smart set out the Liberal Democrat stance: “We do not agree with the petition”, arguing the system elects individuals, not parties: “people vote for an individual to represent their area, not directly for a party”, and advocating wider electoral reform: “a Government can win roughly two thirds of the seats on roughly one third of the votes”. Charlie Dewhirst cautioned that an automatic requirement “could have unintended consequences”, emphasising Members serve “as representatives of our constituents above all else”, and warning it might “reduce Members to delegates of their party”. Graham Stringer cited historical precedent that “when Members were appointed to the Cabinet, they had to face a by-election”.
+
+Responding for the Government, the Minister, Anna Turley, said “it is entirely understandable that voters may feel that the contract between them and their local MP has been broken” but opposed mandating by‑elections. She pointed to existing recall provisions: “We already have a mechanism to remove MPs during the course of a Parliament.” and argued that equating defection with misconduct “would set a dangerous precedent”. She also highlighted disruption and cost: “A by-election is a significant event.”, affirming that “our current constitutional arrangements strike the right balance”. The Chair confirmed the outcome: “Question put and agreed to.” and “That this House has considered e-petition 737660 relating to automatic by-elections following Member defections.”. Next steps: not stated in the transcript.
