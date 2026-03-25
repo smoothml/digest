@@ -1,0 +1,55 @@
++++
+date = "2026-03-23"
+draft = false
+title = "Lords Reshape Pensions Bill and Scrutinise UK Steel Strategy"
+tags = ['economy', 'energy', 'defence', 'healthcare', 'foreignpolicy']
++++
+
+## High-Level Summary
+The House of Lords held oral questions on onshore wind repowering, Ukraine reparations, migraine care, and online AGMs, followed by a Private Notice Question on UK homeland defence. The main business was Report (3rd day) of the Pension Schemes Bill, where the House agreed a series of government technical pensions amendments (including GMP equalisation fixes), created a framework to move the AWE pension scheme into a public scheme, and divided on several high‑profile issues. Peers approved reviews of pension communications/financial promotions and of public service pension affordability, rejected government plans for statutory investment guidance to trustees, defeated a proposal for FAS lump‑sum arrears, and enabled the PPF to pay certain cash lump sums by commencing an existing power. Later, the House questioned a Government Statement on a UK steel strategy proposing new import quotas/tariffs and major investment, probing energy costs, downstream impacts and trade processes.
+
+## Detailed Summary
+### Onshore Wind Farms – Question
+Lord Teverson asked about facilitating the repowering of onshore wind farms. Lord Whitehead, for the Government, said: “We are working to remove barriers in the planning system to accelerate repowering” and that eligible repowered projects will be able to bid in the Contracts for Difference scheme from Allocation Round 7. He noted the new Government “removed the ban on onshore wind” so it can fully contribute to UK generation, and warned that “we have probably 10.7 gigawatts or more of onshore wind capacity that could retire… and… will be completely lost if they retire without any repowering”. Peers raised cumulative impacts from power lines; the Minister distinguished turbine repowering from cable upgrades and stressed moving “at considerable speed” while being environmentally sensitive.
+
+### Ukraine: Reparation – Question
+Baroness Goudie asked about earmarking UK support to Ukraine for reparations. Baroness Chapman said: “We remain committed to the principle that Russia should pay for the damage that it has caused” and referred to the UK’s signature of a convention to establish an international claims commission for Ukraine. On frozen assets, she said “we can freeze assets but not seize them” under the current regime, while interest is being “used to support loans to Ukraine”. Peers urged continued allied focus and recognised Ukrainian innovation; the Minister agreed on staying “focused on Ukraine, despite what is happening elsewhere”.
+
+### Migraine Care: 10-year Health Plan – Question
+Lord Londesborough queried plans to improve access to migraine care. Baroness Merron said the Government are “expanding community-based care… widening the availability of effective treatments, such as calcitonin gene-related peptide inhibitors, and enhancing the NHS app”. On Pharmacy First, she said conditions covered are kept under review and modern treatments should reduce unnecessary A&E attendances. She highlighted prevalence—“affecting one in five women and one in 15 men”—and steps to improve diagnostics, primary‑care access to CGRPs and consistent pathways (e.g., NHS RightCare toolkit and Getting It Right First Time).
+
+### Companies: Online AGMs – Question
+Lord Lee of Trafford asked about fully online AGMs and shareholder accountability. Baroness Lloyd of Effra said fully virtual AGMs would be included in a consultation on modernising corporate reporting and “will ensure that fully virtual meetings take place only where shareholders agree” with “appropriate shareholder safeguards”. She added, “The Government are not mandating virtual AGMs” and hybrid meetings remain possible. Supporters cited international practice—“85% of OECD Factbook countries… already allow virtual AGMs”—while others warned online-only meetings can let boards “manipulate the agenda, ignore questions and avoid scrutiny”. Next steps: consultation and co‑design of safeguards; no immediate policy change announced.
+
+### UK Homeland Defence – Private Notice Question
+Lord Harris of Haringey asked about UK homeland defence given Iran’s long‑range missile capability. Lord Coaker said NATO’s ballistic missile defence addresses such threats and the MoD is “investing up to £1 billion in capability, including air and missile defence,” citing a “£118 million contract to deliver state-of-the-art Land Ceptor missile systems”. He said Iran “poses no threat at the current time to the UK,” though public guidance would be provided as needed. Members pressed on drones, spending and alliances; Coaker said “our alliance with the United States is fundamental” and noted ongoing projects while declining to pre‑empt the wider defence investment plan.
+
+### Pension Schemes Bill – Report (3rd Day): Reviews, data and communications
+Peers debated consolidation, data accuracy and communications. The Government opposed a consolidation review, citing existing monitoring: “A comprehensive, green-rated impact assessment was produced… with details of our monitoring and evaluation plans”. On contribution accuracy, Ministers pointed to the forthcoming value‑for‑money framework requiring disclosure on “the timeliness and accuracy of core financial transactions, such as paying in contributions”. The Government committed to secondary legislation under privacy rules to enable workplace providers to send targeted support that is otherwise direct marketing. Outcome: Amendment 120 (consolidation review) withdrawn; Amendment 169 (review of pension communications/financial promotions) agreed (Ayes 188, Noes 155).
+
+### Pension Schemes Bill – Report (3rd Day): GMP equalisation and technical changes
+Baroness Sherlock introduced “two groups of minor and technical amendments to ensure that the measures operate as intended” in relation to pre‑1997 indexation for PPF/FAS and interactions with GMP equalisation. She addressed questions on differing impacts across cohorts and explained the backdrop of the 2016 new state pension and contracting‑out. Outcome: Government amendments 121–144 and linked provisions agreed without division.
+
+### Pension Schemes Bill – Report (3rd Day): Pre‑1997 indexation arrears (PPF/FAS) and lump sums
+Baroness Altmann proposed one‑off lump sums to recognise historic losses where pre‑1997 increases were not paid, arguing older members’ pensions had been “whittled away”. The Government resisted, warning: “Providing for the payment of arrears… is not a limited measure” and would reduce the PPF reserve needed to manage future risks. Outcomes: Amendment 124 withdrawn; Amendment 154 (FAS lump sums) defeated (Ayes 77, Noes 161).
+
+### Pension Schemes Bill – Report (3rd Day): Discharge of PPF liabilities by lump sum
+Viscount Thurso’s Amendment 162 required commencement of section 169(2)(d) of the Pensions Act 2004 to allow the PPF to discharge certain compensation liabilities via a cash sum. The Opposition front bench said it would “widen the PPF’s toolkit to act in the best interest of members” while retaining safeguards. Outcome: Amendment 162 agreed (Ayes 198, Noes 159).
+
+### Pension Schemes Bill – Report (3rd Day): AWE pension scheme transfer to a new public scheme
+The Government introduced a new chapter to defund AWE plc’s DB scheme and transfer members to a new public scheme while preserving accrued rights. Baroness Sherlock said this accords with policy that when “a financial risk sits wholly with government… it should not hold assets to cover that liability”. Concerns about hybridity were addressed, with reassurance the Bill was not hybrid. Outcome: New clauses 145–153 agreed; regulations will follow after consultation with the trustee.
+
+### Pension Schemes Bill – Report (3rd Day): Statutory investment guidance (defeated) and fossil‑fuel disclosure (withdrawn)
+Government Amendment 156 would have required statutory guidance clarifying trustees’ investment duties; a technical group chaired by Sir Robin Knowles was noted. Supporters stressed guidance would not change the law: “They cannot give advice that changes the law in any way whatever”. Opponents warned of “mandation by the backdoor”. Outcome: Amendment 156 defeated (Ayes 202, Noes 225). Later, Lord Sharkey’s Amendment 170 to monitor thermal coal exposure was withdrawn after Ministers argued existing disclosure frameworks suffice.
+
+### Pension Schemes Bill – Report (3rd Day): Review of public service pension schemes
+Baroness Neville‑Rolfe’s Amendment 157, requiring a review of the long‑term affordability, intergenerational fairness and accounting treatment of unfunded public service pensions, was debated. The Minister argued “unfunded does not equal unaffordable or unsustainable” and that costs are projected to fall as a share of GDP. Outcome: Amendment 157 agreed (Ayes 241, Noes 175).
+
+### Pension Schemes Bill – Report (3rd Day): AEA Technology pensions (review)
+Viscount Thurso sought an independent review into losses suffered by former AEA Technology employees who transferred out of the UKAEA scheme before AEAT’s insolvency, citing communications and member understanding. Baroness Altmann said it was “the worst example I have seen” of members being misled. The Minister expressed sympathy but declined a review, noting such a situation “could not happen now” due to revised Fair Deal policy. Outcome: Amendment 161 withdrawn (see related Amendment 162 agreed above).
+
+### UK Steel Strategy – Statement
+Ministers set out a steel strategy with £2.5 billion of investment (in addition to £500 million at Port Talbot), a goal for domestic production to meet up to half of UK demand, and a new trade measure from 1 July replacing the safeguard. Overall quotas for imported steel will be reduced “by 60% compared with the safeguard,” with a “50% tariff” above those levels on products made in the UK. It was framed as essential to resilience: “Without this action, the UK’s steel-making capability faces real jeopardy”. Energy‑cost relief includes raising network charge compensation “from 60% to 90%” next month and a proposed British Industrial Competitiveness Scheme from 2027. In questions, peers queried impacts on downstream users, the TRA’s role and WTO/TCA issues; the Minister said allies use similar measures, this tariff is distinct from safeguards, transitional arrangements for pre‑agreed contracts are being explored, and a 12‑month review will follow. The Government also highlighted a £70 million UKEF‑backed British Steel export to Nigeria, and noted “Welsh steel is expected to account for half of future UK steelmaking”.
+
+### Other business
+The House noted Oaths and Affirmations. The Tobacco and Vapes Bill and the National Insurance Contributions (Employer Pensions Contributions) Bill were returned from the Commons with amendments or reasons (no debate).
