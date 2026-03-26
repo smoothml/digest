@@ -1,0 +1,35 @@
++++
+date = "2026-03-24"
+draft = false
+title = "Westminster Hall Secures Pledges on Safety, Health and Homes"
+tags = ['healthcare', 'childsafety', 'housing', 'environment', 'justice']
++++
+
+## High-Level Summary
+Westminster Hall debates covered child deaths, public services and women’s safety. Members called for a Government‑led national plan on Sudden Unexplained Death in Childhood (SUDC), highlighted water‑supply constraints against housing targets in west Kent, and pressed for better access to endometriosis services. Further sessions sought clearer recognition of reproductive coercion in law and embedding women’s safety in rural planning. Ministers set out current actions, made specific commitments, and each motion was agreed to without a division.
+
+## Detailed Summary
+### Sudden Unexplained Death in Childhood (SUDC)
+Opening the debate, Andy MacNae urged a Government‑led national plan to coordinate research, data and support, citing over‑reliance on charity funding and the need for linked datasets and pathways. He argued a plan should “enable and accelerate meaningful projects”, noted the correlation with febrile seizures—“30% of SUDC cases involve a history of febrile seizures”—and warned, “Paediatric pathology is in crisis”. He also criticised information gaps: “SUDC itself—including the 60% of cases with no seizure history—is missing from the NHS website”. Members shared cases, called for research funding, and referenced SIDS progress: “Research into unexpected deaths in infancy has led to an 80% reduction in such deaths”. 
+
+Responding, the Minister, Sharon Hodgson, undertook to raise bereavement leave with the Business Department and to look at police and paramedic training. She committed to review NHS information: “I have already asked my officials to investigate that and explore opportunities to include signposting on the NHS website”. On capacity and genomics, she cited “more than £2 million-worth of additional funding… to increase post-mortem capacity” and confirmed genomic testing via the NHS genomic medicine service. She said the Government remain open to NIHR‑funded SUDC research, praised the NCMD and Bristol’s Pioneer study, and agreed to consider evidence on febrile seizures and to look at Queen’s University Belfast’s work. The House resolved that it had considered SUDC.
+
+### Water Supply and Housing Targets: West Kent
+Thomas Tugendhat argued housing targets had risen locally while water infrastructure is insufficient. He reported South East Water told Tonbridge and Malling that by 2042 it could supply only 6,318 additional homes against a 19,620 target, asking, “Is it supposed to allocate sites for 13,302 new homes”. He said the company accepted outages would be likelier—“the probability of water outages is higher”—and requested urgent ministerial engagement, suggesting reduced targets or securing more supply.
+
+Minister Miatta Fahnbulleh called the disruption “wholly unacceptable”, highlighted DEFRA’s water delivery taskforce, which “has unblocked 10,000 new homes”, and committed to cross‑Government work with the council. She agreed to meet: “I will take that suggestion away and get that meeting in the diary as a priority”. She cited forthcoming reforms—“The Government will introduce the water reform Bill when parliamentary time allows”—and £104 billion private investment over five years. She added Government intend “to list water companies and sewage companies as consultation bodies for new plan-making,” and are reviewing their role on applications. The question was agreed to.
+
+### Access to Endometriosis Services
+Jack Abbott described protracted diagnosis times, normalisation of pain and lack of local specialist care: “There is no specialist endometriosis clinic at Ipswich hospital”; “the average waiting time… to getting an endometriosis diagnosis is nine years and four months”. He cited dismissal of symptoms—“82% of respondents had been told… they were making a fuss”—and urged equitable access, clear pathways and workforce improvements.
+
+Minister Sharon Hodgson outlined measures to improve recognition and access: “we have introduced Jess’s rule, requiring GPs to reconsider diagnosis where symptoms persist” and are rolling out Martha’s rule. She noted diagnostics access—“106 centres offered out-of-hours appointments”—and that the new NHS Online hospital will include menstrual problems among the first nine conditions for referral “from 2027”. She confirmed an updated severe endometriosis service specification is due, and research support—“six active research awards, totalling… approximately £7.8 million… includ[ing] a new £2.3 million award on… pain management”. She committed to write on referral routes and hubs, to engage with Northern Ireland and Queen’s University Belfast, and to look at reducing A&E visits. The motion was agreed to.
+
+### Reproductive Coercion
+Natalie Fleet argued that coercive control over reproductive choices—through forced pregnancy or abortion, deception about contraception or denial of procedures—should be clearly identified and prosecuted. She called for clearer recognition in law and consistent application, stressing such conduct removes informed consent to pregnancy and forms part of a pattern of control.
+
+Minister Alex Davies‑Jones stated, “Reproductive coercion is a form of controlling or coercive behaviour”. She noted it is already recognised in statutory guidance and existing offences, and confirmed “the Government have committed to updating the guidance on controlling or coercive behaviour by the end of this year”. Placing it in the wider strategy to halve violence against women and girls “within a decade”, she highlighted improved justice‑system performance—“CPS prosecutions have gone up by 38% compared with the previous year”—and investment in victim support. She undertook to continue cross‑Government work so the system “accurately reflects the reality of this abuse”. The motion was agreed to.
+
+### Women’s Safety in Rural Areas and Planning
+Anna Sabine argued that women’s safety must be embedded in planning. She said the revised national planning policy framework “contains no reference whatsoever to women, girls, gendered safety or violence against women in the built environment”, and urged an independent review and immediate changes to policy and guidance: “I urge the Government to take the following specific steps without delay”.
+
+Minister Matthew Pennycook agreed planning and design are important—“Planning and urban design are critical tools to that end”—and said a new NPPF has been consulted upon to reinforce creating safe, inclusive places, alongside updated design guidance. He noted the draft placemaking guidance states: “Security features should be designed to support the safety of women and girls”. He undertook to consider the debate’s points before finalising the NPPF and guidance, and to respond to outstanding correspondence. The House resolved that it had considered the topic.
