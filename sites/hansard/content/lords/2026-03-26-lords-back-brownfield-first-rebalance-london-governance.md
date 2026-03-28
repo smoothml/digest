@@ -1,0 +1,74 @@
++++
+date = "2026-03-26"
+draft = false
+title = "Lords Back Brownfield First, Rebalance London Governance"
+tags = ['ai', 'economy', 'devolution', 'transport', 'security']
++++
+
+## High-Level Summary
+The House of Lords addressed oral questions on AI regulation, antisemitism in international bodies, the HBOS fraud review, and security following the Golders Green ambulance arson. Peers then questioned the Government’s Middle East economic statement, focusing on energy security, consumer protection and defence spending. The Pension Schemes Bill completed Lords stages with technical fixes and was sent to the Commons. On the English Devolution and Community Empowerment Bill (Report, day two) the House agreed a brownfield‑first planning amendment, advanced London strategic licensing and new pavement‑parking powers, rejected expanded London Assembly summons powers and a formal London governance review, and made various technical changes.
+
+## Detailed Summary
+### AI Growth Lab – Oral Questions
+Lord Holmes of Richmond asked about legislation to establish the proposed AI growth lab. Baroness Lloyd of Effra said it is “a regulatory sandbox designed to accelerate AI innovation and adoption across the UK in a supervised and safe setting” and that responses to a call for evidence “will inform forthcoming legislation that we intend to bring forward”. She defended a context‑based approach and said the lab would model “a new approach to regulation, with the power to make rapid temporary amendments to regulation to safely test and prove application”.
+Peers raised copyright transparency, safety safeguards and coordination. On copyright the Minister said the Government would take forward work on “digital replicas, AI labelling and looking at mechanisms for creatives to control their works online,” while noting “we have not as yet found a solution that will address all the concerns”. She said sandbox modification powers would have “robust safeguards to protect fundamental rights and safety”, and distinguished superintelligent AI risks from the lab’s remit, with the AI Security Institute testing models amid uncertainties “as we speak today”. On coordination and investment, she cited an “AI opportunities action plan” spanning “from data centres to regulation”, a sovereign AI fund to “build and defend comparative advantage”, and the AI Energy Council to progress “sustainably … while keeping to our net‑zero goals”.
+
+### Antisemitism in International Human Rights Bodies – Oral Questions
+Baroness Chapman of Darlington condemned antisemitism and said the UK “consistently speak[s] out against antisemitism and co‑ordinate[s] effective action … at the UN, OSCE and other multilateral fora,” including raising concerns “directly at senior levels when they arise”. Asked about the UN Special Rapporteur Francesca Albanese, she said Albanese “has a history of making inflammatory comments” and that concerns should be tested “against the code of conduct”.
+Peers discussed the line between criticism of Israel and antisemitism; the Minister stated: “I do not find it difficult to draw the line … It is perfectly possible to hold strong views about the Middle East without being antisemitic”. The Government affirmed support for interfaith organisations, noted limits on any UK ability to dismiss staff in international organisations but pledged to raise conduct issues, and confirmed opposition to UNHRC agenda item 7.
+
+### HBOS: Fraud Investigation – Oral Questions
+Lord Livermore said the Lloyds‑commissioned Dobbs review into the early‑2000s HBOS fraud has “drafting … under way,” with findings to be shared with the FCA, which will then consider appropriate action. He acknowledged frustration at delays and noted the Government had “inherited a series of processes that are independent of government and not accountable to us or the FCA”.
+Peers pressed for full publication; he repeated that Lloyds would make the findings available and “co‑operate fully with Parliament”. On redress, he said the independent Foskett Panel had settled compensation “for the majority of victims,” with some cases outstanding, undertook to write regarding victims’ ability to challenge the report, and stressed the sector’s economic weight, “worth around 9% of total economic output”. He underlined post‑crisis safeguards, including adherence to international standards and the FCA/PRA architecture.
+
+### Golders Green Ambulance Attack – Oral Questions
+Responding to the arson attack on Hatzola ambulances in Golders Green, Lord Hanson of Flint said police had “arrested two British nationals, who are now on bail,” and were examining motivation. He condemned antisemitism and said the Government “will take a stand against antisemitism … and take steps both to protect the Jewish community and ultimately to drive out the causes of those attacks”.
+He added: “we have replaced those four ambulances that were burned” and the Government would support the organisation to rebuild services, while not speculating on motive during live investigations. Ministers highlighted interfaith work to build resilience and outlined measures against extremism, including “specialist disruption units” and keeping IRGC proscription under review. He noted £28 million for protection of synagogues and schools and ongoing security service activity.
+
+### Arrangement of Business – Recess Dates
+Lord Kennedy of Southwark announced a short November weekend recess—rising at the conclusion of business on Wednesday 4 November and returning on Monday 9 November—and set out February (11–22) and Easter (25 March–12 April) recess dates for 2027. He added that State Opening is scheduled for Wednesday 13 May, with further details to follow from Black Rod’s Office.
+
+### Business of the House – Standing Order 44
+The House agreed to dispense with Standing Order 44 on Tuesday 14 April to allow the Grenfell Tower Memorial (Expenditure) Bill and the Ministerial Salaries (Amendment) Bill to complete remaining stages on one day.
+
+### Middle East: Economic Update – Statement and Questions
+A Commons Statement reported in the Lords set out the Government’s response to the economic impact of war in the Middle East. Measures included energy security steps—“investing in renewables, lifting the ban on onshore wind and streamlining grid connections” and progressing nuclear (Sizewell C/B and SMRs)—and developing options to back critical energy projects with indemnities if planning is challenged. The Chancellor also aimed to conclude an SPS (sanitary and phytosanitary) agreement with the EU this year and to give the CMA new “powers … to detect and crack down on price gouging”.
+In the Lords, Lord Livermore said, “We will ensure the North Sea oil and gas plays an important role in our economy for years to come”, argued the UK has “the right economic plan” to withstand uncertainty, and described defence spending plans as “the biggest sustained increase in defence spending since the Cold War”. Peers pressed on SPS benefits for food prices, small business pressures and regulator powers; the Minister cited the CMA’s monitoring, regulator engagement and the goal of deepening ties with EU partners.
+
+### Pension Schemes Bill – Third Reading
+The House agreed minor and technical amendments, including correcting a commencement error after the House had earlier removed provisions on investment duties guidance. The Minister said that although those provisions were disagreed by the House, the Government “remain committed to improving clarity around trustees’ existing investment duties … while maintaining their core duty to act in members’ best interests,” and that the technical working group “will continue to play a central role”.
+The Bill was read a third time and passed, to be returned to the Commons with amendments. The Minister said it would improve scheme operation, reduce unnecessary costs, and strengthen long‑term security for defined benefit schemes through a superfund regime.
+
+### Report stage conduct guidance
+Lord Wilson of Sedgefield reminded the House that, on Report, “speeches should be shorter” and that “Arguments fully deployed in Committee … should not be repeated at length on report,” adding, “This is Report, not Committee,” to help business proceed “in an orderly way”.
+
+### English Devolution and Community Empowerment Bill (Report, Day 2): Greater London governance and funding
+Peers debated London governance. Proposals to expand the London Assembly’s summons powers (Amendment 82) and to require a formal review of the GLA model (Amendment 83) were defeated on division (Ayes 64–Noes 140; Ayes 115–Noes 197). Baroness Pidgeon argued a legislative “gap” lets key organisations refuse attendance. An amendment to allow the Assembly to alter the Mayor’s budget by simple majority (Amendment 84) was agreed (Ayes 171–Noes 146).
+Ministers opposed enabling removal of GLA functions by secondary legislation, warning that strategic authorities “will not be able to deliver … if they fear that a future Government will be able … to remove functions” by such means. Government Amendment 243, permitting grants to be paid directly to London Councils’ joint committees, was agreed.
+
+### English Devolution and Community Empowerment Bill (Report, Day 2): Disqualification and reporting
+On mayoral disqualification (Clause 16), the Minister said existing law already prevents councillors of constituent councils from being elected as or serving as a mayor at the same time, and stated the Government plans “to replace all two‑tier council areas with unitary authorities and hence replace all combined county authorities with combined authorities before the next planned mayoral elections in two‑tier areas”.
+On reporting under Clause 19, the Government pointed to an “integrated settlement outcomes framework” for mayoral strategic authorities and a national “local outcomes framework,” including a public digital tool, rather than imposing new statutory reporting requirements.
+
+### English Devolution and Community Empowerment Bill (Report, Day 2): Collaboration and pan‑regional working
+The House agreed technical amendments clarifying mayors’ powers to convene partners and collaborate. Proposals for a statutory duty to co‑operate across local public services (Amendment 309) and for a statutory Mayoral Council for England (Amendment 181) were debated; Ministers described the existing mayoral and leaders’ councils as “non‑decision‑making bodies” that are working well and invited further discussion on service reform.
+Lord Ravensdale’s amendment to enable pan‑regional partnerships (Amendment 93) was withdrawn after the Minister agreed to meet and to reflect cross‑boundary collaboration in guidance. On social mobility and youth unemployment (Amendments 119 and 183), the Government cited mayoral youth‑guarantee trailblazers and committed to reflect data needs and engagement with the Social Mobility Commission in guidance and the forthcoming socioeconomic duty.
+
+### English Devolution and Community Empowerment Bill (Report, Day 2): Transport, micromobility and pavement parking
+Peers debated micromobility regulation and local transport powers. The Government introduced amendments to enable local authorities outside London to prohibit pavement parking by regulation and enforce civil penalties, which the Minister said would “enable the safe use of the pavement by all pedestrians”, noting the 2020 consultation response had been published. These steps were widely welcomed.
+On delivery robots and other non‑passenger micromobility, the Minister said “we will need separate primary legislation to legalise these pavement robots,” and, if legalised, the new licensing framework could be extended to them. He undertook further discussions on insurance issues for e‑bikes and shared schemes. Guidance will be issued on Key Route Networks, after which proposed restrictions were not pursued.
+
+### English Devolution and Community Empowerment Bill (Report, Day 2): Brownfield priority
+The House agreed an amendment requiring mayors/authorities not to designate greenfield land for development unless satisfied no suitable brownfield land is available, having regard to availability, viability and environmental impact (Ayes 152–Noes 128). Proponents argued this would prioritise urban regeneration and speed delivery rather than block development.
+
+### English Devolution and Community Empowerment Bill (Report, Day 2): London strategic licensing
+The House agreed provisions piloting a strategic licensing role for the GLA/Mayor of London, including a limited call‑in for applications of “potential strategic importance.” The Minister said parameters prevent “the mayor rejecting an application that would otherwise have been granted by a London licensing authority,” and the call‑in is a “measure of last resort” to promote London‑wide objectives while protecting local concerns.
+Some Peers warned of centralisation and burdens on boroughs; one described it as “a power grab by the Mayor of London,” arguing licensing works best with detailed local knowledge. The Government said the aim is to address fragmentation and enable the night‑time economy in a controlled way.
+
+### English Devolution and Community Empowerment Bill (Report, Day 2): Fire and rescue governance and health duty
+Government amendments clarified inspection and finance provisions where a mayoral strategic authority acts as a fire and rescue authority; they were agreed. Separate amendments proposing a corporation‑sole chief fire officer model were withdrawn following ministerial assurances to work with partners.
+On the new health improvement duty (Clause 44), an amendment to specify additional determinants was withdrawn; Ministers cautioned against an exhaustive list that could narrow scope and said adding national reporting would impose “an unnecessary bureaucratic burden,” though they will “pay close attention” to how the duty embeds.
+
+### English Devolution and Community Empowerment Bill (Report, Day 2): Schedule 25 powers and technical changes
+Amendments seeking to raise the statutory test for conferring/modifying functions from “appropriate” to “necessary and proportionate,” require local consent, and tighten pilot‑scheme rules were not accepted. Ministers said the existing test—appropriateness “for the effective exercise of a function”—is “sufficiently robust,” and that consent requirements could hand individual areas a veto over national devolution frameworks. They defended allowing limited extensions to pilot schemes by negative procedure once initially approved.
+Technical amendments clarified timing for when conferred functions become exercisable, including during the pre‑mayor preparatory phase, and the Government accepted a Delegated Powers Committee recommendation by removing a Henry VIII power on converting CCAs to CAs—“intend[ing] to go further” than advised.
