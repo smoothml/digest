@@ -1,0 +1,64 @@
++++
+date = "2026-04-13"
+draft = false
+title = "Lords Tilt Devolution Bill Towards Localism and Community Rights"
+tags = ['devolution', 'elections', 'transport', 'ai', 'environment']
++++
+
+## High-Level Summary
+The House of Lords marked member retirements and paid tributes to Simon Burton on his retirement as Clerk of the Parliaments, confirmed Chloe Mawson as his successor, and appointed a new Clerk Assistant. Oral questions covered artificial intelligence and work, the UK battery sector, rail freight growth, nitrous oxide misuse, and a Private Notice Question on mine‑clearance in the Strait of Hormuz. Peers then completed a major Report Stage day on the English Devolution and Community Empowerment Bill, with multiple divisions on council governance, parish promotion, planning protections, electoral rules and community assets. Government measures advancing taxi and private‑hire safety powers, pavement‑parking regulation powers, and limits on election delays progressed. Proposals for alternative vote in mayoral elections, mandatory full taxi accessibility, and a statutory local duty on climate and nature were defeated or withdrawn.
+
+## Detailed Summary
+### Retirements and House administration
+The House recorded retirements of several Members, with thanks for their service: “the retirement, with effect from 27 March, of the noble Lords, Lord Dunlop, Lord St John of Bletso and Lord Trefgarne; ... and with effect from 1 April, of the noble Lord, Lord Palumbo of Southwark”. Tributes to Simon Peter Burton highlighted leadership through Covid and Restoration & Renewal: “on becoming the senior officer of the House as the Clerk of the Parliaments, his commitment to managing that change has been more important than ever”. The Motion of thanks was agreed nemine dissentiente. Letters of appointment for Chloe Kilcoyne Mawson as Clerk of the Parliaments were read and, after making the prescribed declaration, “she took her seat at the Table”. Duncan James Sagar was approved nemine dissentiente as Clerk Assistant.
+
+### Artificial Intelligence and employment
+Ministers said the AI and the Future of Work Unit had been established to research labour‑market impacts, with its first assessment noting “hiring has been falling faster in occupations more exposed to AI, although it stressed that whether AI is responsible for these patterns remains unclear”. Government plans include an AI skills boost to “upskill 10 million workers”, while the OECD estimates that widespread AI adoption could boost UK productivity by up to 1.3 percentage points annually. On security, Ministers said the UK engages continuously with frontier AI firms and urged businesses to strengthen cyber defences. Concerns about gendered impacts where women are over‑represented in administrative roles were acknowledged, with monitoring and support alongside the Women in Tech Taskforce.
+
+### Britain’s Battery Future report and industrial policy
+Government underlined batteries’ strategic importance: “A resilient domestic battery sector is essential to the future of our automotive industry” and net zero. They reported “two gigafactories committed to delivering a combined 55 gigawatts of capacity by 2030” and active efforts to attract further OEM investment with DRIVE35 and innovation grants. Peers pressed on high energy costs and rules of origin; Ministers cited the Clean Power 2030 Action Plan and said they are talking to the EU to “avoid any detrimental impact on the UK and EU’s automotive sectors”. On critical minerals, the ambition is “to produce at least 50,000 tonnes of lithium in the UK in the next decade”.
+
+### Rail freight growth
+The Government restated the target “to increase rail freight volumes by 75 per cent by 2050” and cited support schemes and the Railways Bill’s first‑ever statutory freight growth target. Ministers confirmed “setting a statutory target is in the Bill, and we have also been clear that it is 75%”, discussed capacity enhancements including digital signalling “to give more capacity on the existing track”, and referenced work on improving access to London Gateway. Peers raised infrastructure bottlenecks (Ely/Haughley), rolling‑stock versatility and intermodal growth; Ministers urged local collaboration on level crossings and welcomed new tri‑mode locomotives.
+
+### Nitrous oxide misuse
+The Minister reported a sharp fall in use among 16‑24s: “from an estimated 194,000 users in the year ending March 2024 to 80,000 users in the following year”. He said there were 242 convictions for supply in the year to September 2025 and emphasised enforcement and education: “It is also very important that we have education for young people”. Peers discussed confidential help, addiction risks, forensic capacity and balancing legitimate medical/food uses with tackling unlawful supply; Ministers noted that legal uses remain permitted while supply for improper use is controlled.
+
+### Strait of Hormuz: mine clearance (Private Notice Question)
+Government said freedom of navigation in the strait is “of vital importance to the UK” and outlined mine‑hunting capability, including “adding new, cutting‑edge, uncrewed equipment to RFA ‘Lyme Bay’” as a potential mothership. The Minister stated the UK “do[es] not support the blockade, as proposed by the United States” and is pursuing a co‑ordinated multinational plan, including a UK‑France summit. He stressed acting “in accordance with international law” and noted HMS Dragon’s availability in the eastern Mediterranean.
+
+### High Speed Rail (Crewe – Manchester) Bill: carry‑over mechanism
+The House agreed procedural motions enabling any incoming HS2 (Crewe–Manchester) Bill to be suspended across Sessions, with petitions and evidence preserved and deemed referred in subsequent Sessions.
+
+### English Devolution and Community Empowerment Bill – Report: Local government reorganisation powers
+Amendments sought to curb Secretary of State powers to “direct” mergers of single‑tier councils and to require full local consent. Proponents argued, “Changes should not be imposed on local people without their consent”, citing local concerns. The Minister replied, “We are not seeking to force reorganisation on areas. The power to direct councils … will be held in reserve”. The lead amendment was withdrawn; drafting limits on regulation‑making powers were agreed.
+
+### English Devolution and Community Empowerment Bill – Report: Parish governance
+Peers advocated expanding parish coverage and embedding parishes in neighbourhood governance. Government argued a statutory duty “would undermine the principle of localism”, but the House voted to require the Secretary of State to promote parish governance in unparished areas (Amendment 214 agreed: Ayes 257, Noes 180). Broader proposals for centralised annual reviews and mandatory consultation were withdrawn or not moved.
+
+### English Devolution and Community Empowerment Bill – Report: Council governance models
+Peers backed local choice over centrally‑mandated leader‑and‑cabinet systems. It was argued “it is for local people to decide the governance structure that they should have”. Ministers maintained the leader‑and‑cabinet model “offers clearer leadership, stronger accountability”, but the House voted to remove Clause 59 (Ayes 247, Noes 187) and then to remove Schedule 27, preserving councils’ ability to adopt committee systems.
+
+### English Devolution and Community Empowerment Bill – Report: Voting systems and election timing
+A proposal to move mayoral elections to the alternative vote was defeated (Amendment 217: Ayes 69, Noes 332). An attempt to remove the Bill’s re‑introduction of the supplementary vote for mayors and PCCs was also defeated (Amendment 218: Ayes 178, Noes 231), with Ministers stating “the supplementary vote is appropriate for selecting single‑person executive positions such as mayors”. To address concerns over repeated postponements during reorganisations, the House agreed a government clause limiting election delays to 53 weeks for reasons related to reorganisation, and Ministers affirmed “elections should go ahead unless there is strong justification otherwise”. A wider bid to require primary legislation for changing election years was rejected (Ayes 65, Noes 173).
+
+### English Devolution and Community Empowerment Bill – Report: Remote council meetings
+A backbench proposal to allow online and hybrid council meetings in specified circumstances (e.g. severe weather) was withdrawn. Ministers said they “remain committed to bringing forward legislation, when parliamentary time allows, to deliver this flexibility” and will work with the sector to ensure provisions are robust and effective.
+
+### English Devolution and Community Empowerment Bill – Report: Agent of change
+The House agreed to write the agent of change principle into planning and licensing to protect existing venues from unreasonable restrictions arising from new development (Amendment 246 agreed: Ayes 214, Noes 156). Moving the amendment, Baroness McIntosh said current practice was “an unacceptable position that we find ourselves in” and pressed for parity with Scotland’s statutory approach.
+
+### English Devolution and Community Empowerment Bill – Report: Community assets and pavement parking
+Peers debated strengthening the community right to buy and protecting assets of community value (ACVs). Government extended ACV listing periods from five to 10 years to “reduce the risk that an asset of community value falls through the cracks when a listing expires”, but declined to remove hope value from valuations or to add a standalone environmental test, saying the policy “is not … centred on environmental protection” and that environmental assets can be listed where they have social or economic value. Separately, the House approved enabling powers for English local transport authorities to prohibit parking on footways and verges via local regulations.
+
+### English Devolution and Community Empowerment Bill – Report: Statutory open space trusts (Day case)
+Following the Supreme Court’s Day judgment, the House approved a new mechanism for the Secretary of State to discharge historic statutory open‑space trusts after consultation, where in the public interest (Amendment 248 agreed: Ayes 162, Noes 55). Supporters argued that, without remedy, land “is then permanently blighted by the trust and cannot be repurposed” if advertising formalities were missed. The Minister backed the change as “a clear, lawful mechanism … while ensuring that statutory trusts are discharged only where it is right to do so”. A delaying amendment requiring a prior national review was rejected (Ayes 135, Noes 154).
+
+### English Devolution and Community Empowerment Bill – Report: Gambling impact assessments
+The House agreed to empower licensing authorities to publish gambling impact assessments to limit new premises where justified by evidence on harm and cumulative impact, while retaining case‑by‑case rights for applicants to rebut. Government said this would “strengthen the ability of licensing authorities” and help curate healthy high streets.
+
+### English Devolution and Community Empowerment Bill – Report: Taxis and private hire vehicles
+Government secured powers to set national licensing standards “that must be met to obtain, retain or renew any taxi or private hire vehicle driver, vehicle or operator’s licence”. New powers allow any licensing authority to “temporarily suspend” a driver, vehicle or operator licence with immediate effect “in the interests of public safety,” with notification, decision‑making and appeal safeguards. An attempt to remove the immediate operator‑suspension power was defeated (Ayes 30, Noes 130). A proposal to mandate all taxis to meet wheelchair‑accessibility requirements within three years was rejected (Ayes 46, Noes 117), with Ministers warning it “would realistically result in fewer taxi services being available”, especially in rural areas.
+
+### Other amendments and motions
+A proposal to require every authority to appoint a statutory Chief Planner was defeated (Ayes 27, Noes 89). An amendment to impose a general duty on authorities to help deliver climate and biodiversity targets was withdrawn; Ministers said it was “not clear what additional benefits … a new statutory duty would bring” given existing frameworks. A bid to fix Rutland’s ceremonial county status in primary legislation was withdrawn after assurances that “Rutland’s current ceremonial status is not under threat” and could be maintained during reorganisation by secondary legislation. A call for a five‑year post‑legislative review was withdrawn, with Ministers pointing to existing annual devolution reports to Parliament. Government technical amendments across Parts 4–6 (including local audit machinery) were agreed.
