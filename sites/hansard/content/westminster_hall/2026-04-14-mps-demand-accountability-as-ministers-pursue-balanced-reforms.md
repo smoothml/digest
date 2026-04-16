@@ -1,0 +1,35 @@
++++
+date = "2026-04-14"
+draft = false
+title = "MPs Demand Accountability as Ministers Pursue Balanced Reforms"
+tags = ['regulation', 'poverty', 'justice', 'mentalhealth', 'energy']
++++
+
+## High-Level Summary
+Westminster Hall held five debates on: hidden credit liabilities and the Financial Conduct Authority (FCA); Carer’s Allowance overpayments; the first anniversary of the For Women Scotland Supreme Court ruling; implementing the new workplace suicide prevention standard; and alternatives to ground‑mounted solar. MPs alleged widespread banking misconduct and criticised the FCA, while Ministers defended the regulator’s independence and declined a public inquiry but agreed to meet the APPG. On Carer’s Allowance, Ministers detailed a reassessment programme and recent rule changes. Marking the For Women Scotland ruling, Ministers confirmed an intention to lay the EHRC code in May and said Departments are complying with the law. On renewables, Ministers backed floating solar expansion within a strategic land‑use approach and a balanced energy mix.
+
+## Detailed Summary
+### Hidden Credit Liabilities: Role of the FCA
+John Martin McDonnell moved the debate — “That this House has considered hidden credit liabilities and the role of the Financial Conduct Authority.” — outlining APPG evidence that SMEs were sold loans with attached derivatives that created undisclosed credit lines, breaching covenants and harming viable firms: “The scandal that has come before our APPG is the use of hidden credit lines”. Citing expert testimony, he quoted that “these instruments were deliberately engineered to transfer significant, undisclosed, and uncapped risk directly onto the customer.” He alleged regulatory failure: “The FCA has repeatedly and deliberately failed to act.” Members recounted individual cases and called for an independent, judge‑led inquiry.
+
+Responding, the Minister (Lucy Rigby) stressed the FCA’s independence, referenced court findings upholding the scope of past redress schemes, and noted that “the FCA firmly refutes the claims made in the BankConfidential report”. She declined to commit to a public inquiry, stating “the Government do not believe that a full public inquiry would be the right course to take”, but agreed to meet the APPG: “yes, I will come and meet his APPG”. No vote was taken; the immediate next step is the Minister’s meeting with the APPG.
+
+### Carer’s Allowance Overpayments
+Anna Dixon opened a 30‑minute debate — “That this House has considered the matter of Carer’s Allowance overpayments.” — marking 50 years since the benefit’s introduction and highlighting hardship from overpayments. She cited the Sayce review finding that overpayments were caused “not by widespread individual error by carers in reporting their earnings but by systemic issues preventing them from fulfilling their responsibility to report.” She pressed for reforms including a taper and clearer guidance, and asked for progress updates.
+
+Minister Stephen Timms set out actions taken: aligning the earnings limit with the National Living Wage — “the earnings limit rose again to £204 per week from the beginning of this month.” — and correcting averaging guidance: “new and correct guidance has now been in place since the start of September 2025”. He announced that the reassessment exercise “began yesterday”, with £75 million set aside, aiming to reduce, cancel or refund debts where appropriate, and committed to update Select Committees every six months. He added that recovery would continue in eligible cases: “If money has been paid out incorrectly, it needs to be recovered.” No division occurred; the Government will conduct the reassessment and report biannually.
+
+### “For Women Scotland” Court Ruling: First Anniversary
+Carla Lockhart marked one year since the Supreme Court clarified that, for Equality Act purposes, sex means biological sex, saying the ruling “was a victory for the rights of women and girls” and that “the term ‘woman’ in the Equality Act 2010 refers to biological sex.” She urged timely implementation: “the Government intend to lay the code in May.” and called for workplace and NHS guidance. Members debated implications for single‑sex spaces, prisons, sport and data collection, and differing views on the interaction with protections for trans people.
+
+Minister Olivia Bailey confirmed the timetable and compliance expectations: “we will lay the code as soon as possible after the local elections, and we have stated our intention to do so in May.” She added, “I can confirm that all Government Departments are currently ensuring they comply with the law.” She stressed that “This Government will always protect trans people’s rights under the law” and said Departments and ALBs are reviewing policies to ensure legal compliance. No vote; next steps are laying the EHRC code in May and ongoing departmental reviews.
+
+### National Suicide Prevention Standard (BS 30480)
+Liz Twist led a debate on Government support for businesses implementing the new British Standard on suicide and the workplace — “That this House has considered Government support for businesses implementing National Suicide Prevention Standard BS 30480.” — highlighting prevalence: “one in four adults has contemplated suicide”. She asked Ministers to promote the standard, support SMEs with training, and convene a cross‑government roundtable.
+
+Minister Zubir Ahmed welcomed the world‑first standard and reported uptake: “more than 11,000 downloads since its publication in November.” He undertook to facilitate engagement with the Department for Business and Trade: “I am committed to making sure that she is linked in with the appropriate Minister in that Department”, and later confirmed, “I am always delighted to meet her… get that organised.” He also referenced community‑based initiatives, including funding “up to £3.6 million over three years” to support middle‑aged men at risk. No vote; officials will arrange meetings and continue implementation support.
+
+### Ground‑mounted Solar Panels: Alternatives
+Lincoln Jopp advocated alternatives to ground‑mounted solar, championing floating solar to avoid displacing farmland and to conserve water. He argued it “reduces evaporation by 70%.” and is “twice as efficient as land-based systems.” with potential scale such that “floating solar could generate 1% of UK baseload.” Members suggested rooftop, roadside and warehouse installations, and raised planning and grid constraints, alongside food‑security concerns.
+
+Energy Minister Michael Shanks provided context: by end‑2024 “ground-mounted solar panels covered an estimated 0.1% of the total land area of the UK.” He backed floating solar as “a hugely exciting technology that we should be expanding”, while stressing strategic planning — noting DEFRA “published the first-ever land use framework in March” — and that “the deployment of ground-mounted solar will also be important”. No decisions were taken; Ministers indicated support for floating solar alongside broader deployment within a strategic land‑use approach.
