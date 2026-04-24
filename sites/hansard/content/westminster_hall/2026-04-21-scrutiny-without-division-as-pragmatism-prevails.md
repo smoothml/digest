@@ -1,0 +1,35 @@
++++
+date = "2026-04-21"
+draft = false
+title = "Scrutiny Without Division as Pragmatism Prevails"
+tags = ['healthcare', 'onlinesafety', 'environment', 'economy', 'transport']
++++
+
+## High-Level Summary
+Westminster Hall considered five matters: wheelchair provision oversight, sex trafficking in Scotland and online platforms, wind farm development on protected peatland, alternatives to GDP as a policymaking metric, and the future of Hammersmith Bridge. Members reported widespread delays and poor experiences in NHS wheelchair services and pressed for a national review body; Ministers cited new standards and data but said no new body is planned. MPs urged action against websites advertising prostitution; Ministers pointed to Online Safety Act duties, Ofcom enforcement and policing pilots. Concerns over siting wind farms on peatlands were weighed against decarbonisation goals, with Ministers stressing national policy safeguards and further guidance. Debates on moving beyond GDP and on funding routes to reopen Hammersmith Bridge focused on integrating wellbeing metrics and using a new structures fund, respectively. All motions were agreed without division.
+
+## Detailed Summary
+### Wheelchair Provision: Independent Review Body
+Daniel Francis opened a debate on creating an independent national review body for wheelchair provision, citing long waits, unsuitable equipment and fragmented accountability. He referenced rising Parliamentary and Health Service Ombudsman complaints "from four in 2018 to 76 in 2025" and the Wheelchair Alliance’s findings, and quoted the quality framework that wheelchairs are "a significant gateway to independence". He set out five recommendations around national leadership/regulation, budget reform, better data and transparency, procurement based on value, and improved provision for children, while several Members described cases involving delays and contractor performance (including AJM Healthcare).
+
+Health Minister Zubir Ahmed recognised problems but stated, "there are no plans at the moment to establish a national review body to oversee wheelchair provision". He underlined Integrated Care Boards’ role—"Ultimately, ICBs are responsible for delivering the framework"—and highlighted NHS England’s April 2025 wheelchair quality framework and alignment with CQC assessment, a national dataset and personal wheelchair budgets. Acknowledging affordability concerns about personal budgets—"I totally agree… it does not quite match" costs—he offered a meeting to continue discussions. Outcome: Question put and agreed to. Next steps include officials’ meeting and continued application of the quality framework and data monitoring.
+
+### Sex Trafficking: Scotland
+Tracy Gilbert argued that websites advertising prostitution (e.g. Vivastreet, AdultWork) constitute trafficking operations under Scotland’s 2015 Act and should be shut down, calling them "the largest human trafficking operation in modern UK history". She criticised previous collaboration with such sites as "inexplicable" per the Home Affairs Committee’s findings and urged Police Scotland to investigate and the UK Government to "Shut them down now". Interventions raised organised crime links and practices such as single individuals paying for multiple adverts.
+
+Home Office Minister Gregor Poynton said that under the current Government, "officials and Ministers have not met with those online service providers". He pointed to the Online Safety Act, Ofcom investigations and platform duties to mitigate illegal harms, and a £450,000 NPCC pilot intelligence hub that "led to four arrests" and safeguarding actions. He also set out trafficking data via the National Referral Mechanism and policing/international initiatives. Outcome: Question put and agreed to. Next steps include Ofcom enforcement activity and continued law enforcement operations.
+
+### Wind Farms: Protected Peatland
+Robbie Moore opposed the proposed Calderdale wind farm across Brontë country, warning of harm to protected peatland, hydrology, wildlife and heritage, with "up to 34 200-metre-high wind turbines" envisaged. He questioned carbon accounting on peat, quoting Professor Richard Lindsay’s warning about "clinging to the carbon calculator as a drowning man clings to a life belt". Other Members highlighted ecological risks and urged avoiding peat sites; Josh Fenton‑Glynn said he had "made clear my view that building on protected peat is counterproductive to our climate change aims".
+
+Energy Minister Chris McDonald emphasised balancing clean power with environmental protection. He noted EN‑3 guidance that while onshore wind is permitted on peatland, applicants should "seek and rule out other locations first" and avoid deep peat where possible. He confirmed work with Scotland on a peatland carbon calculator for England to inform decisions, and declined to comment on the live Calderdale case, given the Secretary of State’s role. Outcome: Motion agreed to. Next steps include policy guidance development and consideration of any applications under existing frameworks.
+
+### Alternative Measures to GDP
+Dr Roz Savage argued GDP is an inadequate guide to policy on safety, fairness, public goods, stability and long‑term choices. Citing Robert F. Kennedy, she said GDP "measures everything in short, except that which makes life worthwhile". She urged integrating the ONS wellbeing dashboard into Treasury decision‑making and adopting natural capital accounting and a parliamentary committee for the future.
+
+Treasury Minister Torsten Bell agreed GDP is not an end in itself—"there is a very large amount more to life than GDP"—but stressed that "the lack of GDP growth over the past 15 years has been a huge problem" for living standards. He referred to the Green Book’s environmental appraisal, broader indicators already used, and ongoing statistical improvements. Outcome: Question put and agreed to. Next steps were not stated in the transcript.
+
+### Hammersmith Bridge
+Fleur Anderson marked seven years since the bridge’s closure, detailing disruption to residents, businesses and congestion: "Seven years, 2,566 days, 366 weeks or 84 months—that is how long this situation has been allowed to continue". She summarised options discussed by a reconvened taskforce and recalled the Minister’s earlier statement that leaving the bridge as it is "is not an option". She pressed for funding routes and timelines, including use of a national structures fund.
+
+Transport Minister Simon Lightwood outlined support given, including £4.7 million in March 2025 "for crucial repairs to Hammersmith bridge hangers", and described the new structures fund to support major repairs nationally. He confirmed the bridge is "a good candidate for investment from the structures fund", with any award subject to criteria, affordability and local contributions, and said the taskforce would reconvene once funding awards are made. Outcome: Resolved that the House has considered the matter. Next steps include a potential bid to the structures fund and a future taskforce meeting after funding decisions.
