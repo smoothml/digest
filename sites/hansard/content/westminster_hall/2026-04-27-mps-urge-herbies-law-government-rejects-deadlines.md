@@ -1,0 +1,15 @@
++++
+date = "2026-04-27"
+draft = false
+title = "MPs Urge Herbie's Law; Government Rejects Deadlines"
+tags = ['parliament', 'regulation', 'healthcare', 'ai']
++++
+
+## High-Level Summary
+Westminster Hall debated e‑petition 736578 on ending animal testing, focusing on the continued use of dogs and non‑human primates, scientific validity, and the transition to non‑animal methods. Irene Campbell opened the debate, citing public concern, recent media footage, and calls for Herbie’s law to phase out animal testing by 2035. The Minister highlighted the Government’s “Replacing animals in science” strategy, associated £75 million funding, and near‑term milestones, while rejecting an immediate ban and statutory deadlines. The motion to note consideration of the petition was agreed without a division.
+
+## Detailed Summary
+### E‑petition 736578: Animal testing (Westminster Hall)
+Irene Campbell introduced the debate on a petition seeking to end testing on dogs and other animals for products for human use, noting: “The petition has attracted almost 121,000 signatures”. She referenced recent media footage from UK laboratories, including long‑tailed macaques “being force‑fed new weight‑loss drugs”, and highlighted the forced swim test, which the Government’s strategy acknowledges “has limited scientific validity”. Several Members pressed for Herbie’s law to phase out animal testing by 2035; Campbell said, “I absolutely support Herbie’s law”. On scale, she stated: “In 2024, 2.64 million procedures in British laboratories used animals” and “1,651 dogs were used in experiments”. On efficacy, she argued, “Over 92% of drugs fail in human clinical trials after passing animal trials” and cited non‑animal approaches, including AI: “A software called AnimalGAN”. Ben Obese‑Jecty referred to protests and the MBR Acres site, and cited an audit that “identified no critical or major findings”. Other contributions called for statutory targets, reform of licensing and oversight (including the Animals in Science Regulation Unit), and faster validation and uptake of New Approach Methodologies (NAMs). 
+
+Responding, the Minister said the Government aim to “replace animals in science wherever possible” and that the strategy is backed by “£75 million of funding”. He reported progress: “In 2024, the use of dogs in experimental procedures decreased by 29% compared with 2023”, and outlined milestones, including applying only validated alternatives for botox potency tests “by the end of 2027”. He confirmed work on KPIs and governance, with the next ministerial board meeting “on 8 July”. On the petitioners’ core ask, he said, “We do not disagree with the principle of Herbie’s law,” but “we cannot set arbitrary timelines” and noted that current aims “are not on a statutory footing”. He cautioned that “an immediate prohibition would undermine the UK’s ability to test and regulate new medicines and vaccines” and undertook to write on several Home Office‑led licensing and enforcement points raised during the debate. The motion was agreed to: “Question put and agreed to.” “Resolved, That this House has considered e‑petition 736578”.
