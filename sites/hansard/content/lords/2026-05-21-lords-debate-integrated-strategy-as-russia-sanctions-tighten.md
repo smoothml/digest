@@ -1,0 +1,41 @@
++++
+date = "2026-05-21"
+draft = false
+title = "Lords Debate Integrated Strategy as Russia Sanctions Tighten"
+tags = ['foreignpolicy', 'defence', 'energy', 'justice', 'healthcare']
++++
+
+## High-Level Summary
+The House of Lords conducted oral questions before a wide‑ranging foreign affairs and defence day in the King’s Speech debate. Business opened with notification of Lord Haskel’s retirement, then questions covered high earners emigrating, offshore venting and flaring, youth offending, the Ebola outbreak in the Democratic Republic of the Congo and Uganda, and sanctions on Russian‑origin oil products refined in third countries. Ministers reiterated existing positions on data availability for emigration, 2030 flaring/venting targets, youth justice reform with a continuing Youth Justice Board, Ebola response funding and protocols, and the scope of new Russia sanctions. The King’s Speech debate emphasised integrating diplomacy, development and defence, support for Ukraine, Middle East policy, development spending, European partnerships, and defence readiness and resilience. No divisions took place and the Humble Address was agreed without dissent.
+
+## Detailed Summary
+### Retirement of a Member: Lord Haskel
+Lord Forsyth of Drumlean notified the House of "the retirement with effect from today of the noble Lord, Lord Haskel" and thanked him for his service. No further action was required.
+
+### Higher Earners: Emigration — Oral Question
+Lord Leigh of Hurley asked what assessment had been made of individuals earning more than £100,000 per annum who left the country in 2025. For the Government, Lord Livermore said comprehensive income‑segmented emigration data are not held because "not all taxpayers are required to notify HMRC when they leave the country", adding that reliable self‑assessment evidence would only be available in January 2027. He also stated the Office for Budget Responsibility had seen "no evidence to change the estimated impact of the reforms on migration".
+
+Peers raised competitiveness, tax treaties and claimed departures of entrepreneurs. The Minister highlighted a new "residents‑based regime" being "more competitive for new arrivals than the previous rules" and stressed action to tackle avoidance while maintaining competitiveness: "we will close down any tax loopholes that we can". He provided context on tax bands: "average earnings are around £33,000 … and around 80% of taxpayers pay only the basic rate". No policy change or earlier data publication was announced; the position remains that fuller data will not be available until January 2027.
+
+### Offshore Oil and Gas: Venting and Flaring — Oral Question
+Earl Russell asked about progress in reducing emissions and wasted gas from venting and flaring. Lord Whitehead said "UK oil and gas has one of the lowest upstream methane emission intensities globally" and reaffirmed the industry and Government commitment to end routine upstream flaring and venting by 2030: "the target … is for zero upstream flaring and zero upstream venting by 2030". He added that independent verification has been enhanced by satellite and aerial monitoring that can "accurately depict where those emissions are coming from offshore".
+
+In exchanges during this item, Ministers rejected claims that Russia sanctions had been relaxed: "the Government have not relaxed sanctions against Putin and Russia". No change was announced to bring forward a statutory ban to 2028; the stated policy remains the 2030 targets and continued reductions in methane intensity.
+
+### Youth Offending — Oral Question
+Lord Oates sought the Government’s assessment of progress in reducing youth offending over 25 years. Baroness Levitt said there had been "significant reductions of children in the formal youth justice system and in youth custody", and explained that the Youth Justice Board (YJB) would be reformed to focus on service improvement, with oversight and funding moving into the Ministry of Justice, while it "will remain a valued, independent public body".
+
+She emphasised prevention and diversion—"we are tough on crime but we are smart on prevention"—confirmed "We have no plans" to amend the minimum age of criminal responsibility pending a Bar Council review, and highlighted early diagnosis and the Turnaround scheme: "Only 7% of children who have been involved in Turnaround go on to commit offences". Peers urged protecting the YJB’s authority and community services; the Minister reiterated its independence and role. No immediate legislative changes were announced beyond commitments in the recent White Paper.
+
+### Democratic Republic of the Congo and Uganda: Ebola Outbreak — Oral Question
+Baroness Chapman of Darlington said the Government are closely monitoring the Ebola outbreak in eastern DRC, working with WHO and Africa CDC, and have "committed up to £21 million" to support a co‑ordinated response, with risk to the UK public "low". She detailed an initial £1 million and up to another £20 million via the team in Kinshasa, engagement with Uganda, and that "We are the lead partner co‑ordinating donors".
+
+On vaccines, she confirmed "no vaccine is currently able to be deployed against this particular strain" but work is ongoing to assess tested candidates. For UK nationals in the region, "well‑tested protocols are in place should they wish to return to the UK". Asked to rule out further ODA cuts, she replied, "If it were for me to rule it out, I would do so right now," while stressing the UK moved rapidly and "were the first donors".
+
+### Processed Russian Oil Products: Sanctions — Answer to Commons Urgent Question (reported to the Lords)
+The House noted a Commons statement that, from the date of the regulations, the UK would "ban the import not only of uranium but of Russian oil products processed in a third country". In the Lords, Baroness Lloyd of Effra said "our sanctions regime against Russia is tougher today than it was last week" and explained that targeted licences for diesel and jet fuel provide temporary flexibility. She corrected earlier phrasing to confirm "the licences are not time limited, but they are temporary and they will be reviewed regularly", acknowledged communications "could absolutely have been better", and said the aim was to avoid instability that "could include Russia" benefiting from price spikes. She confirmed the general licence applies to "two products only: jet fuel and diesel". No vote took place; ministers committed to regular review and to implementing the strengthened regime as quickly as possible.
+
+### King’s Speech Debate (Day 6): Foreign Affairs, Defence, Development and Security
+Opening for the Government, Baroness Chapman set out an integrated approach—"We have to be truly integrated: from diplomacy, development and defence"—and reaffirmed support for Ukraine: "The UK’s total … support for Ukraine amounts to £21.8 billion". She noted recognition of the State of Palestine as part of keeping a two‑state solution alive and that, alongside a major defence spending increase, the development budget would be reduced to 0.3% of GNI by 2027. She also highlighted migration returns and the UK’s 2027 G20 presidency focus on growth and stability.
+
+Contributors across the House pressed for faster rearmament, a published defence investment plan, and a resilience "national conversation". The noble and gallant Lord, Lord Stirrup, warned that "Weakness makes war more, not less, likely" and urged leaders to level with the public. Lord Callanan queried policy on the Chagos Islands and reiterated commitments to Gibraltar and the Falklands. Members raised concerns about sanctions communications—Lord Callanan said the record was "blemished this week" by the oil products decision—and an increase in antisemitism at home. Others debated relations with Europe, development cuts and moral leadership; the Bishop of Southwark lamented the retreat from 0.7% to "0.3%" ODA, while Baroness Kingsmill noted acceptance of the strategic defence review’s recommendations but the absence of a published long‑term investment plan. The debate concluded with the Humble Address agreed without dissent: "Motion agreed nemine dissentiente".
