@@ -1,0 +1,37 @@
++++
+date = "2026-06-02"
+draft = false
+title = "Commons Drives Clean Energy as Defence Reforms Advance"
+tags = ['energy', 'employment', 'justice', 'defence', 'devolution']
++++
+
+## High-Level Summary
+The Commons focused on Energy Security and Net Zero questions, with Ministers stressing support for households and a faster clean‑energy transition. MPs then scrutinised the interim Milburn Review on young people and work via an Urgent Question, followed by a Home Office statement on the murder of Henry Nowak, affirming an independent police misconduct investigation and action on knife crime. The Armed Forces Bill underwent detailed Committee consideration, with extensive Government amendments agreed (including on defence housing and the service justice system) and several Opposition new clauses defeated on division. Other business included a deferred division on agriculture regulations, a petition to keep Bromley within the GLA, and an adjournment debate on DWP–Social Security Scotland interactions affecting carers’ benefits.
+
+## Detailed Summary
+### Oral Answers: Energy Security and Net Zero
+Ministers set out measures to shield households from energy price rises, citing £150 off bills and an expanded Warm Home Discount: “We will do everything we can to help protect her constituents in the face of this fossil fuel price spike.”. The Government rejected expanding fossil fuel extraction in favour of accelerating clean power: “The big choice … double down on fossil fuels … or … drive further and faster for clean energy”. Progress highlighted included Allocation Round 7—“We delivered the most successful renewables auction in history”—record rooftop solar installations, and a forthcoming renewables auction.
+On technologies and markets, Ministers backed deep geothermal—“the first deep geothermal project being opened in February … and more projects are coming online”—and offered site visits. They pointed to clean‑energy job potential and current net‑zero employment—“860,000 high‑quality jobs … by 2030”; “1.1 million jobs … are now dependent on net zero”. On price formation, Ofgem’s cap reflected more renewables: “electricity went up by 5% … This reflects the increase in the amount of renewable generation”. Heat networks are now regulated by Ofgem, with quarterly pricing data required to improve oversight. On European interconnectors and market coupling, Ministers reported constructive talks aiming for “much more efficient energy trading”. On supply chains, the Government reaffirmed modern slavery due diligence and said GBE would lead on sustainable, forced‑labour‑free procurement. Topical answers noted a proposed seventh carbon budget and record solar and offshore wind generation.
+
+### Urgent Question: Milburn Review on Young People and Work (Interim)
+Andrew Western outlined early actions—a youth guarantee, expanded work experience, hiring bonuses and apprenticeships—totalling “half a million opportunities for young people”. He said welfare reform enables trying work without triggering reassessment and invests in personalised employment support. Pressed on causes and urgency, he cited the interim report: “the UK’s NEET crisis is much more long‑term and deep‑seated than any decisions taken in the last few years”. 
+He confirmed incentives for employers—£3,000 for SMEs taking apprentices and £2,000 for hiring young people on UC for over six months—and committed to reforming work experience so “every pupil will have access to two weeks-worth of … workplace experiences”. He stressed whole‑of‑government delivery, including work with devolved Governments and providers, and highlighted mental health and FE as priorities.
+
+### Statement: Murder of Henry Nowak
+The Home Secretary condemned the “evil act” and confirmed sentencing outcomes, before focusing on police conduct and knife crime policy. She said the Independent Office for Police Conduct would fully investigate, adding: “I can confirm today that I will do so” in ensuring it has the resources, authority and independence needed. Emphasising equality before the law, she said the police must act “without fear or favour” and that “Everyone in this country is equal before the law”, and warned against threats to officers and online misinformation. 
+On policy, she referenced the plan to halve knife crime, including young futures hubs, targeted enforcement and tackling county lines. She distinguished lawful kirpan observance from criminal misuse: “carrying the knife for the purpose of religious observance is one thing, but using it … is … a crime”. She echoed the family’s plea not to inflame division: they did not want the murder “to be used to create further division, hatred or tension”. She later noted the IOPC intends to report within three months.
+
+### Committee of the whole House: Armed Forces Bill
+The Minister introduced extensive Government amendments. The covenant duty will extend to the Greater London Authority and combined authorities. New, modernised compulsory purchase powers for defence housing were added UK‑wide, and Clause 3/Schedule 1 (establishing the Defence Housing Service) will commence on Royal Assent. The Defence Housing Service’s Crown status and equivalent immunities were clarified.
+On service justice, a new “service image deletion order” was created (Government new clause 4). Domestic abuse and stalking protections were strengthened across jurisdictions, including post‑service enforcement. Victims’ guidance must be objective and keep a record of victims’ views on jurisdiction. For reserves, recall liability was simplified by removing 18‑year limits, supporting a larger strategic reserve, alongside a more flexible “zig‑zag” workforce model. 
+Divisions: New Clause 2 (Defence Investment Plan timing) negatived, Ayes 171, Noes 302; New Clause 5 (waive ILR fees for armed forces families) negatived, Ayes 170, Noes 301; New Clause 6 (ECHR derogation duty) negatived, Ayes 99, Noes 371; New Clause 13 (single living accommodation standards) negatived, Ayes 80, Noes 298.
+
+### Delegated Legislation
+The draft Agriculture (Delinked Payments) (Reductions) (England) Regulations 2026 were put for approval; after the Deputy Speaker’s opinion was challenged, the division was deferred to the next sitting day.
+
+### Public Petition: London Borough of Bromley’s membership of the Greater London Authority
+Liam Conlon presented a petition, “Keep Bromley in London”, urging that Bromley remain in the GLA to safeguard services and investment. The petition requests that the Government “encourage Bromley Council … to maintain the London Borough of Bromley’s status as an integral part of Greater London”.
+
+### Adjournment Debate: Relationship between Social Security Scotland and the DWP
+Wendy Chamberlain (North East Fife) described cases in which DWP systems mis‑treated Scottish carers’ underlying entitlement to the carer support payment, leading to incorrect Universal Credit deductions: “the DWP continues to make those deductions from their universal credit” despite no payment being received. She reported being told that “DWP wants the claimant to ask the DWP to correct the deduction each month.”. 
+Minister Andrew Western undertook to examine cases, highlighted a new Social Security Scotland liaison unit to improve co‑ordination, and said work to “automatically offset benefits” will begin next financial year and is intended to complete within this Parliament. He invited MPs to escalate specific cases for resolution.

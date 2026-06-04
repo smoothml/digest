@@ -1,0 +1,35 @@
++++
+date = "2026-06-02"
+draft = false
+title = "From Pharmacies to Preparedness: MPs Demand Delivery"
+tags = ['healthcare', 'economy', 'devolution', 'education', 'security']
++++
+
+## High-Level Summary
+Westminster Hall debates examined primary care delivery, regional economic development, education reform, workplace health and safety, and national resilience. Members pressed Ministers on community pharmacy funding, workforce and medicines supply; the Government confirmed a further £340 million uplift this year and pharmacist prescribing as part of NHS services from autumn 2026. A debate on the Glasgow city region highlighted significant UK Government investment and calls for greater intra‑Scotland devolution. MPs considered children’s essential skills alongside planned curriculum changes for citizenship, digital/media literacy and an enrichment framework. Separate sessions focused on silicosis risks from engineered stone (with active HSE enforcement) and the UK’s preparedness for national emergencies, with the Cabinet Office outlining resilience structures and forthcoming updates.
+
+## Detailed Summary
+### Future of Community Pharmacies
+Rachel Gilmour opened by describing a fragile network marked by closures and funding pressures, citing that “since 2016, over 1,000 pharmacies have been lost across England” and that the sector “has had to absorb real-terms cuts of 30%”. She welcomed but said needs exceeded the settlement: “The community pharmacy budget will increase by 10.3% to £3.636 billion.”, warning, “Over 600 branches closed last year alone.” Members raised mapping gaps, rural access, business rates disparities, supply instability—“There were a record 219 price concessions announced for community pharmacies in May alone”—and concerns that investment for independent prescribing may be insufficient, with Community Pharmacy England “not persuaded that sufficient investment is being made”.
+
+Minister Stephen Kinnock praised pharmacy roles and confirmed “a further £340 million uplift” this financial year and the introduction of pharmacist prescribing “from autumn 2026”. He highlighted the NHS app’s “Amazon-style prescription tracker”, progress on hub‑and‑spoke dispensing and GP visibility of shortages, and pathfinder results where “200 sites have delivered 34,000 consultations” with “90%” of prescriptions completed “without the need to refer to a GP”. He undertook to write on the EMIS dispensing module and said he would reflect on Pharmacy First branding. Outcome: “Question put and agreed to… Resolved, That this House has considered the future of community pharmacies.”.
+
+### Government Support for the Glasgow City Region Economy
+Martin Rhodes argued the region is pivotal—“accounts for around a third of Scotland’s employment and economic output”—but faces entrenched inequalities from deindustrialisation. He called for greater devolved powers from Holyrood to the city region to target infrastructure, skills and public health, noting the local growth fund and Pride in Place total “nearly £94 million” over three years. He urged reform of regional governance to deliver region‑wide policies.
+
+Minister Kirsty McNeill set out major UK Government support: the £1 billion City Region Deal aiming for “up to 29,000 jobs”; a local growth fund allocation of “£60.9 million over the next three years”; Pride in Place of “£146 million”; innovation partnerships of “£50 million”; an AI growth zone with “£8.2 billion” private and “£5 million” UK funding; and an investment zone of “up to £160 million… support up to 10,000 jobs”. She criticised the “centralisation… of power” at Holyrood and backed greater intra‑Scotland devolution. Outcome: “Question put and agreed to.”.
+
+### Government Support for Children Developing Essential Skills
+Peter Swallow argued for embedding citizenship, critical thinking, oracy and digital/media literacy across the curriculum, linking reforms to votes at 16. He welcomed that “citizenship be made a statutory requirement for key stages 1 and 2” so young people feel “empowered and confident about using their vote”. He emphasised that oracy is “vital not only to education but to employability” and pressed for stronger enrichment and an earlier, meaningful skills passport. Members also raised early years access, screen‑time guidance and SEND support.
+
+Minister Georgia Gould outlined next steps from the curriculum and assessment review: drafting new programmes of study with “four terms to prepare”; publishing an “enrichment framework”; strengthening citizenship (statutory in KS1/2) and media literacy; embedding digital and AI literacy across subjects and refreshing the computing GCSE. She noted new early‑years “guidance for parents” on screen time, work on national inclusion standards and consultation on a new level 1 English and maths qualification. Outcome: “Resolved, That this House has considered Government support for children developing essential skills.”.
+
+### Silica Dust Exposure in the Workplace
+Liz Jarvis highlighted fatal and debilitating risks from respirable crystalline silica, focusing on engineered stone and the case of George Elliott, who “died in November 2023 from silicosis”. She noted engineered stones can contain “up to 95%” silica, welcomed HSE’s stance that dry cutting is “unacceptable” and a programme of “more than 1,000 inspections”, and pressed for national screening, restored notifiable disease status and better data.
+
+Minister Stephen Timms confirmed robust enforcement under COSHH and said, “We are not currently proposing a ban” in the UK but will keep international experience under review. He backed an industry quality mark, reiterated, “Dry cutting of engineered stone is not acceptable. It must not happen anywhere.”, and said HSE is consulting on restoring silicosis to RIDDOR reporting. Early inspections found multiple breaches: of 13 visits, six sites were stopped immediately and notices widely issued. Outcome: “Question put and agreed to.”.
+
+### Preparedness for National Emergencies
+Graeme Downie framed a shifting risk environment—“an era of radical uncertainty”—drawing on Storm Éowyn’s local impact and practical failings in plans and data‑sharing. He urged a whole‑of‑society approach covering hybrid threats and critical national infrastructure (including energy), stronger devolved and local integration, and public engagement to build consent and resilience.
+
+Minister James Frith set out the Government’s resilience architecture: the July 2025 Resilience Action Plan and tools such as the “National Situation Centre” and emergency alerts; the Cabinet Office’s COBR leadership and the anticipate‑to‑recover definition of resilience; assurance via red teaming and expert panels; support for Local Resilience Forums, including trailblazers; and work on AI sovereignty through a new “sovereign AI unit”. He said an “annual statement… will be made in July” with progress updates. Outcome: “Resolved, That this House has considered preparedness for national emergencies.”.
