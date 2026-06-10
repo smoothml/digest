@@ -1,0 +1,46 @@
++++
+date = "2026-06-08"
+draft = false
+title = "Commons Issues Child Phone Nudity Ultimatum; Backs Steel Nationalisation"
+tags = ['immigration', 'onlinesafety', 'environment', 'foreignpolicy', 'regulation']
++++
+
+## High-Level Summary
+The House of Commons focused on Home Office oral questions, an urgent question on children’s online safety, and further urgent questions on water company performance and the humanitarian situation in Cuba. Ministers set a three‑month expectation for device‑level protections to block nudity on children’s phones and said they would legislate if firms fail to act. The Committee of the whole House then considered the Steel Industry (Nationalisation) Bill; attempts to constrain ministerial powers were defeated and all clauses were ordered to stand part. Several statutory instruments were approved without division. The Adjournment debate examined regulation of infant sleep services and plans to protect the professional title “nurse.”
+
+## Detailed Summary
+### Home Department: Oral Questions
+Members questioned Ministers on immigration and the economy, indefinite leave to remain (ILR), policing of the Unite the Kingdom rally, identity fraud, AI procurement, illegal high street trading, extremism, antisocial behaviour, violence against women and girls (VAWG), illegal migration, and safe and legal routes. 
+- Immigration and the economy/ILR: The Home Secretary said policy links migration to domestic skills, citing NEETs: “we have more than 1 million young people who are not in employment, education or training”. On reforming settlement, the Migration Minister said: “Earned settlement will reward those who integrate and contribute to this country”, later adding, “As of January 2026, 222,000 people with ILR were actively claiming universal credit”. 
+- Unite the Kingdom rally policing: The Policing Minister said the Met maintained order on a crowded day and reported arrests: “Some 43 arrests were made at the Unite the Kingdom rally and the Nakba 78: March for Palestine”. 
+- Identity fraud: Ministers highlighted investment and strategy: “a new £250 million fraud strategy focused on preventing fraud, protecting victims and strengthening enforcement”. 
+- Police AI procurement/Palantir: The Minister said the process was competitive: “There was an open and competitive process, run by the Police Digital Service and BlueLight Commercial”. 
+- Illegal high street trading: The Home Secretary announced “a new high street organised crime taskforce, investing £30 million in law enforcement action”. 
+- Counter‑extremism: Plans include “publishing an annual state of extremism report”. 
+- Antisocial behaviour: Ministers pointed to “new and enhanced powers… and our neighbourhood policing guarantee”. 
+- VAWG: The Home Secretary restated the “landmark commitment to halve violence against women and girls in a decade”. 
+- Illegal migration/safe routes: Ministers cited removals and plans to legislate: “We have removed nearly 70,000 people who have no right to be here”; “we will be legislating through our immigration and asylum Bill”. Asked about leaving the ECHR, the Minister replied that “leaving the ECHR would undermine our returns agreements”. On safe and legal routes, the Minister announced: “the student refugee route will open this autumn, with arrivals in autumn 2027”. 
+- Topicals: The Home Secretary issued a three‑month expectation to phone makers: “they must block nudity on children’s phones… The tech firms now have three months… If they do not… we will legislate”. On asylum hotels: “we are closing hotels, not opening them”.
+
+### Digital Safety: Children (Urgent Question)
+The Minister for Science, Innovation and Technology outlined plans to require device‑level protections to prevent children taking, sharing or viewing nude imagery, and said the Government would legislate if firms failed to act: “The Government… set out expectations that technology companies introduce device-level protections for children”; “we… will not hesitate to legislate”. Earlier, the Home Secretary framed a three‑month ultimatum to tech firms to “block nudity on children’s phones”. 
+Members asked about legislative readiness, coverage of existing devices and interaction with the Online Safety Act. The Minister said, “we are working closely with the Home Secretary and the Home Office to make sure that we are ready to go if the companies do not act”, noted “a major provider has already applied age assurance at the device level for existing devices as well”, and assured there will be “no levelling down of the force of the child safety duties under the Online Safety Act”. He stressed pace and outcomes: “we are moving at pace… the Prime Minister has secured changes”, endorsed “Safety by design”, and added, “If this change is not delivered within weeks, we will ensure that the full force of the law delivers such an outcome”. No vote was taken; Ministers intend to legislate if voluntary action falls short within weeks.
+
+### Water Companies (Urgent Question)
+The Water Minister set out action taken since taking office and plans for structural reform through a forthcoming clean water Bill, citing measures such as “ringfencing customers’ money, banning unfair bonuses, introducing criminal liability for polluting water bosses and creating automatic penalties”, and describing “once‑in‑a‑generation reform through our clean water Bill”. On Thames Water, she said the Government “stand ready for all eventualities, including applying for special administration if necessary”. 
+Ministers highlighted strengthened monitoring and enforcement, and said storm overflow investment must prioritise sensitive sites: “we have told companies that… they must prioritise bathing waters and chalk streams”. The Minister also referred to Ofwat’s role in licence compliance issues at South East Water. No ownership decisions were announced; next steps include continued regulatory reform, resilience standards and case‑by‑case oversight.
+
+### Cuba: Humanitarian Situation (Urgent Question)
+The FCDO Minister expressed concern about shortages of food, fuel and medicines in Cuba, noting that the US embargo contributes to constraints and that the UK has long opposed it: “The United Kingdom has consistently opposed the embargo, for instance at the United Nations, for nearly 30 years”. He welcomed that “talks are under way” between Cuba and the United States and urged swift progress. 
+He confirmed UK humanitarian support via multilateral agencies: “through the World Food Programme and UNICEF, the UK Government continue to provide aid”, and emphasised that “decisions on the future of Cuba should be for the Cuban people”. No change in UK policy was announced; engagement with US counterparts and UN partners will continue.
+
+### Steel Industry (Nationalisation) Bill: Committee (1st allocated day)
+The Committee of the whole House considered amendments to narrow definitions, constrain the public interest test and time‑limit or restrict ministerial transfer powers. Opening for the Government, the Minister said nationalisation is a pragmatic tool in cases of market failure: “It is important that it is used in situations of market failure or some other private sector issue”, and that the Bill’s structure “is very much modelled on the Banking Act 2009”. On the sunset clause, he said the Government have “no intention of extending the sunset period, but… it is simply pragmatic to include this level of flexibility” given volatility. 
+Key Opposition amendments were defeated: removing the Secretary of State’s ability to extend the sunset (Ayes 81, Noes 266); requiring a post‑transfer jobs and industrial transition strategy (Ayes 65, Noes 257); and requiring publication of contingent liabilities before transfers (Ayes 145, Noes 251). Clauses 1 and 2, then 3 to 51, were ordered to stand part, and the Committee will sit again the next day.
+
+### Delegated legislation and business motions
+The House approved several statutory instruments without division, including on Syria sanctions, energy support in Northern Ireland, retained EU law reforms (CITES and animals in science), and anti‑money laundering: “Question agreed to”. The House also set sitting Fridays for Private Members’ Bills and made changes to Committee memberships.
+
+### Adjournment debate: Maternity nurses, nannies and the infant sleep industry
+Connor Rand MP highlighted risks from unregulated ‘infant sleep’ services, calling the sector “a wild west where… anyone can pose as an expert”, and urged mandatory standards, a national register for home‑based childcare, and protection of professional titles. 
+Replying, the Minister said safer‑sleep requirements will be placed directly in the Early Years Foundation Stage from September 2026, subject to process, and confirmed plans to protect the professional title ‘nurse’: “the Government announced our intention to protect the professional title ‘nurse’ within this Parliament” with a forthcoming “call for evidence on the protection of the title of ‘nurse’”. The House then adjourned.

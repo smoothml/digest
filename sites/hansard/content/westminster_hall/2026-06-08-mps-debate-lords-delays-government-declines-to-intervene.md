@@ -1,0 +1,17 @@
++++
+date = "2026-06-08"
+draft = false
+title = "MPs Debate Lords’ Delays; Government Declines to Intervene"
+tags = ['parliament', 'constitution', 'democracy', 'healthcare']
++++
+
+## High-Level Summary
+MPs debated e‑petition 752673 on ensuring timely progress of Bills, prompted by the Assisted Dying private Member’s Bill. Speakers split between those alleging the House of Lords used procedural tactics to avoid a decision and those defending the Lords’ scrutiny role within the constitution. The Leader of the House confirmed the Parliament Acts apply to private Members’ Bills and emphasised Commons primacy, but made no commitments to change Lords procedures or to take over the Bill. The motion that the House had considered the petition was agreed without a division.
+
+## Detailed Summary
+### E‑petition 752673: Timely progress of Bills through Parliament (Westminster Hall)
+Chaired first by Sir Edward Leigh and later by Pete Wishart, the debate examined whether Bills backed by MPs and the public should be able to complete all stages without being blocked in the Lords. Opening for the Petitions Committee, Lewis Atkinson called it “an existential question… does our constitutional settlement allow changes that have been backed by the public and their representatives to pass into law?”. He argued that the Lords should scrutinise “but not block legislation backed by the elected Commons”, noting that in the Assisted Dying Bill there were “over 16 days of debate in the House of Lords” with “no Divisions”. Citing commentary, he quoted Mark D’Arcy: “This is a filibuster.”. Supporters of that view included Siân Berry, who described “a refusal by the House of Lords to come to any kind of decision”, and Sir Andrew Mitchell, who said, “The answer is Government time.”. Others highlighted specific amendments they considered obstructive, such as a proposal for “a pregnancy test for all applicants, regardless of their sex or fertility status”.
+
+Other Members defended the Lords’ role. Dame Meg Hillier said the Lords were “following their normal procedures”, explaining that “Committee stage in the Lords is not an amending stage and there is no opportunity to vote”. John Cooper warned, “We cannot let the emotional baggage of the assisted dying Bill override proper parliamentary procedure.”. Jim Shannon cited the Hansard Society view that the Lords “has the authority to reject, delay, or otherwise block the assisted dying bill”. Tom Tugendhat maintained the Lords acted “totally within their own rules”, and Ashley Dalton cautioned against asking Governments “to override democratic protocols”.
+
+Responding for the Government, the Leader of the House, Alan Campbell, affirmed Commons primacy and stated the Parliament Acts “apply to all Public Bills, including private Members’ Bills”. He added that the Government “do not have any plans to further curtail the ability of the Lords to scrutinise legislation”, noted business managers “would have sought to provide time” had the Bill returned from the Lords before the end of the Session, and said “it is not for the Government to tell the Lords how to conduct their affairs”. When asked if the Government should take the legislation forward, he replied, “No, I do not”. The motion that the House had considered the petition was agreed to without a division.

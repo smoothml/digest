@@ -1,0 +1,63 @@
++++
+date = "2026-06-08"
+draft = false
+title = "Financial Reforms Advance as Lords Launch Children's Care Reset"
+tags = ['regulation', 'foreignpolicy', 'environment', 'education', 'housing']
++++
+
+## High-Level Summary
+The House of Lords held four Oral Questions (on health‑related benefit assessments, affordable housing for young people, Royal Mail performance, and school admissions and inclusion), a Private Notice Question on UK defence capability, and repeated three Commons Urgent Questions (water supply disruption in Kent, Israel Defense Forces operations in Lebanon, and Russian attacks on civilian infrastructure). Ministers outlined current policy, constraints and forthcoming measures, with repeated references to upcoming legislation and reviews. The Government published its Children’s Social Care Enduring Relationships strategy. Peers then debated the Financial Services and Markets Bill [HL] at Second Reading; the Bill was read a second time and committed to Grand Committee, with an order of consideration agreed.
+
+## Detailed Summary
+### Oaths and Affirmations
+The House recorded that “Viscount Goschen and Lord Russell of Liverpool took the oath, and signed an undertaking to abide by the Code of Conduct.” No further action was required.
+
+### Health-related Benefits Assessments – Oral Question
+Baroness Sherlock said face‑to‑face assessments are part of a multichannel approach and that the Government is “committed to increasing the number of face-to-face assessments” while recognising a role for remote assessments. She explained capacity constraints linked to late‑2023 contracts under which “most assessors could work from home” and said the department is negotiating to “drive up the proportion of face-to-face assessments”.
+Peers asked about practicalities, reasonable adjustments and evidence. The Minister said “the health professional must look at and assess all the written evidence” before deciding modality, using face‑to‑face where needed and remote where appropriate. On severe long‑term disabilities, she said some cases can be decided on medical evidence alone and “will not necessarily need to see somebody face to face”. She linked the issue to wider action on young people not in education, employment or training and employer initiatives, referring to a youth guarantee and support for employers, as well as menopause support and fit note reform pilots. Outcome: no decisions; commitment to raise face‑to‑face volumes while maintaining suitability‑based triage.
+
+### Affordable Housing for Young People – Oral Question
+Baroness Taylor of Stevenage said the Government has committed to “the biggest boost to social and affordable housing in a generation,” with a £39 billion programme aiming for around 300,000 homes, at least 60% for social rent, alongside renter protections. On planning, she said views are being analysed on how to better support “stepping-stone accommodation”.
+On access to ownership, she said Help to Buy will not return “as it was,” but lenders are offering innovative high loan‑to‑value products and a communications campaign is planned. She endorsed intergenerational housing, noted DWP benefits policy is outside her remit, and previewed right‑to‑buy reforms, including allowing councils to keep “100% of the funding” and exempting new council homes from right to buy for 35 years. A commonhold and leasehold Bill later this year will help enable co‑operative approaches. No division; policy development and forthcoming Bills flagged.
+
+### Royal Mail Performance – Oral Question
+Lord Stockwood cited Ofcom data: Royal Mail fully met first‑ and second‑class targets in 2013‑14, 2014‑15, 2016‑17 and 2019‑20, but “failed to meet both targets in all years from 2021-22 to 2025-26.” Performance “has been unacceptable and must improve”. He noted letter volumes have halved and pointed to a quality‑of‑service plan, £500 million investment and workforce agreements.
+Peers raised safety, lost post, NHS letters, costs and distinguishing Royal Mail from the Post Office. The Minister said a barcode system prioritises NHS letters during disruption and cautioned “not to conflate Royal Mail delivery and the Post Office”. He referenced commitments by the “new owner, EP Group” to improve services. Outcome: no decisions; ongoing Ofcom engagement and company actions.
+
+### School Admissions: Selective Inclusion – Oral Question
+Responding to the Sutton Trust report, Baroness Smith of Malvern said “all children should have access to high-performing schools” and reforms will ensure mainstream settings are “welcoming to children with SEND,” backed by investment and guidance. She highlighted Ofsted’s enhanced focus on inclusion and plans to “consult on changes to the School Admissions Code to support fairness,” including improvements to fair access protocols.
+On independent schools, she said VAT changes would fund state provision and noted that in 2025 “more private schools opened than closed”. On workforce and support, she said “we will invest £4 billion more over the next three years” to equip mainstream settings to be inclusive by design. Outcome: commitments to consultation and inspection emphasis; no immediate legislative change announced.
+
+### UK Defence Capability – Private Notice Question
+Lord Coaker said “Russia remains a significant and persistent threat” through its war in Ukraine and hostile activity. He confirmed the defence investment plan will be published “before 7 July,” the date of the Ankara NATO summit, and noted current operations with allies.
+Peers raised submarine availability, resource budgets, funding, public engagement, homeland defence, cyber and recruitment. The Minister acknowledged “the availability of submarines is not where the Government would want it to be,” citing dockyard investment and alternative docking options. He stressed resource spending’s importance alongside capital, said the Government is “looking at how they can increase defence spending” by reprioritising, and is leading a “national conversation” on threats. Homeland defence is led by the Cabinet Office, with MoD roles on readiness; cyber is a key focus following MoD reorganisation. No votes; publication of the plan pledged.
+
+### Rights of Boat Dwellers [HL] – First Reading
+A Bill was introduced “to recognise the rights of boat dwellers on Britain’s rivers, canals and coastal waters to have their dwelling recognised as their lawful home … and for connected purposes.” It was introduced by Baroness Bakewell of Hardington Mandeville and ordered to be printed.
+
+### Creative Education Access Bill [HL] – First Reading
+A Bill was introduced “to make provision for a minimum standard of access to creative and cultural education in state-funded schools in England and Wales; to promote partnerships between schools and the creative sector; and for connected purposes.” It was introduced by Baroness Featherstone and ordered to be printed.
+
+### Constitution Committee – Membership Motions
+On the Senior Deputy Speaker’s motions, the House appointed Lord Strathclyde a member and Chair of the Select Committee, appointed the Duke of Wellington and Viscount Stansgate as members, and appointed Viscount Stansgate to POST’s Board. The motions were agreed.
+
+### South East Water: Disruption of Supply – Commons Urgent Question (Answer repeated)
+Baroness Hayman of Ullock said the Government set up the Water Delivery Taskforce “to ensure that we have sufficient water supplies” and flagged a forthcoming water Bill for longer‑term security. She said the industry “needs a serious shake-up” and highlighted the resignation of South East Water’s chair and CEO, Ofwat’s actions, and the need for robust compensation and summer plans.
+On reservoirs, she noted “we have not built a new reservoir for more than 30 years” and are using Havant Thicket as a live learning opportunity to remove delivery barriers. She said the Government is reviewing trade‑offs for data centres’ water use and would consider EU approaches “in the round” during work on the water Bill. No decisions; emphasis on regulatory enforcement and forthcoming legislation.
+
+### Lebanon: Israel Defense Forces Operations – Commons Urgent Question (Answer repeated)
+Baroness Chapman of Darlington affirmed “Israel has the right to defend itself” while expressing concern that recent actions in Lebanon do not advance the aim of ending Hezbollah. She said UK support for the Lebanese Armed Forces continues and that weakening the Lebanese state undermines long‑term stability.
+Peers raised civilian casualties, international law and displacement. The Minister highlighted the scale of harm—“killing 3,500 civilians”—and reiterated that “International law applies to everyone” and that territorial integrity matters. The Government is calling for a genuine, lasting ceasefire and has provided additional humanitarian support. No decisions; policy statements and diplomatic efforts ongoing.
+
+### Russian Attacks on Civilian Infrastructure – Commons Urgent Question (Answer repeated)
+Responding on sanctions and accountability, Baroness Chapman said reports that oil sanctions had been weakened were “not exactly accurate,” and the UK will “take robust action” and champion accountability for those targeting civilians and essential infrastructure.
+She said the Government would raise Russia’s drone attack near Chernobyl “in every forum we can” and consider UNSC action over incidents in Romania—“we should be using every avenue we have”. She added that “Russia pays no regard” to cultural protection commitments. No decisions; further diplomatic and sanctions work signalled.
+
+### Children’s Social Care: Enduring Relationships Strategy – Statement
+The Government outlined a whole‑system reset of children’s social care, described as “the most significant overhaul of children’s social care in a generation,” and published the Enduring Relationships strategy. Measures include strengthening kinship care—“£126 million to seven kinship zones” and local kinship offers—expanding fostering via hubs to deliver “10,000 additional places” with £88 million and modernised recruitment, and expanding regional care co‑operatives.
+A new “metric to track the quality of enduring relationships” will inform accountability and Ofsted inspection, alongside a “national sprint to roll out family finding services” and a new Staying Close programme. In exchanges, the Minister confirmed over £3 billion across programmes and implementation, required kinship offers by all local authorities, and work with Ofsted on inspection criteria. No division; strategy published and implementation steps ongoing.
+
+### Financial Services and Markets Bill [HL] – Second Reading
+Introducing the Bill, Lord Stockwood said it “will modernise how the sector is regulated,” including repealing parts of the Consumer Credit Act to recast rules in the FCA handbook, reforming the FOS, consolidating the Payment Systems Regulator into the FCA, creating provisional licences, updating ring‑fencing to align with resolution, expanding credit union eligibility, moving AML/CFT supervision of professional services to the FCA, and enabling action on access to in‑person banking. He said SMCR changes are “not about deregulation” but about proportionate operation with accountability intact.
+Contributions welcomed simplification and growth aims but warned on consumer protection, parliamentary oversight and climate risk. Concerns included that “the regulatory pendulum has swung too far towards elimination of all risk” (a Lords committee report), that the Bill delegates extensively to regulators and the Treasury without sufficient scrutiny, that Clause 17 “neuters” regulatory principles such as proportionality, and that proposed FOS changes risk weaker redress (Which? said reforms appear “at the expense of consumer protections”). Others pressed for action on fraud, AI/cyber, regional investment, and climate/nature‑related financial risks.
+Closing, the Minister defended the FSMA delegation model as affirmed by Parliament and international bodies, said Clause 3 powers on access to banking would be narrowed after the review—“We expect to narrow this power once the review is concluded”—argued FOS time limits reflect low success beyond 10 years (“only 11% of cases” result in redress) with exceptions for long‑term products, insisted SMCR accountability remains—“This is not the case” that it is being weakened—and said the “fundamental safeguard” of ring‑fencing is unchanged. Outcome: the Bill was read a second time and committed to a Grand Committee with an agreed order of consideration.
