@@ -43,6 +43,9 @@ types = [
     "types-requests>=2.32.4.20250611",
 ]
 
+[tool.uv]
+default-groups = "all"
+
 [tool.mypy]
 python_version = "3.13"
 strict = true
