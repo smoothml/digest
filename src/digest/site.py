@@ -3,10 +3,9 @@ import tomllib
 import unicodedata
 from datetime import date
 from pathlib import Path
-from string import Template
-from textwrap import dedent
 from typing import TypedDict, cast
 
+import tomli_w
 from loguru import logger
 
 from digest.constants import POST_BASE_PATH_TEMPLATE
@@ -15,21 +14,6 @@ _SLUG_STRIP_RE = re.compile(r"[-\s]+")  # Collapse runs of dashes/space
 _SLUG_CLEAN_RE = re.compile(
     r"[^\w\s-]"
 )  # Drop punctuation (keeps letters, numbers, _, and -)
-
-POST_TEMPLATE = Template(
-    dedent(
-        """
-        +++
-        date = "${dt}"
-        draft = false
-        title = "${title}"
-        tags = ${tags}
-        +++
-
-        ${content}
-        """
-    )
-)
 
 
 class Metadata(TypedDict):
@@ -69,9 +53,15 @@ def format_post(content: str, dt: date, title: str, tags: list[str]) -> str:
     Returns:
         Formatted post.
     """
-    return POST_TEMPLATE.safe_substitute(
-        content=content, dt=dt, title=title, tags=tags
+    frontmatter = tomli_w.dumps(
+        {
+            "date": str(dt),
+            "draft": False,
+            "title": title,
+            "tags": tags,
+        }
     ).strip()
+    return f"+++\n{frontmatter}\n+++\n\n{content}".strip()
 
 
 def create_post(
@@ -122,7 +112,11 @@ def get_all_tags(site: str) -> set[str]:
         raise ValueError(f"Path {dir_path} is not a directory")
     tags: set[str] = set()
     for path in dir_path.glob("**/*.md"):
-        metadata = read_post_metadata(path)
+        try:
+            metadata = read_post_metadata(path)
+        except tomllib.TOMLDecodeError:
+            logger.warning(f"Skipping post with malformed frontmatter: {path}")
+            continue
         tags.update(metadata.get("tags", []))
     return tags
 

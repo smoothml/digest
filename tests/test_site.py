@@ -1,6 +1,74 @@
 import importlib
+import tomllib
+from datetime import date
+from pathlib import Path
 
 import pytest
+
+
+@pytest.mark.parametrize(
+    "title",
+    [
+        pytest.param('Commons Debates "Net Zero" Strategy', id="embedded-quote"),
+        pytest.param('"Commons Backs Net Zero Plan"', id="model-wrapped-quotes"),
+        pytest.param(r"Backslash C:\Users\test", id="backslash"),
+        pytest.param("Lords Strengthen Victims' Rights", id="apostrophe"),
+    ],
+)
+def test_format_post_title_round_trips_through_tomllib(title: str) -> None:
+    """A title with TOML-significant characters yields parseable frontmatter."""
+    site_mod = importlib.import_module("digest.site")
+    post = site_mod.format_post("Body text.", date(2025, 1, 1), title, ["energy"])
+
+    block = post.lstrip("+").split("+++")[0].strip()
+    data = tomllib.loads(block)
+
+    assert data["title"] == title
+
+
+def test_read_post_metadata_returns_title_with_embedded_quote(tmp_path: Path) -> None:
+    """read_post_metadata round-trips a title containing a double quote unchanged."""
+    site_mod = importlib.import_module("digest.site")
+    title = 'Commons Debates "Net Zero" Strategy'
+    post = site_mod.format_post("Body text.", date(2025, 1, 1), title, ["energy"])
+    path = tmp_path / "post.md"
+    path.write_text(post, encoding="utf-8")
+
+    metadata = site_mod.read_post_metadata(path)
+
+    assert metadata["title"] == title
+    assert metadata["tags"] == ["energy"]
+
+
+def test_format_post_tags_with_apostrophe_round_trip() -> None:
+    """Tags containing quote characters serialise to valid TOML."""
+    site_mod = importlib.import_module("digest.site")
+    post = site_mod.format_post(
+        "Body text.", date(2025, 1, 1), "Title", ["children's", "net-zero"]
+    )
+
+    block = post.lstrip("+").split("+++")[0].strip()
+    data = tomllib.loads(block)
+
+    assert data["tags"] == ["children's", "net-zero"]
+
+
+def test_get_all_tags_skips_malformed_post(
+    tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    """A single malformed post must not abort tag collection for the site."""
+    site_mod = importlib.import_module("digest.site")
+    monkeypatch.setattr(site_mod, "get_post_base_path", lambda site: tmp_path)
+
+    good = site_mod.format_post("Body.", date(2025, 1, 1), "Good", ["alpha", "beta"])
+    (tmp_path / "good.md").write_text(good, encoding="utf-8")
+    (tmp_path / "bad.md").write_text(
+        '+++\ntitle = "Broken "quote" title"\n+++\n\nBody.', encoding="utf-8"
+    )
+
+    tags = site_mod.get_all_tags("hansard")
+
+    assert tags == {"alpha", "beta"}
 
 
 def test_slugify_basic_ascii() -> None:
