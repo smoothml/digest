@@ -7,9 +7,31 @@ import requests
 from loguru import logger
 from pydantic import BaseModel
 
+from digest.cache import DataCache
+from digest.http import RetryingHttpClient
 from digest.sources.base import BaseDataSource
 from digest.sources.hansard.constants import BASE_URL, FILE_PREFIXES, HansardSourceType
 from digest.sources.hansard.xml_parser import xml_to_markdown
+
+
+def _is_absent(error: BaseException) -> bool:
+    """Return whether a fetch error represents a genuinely absent report.
+
+    A 404 means no report was published for the date; any other error
+    (timeout, connection failure, exhausted retries, malformed response)
+    represents a failure to determine whether a report exists.
+
+    Args:
+        error: The exception raised while fetching content.
+
+    Returns:
+        True if the error indicates an absent report, False otherwise.
+    """
+    return (
+        isinstance(error, requests.exceptions.HTTPError)
+        and error.response is not None
+        and error.response.status_code == requests.codes.not_found
+    )
 
 
 class Debate(BaseModel):
@@ -19,6 +41,7 @@ class Debate(BaseModel):
     source: HansardSourceType
     xml_string: str
     exists: bool = False
+    fetch_failed: bool = False
 
     def to_markdown(self) -> str:
         """Render the underlying Hansard XML as a Markdown document.
@@ -43,6 +66,20 @@ class HansardDataSource(BaseDataSource[[date, HansardSourceType, bool], Debate])
 
     name: str = "hansard"
 
+    def __init__(
+        self,
+        data_cache: DataCache | None = None,
+        http_client: RetryingHttpClient | None = None,
+    ) -> None:
+        """Initialize the Hansard data source.
+
+        Args:
+            data_cache: Optional data cache backend.
+            http_client: Optional HTTP client used to fetch reports.
+        """
+        super().__init__(data_cache)
+        self._http = http_client or RetryingHttpClient()
+
     @override
     def get(self, dt: date, source: HansardSourceType, refresh: bool = False) -> Debate:
         """Extract Hansard report for a specific date.
@@ -57,14 +94,26 @@ class HansardDataSource(BaseDataSource[[date, HansardSourceType, bool], Debate])
         """
         cache_path = self.name + "/" + self._get_cache_path(dt, source)
         if refresh or not self._exists_in_cache(cache_path):
+            fetch_failed = False
             try:
                 content = self._get_content(dt, source)
                 exists = True
-            except requests.exceptions.HTTPError as e:
+            except (
+                requests.exceptions.RequestException,
+                ElementTree.ParseError,
+                UnicodeDecodeError,
+            ) as e:
                 logger.warning(f"Failed to get content for {dt} {source}: {e}")
                 content = ""
                 exists = False
-            debate = Debate(date=dt, source=source, xml_string=content, exists=exists)
+                fetch_failed = not _is_absent(e)
+            debate = Debate(
+                date=dt,
+                source=source,
+                xml_string=content,
+                exists=exists,
+                fetch_failed=fetch_failed,
+            )
             if debate.exists:
                 self._store_to_cache(cache_path, debate.xml_string)
         else:
@@ -121,7 +170,7 @@ class HansardDataSource(BaseDataSource[[date, HansardSourceType, bool], Debate])
         response_str = ""
         while not content_found and not failed:
             path = self._get_url_path(dt, source, ascii_lowercase[version_idx])
-            response = requests.get(f"{BASE_URL}/{path}")
+            response = self._http.get(f"{BASE_URL}/{path}")
             if response.status_code == requests.codes.not_found:
                 # Mark interaction as failed if no content found.
                 failed = True

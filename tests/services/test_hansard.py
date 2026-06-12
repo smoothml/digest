@@ -15,9 +15,10 @@ from digest.services.hansard import create_hansard_summary, publish_hansard_summ
 from digest.sources.hansard.constants import HansardSourceName
 
 
-def _make_mock_debate(*, exists: bool) -> MagicMock:
+def _make_mock_debate(*, exists: bool, fetch_failed: bool = False) -> MagicMock:
     debate = MagicMock()
     debate.exists = exists
+    debate.fetch_failed = fetch_failed
     debate.to_markdown.return_value = "# Debate content" if exists else ""
     return debate
 
@@ -47,15 +48,35 @@ def _make_summary() -> Summary:
 
 
 async def test_create_hansard_summary_returns_none_when_no_data() -> None:
-    """Service returns None when no debate data is found."""
+    """Service returns None and logs absence when a date has no debate."""
     mock_data_source = MagicMock()
     mock_data_source.get.return_value = _make_mock_debate(exists=False)
 
-    result = await create_hansard_summary(
-        date(2025, 1, 15), HansardSourceName.COMMONS, mock_data_source
-    )
+    with patch("digest.services.hansard.logger") as mock_logger:
+        result = await create_hansard_summary(
+            date(2025, 1, 15), HansardSourceName.COMMONS, mock_data_source
+        )
 
     assert result is None
+    mock_logger.error.assert_called_once()
+    assert "No data found" in mock_logger.error.call_args.args[0]
+
+
+async def test_create_hansard_summary_logs_outage_on_fetch_failure() -> None:
+    """Service distinguishes a fetch failure from a genuinely absent date."""
+    mock_data_source = MagicMock()
+    mock_data_source.get.return_value = _make_mock_debate(
+        exists=False, fetch_failed=True
+    )
+
+    with patch("digest.services.hansard.logger") as mock_logger:
+        result = await create_hansard_summary(
+            date(2025, 1, 15), HansardSourceName.COMMONS, mock_data_source
+        )
+
+    assert result is None
+    mock_logger.error.assert_called_once()
+    assert "outage" in mock_logger.error.call_args.args[0]
 
 
 async def test_create_hansard_summary_orchestrates_workflow() -> None:

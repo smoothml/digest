@@ -41,7 +41,12 @@ async def create_hansard_summary(
 
     debate = data_source.get(dt, source_type)
     if not debate.exists:
-        logger.error(f"No data found for {dt} {source}")
+        if debate.fetch_failed:
+            logger.error(
+                f"Failed to fetch {source} for {dt} (possible outage); skipping"
+            )
+        else:
+            logger.error(f"No data found for {dt} {source}")
         return None
 
     debate_str = debate.to_markdown()
