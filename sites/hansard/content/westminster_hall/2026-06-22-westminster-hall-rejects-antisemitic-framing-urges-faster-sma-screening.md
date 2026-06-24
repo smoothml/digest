@@ -1,0 +1,25 @@
++++
+date = "2026-06-22"
+draft = false
+title = "Westminster Hall Rejects Antisemitic Framing, Urges Faster SMA Screening"
+tags = [
+    "parliament",
+    "democracy",
+    "regulation",
+    "healthcare",
+]
++++
+
+## High-Level Summary
+Westminster Hall held two e‑petition debates. The first concerned a petition on “pro‑Israel influence” in UK politics; most contributors criticised its framing as echoing longstanding antisemitic tropes, while some speakers pressed concerns about lobbying, donations and access. Ministers and the Opposition said they did not support holding a public inquiry. The second debate examined adding spinal muscular atrophy (SMA) to the NHS newborn heel‑prick test; there were broad cross‑party calls to avoid a postcode lottery and to accelerate rollout, and the Minister confirmed an in‑service evaluation would start in October 2026 in seven laboratories, with potential wider inclusion where capability allows.
+
+## Detailed Summary
+### E‑petition 752646: Pro‑Israel influence on UK politics and democracy
+Carolyn Harris opened with reminders on language and conduct, citing Erskine May: “Good temper and moderation are the characteristics of parliamentary language.” Andrew Mitchell raised a point of order asking why Israel was singled out and expressing unease with the debate. Introducing the debate, John Lamont said he did not support the petition and argued its framing drew on harmful narratives: “I do not support the petition”. Several MPs warned that the petition echoed historic antisemitic conspiracy theories; Alex Davies‑Jones said there was “something deeply uncomfortable” about the idea that, of nearly 200 countries, it is “the world’s only Jewish state” that needs a special inquiry, and Peter Prinsley said its title “fits the International Holocaust Remembrance Alliance definition of antisemitism”. Others described personal experiences of hostile messaging, such as “Bank of Zionism” mock banknotes.
+
+Other contributors advanced concerns about lobbying, access and transparency. Ayoub Khan queried donor transparency and Members’ association registration, concluding “That cannot be right.” Tahir Ali cited a 2017 undercover recording of an Israeli embassy official speaking of plans to “take down” critics. Iqbal Mohamed pointed to reported donations to MPs and highlighted meetings involving Elbit Systems and officials. Responding for the Opposition, Mike Wood stated: “His Majesty’s Opposition firmly reject the premise of the petition” and added, “we do not support a public inquiry into the imaginary threat of pro‑Israel lobbying.” Minister James Frith said the Government “do not support a public inquiry solely on pro‑Israeli influence” and warned the framing risked antisemitic tropes listed by the International Holocaust Remembrance Alliance. He highlighted wider reforms underway, including that “The Prime Minister has asked the Ethics and Integrity Commission to carry out a review of lobbying” and steps following the Rycroft review, such as “cap[ping] total political donations from British citizens abroad” and a “moratorium on cryptocurrency donations”. The debate concluded with the customary resolution that the House had considered the petition; no division was held.
+
+### E‑petition 755980: Spinal muscular atrophy and the newborn screening test
+Lewis Atkinson opened by recounting the petitioner Jesy Nelson’s experience and the petition’s 149,692 signatures. He outlined SMA’s severity and the transformation brought by new therapies, noting “there are now three disease‑modifying therapies” approved by NICE and funded by the NHS. Members stressed that outcomes depend on early diagnosis: “Once motor neurones are lost they do not come back.” Atkinson and others urged adding SMA to the day‑5 heel‑prick test already used for other conditions, citing international adoption and warning against a postcode lottery as the current in‑service evaluation plan initially covers about 72% of births. He relayed clinicians’ ethical concern about leaving some babies unscreened when tests and treatments exist. MPs from across the UK pressed for faster, universal coverage and highlighted local exclusions and cases.
+
+Minister Sharon Hodgson said screening decisions must be evidence‑based and deliverable, and confirmed the in‑service evaluation will start in October 2026 after being brought forward from January 2027. She explained initial participation is limited to seven of England’s 13 newborn screening laboratories due to equipment, adding, “If that changes, more labs could be included.” She also stated those not yet included “are not being used as a control or comparison group” because labs act as their own control before they begin screening, and said the Secretary of State is “actively considering” when coverage might reach the whole of England. The Minister undertook to work “at pace” and to explore going “further and faster safely”. The sitting ended without a decision, as is customary for Westminster Hall debates.
