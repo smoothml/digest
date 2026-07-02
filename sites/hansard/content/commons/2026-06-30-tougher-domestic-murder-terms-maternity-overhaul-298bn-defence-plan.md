@@ -1,0 +1,48 @@
++++
+date = "2026-06-30"
+draft = false
+title = "Tougher Domestic Murder Terms, Maternity Overhaul, £298bn Defence Plan"
+tags = [
+    "justice",
+    "defence",
+    "healthcare",
+    "employment",
+    "foreignpolicy",
+]
++++
+
+## High-Level Summary
+The Commons day centred on justice, health, defence and scrutiny of public spending. Justice Questions ranged from magistrate recruitment and SLAPPs to jury trials and victim support, with the Lord Chancellor announcing a new 25‑year starting point for domestic murders ("we will introduce a 25-year starting point for domestic murders"). The Speaker urged Ministers to provide MPs early sight of the Defence Investment Plan ("do the right thing by Members of this House and let them see the report"). An Urgent Question set out arrangements to prevent EU tariffs on steel moving from Great Britain to Northern Ireland. Major statements followed: the Government’s initial response to Baroness Amos’s national maternity and neonatal investigation, and a Defence Investment Plan totalling £298 billion over four years. Estimates Day then examined culture/sport, the UK‑US pharmaceuticals arrangement, and welfare and employment. The day closed with a debate on domestic abuse and participation in public life.
+
+
+## Detailed Summary
+### Justice Oral Questions
+Members questioned Ministers on magistrate recruitment, SLAPPs, jury trials, women’s prisons policy, prison releases in error, victim support, family justice, prison drones, wills law, knife crime and court transcripts. On magistrates, the Lord Chancellor cited a national taskforce to speed up appointments and an imminent data update: "there is a national taskforce to fast-track the process and halve recruitment times" and figures "will be published on 9 July". On SLAPPs, the Government said: "we intend, when parliamentary time allows, to introduce legislation that comprehensively tackles all SLAPPs". On jury trials, Ministers said timeliness is part of fairness: "There is no right to a jury trial in this country; there is a right to a fair trial". 
+
+On women’s prisons, the Minister stated that the 2023 rules in England and Wales generally exclude transgender women with male genitalia or violent/sexual offending from the women’s estate, except exceptionally: "they mean that transgender women with male genitalia or any history of violent or sexual offending are not held in the women’s estate". On erroneous prisoner releases, the Lord Chancellor said numbers are falling and systems are being modernised: "We are seeing a reduction in the numbers… That is why we are introducing digital ID". On victims, Ministers highlighted funding, including "the largest ever investment—£550 million—in victim support services, over the next three years". The family justice reforms include repealing the presumption of parental involvement: "We are resolute and committed to repealing the presumption of parental involvement". 
+
+On prison security, the Secretary of State announced "£40 million extra investment to strengthen prison security, including £10 million for counter-drone measures" with further spending on window grilles. On wills, Ministers welcomed the Law Commission’s report and said of abolishing the rule that marriage revokes a will: "we will certainly consider carefully". On knife crime, the Minister described the presumption to suspend sentences under the Sentencing Act as just that: "it is just that—a presumption". On court transcripts, the Minister confirmed: "From spring 2027, eligibility will be extended so that all victims can request them". In Topical Questions, the Lord Chancellor said: "we will introduce a 25-year starting point for domestic murders".
+
+### Speaker’s Statement: Access to the Defence Investment Plan
+The Speaker criticised the late availability of the Defence Investment Plan for MPs, urging Ministers to share it with the House before wider release: "I appeal to Government: do the right thing by Members of this House and let them see the report".
+
+### Urgent Question: Steel Tariffs in Relation to Northern Ireland
+The Business and Trade Minister outlined arrangements, aligned with the EU’s measures, to ensure steel moving from Great Britain to Northern Ireland would not face EU tariffs: "guaranteeing that movements of steel within the UK market will not pay EU tariffs". He listed seven retained tariff‑rate quotas and said, of those categories, "we have maintained the tariff-rate quotas". He rejected a claim that all imports would face a 50% tariff as "patently untrue", and said it would be better to achieve frictionless trade with the EU: "I want to achieve frictionless trade, both within the UK internal market… and with the whole of the European Union".
+
+### Statement: National Maternity and Neonatal Investigation (Baroness Amos)
+The Health Secretary said Baroness Amos found failures "at every stage" and a system "fragmented, overly complex and far too slow to learn". Immediate measures include appointing a statutory maternity and neonatal commissioner ("we will appoint the first ever maternity and neonatal commissioner"); publishing national maternity triage standards this week ("we will this week publish new national standards for maternity triage"); rolling out the perinatal equity and anti‑discrimination programme to all trusts by end of next year ("Every trust will have completed the programme by the end of next year"); creating 1,000 temporary roles for newly qualified midwives and investing an extra £41 million in facilities on top of £145 million ("we have now created a further 1,000 temporary roles… we are investing an extra £41 million"). On culture and accountability, he argued that a statutory duty of candour is essential so "accountability" is not optional: "It is unacceptable that so many senior clinicians were able to… just say no".
+
+### Statement: Defence Investment Plan
+The Defence Secretary announced total defence investment of £298 billion over four years, including £15 billion extra, representing a "27%" real‑terms rise between 2023‑24 and 2029‑30. Priorities include "the UK’s largest ever investment in drone warfare: £5 billion", "£64 billion" for the nuclear enterprise including Dreadnought and AUKUS, and "£9 billion over a decade" to improve military family housing. He reaffirmed a path to "3%" of GDP in the next Parliament and "3.5 by ’35", and stressed that with more money comes a "duty to spend more wisely". The Opposition criticised the plan as "too little, too late".
+
+### Estimates Day: Culture, Media and Sport (Sport and Youth Services)
+The Culture, Media and Sport Committee’s report "Game On" was debated. The Chair said a recent school sport announcement was "a cynical cut disguised as new funding", calling for a cross‑Government plan and clarity on women’s football broadcasting. The Minister said "One billion pounds is going in over the next three years" for PE and school sport and confirmed "we are investing at least £400 million in community sports facilities". She launched the new PE and school sport partnership network and defended extending eligibility to secondary schools, stating the current system "simply is not working".
+
+### Estimates Day: Department of Health and Social Care (UK‑US Pharmaceuticals Arrangement)
+Members scrutinised the UK‑US pharmaceuticals arrangement. Concerns included directions on NICE cost‑effectiveness thresholds ("£25,000 to £35,000" per QALY), a 15% ceiling on branded medicines rebates, and a commitment to raise spending on medicines to 0.6% of GDP by 2036. The Minister highlighted improved access to innovative treatments and trade benefits, including that "the UK will be the only country in the world to have secured a commitment to tariff-free access for pharmaceutical exports into the United States". She estimated "around £1 billion" of short‑term costs this Spending Review period, maintained that NICE remains independent and that future VPAG rates will not exceed 15%, and declined to publish the impact assessment for commercial reasons.
+
+### Estimates Day: Department for Work and Pensions (Welfare and Employment)
+The Work and Pensions Committee emphasised linking spending to measurable outcomes, safeguarding, and tackling youth inactivity ("About one in eight young people are not in work, education or training"). The Government said it is "recasting the welfare system to put work, skills and opportunity at its heart", including moving adult skills into DWP and establishing a child poverty unit. The Minister said "we have already removed the two-child limit in universal credit", announced a youth guarantee delivering "a total of half a million opportunities… backed by £2.5 billion", and cited "£3.5 billion" for employment support for disabled people and those with long‑term conditions.
+
+### Adjournment: Domestic Abuse and Participation in Public Life
+A Member set out barriers facing survivors of domestic abuse in politics, including post‑separation harassment and gaps in electoral safeguards, arguing that "the voices of survivors need to be heard… in the place where our country’s laws are made". She described the risks she faced when her former partner stood against her in 2024: "he stood against me in the general election in 2024", and cited evidence that abuse deters women: "69% of women polled cite abuse or harassment as a key reason for not pursuing a career in politics". The Minister said tackling VAWG is a "top priority", highlighted "£550 million" for victim support services, and outlined wider measures such as DAPOs and behaviour‑change work to support survivors in public life.
