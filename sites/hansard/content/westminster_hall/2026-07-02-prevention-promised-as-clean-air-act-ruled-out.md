@@ -1,0 +1,25 @@
++++
+date = "2026-07-02"
+draft = false
+title = "Prevention Promised as Clean Air Act Ruled Out"
+tags = [
+    "healthcare",
+    "environment",
+    "parliament",
+    "regulation",
+]
++++
+
+## High-Level Summary
+Westminster Hall held two health-focused debates: reducing premature deaths from cardiovascular disease (CVD) and Government plans to tackle air pollution. Members warned that premature CVD mortality has begun rising again and pressed for the long‑trailed cardiovascular disease modern service framework, with an emphasis on prevention, early diagnosis and timely treatment. In the air pollution debate, MPs argued there is "no safe level of air pollution" and urged alignment with World Health Organization guidance and new primary legislation, while the Government outlined current measures and confirmed no plans for a new Clean Air Act at this stage. Both debates concluded without a division; Ministers pointed to forthcoming publications (including the CVD framework) and ongoing consultations and cross‑government work.
+
+## Detailed Summary
+### Heart Disease and Stroke: Premature Deaths (Westminster Hall)
+Paul Foster (South Ribble) opened, citing scale, preventability and stalled progress: "CVD is responsible for about 170,000 deaths each year" and "about 70% of CVD cases in the UK are linked to modifiable factors", with premature deaths "rising again for the first time in more than half a century". He welcomed the Government’s ambition "to reduce premature deaths from heart disease and stroke by 25% over the next decade" and asked when the modern service framework would be published and how it would be delivered.
+
+Contributions focused on innovation, inequalities and delivery. Mark Francois highlighted mechanical thrombectomy and asked "what role there is for mechanical thrombectomy in the overall strategy". Amanda Hack raised prevention and access, noting East Midlands category 2 ambulance waits averaged "36 minutes". Jim Shannon underlined urgency and regional data: "cardiovascular disease claims a life every three minutes". Stuart Andrew stressed fairness—"A person’s chances of surviving heart disease or stroke should not depend on their postcode, income, sex, ethnicity or ability to navigate the health service"—and asked for a date for "full 24/7 coverage" of thrombectomy. Minister Sharon Hodgson said the cardiovascular disease modern service framework would be published "soon," would "set out 12 high impact priority action areas" and be backed by "clear accountability and routine monitoring". She added, "The NHS is working to increase thrombectomy rates", and described measures including enhancing NHS Health Checks, consulting on new school food standards to take effect from 2027, and actions on obesity and smoking such as expanded access to semaglutide and recent tobacco and vape measures. Outcome: motion agreed without division—"Question put and agreed to"; "Resolved". Next steps: publication of the CVD framework and "ambitious strategic partnerships" to support delivery.
+
+### Government Plans to Tackle Air Pollution (Westminster Hall)
+Barry Gardiner (Brent West) led, stating "There is no safe level of air pollution" and estimating "approximately 43,000 people die prematurely from air pollution" annually. Citing new statistics showing increases in PM2.5 and PM10, he argued, "We need not a target, but a legally binding limit value" aligned with World Health Organization guidelines. He also highlighted indoor exposure—"we spend 80% of our time indoors"—and called for a co‑ordinated national plan and a new clean air Act.
+
+Backbenchers urged faster action and local empowerment. Jim Shannon referenced health impacts and costs—"Air pollution is associated with 30,000 deaths a year... [costing] as much as an... £27 billion annually". Ruth Jones argued, "We need a new clean air Act that is fit for the present day". Uma Kumaran pointed to London’s measures, noting ULEZ "reduced London’s nitrogen oxide levels by over 40%", while John McDonnell raised Heathrow expansion as an air quality hotspot. Martin Rhodes emphasised that "Clean air cannot be delivered from the top down alone". Opposition Front Bencher Robbie Moore supported improving air quality but opposed certain measures, saying "we oppose the Government’s restrictions on wood-burning stoves" and criticising charging clean air zones such as Bradford’s. Responding for the Government, Stephen Morgan said air quality has improved and set out ongoing actions, including that "we set more ambitious interim targets for fine particulate matter" and that an air‑pollution alert system was launched in May. He confirmed "no plans to implement new primary legislation" now, said the domestic burning consultation response would come "later in the year," and noted consultation on the draft Heathrow expansion national policy statement. Outcome: debate concluded without division—"Resolved". Next steps: continued cross‑government work, further consultations and engagement with the Environmental Audit Committee.
