@@ -106,6 +106,7 @@ async def test_editor_agent_registers_dynamic_system_prompt() -> None:
     ctx = MagicMock()
     ctx.deps = "Test transcript content"
     prompt = await agent._system_prompt_functions[0].run(ctx)
+    assert prompt is not None
     assert "Test transcript content" in prompt
     assert "rigorous, impartial editor" in prompt
 
@@ -118,6 +119,7 @@ async def test_tag_agent_registers_dynamic_system_prompt() -> None:
     ctx = MagicMock()
     ctx.deps = {"economy", "healthcare"}
     prompt = await agent._system_prompt_functions[0].run(ctx)
+    assert prompt is not None
     assert "economy" in prompt
     assert "healthcare" in prompt
     assert "Generate 1-5 tags" in prompt

@@ -7,7 +7,7 @@ perform specific summarization tasks.
 
 from loguru import logger
 from pydantic_ai import Agent, RunContext
-from pydantic_ai.models.openai import OpenAIModel, OpenAIModelSettings
+from pydantic_ai.models.openai import OpenAIChatModel, OpenAIChatModelSettings
 
 from digest.agents.hansard_summariser.prompts import (
     EDITOR_SYSTEM_PROMPT_TEMPLATE,
@@ -21,25 +21,27 @@ from digest.settings import openai_provider
 _DEFAULT_MODEL_NAME = "gpt-5-2025-08-07"
 
 
-def _get_default_model() -> OpenAIModel:
+def _get_default_model() -> OpenAIChatModel:
     """Get the default OpenAI model.
 
     Returns:
         The default OpenAI model instance.
     """
-    return OpenAIModel(_DEFAULT_MODEL_NAME, provider=openai_provider)
+    return OpenAIChatModel(_DEFAULT_MODEL_NAME, provider=openai_provider)
 
 
-def _get_default_model_settings() -> OpenAIModelSettings:
+def _get_default_model_settings() -> OpenAIChatModelSettings:
     """Get the default model settings.
 
     Returns:
         The default model settings.
     """
-    return OpenAIModelSettings(openai_reasoning_effort="medium", max_tokens=128000)
+    return OpenAIChatModelSettings(openai_reasoning_effort="medium", max_tokens=128000)
 
 
-def create_summary_agent(model: OpenAIModel | None = None) -> Agent[None, DraftSummary]:
+def create_summary_agent(
+    model: OpenAIChatModel | None = None,
+) -> Agent[None, DraftSummary]:
     """Create a summary agent for generating draft summaries.
 
     Args:
@@ -56,7 +58,9 @@ def create_summary_agent(model: OpenAIModel | None = None) -> Agent[None, DraftS
     )
 
 
-def create_editor_agent(model: OpenAIModel | None = None) -> Agent[str, FinalSummary]:
+def create_editor_agent(
+    model: OpenAIChatModel | None = None,
+) -> Agent[str, FinalSummary]:
     """Create an editor agent for refining draft summaries.
 
     Args:
@@ -81,7 +85,7 @@ def create_editor_agent(model: OpenAIModel | None = None) -> Agent[str, FinalSum
     return agent
 
 
-def create_title_agent(model: OpenAIModel | None = None) -> Agent[None, str]:
+def create_title_agent(model: OpenAIChatModel | None = None) -> Agent[None, str]:
     """Create a title agent for generating summary titles.
 
     Args:
@@ -97,7 +101,9 @@ def create_title_agent(model: OpenAIModel | None = None) -> Agent[None, str]:
     )
 
 
-def create_tag_agent(model: OpenAIModel | None = None) -> Agent[set[str], list[str]]:
+def create_tag_agent(
+    model: OpenAIChatModel | None = None,
+) -> Agent[set[str], list[str]]:
     """Create a tag agent for generating summary tags.
 
     Args:
