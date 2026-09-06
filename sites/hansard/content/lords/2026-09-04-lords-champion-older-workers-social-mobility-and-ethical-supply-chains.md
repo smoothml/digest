@@ -1,0 +1,31 @@
++++
+date = "2026-09-04"
+draft = false
+title = "Lords Champion Older Workers, Social Mobility and Ethical Supply Chains"
+tags = [
+    "economy",
+    "employment",
+    "education",
+    "regulation",
+    "justice",
+]
++++
+
+## High-Level Summary
+The House of Lords held three take-note debates on committee reports covering: preparing for an ageing society; social mobility; and forced labour in UK supply chains. Peers highlighted stark long‑term fiscal and demographic pressures and urged a strategic focus on increasing workforce participation among people aged 50–65, rather than relying on further rises in the state pension age. On social mobility, Members stressed place‑based partnerships to cut the number of young people not in education, employment or training (NEETs), while the Government outlined locally driven reforms, new technical pathways and additional funding. On forced labour, the Joint Committee on Human Rights pressed for mandatory due diligence and targeted import action; the Minister confirmed tighter reporting with penalties and said further measures are being considered following a completed responsible business conduct review.
+
+## Detailed Summary
+### Preparing for an Ageing Society (Economic Affairs Committee Report) – Motion to Take Note
+Opening the debate, Lord Liddle cited the Office for Budget Responsibility’s warning that, on current policies, borrowing and debt are on an unsustainable path, noting that debt could "rise to over 270%" of GDP by the early 2070s. He argued policy should prioritise boosting participation among those below state pension age because "The focus has to be on those who exit the workforce before reaching the state pension age", warning that simply raising the state pension age risks poverty for some in their late‑60s. He criticised the lack of a published strategy on ageing, quoting the Government’s response that an integrated approach was "preferable to a single standalone strategy" and that it was taking "a strategic and cross-cutting approach to issues relating to an ageing society".
+
+Lord Lamont highlighted OBR estimates that age‑related spending and debt interest would lift total spending from 44.5% to 60% of GDP by 2073, adding that immigration and pro‑natal policies are unlikely to change debt dynamics and that higher pension ages do not themselves raise participation. Baroness Bottomley pointed to gaps in occupational health access—"In 2024 only 45% of workers had access to OH support … this falls to just 18% among small employers"—and peers discussed the triple lock, with Lord Turnbull calling it "frankly, idiotic" and Lord Redwood defending the contributory principle. Responding, Lord Pitt‑Watson confirmed the Government’s commitment that "the triple lock will remain" until the end of this Parliament, said a Pensions Commission would advise early next year on state pension age and wider policy, and noted that social care recommendations are being brought forward to 2027 to produce a single set of proposals. Motion agreed.
+
+### Social Mobility: Local Roots, Lasting Change (Social Mobility Policy Committee Report) – Motion to Take Note
+Baroness Manningham‑Buller outlined the inquiry’s focus on four areas: "the importance of place … NEETs … those aged between 16 and 18; and data". She argued that "local partnerships must be the answer", cited weaknesses in GCSE English and maths and praised place‑based work in Blackpool, while criticising an eight‑month delay in the Government’s response and a misnaming of the committee chair.
+
+For the Government, Baroness Smith of Malvern said Ministers are building "a nationally coherent but locally responsive system" and will "go far further than ever before in devolving power … in a White Paper in the autumn". She announced an additional £2.5 billion over three years for the youth guarantee and growth and skills levy, aiming to "unlock up to 500,000 jobs … and 300,000 work experience places". Lessons from trailblazers will inform "a national youth guarantee" delivered to "enable local and regional design". Further steps include new technical pathways from age 14, fully funding apprenticeships for 16–24 year‑olds and a £2,000 payment for eligible small businesses, increasing maintenance loans by 2.71% with a commitment to reintroduce maintenance grants. Motion agreed.
+
+### Forced Labour in UK Supply Chains (JCHR Report) – Motion to Take Note
+Presenting the Joint Committee on Human Rights’ report, Lord Alton warned that "the United Kingdom imported around £20 billion‑worth of goods at high risk of exposure to forced labour" last year, and that under the Modern Slavery Act companies can "legally report taking zero steps without facing penalties". The committee called for mandatory human rights due diligence, targeted import bans and civil liability for failing to prevent forced labour, noting the US Uyghur Forced Labor Prevention Act and the EU’s forthcoming ban on goods made with forced labour. He highlighted risks within public procurement, citing a finding that "21% of NHS suppliers had a 'high risk' of exposure to forced labour", and data gaps, including the Home Office confirmation that it "does not routinely assess whether goods entering the UK may have been produced using forced labour".
+
+Replying, the Minister, Lord Sarwar, said "forced labour is an egregious abuse of human rights". He confirmed plans in the forthcoming Immigration and Asylum Bill to set standard reporting topics and deadlines, extend obligations to public authorities, and introduce penalties "up to £1 million or 1% of annual turnover" for non‑compliance. He stated that the responsible business conduct review "has now been completed" and is under consideration, and said any import measure would require "credible evidence, reliable traceability, clear decision‑making and properly resourced enforcement". He pointed to procurement levers and labour provisions in trade deals, noting the India FTA "includes a labour chapter", and confirmed safeguards for Great British Energy supply chains and that "we have established the Solar Council". He emphasised a whole‑system approach with victims at the centre. Motion agreed.
