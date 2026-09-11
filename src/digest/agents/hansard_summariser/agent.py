@@ -7,8 +7,9 @@ perform specific summarization tasks.
 
 from loguru import logger
 from pydantic_ai import Agent, RunContext
-from pydantic_ai.models.openai import OpenAIChatModel, OpenAIChatModelSettings
+from pydantic_ai.models.openai import OpenAIResponsesModel, OpenAIResponsesModelSettings
 
+from digest.agents.hansard_summariser.constants import ReasoningEffort
 from digest.agents.hansard_summariser.prompts import (
     EDITOR_SYSTEM_PROMPT_TEMPLATE,
     SUMMARY_SYSTEM_PROMPT,
@@ -16,31 +17,38 @@ from digest.agents.hansard_summariser.prompts import (
     TITLE_SYSTEM_PROMPT,
 )
 from digest.agents.hansard_summariser.schemas import DraftSummary, FinalSummary
+from digest.agents.hansard_summariser.settings import hansard_summariser_agent_settings
 from digest.settings import openai_provider
 
-_DEFAULT_MODEL_NAME = "gpt-5-2025-08-07"
 
-
-def _get_default_model() -> OpenAIChatModel:
+def _get_default_model() -> OpenAIResponsesModel:
     """Get the default OpenAI model.
 
     Returns:
         The default OpenAI model instance.
     """
-    return OpenAIChatModel(_DEFAULT_MODEL_NAME, provider=openai_provider)
+    return OpenAIResponsesModel(
+        hansard_summariser_agent_settings.model, provider=openai_provider
+    )
 
 
-def _get_default_model_settings() -> OpenAIChatModelSettings:
-    """Get the default model settings.
+def _get_model_settings(effort: ReasoningEffort) -> OpenAIResponsesModelSettings:
+    """Get model settings for a given reasoning effort.
+
+    Args:
+        effort: Reasoning effort the agent should use.
 
     Returns:
-        The default model settings.
+        Model settings carrying the given reasoning effort.
     """
-    return OpenAIChatModelSettings(openai_reasoning_effort="medium", max_tokens=128000)
+    return OpenAIResponsesModelSettings(
+        openai_reasoning_effort=effort,
+        max_tokens=hansard_summariser_agent_settings.max_tokens,
+    )
 
 
 def create_summary_agent(
-    model: OpenAIChatModel | None = None,
+    model: OpenAIResponsesModel | None = None,
 ) -> Agent[None, DraftSummary]:
     """Create a summary agent for generating draft summaries.
 
@@ -52,14 +60,16 @@ def create_summary_agent(
     """
     return Agent[None, DraftSummary](
         model or _get_default_model(),
-        model_settings=_get_default_model_settings(),
+        model_settings=_get_model_settings(
+            hansard_summariser_agent_settings.summary_reasoning_effort
+        ),
         system_prompt=SUMMARY_SYSTEM_PROMPT,
         output_type=DraftSummary,
     )
 
 
 def create_editor_agent(
-    model: OpenAIChatModel | None = None,
+    model: OpenAIResponsesModel | None = None,
 ) -> Agent[str, FinalSummary]:
     """Create an editor agent for refining draft summaries.
 
@@ -71,7 +81,9 @@ def create_editor_agent(
     """
     agent = Agent[str, FinalSummary](
         model or _get_default_model(),
-        model_settings=_get_default_model_settings(),
+        model_settings=_get_model_settings(
+            hansard_summariser_agent_settings.editor_reasoning_effort
+        ),
         deps_type=str,
         output_type=FinalSummary,
     )
@@ -85,7 +97,7 @@ def create_editor_agent(
     return agent
 
 
-def create_title_agent(model: OpenAIChatModel | None = None) -> Agent[None, str]:
+def create_title_agent(model: OpenAIResponsesModel | None = None) -> Agent[None, str]:
     """Create a title agent for generating summary titles.
 
     Args:
@@ -96,13 +108,16 @@ def create_title_agent(model: OpenAIChatModel | None = None) -> Agent[None, str]
     """
     return Agent[None, str](
         model or _get_default_model(),
+        model_settings=_get_model_settings(
+            hansard_summariser_agent_settings.title_reasoning_effort
+        ),
         system_prompt=TITLE_SYSTEM_PROMPT,
         output_type=str,
     )
 
 
 def create_tag_agent(
-    model: OpenAIChatModel | None = None,
+    model: OpenAIResponsesModel | None = None,
 ) -> Agent[set[str], list[str]]:
     """Create a tag agent for generating summary tags.
 
@@ -114,6 +129,9 @@ def create_tag_agent(
     """
     agent = Agent[set[str], list[str]](
         model or _get_default_model(),
+        model_settings=_get_model_settings(
+            hansard_summariser_agent_settings.tag_reasoning_effort
+        ),
         deps_type=set[str],
         output_type=list[str],
     )
