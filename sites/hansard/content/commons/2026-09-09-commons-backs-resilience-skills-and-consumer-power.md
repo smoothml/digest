@@ -1,0 +1,46 @@
++++
+date = "2026-09-09"
+draft = false
+title = "Commons Backs Resilience, Skills and Consumer Power"
+tags = [
+    "healthcare",
+    "education",
+    "transport",
+    "employment",
+    "regulation",
+]
++++
+
+## High-Level Summary
+The Commons sat for Women and Equalities questions, Prime Minister’s Questions, three major ministerial statements (on summer health resilience, education and skills reform, and Jaguar Land Rover redundancies), and the Second Reading of the Civil Aviation (Consumer Protection and Regulatory Reform) Bill [Lords]. Ministers announced heat‑related NHS resilience measures and capital works, outlined plans to broaden technical pathways and progress SEND reforms, and engaged with Jaguar Land Rover over a consultation on about 4,000 job losses. The Transport Secretary ordered an independent Civil Aviation Authority (CAA) review into a national air traffic control outage and set out aviation consumer reforms; later, the House debated ticket pricing abuses, with a commitment to publish a draft Bill for pre‑legislative scrutiny. A deferred Division on plant health regulations was agreed by 371 to 100.
+
+## Detailed Summary
+### Speaker’s statement
+The Speaker noted an unusually high number of Women and Equalities questions had been transferred to other Departments, urging clearer communication: “I gently urge her to clarify any changes in cross-departmental responsibilities and to always ensure that Members affected by any transfers are properly notified.” No decision was sought; the guidance was advisory.
+
+### Oral Answers: Women and Equalities
+Members questioned Ministers on technology and privacy, social cohesion, accessibility, conversion practices, child poverty, violence against women and girls (VAWG), neurodivergence and topical issues. On camera‑enabled smart glasses, the Minister said, “Covert filming using smart glasses can raise serious privacy concerns,” highlighting that existing offences such as voyeurism already apply, and added that law and enforcement must keep pace with technological change. On cohesion, the Secretary of State said Government would “protect and promote our values and build more confident, cohesive and resilient communities” and “we must tackle prejudice, racism and intolerance in all its forms”. On accessibility, Ministers cited the Equality Act 2010 duty to make reasonable adjustments. On conversion practices, the Government said it had published a draft Bill for pre‑legislative scrutiny, with a Joint Committee aiming to report by 22 January, and pledged “a full trans‑inclusive ban”. On poverty, the Secretary of State said decisions taken would see “over half a million children lifted out of poverty” and referred to expanded free school meals and breakfast clubs. On VAWG, Ministers restated the goal to halve incidents in a decade and confirmed a new 25‑year starting point for domestic murders of an intimate partner. On neurodivergence, Ministers linked Professor Guldberg’s work to SEND reforms and stressed early identification and support. In Topical Questions, the Secretary of State announced “a new class unit in Government” bringing Social Mobility Commission work “into the heart of Government”, reiterated that child healthcare must be “safe, evidence-based and clinically appropriate” in relation to puberty blockers, said the Government is neutral on assisted dying, and confirmed continued scrutiny of smart‑glasses misuse.
+
+### Prime Minister’s Questions
+The Prime Minister marked the approaching 25th anniversary of 9/11 and Back British Farming Day. Pressed on defence spending, he said “we will honour our NATO commitments: 3.5% by 2035, and a target date for 3%,” to be set out in the spending review. On overseas territories, he stated, “We will not surrender our base at Diego Garcia… and we will always respect the rights of the Falkland Islanders to choose to be British”. Further questions covered maternity estate risks, AI safety testing, Royal Mail performance and the cost of living, with a pledge to “remove VAT from electricity bills next month”. The PM also referred to action on e‑bike battery fire risks, support for community energy via Great British Energy, plans to chair a wildfire summit, and confirmed no Scottish independence referendum without sustained majority support: “until that changes, there will not be one”. No votes were taken.
+
+### Statement: Summer health and resilience (heatwave impacts)
+The Health Secretary reported unprecedented summer heat pressures, estimating “more than 2,800 excess deaths” in May and June, and highlighted historic under‑investment in NHS estates. She announced a multi‑year £6.75 billion estate safety fund with an initial £1.5 billion for 950 hospital projects, including “more than £32 million” for cooling and ventilation to improve heat resilience, plus 10 major schemes. A new heat taskforce, including the CMO and NHS leaders, will align summer planning with winter planning. She also set out steps on social care integration, alongside Baroness Casey’s commission. In questions, she said there were performance improvements despite record demand in July, confirmed targeted capital for cooling/ventilation, and noted corridor‑care data is now published. No division; next steps include convening the taskforce and further updates to the House.
+
+### Statement: Education and Skills Reform
+The Education Secretary set out an “education revolution” to broaden pathways and improve inclusivity, criticising repeated English/maths resits as a “treadmill of failure”. She proposed technical pathways from age 14 alongside academic routes, aiming to “make this country a technical education superpower”, underpinned by curriculum/assessment reform and partnerships with mayors to expand work experience. She confirmed progressing SEND reforms focused on early intervention. The Shadow front bench cited strong PISA outcomes and warned early technical tracks could narrow options. The Secretary of State replied it is “not about creating a two-tier system” and would offer multiple routes to similar destinations. No votes were taken; further consultation and legislation were trailed.
+
+### Statement: Jaguar Land Rover redundancies
+The Minister for Reindustrialisation confirmed Jaguar Land Rover’s consultation on approximately 4,000 redundancies over two years, stating the company “has said that these losses will not impact production staff”. He cited ongoing Government engagement with JLR and unions, previous support including a £1.5 billion loan guarantee after a cyber‑attack, and the DRIVE35 programme investing “more than £4 billion” in vehicle electrification and supply chains. He said the zero emission vehicle mandate is under review, with consultation closing on 23 October. Opposition speakers queried competitiveness, energy costs and trade; the Minister emphasised global headwinds and reiterated the focus on non‑production roles. Next steps are JLR’s consultation and continued dialogue; no decisions were taken by the House.
+
+### Ten Minute Rule Motion: Personal Data (Digital Twins)
+Dame Chi Onwurah sought leave to introduce a Bill to regulate software or algorithms using personal data to model individuals’ behaviour (“digital twins”). She said, “It is called a digital twin and this Bill will require explicit consent”, arguing that stealth twinning “violates the integrity, uniqueness and very personhood”. Leave was granted and the Bill ordered to be printed, with Second Reading set for 13 November.
+
+### Civil Aviation (Consumer Protection and Regulatory Reform) Bill [Lords] – Second Reading and NATS outage
+Opening the debate, the Transport Secretary apologised for the national air traffic control outage and asked the CAA to conduct an independent review to report within six months. The Bill restores powers to update aviation regulation post‑EU exit, strengthens passenger rights—including a commitment to “scrap the unfair compensation cap for damaged wheelchairs and mobility equipment on domestic flights”—and gives the CAA “direct enforcement powers” for consumer protection. It advances airspace modernisation and streamlines safety rule‑making by empowering the CAA, while not determining airport expansion. The Shadow front bench supported Second Reading, pressed for a formal statement on the outage, and backed a review of airport drop‑off charges, citing Gatwick’s “£10 for 10 minutes”. After debate, the Bill was read a Second time; programme, money and ways and means motions were then agreed without division, with Public Bill Committee proceedings due to conclude by 22 October 2026.
+
+### Adjournment debate: Ticket price regulation for live events
+Rupa Huq MP highlighted consumer detriment from touting and dynamic pricing, citing evidence that “£145 million a year is being lost to touts”, and urged swift legislation. The Minister said the Government would publish a draft Bill for pre‑legislative scrutiny and asserted that “the touts’ time is up”, before introducing legislation when time allows. No vote was taken.
+
+### Deferred Division result
+On the draft Plant Health, Seeds, Seed Potatoes and Plant Propagating Material (Amendment) (Northern Ireland) Regulations 2026, the motion was agreed by 371 Ayes to 100 Noes.
