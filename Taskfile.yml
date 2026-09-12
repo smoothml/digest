@@ -46,12 +46,21 @@ tasks:
 
   deploy:
     deps:
-      - build
+      - __validate_site
     vars:
       HOST: '{{index .SITE_TO_HOST .SITE}}'
       IDENTITY: '{{index .SITE_TO_IDENTITY .SITE}}'
       USER: '{{index .SITE_TO_USER .SITE}}'
+    preconditions:
+      - sh: command -v sequoia
+        msg: |-
+          The `sequoia` CLI is required to publish this site to the AT Protocol, but it isn't installed.
+          Install it with `npm i -g sequoia-cli`, then authenticate with `sequoia login`.
+          See https://sequoia.pub/quickstart for details.
     cmds:
+      - sequoia publish
+      - task: build
+      - sequoia inject
       - rsync -aIP -e "ssh -i {{.IDENTITY}}" sites/{{.SITE}}/public/ {{.USER}}@{{.HOST}}:.
 
   serve:
