@@ -1,0 +1,37 @@
++++
+date = "2026-09-11"
+draft = false
+title = "Commons Rejects Terminally Ill Adults Bill After Divisive Debate"
+tags = [
+    "healthcare",
+    "parliament",
+    "security",
+]
++++
+
+## High-Level Summary
+The sitting opened with a Deputy Speaker’s statement remembering the victims of the 9/11 attacks, followed by a negatived motion for the House to sit in private. The main debate was the Second Reading of the Terminally Ill Adults (End of Life) Bill, with Members discussing autonomy, safeguards, coercion, prognosis, equality, palliative and social care, and parliamentary procedure. The closure question was agreed by 293 votes to 218, but the Bill’s Second Reading was then rejected by 270 votes to 286. Other Private Members’ Bills were objected to and scheduled for later consideration, before the House held and agreed an Adjournment debate marking the 25th anniversary of 9/11.
+
+## Detailed Summary
+### Opening statement and motion to sit in private
+The Chairman of Ways and Means took the Chair as Deputy Speaker. Nusrat Ghani remembered those killed in the 9/11 attacks, including the 67 British citizens, and paid tribute to those who ran towards danger to help others. She said, “We remember the 2,977 innocent lives lost, including 67 British citizens.” Kit Malthouse then moved, “That the House sit in private.” The question was put forthwith and negatived.
+
+### Terminally Ill Adults (End of Life) Bill — arguments for Second Reading
+Lauren Edwards, the Member in charge of the Bill, argued that the House should allow it to continue to the House of Lords so that further scrutiny and amendment could take place after the previous Bill’s passage had been interrupted. She presented the issue as involving both choice and dignity for terminally ill adults and the constitutional role of the elected House, saying, “I am asking Members of this House to send the Bill back to the House of Lords”. Members who spoke in support included Claire Hazelgrove, Pippa Heylings, Alicia Kearns, Hilary Benn, Sarah Champion, Ruth Cadbury, Peter Prinsley, Siân Berry, Marie Tidball and Simon Opher. They referred to experiences of severe suffering, loss of control, suicide or travel abroad, and argued that assisted dying could operate alongside improvements to palliative and social care.
+
+Supporters also referred to the Bill’s stated eligibility conditions and safeguards, including a terminal illness with a prognosis of six months or less, clinical assessments, a panel and provisions concerning disability. They disputed the argument that palliative care had to be fully improved before legislation could proceed. Lauren Edwards said, “We can, and should, do both.” Simon Opher described the Bill as “the safest assisted dying Bill in the world”. The Bill did not obtain Second Reading: after the closure question was agreed, the House rejected the motion by 270 votes to 286.
+
+### Terminally Ill Adults (End of Life) Bill — objections and concerns
+Opposition to the Bill was expressed by, among others, Karen Bradley, Edward Leigh, Zubir Ahmed, Ashley Dalton, Josh Fenton-Glynn, Andrew Murrison, Shivani Raja, Mims Davies, Rosie Duffield, Sarah Smith, Kieran Mullan, Mary Foy and Carla Lockhart. Their concerns included coercion and internal or social pressure; possible disproportionate effects on disabled people and people from ethnic-minority backgrounds; uncertainty in six-month prognoses; mental-health assessment; the adequacy of palliative and social care; effects on clinicians and the National Health Service; and automatic commencement after four years. Karen Bradley asked whether the Bill was “safe enough for Parliament to force it into law”. Ashley Dalton said that the Royal College of Psychiatrists, the Association for Palliative Medicine and the Royal College of Physicians “cannot support this Bill”.
+
+Some Members who supported assisted dying in principle nevertheless opposed this Bill or sought further amendments. They argued that the Bill’s current text and the possible use of the Parliament Acts could restrict opportunities for scrutiny and amendment. They also argued that choice was not meaningful where people lacked care or felt that they were a burden. Julie Minns said, “choice is only meaningful when people have genuine alternatives.” Alison McGovern stated that the Government were neutral on assisted dying and on the Bill’s passage: “The Government are neutral on the question of assisted dying and on the passage of the Bill.” She described work on social care, a modern palliative and end-of-life care framework, integrated care board needs assessments and hospice funding. The closure question was agreed by 293 votes to 218, before Second Reading was rejected by 270 votes to 286.
+
+### Business without debate — Private Members’ Bills
+The House objected to the Second Reading of the Gaza (Independent Public Inquiry) Bill, the Hospitality Services (Value Added Tax Exemption) Bill, the Sporting and Physical Education Services (Value Added Tax Exemption) Bill, the Meat (Information About Method of Killing) Bill, the Covid-19 Vaccine Damage Payments Bill, the European Convention on Human Rights (Notification of Withdrawal) Bill, the Lobular Breast Cancer Bill, the Controlled Drugs (Procedure for Specification) Bill, the In-person Banking Services Bill, the Home Cooling Bill, the Multi-Storey Car Parks (Safety) Bill and the Sale and Supply of Glue Traps (Prohibition) Bill. The transcript records the objection as “Object.”
+
+The Gaza (Independent Public Inquiry) Bill was scheduled for Second Reading on Friday 4 December. The Hospitality Services (Value Added Tax Exemption) Bill, Sporting and Physical Education Services (Value Added Tax Exemption) Bill, Meat (Information About Method of Killing) Bill, Covid-19 Vaccine Damage Payments Bill, European Convention on Human Rights (Notification of Withdrawal) Bill, Controlled Drugs (Procedure for Specification) Bill, Multi-Storey Car Parks (Safety) Bill and Sale and Supply of Glue Traps (Prohibition) Bill were scheduled for Friday 16 October. The Lobular Breast Cancer Bill and Home Cooling Bill were scheduled for Friday 5 February 2027, and the In-person Banking Services Bill for Friday 19 March 2027. The adjourned debate on the Northern Ireland Troubles (Criminal Investigations etc) Bill was also objected to and was scheduled to resume on Friday 16 October.
+
+### 25th anniversary of 9/11
+Alan Mak opened an Adjournment debate marking the 25th anniversary of the 11 September 2001 attacks. Members remembered the 2,977 people killed, including 67 British citizens, as well as first responders, passengers and crew who acted courageously, survivors and people who later died from 9/11-related illnesses. Mak emphasised preserving personal testimony and educating younger generations, saying, “That change is inevitable, but forgetting is not.” He asked the Government to consider how 9/11 is taught in schools, strengthen links between British institutions and the National September 11 Memorial and Museum, and support British families in preserving memories.
+
+Kirsty McNeill said that the United Kingdom and the United States would continue to develop commemorative and educational co-operation. She said, “we will continue to look for opportunities to deepen US-UK co-operation in that regard.” She also said, “I will ensure that his points are drawn to the attention of my right hon. Friend the Education Secretary and the Minister for the Americas.” The Adjournment question was agreed and the House adjourned.
