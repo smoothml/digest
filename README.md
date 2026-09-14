@@ -34,4 +34,4 @@ Deploy a site — publishes [standard.site](https://standard.site) records to th
 task deploy
 ```
 
-This requires the `sequoia` CLI: `npm i -g sequoia-cli`, then `sequoia login`.
+This requires the `sequoia` CLI: `npm i -g sequoia-cli`, then authenticate with `sequoia auth` using an app password (browser OAuth via `sequoia login` also works, but not for unattended cron deploys).
