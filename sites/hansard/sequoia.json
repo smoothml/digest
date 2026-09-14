@@ -4,7 +4,7 @@
   "contentDir": "content",
   "publicDir": "static",
   "outputDir": "public",
-  "pathPrefix": "",
+  "pathTemplate": "/{slug}/",
   "publicationUri": "REPLACE-AFTER-RUNNING-SEQUOIA-INIT",
   "frontmatter": {
     "publishDate": "date"
