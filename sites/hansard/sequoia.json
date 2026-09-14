@@ -1,9 +1,9 @@
 {
   "$schema": "https://sequoia.pub/sequoia.schema.json",
   "siteUrl": "https://orderly.bot",
-  "contentDir": "sites/hansard/content",
-  "publicDir": "sites/hansard/static",
-  "outputDir": "sites/hansard/public",
+  "contentDir": "content",
+  "publicDir": "static",
+  "outputDir": "public",
   "pathPrefix": "",
   "publicationUri": "REPLACE-AFTER-RUNNING-SEQUOIA-INIT",
   "frontmatter": {
