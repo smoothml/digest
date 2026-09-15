@@ -1,6 +1,7 @@
 {
   "$schema": "https://tangled.org/stevedylan.dev/sequoia/raw/main/sequoia.schema.json",
   "siteUrl": "https://orderly.bot",
+  "identity": "orderly.bot",
   "contentDir": "content",
   "publicDir": "static",
   "outputDir": "public",
