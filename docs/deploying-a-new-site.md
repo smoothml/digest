@@ -171,7 +171,7 @@ Take the `verificationMethods.atproto` value, drop the `did:key:` prefix, and pu
 ```bash
 goat resolve did:web:<domain>
 goat account activate
-goat account status
+goat account status <domain>
 ```
 
 Activation fetches `did.json` fresh and fails with "verification method does not match" until the new key is live.
