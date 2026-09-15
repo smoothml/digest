@@ -44,15 +44,51 @@ tasks:
     cmds:
       - hugo build -s sites/{{.SITE}} --gc
 
-  deploy:
+  publish-atproto:
     deps:
-      - build
+      - __validate_site
+    dir: sites/{{.SITE}}
+    preconditions:
+      - sh: command -v sequoia
+        msg: |-
+          The `sequoia` CLI is required to publish this site to the AT Protocol, but it isn't installed.
+          Install it with `npm i -g sequoia-cli`, then authenticate with `sequoia login`.
+          See https://sequoia.pub/quickstart for details.
+    cmds:
+      - sequoia sync --update-frontmatter
+      - sequoia publish
+
+  inject-atproto:
+    deps:
+      - __validate_site
+    dir: sites/{{.SITE}}
+    preconditions:
+      - sh: command -v sequoia
+        msg: |-
+          The `sequoia` CLI is required to publish this site to the AT Protocol, but it isn't installed.
+          Install it with `npm i -g sequoia-cli`, then authenticate with `sequoia login`.
+          See https://sequoia.pub/quickstart for details.
+    cmds:
+      - sequoia inject
+
+  deploy-site:
+    deps:
+      - __validate_site
     vars:
       HOST: '{{index .SITE_TO_HOST .SITE}}'
       IDENTITY: '{{index .SITE_TO_IDENTITY .SITE}}'
       USER: '{{index .SITE_TO_USER .SITE}}'
     cmds:
       - rsync -aIP -e "ssh -i {{.IDENTITY}}" sites/{{.SITE}}/public/ {{.USER}}@{{.HOST}}:.
+
+  deploy:
+    deps:
+      - __validate_site
+    cmds:
+      - task: publish-atproto
+      - task: build
+      - task: inject-atproto
+      - task: deploy-site
 
   serve:
     deps:

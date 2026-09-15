@@ -46,6 +46,9 @@ hugo.linux
 .pytest_cache
 .ruff_cache
 
+# Sequoia (AT Protocol publishing) local state
+.sequoia-state.json
+
 # Coding agents
 .claude
 docs/superpowers/

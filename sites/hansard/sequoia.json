@@ -1,0 +1,13 @@
+{
+  "$schema": "https://sequoia.pub/sequoia.schema.json",
+  "siteUrl": "https://orderly.bot",
+  "contentDir": "content",
+  "publicDir": "static",
+  "outputDir": "public",
+  "pathTemplate": "/{slug}/",
+  "publicationUri": "REPLACE-AFTER-RUNNING-SEQUOIA-INIT",
+  "frontmatter": {
+    "publishDate": "date"
+  },
+  "ignore": ["_index.md", "**/_index.md"]
+}
