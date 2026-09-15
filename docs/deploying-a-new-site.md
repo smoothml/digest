@@ -228,7 +228,7 @@ Add `pathTemplate` and `ignore` to the config:
 }
 ```
 
-`identity` names which stored login this site uses. Once two accounts are stored, Sequoia prompts on every publish for any config that lacks it, so add it to every site's config, `hansard` included.
+`identity` names which stored login this site uses. Once two accounts are stored, Sequoia prompts on every publish for any config that lacks it, so add it to every site's config.
 
 Check the paths, then publish:
 
