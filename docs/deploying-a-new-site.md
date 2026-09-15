@@ -260,7 +260,7 @@ Confirm it worked:
 ```bash
 curl https://<domain>/.well-known/site.standard.publication
 curl -s https://<domain>/<section>/<file>/ | grep site.standard
-goat account status
+goat account status <domain>
 ```
 
 The first prints the publication's `at://` address. The second shows two link tags. Then browse `https://pds.ls/at://<domain>` to see the records as the network does.
