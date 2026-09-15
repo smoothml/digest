@@ -3,6 +3,7 @@ date = "2025-12-09"
 draft = false
 title = "Lords Toughen Protections in Crime Bill, Resist Wider Changes"
 tags = ['justice', 'defence', 'privacy', 'environment', 'economy']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknurgxoq2a"
 +++
 
 ## High-Level Summary

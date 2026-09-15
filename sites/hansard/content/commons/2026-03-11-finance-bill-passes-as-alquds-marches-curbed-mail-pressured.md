@@ -3,6 +3,7 @@ date = "2026-03-11"
 draft = false
 title = "Finance Bill Passes as al‑Quds Marches Curbed, Mail Pressured"
 tags = ['economy', 'foreignpolicy', 'justice', 'healthcare', 'poverty']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknuhrtzy2c"
 +++
 
 ## High-Level Summary

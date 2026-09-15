@@ -3,6 +3,7 @@ date = "2026-01-23"
 draft = false
 title = "Assisted Dying Scrutiny Dominates; Licensing Hours Bill Nears Royal Assent"
 tags = ['parliament', 'healthcare', 'regulation', 'devolution']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknumuuwp2a"
 +++
 
 ## High-Level Summary

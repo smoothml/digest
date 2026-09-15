@@ -3,6 +3,7 @@ date = "2026-05-20"
 draft = false
 title = "Commons Confronts Online Harms, Confirms Sanctions, Commits to Readiness"
 tags = ['onlinesafety', 'ai', 'defence', 'foreignpolicy', 'economy']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknuccli42w"
 +++
 
 ## High-Level Summary

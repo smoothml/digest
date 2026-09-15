@@ -3,6 +3,7 @@ date = "2026-04-29"
 draft = false
 title = "King’s Speech Closes Session as PMQs Confirms No‑Fault Eviction Ban"
 tags = ['parliament', 'economy', 'defence', 'housing', 'foreignpolicy']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknud6bbt2p"
 +++
 
 ## High-Level Summary

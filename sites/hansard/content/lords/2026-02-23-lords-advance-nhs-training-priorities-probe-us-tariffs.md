@@ -3,6 +3,7 @@ date = "2026-02-23"
 draft = false
 title = "Lords Advance NHS Training Priorities, Probe US Tariffs"
 tags = ['healthcare', 'education', 'economy', 'environment', 'defence']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknuk2m7i2a"
 +++
 
 ## High-Level Summary

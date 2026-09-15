@@ -3,6 +3,7 @@ date = "2026-03-18"
 draft = false
 title = "Tech Push Dominates; PM Apologises, Opposition Defeated Twice"
 tags = ['onlinesafety', 'ai', 'education', 'transport', 'environment']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknugr7yl2p"
 +++
 
 ## High-Level Summary

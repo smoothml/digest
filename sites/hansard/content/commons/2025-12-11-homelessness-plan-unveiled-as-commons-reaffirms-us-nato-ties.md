@@ -3,6 +3,7 @@ date = "2025-12-11"
 draft = false
 title = "Homelessness Plan Unveiled as Commons Reaffirms US, NATO Ties"
 tags = ['economy', 'security', 'defence', 'energy', 'poverty']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknuqxx7q2a"
 +++
 
 ## High-Level Summary

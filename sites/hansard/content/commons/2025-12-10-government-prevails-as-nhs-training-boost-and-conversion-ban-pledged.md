@@ -3,6 +3,7 @@ date = "2025-12-10"
 draft = false
 title = "Government Prevails as NHS Training Boost and Conversion Ban Pledged"
 tags = ['employment', 'economy', 'education', 'justice', 'digitalid']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknur63kp2a"
 +++
 
 ## High-Level Summary

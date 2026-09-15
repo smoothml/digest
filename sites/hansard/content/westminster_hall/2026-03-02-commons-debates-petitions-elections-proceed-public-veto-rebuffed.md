@@ -3,6 +3,7 @@ date = "2026-03-02"
 draft = false
 title = "Commons Debates Petitions: Elections Proceed, Public Veto Rebuffed"
 tags = ['elections', 'democracy', 'constitution', 'electoralreform', 'parliament']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknuizivz22"
 +++
 
 ## High-Level Summary

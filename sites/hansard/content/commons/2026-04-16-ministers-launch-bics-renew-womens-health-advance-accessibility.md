@@ -3,6 +3,7 @@ date = "2026-04-16"
 draft = false
 title = "Ministers Launch BICS, Renew Women’s Health, Advance Accessibility"
 tags = ['parliament', 'healthcare', 'energy', 'economy', 'environment']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknueppay2g"
 +++
 
 ## High-Level Summary

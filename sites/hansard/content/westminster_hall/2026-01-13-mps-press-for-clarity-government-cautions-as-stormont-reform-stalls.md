@@ -3,6 +3,7 @@ date = "2026-01-13"
 draft = false
 title = "MPs Press for Clarity; Government Cautions as Stormont Reform Stalls"
 tags = ['education', 'transport', 'defence', 'immigration', 'devolution']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknuodh5g25"
 +++
 
 ## High-Level Summary

@@ -3,6 +3,7 @@ date = "2026-04-22"
 draft = false
 title = "Capita Axed As Commons Drives Reforms Amid Vetting Row"
 tags = ['parliament', 'economy', 'education', 'justice', 'onlinesafety']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknue45ia2a"
 +++
 
 ## High-Level Summary

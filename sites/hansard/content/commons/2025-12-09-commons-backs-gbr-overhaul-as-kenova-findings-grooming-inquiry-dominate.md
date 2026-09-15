@@ -3,6 +3,7 @@ date = "2025-12-09"
 draft = false
 title = "Commons Backs GBR Overhaul As Kenova Findings, Grooming Inquiry Dominate"
 tags = ['economy', 'transport', 'justice', 'security', 'poverty']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknurergh2a"
 +++
 
 ## High-Level Summary

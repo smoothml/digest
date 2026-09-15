@@ -3,6 +3,7 @@ date = "2026-01-07"
 draft = false
 title = "Vote Promised on Ukraine Force as Government Wins Debates"
 tags = ['defence', 'foreignpolicy', 'justice', 'economy', 'devolution']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknup5q4n2t"
 +++
 
 ## High-Level Summary

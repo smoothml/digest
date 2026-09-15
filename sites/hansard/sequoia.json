@@ -1,13 +1,15 @@
 {
-  "$schema": "https://sequoia.pub/sequoia.schema.json",
+  "$schema": "https://tangled.org/stevedylan.dev/sequoia/raw/main/sequoia.schema.json",
   "siteUrl": "https://orderly.bot",
   "contentDir": "content",
   "publicDir": "static",
   "outputDir": "public",
   "pathTemplate": "/{slug}/",
-  "publicationUri": "REPLACE-AFTER-RUNNING-SEQUOIA-INIT",
+  "publicationUri": "at://did:web:orderly.bot/site.standard.publication/3mvknlwhgc42c",
+  "pdsUrl": "https://eurosky.social",
   "frontmatter": {
     "publishDate": "date"
   },
+  "publishContent": true,
   "ignore": ["_index.md", "**/_index.md"]
 }

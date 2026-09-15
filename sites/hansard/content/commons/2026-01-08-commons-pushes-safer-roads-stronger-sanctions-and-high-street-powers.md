@@ -3,6 +3,7 @@ date = "2026-01-08"
 draft = false
 title = "Commons Pushes Safer Roads, Stronger Sanctions and High Street Powers"
 tags = ['transport', 'security', 'foreignpolicy', 'regulation', 'mentalhealth']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknuowcvr22"
 +++
 
 ## High-Level Summary

@@ -3,6 +3,7 @@ date = "2026-01-22"
 draft = false
 title = "Lords Uphold Firearms Officers’ Anonymity, Pubs Promised Rates Relief"
 tags = ['justice', 'ai', 'economy', 'defence', 'devolution']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknun4bya2g"
 +++
 
 ## High-Level Summary

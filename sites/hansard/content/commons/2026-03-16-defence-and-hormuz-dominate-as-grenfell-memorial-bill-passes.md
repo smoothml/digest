@@ -3,6 +3,7 @@ date = "2026-03-16"
 draft = false
 title = "Defence and Hormuz Dominate as Grenfell Memorial Bill Passes"
 tags = ['defence', 'foreignpolicy', 'healthcare', 'energy', 'parliament']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknuh5ydq2a"
 +++
 
 ## High-Level Summary

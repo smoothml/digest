@@ -3,6 +3,7 @@ date = "2026-01-12"
 draft = false
 title = "Finance Bill Advances and Deepfake Crackdown Announced"
 tags = ['economy', 'housing', 'defence', 'onlinesafety', 'environment']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknuomqt32p"
 +++
 
 ## High-Level Summary

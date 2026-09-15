@@ -3,6 +3,7 @@ date = "2026-01-15"
 draft = false
 title = "MPs Seek to Shield Families from Prices and Gambling Harm"
 tags = ['economy', 'poverty', 'regulation', 'childsafety', 'onlinesafety']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknunvcr42w"
 +++
 
 ## High-Level Summary

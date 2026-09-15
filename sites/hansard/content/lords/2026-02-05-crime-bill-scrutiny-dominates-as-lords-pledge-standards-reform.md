@@ -3,6 +3,7 @@ date = "2026-02-05"
 draft = false
 title = "Crime Bill Scrutiny Dominates as Lords Pledge Standards Reform"
 tags = ['justice', 'employment', 'economy', 'environment', 'security']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknul6lgl2p"
 +++
 
 ## High-Level Summary

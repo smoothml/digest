@@ -3,6 +3,7 @@ date = "2026-04-23"
 draft = false
 title = "Commons Backs Insourcing as Oversight and Safeguards Tighten"
 tags = ['parliament', 'healthcare', 'housing', 'foreignpolicy', 'cybersecurity']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknudv7ly2g"
 +++
 
 ## High-Level Summary

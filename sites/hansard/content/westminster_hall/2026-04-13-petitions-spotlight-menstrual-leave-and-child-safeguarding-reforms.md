@@ -3,6 +3,7 @@ date = "2026-04-13"
 draft = false
 title = "Petitions Spotlight Menstrual Leave and Child Safeguarding Reforms"
 tags = ['employment', 'healthcare', 'childsafety', 'justice', 'regulation']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknufcgui2g"
 +++
 
 ## High-Level Summary

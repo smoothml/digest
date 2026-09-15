@@ -3,6 +3,7 @@ date = "2026-05-18"
 draft = false
 title = "Commons Unveils Youth Justice Overhaul, Eyes British Steel Takeover"
 tags = ['parliament', 'justice', 'economy', 'energy', 'healthcare']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknucnp4a2c"
 +++
 
 ## High-Level Summary

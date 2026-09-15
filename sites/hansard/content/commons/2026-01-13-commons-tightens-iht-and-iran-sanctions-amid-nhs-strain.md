@@ -3,6 +3,7 @@ date = "2026-01-13"
 draft = false
 title = "Commons Tightens IHT and Iran Sanctions amid NHS Strain"
 tags = ['healthcare', 'economy', 'foreignpolicy', 'security', 'environment']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknuofgh32p"
 +++
 
 ## High-Level Summary

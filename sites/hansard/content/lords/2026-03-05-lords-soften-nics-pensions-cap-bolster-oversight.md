@@ -3,6 +3,7 @@ date = "2026-03-05"
 draft = false
 title = "Lords Soften NICs Pensions Cap, Bolster Oversight"
 tags = ['environment', 'employment', 'economy', 'healthcare', 'regulation']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknuijrny2c"
 +++
 
 ## High-Level Summary

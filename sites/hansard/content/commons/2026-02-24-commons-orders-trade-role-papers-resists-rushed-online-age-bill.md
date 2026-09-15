@@ -3,6 +3,7 @@ date = "2026-02-24"
 draft = false
 title = "Commons Orders Trade Role Papers, Resists Rushed Online Age Bill"
 tags = ['healthcare', 'onlinesafety', 'parliament', 'economy', 'defence']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknujs7tn2t"
 +++
 
 ## High-Level Summary

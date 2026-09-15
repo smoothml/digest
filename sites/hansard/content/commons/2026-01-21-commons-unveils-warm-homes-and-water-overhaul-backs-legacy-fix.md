@@ -3,6 +3,7 @@ date = "2026-01-21"
 draft = false
 title = "Commons Unveils Warm Homes and Water Overhaul, Backs Legacy Fix"
 tags = ['energy', 'regulation', 'economy', 'justice', 'transport']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknunanot2p"
 +++
 
 ## High-Level Summary

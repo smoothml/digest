@@ -3,6 +3,7 @@ date = "2026-01-05"
 draft = false
 title = "Commons Confronts Borders, Security and Global Crises"
 tags = ['immigration', 'justice', 'defence', 'economy', 'foreignpolicy']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknupkk2a2c"
 +++
 
 ## High-Level Summary

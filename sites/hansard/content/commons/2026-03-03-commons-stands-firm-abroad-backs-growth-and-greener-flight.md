@@ -3,6 +3,7 @@ date = "2026-03-03"
 draft = false
 title = "Commons Stands Firm Abroad, Backs Growth and Greener Flight"
 tags = ['foreignpolicy', 'economy', 'energy', 'education', 'defence']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknuiv5xq2a"
 +++
 
 ## High-Level Summary

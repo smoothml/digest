@@ -3,6 +3,7 @@ date = "2026-01-09"
 draft = false
 title = "Lords Weigh Assisted Dying Oversight And Palliative Safeguards"
 tags = ['healthcare', 'justice', 'regulation', 'devolution']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknuormbg25"
 +++
 
 ## High-Level Summary

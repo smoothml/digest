@@ -3,6 +3,7 @@ date = "2026-04-28"
 draft = false
 title = "Ministers Pressed on Safety, Funding and UK-India Tech Ties"
 tags = ['housing', 'foreignpolicy', 'justice', 'transport', 'economy']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknudclvi2g"
 +++
 
 ## High-Level Summary

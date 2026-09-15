@@ -3,6 +3,7 @@ date = "2026-02-04"
 draft = false
 title = "Service Failures Exposed as Ministers Pledge Fixes and Safeguards"
 tags = ['regulation', 'childsafety', 'immigration', 'foreignpolicy', 'employment']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknulazpa2a"
 +++
 
 ## High-Level Summary

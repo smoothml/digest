@@ -3,6 +3,7 @@ date = "2025-12-09"
 draft = false
 title = "Westminster Hall Unites: Recognition, Resilience, Creativity and Connectivity"
 tags = ['energy', 'defence', 'environment', 'education', 'transport']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknurcjwt2p"
 +++
 
 ## High-Level Summary

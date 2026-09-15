@@ -3,6 +3,7 @@ date = "2025-12-08"
 draft = false
 title = "Commons Backs Workers' Rights, Unveils Child Poverty Strategy"
 tags = ['poverty', 'employment', 'justice', 'defence', 'mentalhealth']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknurls652t"
 +++
 
 ## High-Level Summary

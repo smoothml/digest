@@ -3,6 +3,7 @@ date = "2025-12-11"
 draft = false
 title = "MPs Press HREDD as Ministers Outline Refining Strategy"
 tags = ['energy', 'economy', 'environment', 'justice', 'employment']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknuqvyoa2c"
 +++
 
 ## High-Level Summary

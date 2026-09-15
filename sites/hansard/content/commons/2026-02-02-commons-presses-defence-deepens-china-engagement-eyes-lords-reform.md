@@ -3,6 +3,7 @@ date = "2026-02-02"
 draft = false
 title = "Commons Presses Defence, Deepens China Engagement, Eyes Lords Reform"
 tags = ['defence', 'foreignpolicy', 'transport', 'environment', 'parliament']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknulsjhf2t"
 +++
 
 ## High-Level Summary

@@ -3,6 +3,7 @@ date = "2026-04-22"
 draft = false
 title = "Broad Scrutiny Prompts Promises on Health, Reserves and Fraud"
 tags = ['healthcare', 'defence', 'regulation', 'onlinesafety', 'cybersecurity']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknudzmbt2p"
 +++
 
 ## High-Level Summary

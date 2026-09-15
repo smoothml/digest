@@ -3,6 +3,7 @@ date = "2026-01-08"
 draft = false
 title = "BBC Under Spotlight as Lords Extend End-of-Life Scrutiny"
 tags = ['environment', 'transport', 'education', 'foreignpolicy', 'regulation']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknuoyrr625"
 +++
 
 ## High-Level Summary

@@ -3,6 +3,7 @@ date = "2026-02-06"
 draft = false
 title = "Lords Bar VSED Route, Retain MCA Capacity Test"
 tags = ['healthcare', 'parliament', 'mentalhealth', 'regulation']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknukxo6b22"
 +++
 
 ## High-Level Summary

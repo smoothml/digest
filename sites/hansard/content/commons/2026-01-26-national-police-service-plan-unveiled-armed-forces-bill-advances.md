@@ -3,6 +3,7 @@ date = "2026-01-26"
 draft = false
 title = "National Police Service Plan Unveiled; Armed Forces Bill Advances"
 tags = ['employment', 'defence', 'foreignpolicy', 'justice', 'healthcare']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknumptsh2a"
 +++
 
 ## High-Level Summary

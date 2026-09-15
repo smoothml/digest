@@ -3,6 +3,7 @@ date = "2026-01-08"
 draft = false
 title = "Drug Pilot Meets Legal Limits; Myanmar Aid, Sanctions Pushed"
 tags = ['healthcare', 'justice', 'devolution', 'foreignpolicy', 'security']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknuotrla2a"
 +++
 
 ## High-Level Summary

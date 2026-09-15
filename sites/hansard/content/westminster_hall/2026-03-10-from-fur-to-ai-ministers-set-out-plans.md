@@ -3,6 +3,7 @@ date = "2026-03-10"
 draft = false
 title = "From Fur to AI, Ministers Set Out Plans"
 tags = ['healthcare', 'ai', 'devolution', 'elections', 'parliament']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknuhwjrj22"
 +++
 
 ## High-Level Summary

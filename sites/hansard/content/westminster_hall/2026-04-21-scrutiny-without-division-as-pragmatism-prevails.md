@@ -3,6 +3,7 @@ date = "2026-04-21"
 draft = false
 title = "Scrutiny Without Division as Pragmatism Prevails"
 tags = ['healthcare', 'onlinesafety', 'environment', 'economy', 'transport']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknueah4y2c"
 +++
 
 ## High-Level Summary

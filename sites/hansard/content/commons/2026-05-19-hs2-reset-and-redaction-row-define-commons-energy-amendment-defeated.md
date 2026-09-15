@@ -3,6 +3,7 @@ date = "2026-05-19"
 draft = false
 title = "HS2 Reset and Redaction Row Define Commons; Energy Amendment Defeated"
 tags = ['justice', 'transport', 'energy', 'parliament']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknuchjtq2c"
 +++
 
 ## High-Level Summary

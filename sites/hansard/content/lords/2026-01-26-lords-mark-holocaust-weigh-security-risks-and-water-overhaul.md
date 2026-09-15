@@ -3,6 +3,7 @@ date = "2026-01-26"
 draft = false
 title = "Lords Mark Holocaust, Weigh Security Risks and Water Overhaul"
 tags = ['parliament', 'employment', 'ai', 'environment', 'foreignpolicy']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknums6vi2c"
 +++
 
 ## High-Level Summary

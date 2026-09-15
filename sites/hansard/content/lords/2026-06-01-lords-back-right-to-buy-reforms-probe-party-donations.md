@@ -3,6 +3,7 @@ date = "2026-06-01"
 draft = false
 title = "Lords Back Right to Buy Reforms, Probe Party Donations"
 tags = ['ai', 'economy', 'housing', 'electoralreform', 'devolution']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknubzbmy2g"
 +++
 
 ## High-Level Summary

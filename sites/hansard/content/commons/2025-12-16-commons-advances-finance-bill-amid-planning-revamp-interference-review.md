@@ -3,6 +3,7 @@ date = "2025-12-16"
 draft = false
 title = "Commons Advances Finance Bill Amid Planning Revamp, Interference Review"
 tags = ['justice', 'economy', 'environment', 'security', 'devolution']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknuq5pnj22"
 +++
 
 ## High-Level Summary

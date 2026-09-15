@@ -3,6 +3,7 @@ date = "2026-01-29"
 draft = false
 title = "Commons Stands Firm on Ukraine, Backs River Protections"
 tags = ['foreignpolicy', 'defence', 'security', 'environment', 'regulation']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknulz42t2p"
 +++
 
 ## High-Level Summary

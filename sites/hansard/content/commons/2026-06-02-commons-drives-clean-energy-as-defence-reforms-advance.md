@@ -3,6 +3,7 @@ date = "2026-06-02"
 draft = false
 title = "Commons Drives Clean Energy as Defence Reforms Advance"
 tags = ['energy', 'employment', 'justice', 'defence', 'devolution']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknubqy2t2p"
 +++
 
 ## High-Level Summary

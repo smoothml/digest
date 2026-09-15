@@ -3,6 +3,7 @@ date = "2026-02-26"
 draft = false
 title = "Backbenchers Challenge Ministers on Eating Disorders and Faith School VAT"
 tags = ['mentalhealth', 'healthcare', 'onlinesafety', 'education', 'economy']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknujcyib26"
 +++
 
 ## High-Level Summary

@@ -3,6 +3,7 @@ date = "2026-03-25"
 draft = false
 title = "Commons Freezes Crypto Donations, Rejects Lords’ Victims Bill Changes"
 tags = ['democracy', 'security', 'electoralreform', 'justice', 'devolution']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknufti4r26"
 +++
 
 ## High-Level Summary

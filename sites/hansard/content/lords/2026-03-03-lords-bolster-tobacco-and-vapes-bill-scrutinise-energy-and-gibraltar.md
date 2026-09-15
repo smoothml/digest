@@ -3,6 +3,7 @@ date = "2026-03-03"
 draft = false
 title = "Lords Bolster Tobacco and Vapes Bill, Scrutinise Energy and Gibraltar"
 tags = ['energy', 'defence', 'healthcare', 'foreignpolicy', 'economy']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknuixgb625"
 +++
 
 ## High-Level Summary

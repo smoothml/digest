@@ -3,6 +3,7 @@ date = "2026-04-14"
 draft = false
 title = "MPs Demand Accountability as Ministers Pursue Balanced Reforms"
 tags = ['regulation', 'poverty', 'justice', 'mentalhealth', 'energy']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknuf2yry2a"
 +++
 
 ## High-Level Summary

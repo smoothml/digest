@@ -3,6 +3,7 @@ date = "2026-02-11"
 draft = false
 title = "Commons Approves Police, Council Funding amid Safety Focus"
 tags = ['security', 'economy', 'housing', 'environment', 'privacy']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknukglzo25"
 +++
 
 ## High-Level Summary

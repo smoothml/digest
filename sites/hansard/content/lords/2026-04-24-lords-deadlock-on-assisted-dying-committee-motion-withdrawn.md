@@ -3,6 +3,7 @@ date = "2026-04-24"
 draft = false
 title = "Lords Deadlock on Assisted Dying; Committee Motion Withdrawn"
 tags = ['healthcare', 'parliament', 'constitution', 'regulation', 'devolution']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknudpoyq2c"
 +++
 
 ## High-Level Summary

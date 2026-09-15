@@ -3,6 +3,7 @@ date = "2026-01-20"
 draft = false
 title = "Crown Estate (Wales) Bill Passes amid Crime Bill Scrutiny"
 tags = ['justice', 'transport', 'employment', 'healthcare', 'devolution']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknunjwpi2a"
 +++
 
 ## High-Level Summary

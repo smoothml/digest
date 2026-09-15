@@ -3,6 +3,7 @@ date = "2026-03-26"
 draft = false
 title = "Lords Back Brownfield First, Rebalance London Governance"
 tags = ['ai', 'economy', 'devolution', 'transport', 'security']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknufpe6o25"
 +++
 
 ## High-Level Summary

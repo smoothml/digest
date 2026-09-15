@@ -3,6 +3,7 @@ date = "2025-12-10"
 draft = false
 title = "Lords Require Review Before Axing Compensation Cap; SAF Advances"
 tags = ['poverty', 'environment', 'defence', 'justice', 'employment']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknurafub26"
 +++
 
 ## High-Level Summary

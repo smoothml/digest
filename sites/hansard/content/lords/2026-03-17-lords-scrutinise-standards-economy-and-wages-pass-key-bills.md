@@ -3,6 +3,7 @@ date = "2026-03-17"
 draft = false
 title = "Lords Scrutinise Standards, Economy and Wages; Pass Key Bills"
 tags = ['economy', 'employment', 'justice', 'healthcare', 'education']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknugzykb26"
 +++
 
 ## High-Level Summary

@@ -3,6 +3,7 @@ date = "2026-02-23"
 draft = false
 title = "MPs Cool on Shotgun-Rifle Licensing Merger as Government Plans Consultation"
 tags = ['justice', 'security', 'regulation', 'parliament', 'economy']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknujw2pa2a"
 +++
 
 ## High-Level Summary

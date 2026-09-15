@@ -3,6 +3,7 @@ date = "2026-04-13"
 draft = false
 title = "Lords Tilt Devolution Bill Towards Localism and Community Rights"
 tags = ['devolution', 'elections', 'transport', 'ai', 'environment']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknufgmsq2c"
 +++
 
 ## High-Level Summary

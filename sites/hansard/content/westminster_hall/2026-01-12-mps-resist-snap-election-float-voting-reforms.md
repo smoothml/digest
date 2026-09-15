@@ -3,6 +3,7 @@ date = "2026-01-12"
 draft = false
 title = "MPs Resist Snap Election, Float Voting Reforms"
 tags = ['elections', 'electoralreform', 'constitution', 'parliament', 'democracy']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknuok54j26"
 +++
 
 ## High-Level Summary

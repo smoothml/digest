@@ -3,6 +3,7 @@ date = "2026-03-11"
 draft = false
 title = "Lords Recast Crime Bill: Tougher Closures, End 'Non-Crime' Records"
 tags = ['justice', 'defence', 'cybersecurity', 'economy', 'childsafety']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknuhugx32p"
 +++
 
 ## High-Level Summary

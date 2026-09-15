@@ -3,6 +3,7 @@ date = "2026-02-04"
 draft = false
 title = "Lords Shield Life Sciences as Fatal Amendment Fails"
 tags = ['healthcare', 'economy', 'foreignpolicy', 'security', 'regulation']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknulg2ot2p"
 +++
 
 ## High-Level Summary

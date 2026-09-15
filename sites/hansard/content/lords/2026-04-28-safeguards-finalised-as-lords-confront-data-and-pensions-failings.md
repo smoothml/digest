@@ -3,6 +3,7 @@ date = "2026-04-28"
 draft = false
 title = "Safeguards Finalised As Lords Confront Data And Pensions Failings"
 tags = ['onlinesafety', 'security', 'transport', 'energy', 'economy']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknudhniy22"
 +++
 
 ## High-Level Summary

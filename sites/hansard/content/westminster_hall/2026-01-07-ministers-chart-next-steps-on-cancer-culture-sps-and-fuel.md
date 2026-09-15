@@ -3,6 +3,7 @@ date = "2026-01-07"
 draft = false
 title = "Ministers Chart Next Steps on Cancer, Culture, SPS and Fuel"
 tags = ['healthcare', 'devolution', 'economy', 'foreignpolicy', 'transport']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknup32re2w"
 +++
 
 ## High-Level Summary

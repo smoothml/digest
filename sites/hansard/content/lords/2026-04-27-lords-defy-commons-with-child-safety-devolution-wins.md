@@ -3,6 +3,7 @@ date = "2026-04-27"
 draft = false
 title = "Lords Defy Commons with Child Safety, Devolution Wins"
 tags = ['economy', 'education', 'onlinesafety', 'justice', 'devolution']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknudnuha2a"
 +++
 
 ## High-Level Summary

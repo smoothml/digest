@@ -3,6 +3,7 @@ date = "2026-01-28"
 draft = false
 title = "Lords Overhaul Schools Bill: Cheaper Uniforms, Trust Inspections"
 tags = ['education', 'economy', 'environment', 'security', 'poverty']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknumds6v2t"
 +++
 
 ## High-Level Summary

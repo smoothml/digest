@@ -3,6 +3,7 @@ date = "2025-12-18"
 draft = false
 title = "Commons Drives Rural Reforms, VAWG Strategy and Ukraine Aid"
 tags = ['environment', 'justice', 'defence', 'onlinesafety', 'poverty']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknupr66v2t"
 +++
 
 ## High-Level Summary

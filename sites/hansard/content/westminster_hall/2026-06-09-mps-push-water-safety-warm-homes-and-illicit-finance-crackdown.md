@@ -3,6 +3,7 @@ date = "2026-06-09"
 draft = false
 title = "MPs Push Water Safety, Warm Homes and Illicit Finance Crackdown"
 tags = ['energy', 'poverty', 'environment', 'devolution', 'security']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknuarmay2c"
 +++
 
 ## High-Level Summary

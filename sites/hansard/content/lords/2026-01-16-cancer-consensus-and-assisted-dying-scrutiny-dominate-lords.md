@@ -3,6 +3,7 @@ date = "2026-01-16"
 draft = false
 title = "Cancer Consensus And Assisted Dying Scrutiny Dominate Lords"
 tags = ['healthcare', 'parliament', 'security', 'regulation', 'privacy']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknuntjib26"
 +++
 
 ## High-Level Summary

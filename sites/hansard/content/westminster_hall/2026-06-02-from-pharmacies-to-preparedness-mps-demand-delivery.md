@@ -3,6 +3,7 @@ date = "2026-06-02"
 draft = false
 title = "From Pharmacies to Preparedness: MPs Demand Delivery"
 tags = ['healthcare', 'economy', 'devolution', 'education', 'security']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknubotne2w"
 +++
 
 ## High-Level Summary

@@ -3,6 +3,7 @@ date = "2026-03-20"
 draft = false
 title = "Lords Probe Wales Devolution, Safeguards in Assisted Dying Bill"
 tags = ['healthcare', 'justice', 'devolution', 'parliament', 'regulation']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknugg3pw25"
 +++
 
 ## High-Level Summary

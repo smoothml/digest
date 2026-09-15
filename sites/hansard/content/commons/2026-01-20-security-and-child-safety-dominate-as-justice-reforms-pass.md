@@ -3,6 +3,7 @@ date = "2026-01-20"
 draft = false
 title = "Security and Child Safety Dominate as Justice Reforms Pass"
 tags = ['foreignpolicy', 'onlinesafety', 'childsafety', 'justice', 'defence']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknunht4q2g"
 +++
 
 ## High-Level Summary

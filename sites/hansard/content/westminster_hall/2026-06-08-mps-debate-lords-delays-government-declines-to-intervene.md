@@ -3,6 +3,7 @@ date = "2026-06-08"
 draft = false
 title = "MPs Debate Lords’ Delays; Government Declines to Intervene"
 tags = ['parliament', 'constitution', 'democracy', 'healthcare']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknuazahw25"
 +++
 
 ## High-Level Summary

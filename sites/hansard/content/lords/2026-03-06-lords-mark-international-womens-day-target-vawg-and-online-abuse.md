@@ -3,6 +3,7 @@ date = "2026-03-06"
 draft = false
 title = "Lords Mark International Women’s Day, Target VAWG and Online Abuse"
 tags = ['parliament', 'onlinesafety', 'healthcare', 'childsafety', 'foreignpolicy']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknuidlba2g"
 +++
 
 ## High-Level Summary

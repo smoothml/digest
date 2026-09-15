@@ -3,6 +3,7 @@ date = "2026-01-15"
 draft = false
 title = "Government Sets Out Digital ID and New Towns Plan"
 tags = ['digitalid', 'housing', 'justice', 'economy', 'environment']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknunxlyy2g"
 +++
 
 ## High-Level Summary

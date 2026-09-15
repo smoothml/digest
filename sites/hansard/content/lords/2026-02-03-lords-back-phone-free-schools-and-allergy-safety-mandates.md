@@ -3,6 +3,7 @@ date = "2026-02-03"
 draft = false
 title = "Lords Back Phone-Free Schools and Allergy Safety Mandates"
 tags = ['education', 'poverty', 'ai', 'security', 'childsafety']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknulnvsq2a"
 +++
 
 ## High-Level Summary

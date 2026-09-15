@@ -3,6 +3,7 @@ date = "2026-06-05"
 draft = false
 title = "Lords Seek Pro-Human AI, Balancing Innovation and Restraint"
 tags = ['ai', 'regulation', 'onlinesafety', 'childsafety', 'foreignpolicy']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknub7ojo25"
 +++
 
 ## High-Level Summary

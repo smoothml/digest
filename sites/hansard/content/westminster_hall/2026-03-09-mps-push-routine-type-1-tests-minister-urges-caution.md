@@ -3,6 +3,7 @@ date = "2026-03-09"
 draft = false
 title = "MPs Push Routine Type 1 Tests; Minister Urges Caution"
 tags = ['healthcare', 'childsafety', 'parliament', 'regulation', 'education']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknui56nz22"
 +++
 
 ## High-Level Summary

@@ -3,6 +3,7 @@ date = "2026-04-14"
 draft = false
 title = "Lords Scrutinise Migration Rules, Pass Grenfell Memorial, Salaries Bill"
 tags = ['immigration', 'parliament', 'defence', 'foreignpolicy', 'poverty']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknufa2wg25"
 +++
 
 ## High-Level Summary

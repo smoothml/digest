@@ -3,6 +3,7 @@ date = "2026-01-29"
 draft = false
 title = "Lords Press UK–EU Reset, Erasmus+ Return and High Street Relief"
 tags = ['foreignpolicy', 'economy', 'education', 'ai', 'environment']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknum5lzz22"
 +++
 
 ## High-Level Summary

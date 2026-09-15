@@ -3,6 +3,7 @@ date = "2026-02-02"
 draft = false
 title = "Lords Advance Abortion Reform as New Lord Speaker Welcomed"
 tags = ['parliament', 'foreignpolicy', 'transport', 'justice', 'healthcare']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknuluvgy2a"
 +++
 
 ## High-Level Summary

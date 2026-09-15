@@ -3,6 +3,7 @@ date = "2026-06-02"
 draft = false
 title = "Lords Advance Aviation Consumer Reforms Amid Mandelson Disclosures"
 tags = ['parliament', 'healthcare', 'foreignpolicy', 'transport', 'economy']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknubt5iq2c"
 +++
 
 ## High-Level Summary

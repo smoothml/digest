@@ -3,6 +3,7 @@ date = "2026-01-14"
 draft = false
 title = "Lords Tighten Child Protection, Back Deepfake Crackdown"
 tags = ['environment', 'education', 'childsafety', 'defence', 'onlinesafety']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknuobio72a"
 +++
 
 ## High-Level Summary

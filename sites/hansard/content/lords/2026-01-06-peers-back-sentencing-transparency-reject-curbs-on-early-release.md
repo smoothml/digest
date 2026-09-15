@@ -3,6 +3,7 @@ date = "2026-01-06"
 draft = false
 title = "Peers Back Sentencing Transparency, Reject Curbs on Early Release"
 tags = ['justice', 'economy', 'defence', 'environment', 'transport']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknupgmx32p"
 +++
 
 ## High-Level Summary

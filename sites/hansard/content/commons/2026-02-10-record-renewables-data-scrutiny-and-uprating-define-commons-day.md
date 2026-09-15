@@ -3,6 +3,7 @@ date = "2026-02-10"
 draft = false
 title = "Record Renewables, Data Scrutiny, and Uprating Define Commons Day"
 tags = ['energy', 'defence', 'justice', 'economy', 'healthcare']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknukmnij26"
 +++
 
 ## High-Level Summary

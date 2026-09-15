@@ -3,6 +3,7 @@ date = "2026-01-06"
 draft = false
 title = "From Cancer to Thames Water, Ministers Promise Action"
 tags = ['healthcare', 'poverty', 'employment', 'regulation', 'environment']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknupbuzj22"
 +++
 
 ## High-Level Summary

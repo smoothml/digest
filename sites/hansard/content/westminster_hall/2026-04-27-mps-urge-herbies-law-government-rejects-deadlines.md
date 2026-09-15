@@ -3,6 +3,7 @@ date = "2026-04-27"
 draft = false
 title = "MPs Urge Herbie's Law; Government Rejects Deadlines"
 tags = ['parliament', 'regulation', 'healthcare', 'ai']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknudjkmd2p"
 +++
 
 ## High-Level Summary

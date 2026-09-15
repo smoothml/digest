@@ -3,6 +3,7 @@ date = "2026-03-18"
 draft = false
 title = "From Post Delays to Rights in China: MPs Demand Action"
 tags = ['regulation', 'foreignpolicy', 'transport', 'economy', 'justice']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknugp2qy2c"
 +++
 
 ## High-Level Summary

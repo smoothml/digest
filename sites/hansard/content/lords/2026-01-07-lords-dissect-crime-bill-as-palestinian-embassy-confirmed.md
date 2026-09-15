@@ -3,6 +3,7 @@ date = "2026-01-07"
 draft = false
 title = "Lords Dissect Crime Bill as Palestinian Embassy Confirmed"
 tags = ['childsafety', 'onlinesafety', 'cybersecurity', 'justice', 'foreignpolicy']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknup7rnb22"
 +++
 
 ## High-Level Summary

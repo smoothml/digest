@@ -3,6 +3,7 @@ date = "2026-03-19"
 draft = false
 title = "Commons Resets Aid, Safeguards Steel, Backs Clean Power"
 tags = ['environment', 'justice', 'foreignpolicy', 'economy', 'onlinesafety']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknugkucr22"
 +++
 
 ## High-Level Summary

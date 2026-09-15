@@ -3,6 +3,7 @@ date = "2026-03-23"
 draft = false
 title = "Lords Reshape Pensions Bill and Scrutinise UK Steel Strategy"
 tags = ['economy', 'energy', 'defence', 'healthcare', 'foreignpolicy']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknugdsaq2g"
 +++
 
 ## High-Level Summary

@@ -3,6 +3,7 @@ date = "2026-06-03"
 draft = false
 title = "Commons Tests Transparency and Demands Accountability from Belfast to Beirut"
 tags = ['parliament', 'foreignpolicy', 'devolution', 'regulation', 'defence']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknubkj4y2c"
 +++
 
 ## High-Level Summary

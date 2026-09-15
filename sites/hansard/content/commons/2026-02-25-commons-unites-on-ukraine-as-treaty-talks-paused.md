@@ -3,6 +3,7 @@ date = "2026-02-25"
 draft = false
 title = "Commons Unites on Ukraine as Treaty Talks Paused"
 tags = ['defence', 'foreignpolicy', 'energy', 'immigration', 'housing']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknujlqvj22"
 +++
 
 ## High-Level Summary

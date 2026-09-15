@@ -3,6 +3,7 @@ date = "2026-02-11"
 draft = false
 title = "Lords Spotlight Victims Bill as Record Onshore Wind, Solar"
 tags = ['housing', 'justice', 'transport', 'energy', 'defence']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknukje352t"
 +++
 
 ## High-Level Summary

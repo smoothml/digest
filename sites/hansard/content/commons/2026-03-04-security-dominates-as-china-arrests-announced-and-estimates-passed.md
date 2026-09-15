@@ -3,6 +3,7 @@ date = "2026-03-04"
 draft = false
 title = "Security Dominates as China Arrests Announced and Estimates Passed"
 tags = ['security', 'defence', 'economy', 'devolution', 'foreignpolicy']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknuinzcl2p"
 +++
 
 ## High-Level Summary

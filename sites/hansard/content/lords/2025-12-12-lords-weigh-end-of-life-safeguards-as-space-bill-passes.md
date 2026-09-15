@@ -3,6 +3,7 @@ date = "2025-12-12"
 draft = false
 title = "Lords Weigh End of Life Safeguards as Space Bill Passes"
 tags = ['healthcare', 'justice', 'devolution', 'mentalhealth', 'economy']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknuqtfpi2a"
 +++
 
 ## High-Level Summary

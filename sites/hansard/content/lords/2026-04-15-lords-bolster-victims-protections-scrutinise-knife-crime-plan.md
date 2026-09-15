@@ -3,6 +3,7 @@ date = "2026-04-15"
 draft = false
 title = "Lords Bolster Victims’ Protections, Scrutinise Knife Crime Plan"
 tags = ['justice', 'security', 'environment', 'healthcare', 'devolution']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknuez3h52t"
 +++
 
 ## High-Level Summary

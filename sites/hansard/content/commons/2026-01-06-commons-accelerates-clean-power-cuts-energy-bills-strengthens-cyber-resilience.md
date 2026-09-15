@@ -3,6 +3,7 @@ date = "2026-01-06"
 draft = false
 title = "Commons Accelerates Clean Power, Cuts Energy Bills, Strengthens Cyber Resilience"
 tags = ['energy', 'cybersecurity', 'environment', 'regulation', 'economy']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknupdy6p2a"
 +++
 
 ## High-Level Summary

@@ -3,6 +3,7 @@ date = "2025-12-17"
 draft = false
 title = "Lords Uphold Emergency Worker Protections, Decry Jimmy Lai Verdict"
 tags = ['justice', 'employment', 'education', 'transport', 'regulation']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknupzpgy2a"
 +++
 
 ## High-Level Summary

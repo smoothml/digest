@@ -3,6 +3,7 @@ date = "2026-01-12"
 draft = false
 title = "Lords Elect Forsyth, Rebuke Diego Garcia Deal"
 tags = ['defence', 'foreignpolicy', 'environment', 'justice', 'education']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknuop7zi2c"
 +++
 
 ## High-Level Summary

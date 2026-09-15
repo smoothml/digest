@@ -3,6 +3,7 @@ date = "2026-04-15"
 draft = false
 title = "Defence Dominates as Pensions Clash in Commons"
 tags = ['defence', 'education', 'energy', 'healthcare', 'economy']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknuewynq2g"
 +++
 
 ## High-Level Summary

@@ -3,6 +3,7 @@ date = "2026-03-13"
 draft = false
 title = "Lords Weigh Safeguards, ECHR Risks in Assisted Dying Bill"
 tags = ['healthcare', 'parliament', 'regulation', 'justice', 'childsafety']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknuhfxaw25"
 +++
 
 ## High-Level Summary

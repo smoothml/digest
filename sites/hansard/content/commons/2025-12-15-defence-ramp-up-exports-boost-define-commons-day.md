@@ -3,6 +3,7 @@ date = "2025-12-15"
 draft = false
 title = "Defence Ramp-Up, Exports Boost Define Commons Day"
 tags = ['defence', 'healthcare', 'employment', 'economy', 'justice']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknuqelzq2c"
 +++
 
 ## High-Level Summary

@@ -3,6 +3,7 @@ date = "2026-04-21"
 draft = false
 title = "Energy Overhaul, Mandelson Row and Devolution Clashes"
 tags = ['foreignpolicy', 'energy', 'devolution', 'economy', 'security']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknueczff2t"
 +++
 
 ## High-Level Summary

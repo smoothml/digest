@@ -3,6 +3,7 @@ date = "2026-04-27"
 draft = false
 title = "Commons Rejects Lords Changes, Sets Under‑16 Online Curbs"
 tags = ['employment', 'security', 'devolution', 'housing', 'onlinesafety']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknudljzq2g"
 +++
 
 ## High-Level Summary

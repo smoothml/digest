@@ -3,6 +3,7 @@ date = "2026-01-26"
 draft = false
 title = "KS1 Play Mandate Rejected; Rescue Licensing Consultation Confirmed"
 tags = ['education', 'regulation', 'parliament']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknumnfvj22"
 +++
 
 ## High-Level Summary

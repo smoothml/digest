@@ -3,6 +3,7 @@ date = "2026-06-03"
 draft = false
 title = "Lords Advance Sporting Events Bill Amid Equality Act Clarification"
 tags = ['parliament', 'constitution', 'healthcare', 'environment', 'justice']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknubmohq2c"
 +++
 
 ## High-Level Summary

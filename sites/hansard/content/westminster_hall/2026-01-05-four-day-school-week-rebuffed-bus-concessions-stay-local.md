@@ -3,6 +3,7 @@ date = "2026-01-05"
 draft = false
 title = "Four-Day School Week Rebuffed, Bus Concessions Stay Local"
 tags = ['transport', 'education', 'economy', 'devolution']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknupiqhy2a"
 +++
 
 ## High-Level Summary

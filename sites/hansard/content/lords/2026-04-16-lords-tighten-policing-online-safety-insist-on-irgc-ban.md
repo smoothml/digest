@@ -3,6 +3,7 @@ date = "2026-04-16"
 draft = false
 title = "Lords Tighten Policing, Online Safety; Insist on IRGC Ban"
 tags = ['justice', 'onlinesafety', 'ai', 'security', 'energy']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknuerxvv2t"
 +++
 
 ## High-Level Summary

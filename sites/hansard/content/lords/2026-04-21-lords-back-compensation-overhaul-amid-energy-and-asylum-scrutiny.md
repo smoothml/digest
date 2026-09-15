@@ -3,6 +3,7 @@ date = "2026-04-21"
 draft = false
 title = "Lords Back Compensation Overhaul amid Energy and Asylum Scrutiny"
 tags = ['healthcare', 'energy', 'parliament', 'foreignpolicy', 'elections']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknuef3fu2w"
 +++
 
 ## High-Level Summary

@@ -3,6 +3,7 @@ date = "2026-02-26"
 draft = false
 title = "UK-EU Gibraltar Border Reset as MPs Question AI Policing"
 tags = ['parliament', 'foreignpolicy', 'ai', 'education', 'economy']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknujeysi2a"
 +++
 
 ## High-Level Summary

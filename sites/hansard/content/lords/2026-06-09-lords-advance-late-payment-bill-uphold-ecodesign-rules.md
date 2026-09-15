@@ -3,6 +3,7 @@ date = "2026-06-09"
 draft = false
 title = "Lords Advance Late Payment Bill, Uphold Ecodesign Rules"
 tags = ['economy', 'transport', 'environment', 'onlinesafety', 'foreignpolicy']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknuax2cv2t"
 +++
 
 ## High-Level Summary

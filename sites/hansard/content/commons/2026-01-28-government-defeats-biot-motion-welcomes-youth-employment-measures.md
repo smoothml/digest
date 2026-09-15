@@ -3,6 +3,7 @@ date = "2026-01-28"
 draft = false
 title = "Government Defeats BIOT Motion, Welcomes Youth Employment Measures"
 tags = ['foreignpolicy', 'employment', 'healthcare', 'education', 'environment']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknumbntf2t"
 +++
 
 ## High-Level Summary

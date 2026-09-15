@@ -3,6 +3,7 @@ date = "2026-03-25"
 draft = false
 title = "Lords Strengthen Online Safeguards, Impose School Phone Ban"
 tags = ['onlinesafety', 'education', 'childsafety', 'immigration', 'energy']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknufvo5t2p"
 +++
 
 ## High-Level Summary

@@ -3,6 +3,7 @@ date = "2025-12-08"
 draft = false
 title = "Devolution Bill Progresses as Lords Sound Security Alarm"
 tags = ['defence', 'security', 'economy', 'employment', 'devolution']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknuro3ym2w"
 +++
 
 ## High-Level Summary

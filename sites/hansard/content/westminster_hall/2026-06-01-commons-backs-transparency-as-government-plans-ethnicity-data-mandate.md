@@ -3,6 +3,7 @@ date = "2026-06-01"
 draft = false
 title = "Commons Backs Transparency as Government Plans Ethnicity Data Mandate"
 tags = ['childsafety', 'justice', 'privacy', 'parliament', 'immigration']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknubv4ut2p"
 +++
 
 ## High-Level Summary

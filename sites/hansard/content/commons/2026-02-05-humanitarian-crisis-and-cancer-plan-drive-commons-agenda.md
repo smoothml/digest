@@ -3,6 +3,7 @@ date = "2026-02-05"
 draft = false
 title = "Humanitarian Crisis and Cancer Plan Drive Commons Agenda"
 tags = ['parliament', 'environment', 'justice', 'healthcare', 'foreignpolicy']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknul4fcx2a"
 +++
 
 ## High-Level Summary

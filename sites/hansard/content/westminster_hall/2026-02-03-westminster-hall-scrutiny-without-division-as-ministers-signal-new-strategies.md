@@ -3,6 +3,7 @@ date = "2026-02-03"
 draft = false
 title = "Westminster Hall Scrutiny Without Division as Ministers Signal New Strategies"
 tags = ['security', 'economy', 'transport', 'education', 'regulation']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknulid3y2a"
 +++
 
 ## High-Level Summary

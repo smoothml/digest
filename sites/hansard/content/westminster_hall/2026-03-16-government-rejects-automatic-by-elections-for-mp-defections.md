@@ -3,6 +3,7 @@ date = "2026-03-16"
 draft = false
 title = "Government Rejects Automatic By-Elections for MP Defections"
 tags = ['elections', 'parliament', 'electoralreform', 'constitution', 'democracy']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknuh3x6r22"
 +++
 
 ## High-Level Summary

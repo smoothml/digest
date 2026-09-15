@@ -3,6 +3,7 @@ date = "2026-03-05"
 draft = false
 title = "Commons Steers Middle East Response, Champions Care"
 tags = ['healthcare', 'foreignpolicy', 'energy', 'digitalid', 'defence']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknuihv4i2c"
 +++
 
 ## High-Level Summary

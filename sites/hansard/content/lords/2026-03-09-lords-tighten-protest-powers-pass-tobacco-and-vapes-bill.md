@@ -3,6 +3,7 @@ date = "2026-03-09"
 draft = false
 title = "Lords Tighten Protest Powers, Pass Tobacco and Vapes Bill"
 tags = ['justice', 'energy', 'healthcare', 'economy', 'foreignpolicy']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknuibh5625"
 +++
 
 ## High-Level Summary

@@ -3,6 +3,7 @@ date = "2026-03-19"
 draft = false
 title = "Lords Rein in Pension Powers, Probe UK Resilience"
 tags = ['energy', 'economy', 'environment', 'transport', 'foreignpolicy']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknugmzkn2t"
 +++
 
 ## High-Level Summary

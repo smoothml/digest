@@ -3,6 +3,7 @@ date = "2026-02-05"
 draft = false
 title = "Commons Probes Scotland’s Industrial Shift, Urges SuDS Adoption"
 tags = ['parliament', 'environment', 'energy', 'employment', 'regulation']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknukzz3q2a"
 +++
 
 ## High-Level Summary

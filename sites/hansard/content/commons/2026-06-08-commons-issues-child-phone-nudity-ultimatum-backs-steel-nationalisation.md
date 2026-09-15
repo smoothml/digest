@@ -3,6 +3,7 @@ date = "2026-06-08"
 draft = false
 title = "Commons Issues Child Phone Nudity Ultimatum; Backs Steel Nationalisation"
 tags = ['immigration', 'onlinesafety', 'environment', 'foreignpolicy', 'regulation']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknub3ksb26"
 +++
 
 ## High-Level Summary

@@ -3,6 +3,7 @@ date = "2026-03-12"
 draft = false
 title = "Lords Advance Social Justice, Climate Action and Free Speech"
 tags = ['economy', 'environment', 'healthcare', 'poverty', 'education']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknuhms5v2t"
 +++
 
 ## High-Level Summary

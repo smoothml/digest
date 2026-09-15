@@ -3,6 +3,7 @@ date = "2026-01-19"
 draft = false
 title = "Domestic Reform Drive, Security Tests Define Commons Day"
 tags = ['education', 'economy', 'foreignpolicy', 'elections', 'justice']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknunosxi2a"
 +++
 
 ## High-Level Summary

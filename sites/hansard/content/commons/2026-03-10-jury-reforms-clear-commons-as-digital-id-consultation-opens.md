@@ -3,6 +3,7 @@ date = "2026-03-10"
 draft = false
 title = "Jury Reforms Clear Commons as Digital ID Consultation Opens"
 tags = ['economy', 'digitalid', 'justice', 'environment']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknuhyhcb22"
 +++
 
 ## High-Level Summary

@@ -3,6 +3,7 @@ date = "2025-12-15"
 draft = false
 title = "Petition to Repeal OSA Rejected; Child Safety in Focus"
 tags = ['onlinesafety', 'childsafety', 'ai', 'privacy', 'regulation']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknuqbxv42w"
 +++
 
 ## High-Level Summary

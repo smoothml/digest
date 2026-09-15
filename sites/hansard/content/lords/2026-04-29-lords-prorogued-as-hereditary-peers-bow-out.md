@@ -3,6 +3,7 @@ date = "2026-04-29"
 draft = false
 title = "Lords Prorogued as Hereditary Peers Bow Out"
 tags = ['parliament', 'constitution', 'economy', 'justice', 'foreignpolicy']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknudabti2c"
 +++
 
 ## High-Level Summary

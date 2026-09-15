@@ -3,6 +3,7 @@ date = "2026-04-20"
 draft = false
 title = "Lords Tighten Child Safety, Rework Pensions amid Vetting Row"
 tags = ['education', 'onlinesafety', 'security', 'transport', 'economy']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknuelkni2a"
 +++
 
 ## High-Level Summary

@@ -3,6 +3,7 @@ date = "2026-03-25"
 draft = false
 title = "MPs Seek Local Powers, Fair Funding and Accountability"
 tags = ['healthcare', 'environment', 'devolution', 'economy', 'justice']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknufrekq2c"
 +++
 
 ## High-Level Summary

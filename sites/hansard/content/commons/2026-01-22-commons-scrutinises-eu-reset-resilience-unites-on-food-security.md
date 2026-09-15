@@ -3,6 +3,7 @@ date = "2026-01-22"
 draft = false
 title = "Commons Scrutinises EU Reset, Resilience; Unites on Food Security"
 tags = ['parliament', 'foreignpolicy', 'digitalid', 'energy', 'economy']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknun2gsf2t"
 +++
 
 ## High-Level Summary

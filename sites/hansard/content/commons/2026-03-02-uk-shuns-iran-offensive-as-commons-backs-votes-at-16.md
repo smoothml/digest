@@ -3,6 +3,7 @@ date = "2026-03-02"
 draft = false
 title = "UK Shuns Iran Offensive as Commons Backs Votes at 16"
 tags = ['education', 'foreignpolicy', 'defence', 'electoralreform', 'childsafety']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknuj3vqi2c"
 +++
 
 ## High-Level Summary

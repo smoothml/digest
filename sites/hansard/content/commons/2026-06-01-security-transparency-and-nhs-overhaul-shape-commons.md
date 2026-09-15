@@ -3,6 +3,7 @@ date = "2026-06-01"
 draft = false
 title = "Security, Transparency and NHS Overhaul Shape Commons"
 tags = ['defence', 'healthcare', 'constitution', 'regulation', 'housing']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknubx4ha2c"
 +++
 
 ## High-Level Summary

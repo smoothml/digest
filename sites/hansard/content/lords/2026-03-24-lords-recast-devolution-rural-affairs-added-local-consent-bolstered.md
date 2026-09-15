@@ -3,6 +3,7 @@ date = "2026-03-24"
 draft = false
 title = "Lords Recast Devolution: Rural Affairs Added, Local Consent Bolstered"
 tags = ['devolution', 'housing', 'transport', 'economy', 'employment']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknug4xq625"
 +++
 
 ## High-Level Summary

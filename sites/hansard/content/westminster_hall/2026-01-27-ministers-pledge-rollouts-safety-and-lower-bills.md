@@ -3,6 +3,7 @@ date = "2026-01-27"
 draft = false
 title = "Ministers Pledge Rollouts, Safety and Lower Bills"
 tags = ['transport', 'energy', 'onlinesafety', 'economy', 'regulation']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknumg3gn2t"
 +++
 
 ## High-Level Summary

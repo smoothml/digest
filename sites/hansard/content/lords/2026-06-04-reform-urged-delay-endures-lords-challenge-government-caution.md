@@ -3,6 +3,7 @@ date = "2026-06-04"
 draft = false
 title = "Reform Urged, Delay Endures: Lords Challenge Government Caution"
 tags = ['immigration', 'defence', 'employment', 'healthcare', 'justice']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknubgf542w"
 +++
 
 ## High-Level Summary

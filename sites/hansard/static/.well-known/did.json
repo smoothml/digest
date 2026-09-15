@@ -11,14 +11,14 @@
       "id": "did:web:orderly.bot#atproto",
       "type": "Multikey",
       "controller": "did:web:orderly.bot",
-      "publicKeyMultibase": "REPLACE-WITH-PUBLIC-KEY-MULTIBASE"
+      "publicKeyMultibase": "zQ3shYyL5yfPBQWXeiMpiYUtXc7xPmamVWq689LEWUexufRmW"
     }
   ],
   "service": [
     {
       "id": "#atproto_pds",
       "type": "AtprotoPersonalDataServer",
-      "serviceEndpoint": "https://REPLACE-WITH-PDS-HOST"
+      "serviceEndpoint": "https://eurosky.social"
     }
   ]
 }

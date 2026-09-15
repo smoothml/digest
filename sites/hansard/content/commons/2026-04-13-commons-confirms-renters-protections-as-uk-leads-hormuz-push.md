@@ -3,6 +3,7 @@ date = "2026-04-13"
 draft = false
 title = "Commons Confirms Renters’ Protections as UK Leads Hormuz Push"
 tags = ['housing', 'foreignpolicy', 'defence', 'security', 'education']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknufepmb22"
 +++
 
 ## High-Level Summary

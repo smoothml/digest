@@ -3,6 +3,7 @@ date = "2026-01-30"
 draft = false
 title = "Safeguards, AI and Prognosis Dominate Assisted Dying Debate"
 tags = ['parliament', 'healthcare', 'ai', 'education', 'justice']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknulx3sp2a"
 +++
 
 ## High-Level Summary

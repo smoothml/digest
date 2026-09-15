@@ -3,6 +3,7 @@ date = "2026-01-15"
 draft = false
 title = "Lords Weigh Protest Curbs, Facial Recognition and Hate Crime"
 tags = ['defence', 'foreignpolicy', 'justice', 'privacy', 'childsafety']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknunzoo72a"
 +++
 
 ## High-Level Summary

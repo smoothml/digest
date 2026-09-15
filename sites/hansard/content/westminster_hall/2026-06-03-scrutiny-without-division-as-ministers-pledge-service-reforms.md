@@ -3,6 +3,7 @@ date = "2026-06-03"
 draft = false
 title = "Scrutiny Without Division as Ministers Pledge Service Reforms"
 tags = ['transport', 'mentalhealth', 'immigration', 'economy', 'environment']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknubiiqw25"
 +++
 
 ## High-Level Summary

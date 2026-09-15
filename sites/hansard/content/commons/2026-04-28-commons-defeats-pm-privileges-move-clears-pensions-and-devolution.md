@@ -3,6 +3,7 @@ date = "2026-04-28"
 draft = false
 title = "Commons Defeats PM Privileges Move, Clears Pensions and Devolution"
 tags = ['parliament', 'economy', 'housing', 'energy', 'devolution']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknudf6fq22"
 +++
 
 ## High-Level Summary

@@ -3,6 +3,7 @@ date = "2026-04-22"
 draft = false
 title = "Lords Rein In Fines, Shield Pensions, Demand Iran Review"
 tags = ['energy', 'environment', 'economy', 'parliament', 'security']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknue6fwn2t"
 +++
 
 ## High-Level Summary

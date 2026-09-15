@@ -3,6 +3,7 @@ date = "2026-04-23"
 draft = false
 title = "Lords Hand Government String of Devolution Defeats"
 tags = ['housing', 'devolution', 'healthcare', 'economy', 'environment']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknudxmqq2g"
 +++
 
 ## High-Level Summary

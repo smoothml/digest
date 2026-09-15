@@ -3,6 +3,7 @@ date = "2026-01-20"
 draft = false
 title = "Safety Pledges Across Services, ADHD Debate Left Unresolved"
 tags = ['healthcare', 'housing', 'environment', 'regulation', 'mentalhealth']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknunfjuy2g"
 +++
 
 ## High-Level Summary

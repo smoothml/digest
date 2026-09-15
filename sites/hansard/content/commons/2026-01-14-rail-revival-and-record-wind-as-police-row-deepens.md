@@ -3,6 +3,7 @@ date = "2026-01-14"
 draft = false
 title = "Rail Revival and Record Wind as Police Row Deepens"
 tags = ['energy', 'transport', 'economy', 'foreignpolicy', 'justice']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknuo7b4q2g"
 +++
 
 ## High-Level Summary

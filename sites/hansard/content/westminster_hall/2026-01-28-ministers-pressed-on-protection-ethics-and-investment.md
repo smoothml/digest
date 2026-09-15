@@ -3,6 +3,7 @@ date = "2026-01-28"
 draft = false
 title = "Ministers Pressed on Protection, Ethics and Investment"
 tags = ['childsafety', 'regulation', 'defence', 'transport', 'security']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknum7i4a2g"
 +++
 
 ## High-Level Summary

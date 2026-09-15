@@ -3,6 +3,7 @@ date = "2026-01-14"
 draft = false
 title = "MPs Demand Fairness at Home, Resolve Abroad"
 tags = ['defence', 'energy', 'education', 'foreignpolicy', 'transport']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknuo3yry2c"
 +++
 
 ## High-Level Summary

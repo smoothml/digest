@@ -3,6 +3,7 @@ date = "2026-02-27"
 draft = false
 title = "Lords Seal Rare Cancers Bill, Probe Assisted Dying System"
 tags = ['healthcare', 'parliament', 'regulation', 'justice', 'privacy']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknujat752t"
 +++
 
 ## High-Level Summary

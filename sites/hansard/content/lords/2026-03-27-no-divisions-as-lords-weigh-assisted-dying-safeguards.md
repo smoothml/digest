@@ -3,6 +3,7 @@ date = "2026-03-27"
 draft = false
 title = "No Divisions as Lords Weigh Assisted Dying Safeguards"
 tags = ['healthcare', 'parliament', 'regulation', 'privacy']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknufiu772a"
 +++
 
 ## High-Level Summary

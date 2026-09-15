@@ -3,6 +3,7 @@ date = "2026-05-20"
 draft = false
 title = "Lords Probe Reform Pledges as Price Caps Ruled Out"
 tags = ['healthcare', 'housing', 'transport', 'education', 'justice']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknucf3ra2a"
 +++
 
 ## High-Level Summary

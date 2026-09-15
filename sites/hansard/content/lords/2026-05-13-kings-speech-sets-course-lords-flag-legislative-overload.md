@@ -3,6 +3,7 @@ date = "2026-05-13"
 draft = false
 title = "King’s Speech Sets Course; Lords Flag Legislative Overload"
 tags = ['security', 'economy', 'energy', 'foreignpolicy', 'parliament']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknuczf7g25"
 +++
 
 ## High-Level Summary

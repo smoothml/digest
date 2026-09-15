@@ -3,6 +3,7 @@ date = "2025-12-08"
 draft = false
 title = "MPs Push Back on Digital ID; Consultation Ahead"
 tags = ['security', 'privacy', 'cybersecurity', 'digitalid']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknurj7vq2c"
 +++
 
 ## High-Level Summary

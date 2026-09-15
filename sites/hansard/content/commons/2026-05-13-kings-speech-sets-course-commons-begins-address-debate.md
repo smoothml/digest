@@ -3,6 +3,7 @@ date = "2026-05-13"
 draft = false
 title = "King's Speech Sets Course; Commons Begins Address Debate"
 tags = ['parliament', 'defence', 'energy', 'housing', 'healthcare']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknucxatw25"
 +++
 
 ## High-Level Summary

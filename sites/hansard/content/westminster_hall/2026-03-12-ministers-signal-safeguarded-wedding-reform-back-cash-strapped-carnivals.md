@@ -3,6 +3,7 @@ date = "2026-03-12"
 draft = false
 title = "Ministers Signal Safeguarded Wedding Reform, Back Cash-Strapped Carnivals"
 tags = ['parliament', 'regulation', 'justice', 'economy']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknuhhum32p"
 +++
 
 ## High-Level Summary

@@ -3,6 +3,7 @@ date = "2026-06-08"
 draft = false
 title = "Financial Reforms Advance as Lords Launch Children's Care Reset"
 tags = ['regulation', 'foreignpolicy', 'environment', 'education', 'housing']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknub5jdv2t"
 +++
 
 ## High-Level Summary

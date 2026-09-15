@@ -3,6 +3,7 @@ date = "2026-02-24"
 draft = false
 title = "Lords Uphold Smoke-Free Generation as Schools Overhaul Outlined"
 tags = ['education', 'healthcare', 'environment', 'parliament', 'justice']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknuju7cv2t"
 +++
 
 ## High-Level Summary

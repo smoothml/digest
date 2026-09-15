@@ -3,6 +3,7 @@ date = "2026-06-09"
 draft = false
 title = "Steel Bill Clears Commons as Middle East Escalation Condemned"
 tags = ['healthcare', 'foreignpolicy', 'economy', 'transport', 'security']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknuaulyy2a"
 +++
 
 ## High-Level Summary

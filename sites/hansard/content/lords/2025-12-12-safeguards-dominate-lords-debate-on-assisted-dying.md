@@ -3,6 +3,7 @@ date = "2025-12-12"
 draft = false
 title = "Safeguards Dominate Lords Debate on Assisted Dying"
 tags = ['healthcare', 'mentalhealth', 'justice', 'economy', 'transport']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknuqreco25"
 +++
 
 ## High-Level Summary

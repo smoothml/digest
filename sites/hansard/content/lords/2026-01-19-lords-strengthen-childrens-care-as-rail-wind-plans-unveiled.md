@@ -3,6 +3,7 @@ date = "2026-01-19"
 draft = false
 title = "Lords Strengthen Children’s Care as Rail, Wind Plans Unveiled"
 tags = ['education', 'childsafety', 'transport', 'energy', 'foreignpolicy']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknunr2aq2a"
 +++
 
 ## High-Level Summary

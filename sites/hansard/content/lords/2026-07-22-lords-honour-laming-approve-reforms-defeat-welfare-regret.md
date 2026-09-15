@@ -9,6 +9,7 @@ tags = [
     "employment",
     "foreignpolicy",
 ]
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknu3wsxu2w"
 +++
 
 ## High-Level Summary

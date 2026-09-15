@@ -3,6 +3,7 @@ date = "2026-01-21"
 draft = false
 title = "Ministers Set Out Broad Reforms, Urge End to Waste Dispute"
 tags = ['healthcare', 'environment', 'economy', 'democracy', 'devolution']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknun6ngp2a"
 +++
 
 ## High-Level Summary

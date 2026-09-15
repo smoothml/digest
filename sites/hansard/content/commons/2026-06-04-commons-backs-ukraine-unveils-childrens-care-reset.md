@@ -3,6 +3,7 @@ date = "2026-06-04"
 draft = false
 title = "Commons Backs Ukraine, Unveils Children’s Care Reset"
 tags = ['environment', 'justice', 'foreignpolicy', 'healthcare', 'parliament']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknube25i2a"
 +++
 
 ## High-Level Summary

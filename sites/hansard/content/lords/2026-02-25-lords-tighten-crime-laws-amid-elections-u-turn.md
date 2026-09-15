@@ -3,6 +3,7 @@ date = "2026-02-25"
 draft = false
 title = "Lords Tighten Crime Laws Amid Elections U-Turn"
 tags = ['justice', 'environment', 'ai', 'defence', 'elections']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknujnwva2c"
 +++
 
 ## High-Level Summary

@@ -9,6 +9,7 @@ tags = [
     "economy",
     "housing",
 ]
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknu6fz5m2w"
 +++
 
 ## High-Level Summary

@@ -3,6 +3,7 @@ date = "2026-05-14"
 draft = false
 title = "Lords Weigh Closer EU Ties, Growth and Defence"
 tags = ['economy', 'foreignpolicy', 'defence', 'parliament', 'housing']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknucumxr26"
 +++
 
 ## High-Level Summary

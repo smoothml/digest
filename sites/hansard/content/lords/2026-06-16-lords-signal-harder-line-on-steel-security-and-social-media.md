@@ -9,6 +9,7 @@ tags = [
     "defence",
     "economy",
 ]
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknua47jm2w"
 +++
 
 ## High-Level Summary

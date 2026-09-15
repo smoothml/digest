@@ -3,6 +3,7 @@ date = "2026-02-10"
 draft = false
 title = "Lords Advance Standards, Youth Health and Home‑Grown SAF"
 tags = ['healthcare', 'environment', 'devolution', 'constitution', 'security']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknukolv625"
 +++
 
 ## High-Level Summary

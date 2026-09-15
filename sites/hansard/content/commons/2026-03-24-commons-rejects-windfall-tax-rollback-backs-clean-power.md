@@ -3,6 +3,7 @@ date = "2026-03-24"
 draft = false
 title = "Commons Rejects Windfall Tax Rollback, Backs Clean Power"
 tags = ['energy', 'economy', 'defence', 'environment', 'parliament']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknug2mjw25"
 +++
 
 ## High-Level Summary

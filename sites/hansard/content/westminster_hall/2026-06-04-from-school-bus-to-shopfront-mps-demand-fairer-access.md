@@ -3,6 +3,7 @@ date = "2026-06-04"
 draft = false
 title = "From School Bus to Shopfront: MPs Demand Fairer Access"
 tags = ['education', 'transport', 'economy', 'childsafety', 'parliament']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknubbe2t2p"
 +++
 
 ## High-Level Summary

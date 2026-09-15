@@ -3,6 +3,7 @@ date = "2026-01-19"
 draft = false
 title = "MPs Seek Quieter, Regulated Fireworks; Government Sets No Timeline"
 tags = ['regulation', 'parliament', 'justice', 'environment', 'democracy']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknunm23q2a"
 +++
 
 ## High-Level Summary

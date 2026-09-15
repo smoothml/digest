@@ -3,6 +3,7 @@ date = "2026-02-26"
 draft = false
 title = "Lords Reset EU Ties, Tackle Transnational Repression"
 tags = ['foreignpolicy', 'security', 'immigration', 'energy', 'housing']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknujgvci2c"
 +++
 
 ## High-Level Summary

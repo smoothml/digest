@@ -3,6 +3,7 @@ date = "2026-04-23"
 draft = false
 title = "Action Promised for Young Carers; Gambling Ads Under Fire"
 tags = ['education', 'regulation', 'childsafety', 'onlinesafety']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknudsxsq22"
 +++
 
 ## High-Level Summary

@@ -3,6 +3,7 @@ date = "2026-05-21"
 draft = false
 title = "Lords Debate Integrated Strategy as Russia Sanctions Tighten"
 tags = ['foreignpolicy', 'defence', 'energy', 'justice', 'healthcare']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknucabb42w"
 +++
 
 ## High-Level Summary

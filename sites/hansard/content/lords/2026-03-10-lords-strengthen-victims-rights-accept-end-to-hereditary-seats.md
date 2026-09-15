@@ -3,6 +3,7 @@ date = "2026-03-10"
 draft = false
 title = "Lords Strengthen Victims' Rights, Accept End to Hereditary Seats"
 tags = ['justice', 'education', 'economy', 'constitution', 'childsafety']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknui2w5o25"
 +++
 
 ## High-Level Summary

@@ -3,6 +3,7 @@ date = "2026-03-26"
 draft = false
 title = "Record Roads Investment and Radical Council Shake-Up"
 tags = ['transport', 'healthcare', 'economy', 'environment', 'devolution']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknufn2ui2c"
 +++
 
 ## High-Level Summary

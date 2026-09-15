@@ -3,6 +3,7 @@ date = "2025-12-18"
 draft = false
 title = "Lords Welcome UK–EU Erasmus+, Query Pension Powers"
 tags = ['education', 'employment', 'defence', 'energy', 'regulation']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknuptghf2t"
 +++
 
 ## High-Level Summary

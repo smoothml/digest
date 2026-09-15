@@ -3,6 +3,7 @@ date = "2026-05-19"
 draft = false
 title = "Lords Press Transparency, End Troubles Immunity, Debate Energy and AI"
 tags = ['defence', 'energy', 'environment', 'justice', 'education']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknuclov52t"
 +++
 
 ## High-Level Summary

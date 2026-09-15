@@ -3,6 +3,7 @@ date = "2026-03-02"
 draft = false
 title = "Lords Toughen Crime Bill; UK Limits Role in Iran Conflict"
 tags = ['justice', 'onlinesafety', 'foreignpolicy', 'poverty', 'healthcare']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknuj6kro25"
 +++
 
 ## High-Level Summary

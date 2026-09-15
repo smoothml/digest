@@ -3,6 +3,7 @@ date = "2026-01-13"
 draft = false
 title = "Lords Probe Protest Powers Amid ODA Funding Debate"
 tags = ['parliament', 'justice', 'foreignpolicy', 'employment', 'security']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknuohtrg25"
 +++
 
 ## High-Level Summary

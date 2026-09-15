@@ -3,6 +3,7 @@ date = "2025-12-17"
 draft = false
 title = "Ministers Quizzed on Fairness, Care and Community Impacts"
 tags = ['justice', 'healthcare', 'employment', 'regulation', 'economy']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknupvmjy2c"
 +++
 
 ## High-Level Summary

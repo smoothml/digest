@@ -3,6 +3,7 @@ date = "2026-03-09"
 draft = false
 title = "Government Defeats Lords on Children’s Bill, Backs Benedict’s Law"
 tags = ['education', 'immigration', 'defence', 'economy', 'onlinesafety']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknui7ekl2p"
 +++
 
 ## High-Level Summary

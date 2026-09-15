@@ -3,6 +3,7 @@ date = "2026-04-15"
 draft = false
 title = "Cross-Party Pressure Spurs Protections as Ministers Pledge Reviews"
 tags = ['energy', 'transport', 'employment', 'justice', 'regulation']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknueu5di22"
 +++
 
 ## High-Level Summary

@@ -3,6 +3,7 @@ date = "2026-03-18"
 draft = false
 title = "Lords Back Abortion Pardons, Tighten Terror Laws, Tackle Rogue AI"
 tags = ['justice', 'security', 'ai', 'digitalid', 'healthcare']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknugtiln2t"
 +++
 
 ## High-Level Summary

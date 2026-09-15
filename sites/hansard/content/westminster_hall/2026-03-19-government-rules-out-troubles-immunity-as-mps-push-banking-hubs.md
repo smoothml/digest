@@ -3,6 +3,7 @@ date = "2026-03-19"
 draft = false
 title = "Government Rules Out Troubles Immunity as MPs Push Banking Hubs"
 tags = ['justice', 'defence', 'economy', 'regulation']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknughxba2a"
 +++
 
 ## High-Level Summary

@@ -9,6 +9,7 @@ tags = [
     "economy",
     "energy",
 ]
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknu6pwqi2a"
 +++
 
 ## High-Level Summary

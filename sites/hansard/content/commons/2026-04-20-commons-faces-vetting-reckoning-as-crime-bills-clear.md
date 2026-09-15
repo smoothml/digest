@@ -3,6 +3,7 @@ date = "2026-04-20"
 draft = false
 title = "Commons Faces Vetting Reckoning as Crime Bills Clear"
 tags = ['education', 'security', 'justice', 'foreignpolicy', 'parliament']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknuejdk52t"
 +++
 
 ## High-Level Summary

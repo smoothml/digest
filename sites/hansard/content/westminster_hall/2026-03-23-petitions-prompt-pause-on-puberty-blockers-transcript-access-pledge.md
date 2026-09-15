@@ -3,6 +3,7 @@ date = "2026-03-23"
 draft = false
 title = "Petitions Prompt Pause on Puberty Blockers, Transcript Access Pledge"
 tags = ['healthcare', 'childsafety', 'justice', 'parliament']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknug6ywi2g"
 +++
 
 ## High-Level Summary

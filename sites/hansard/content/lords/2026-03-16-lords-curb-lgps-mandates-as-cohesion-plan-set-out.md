@@ -3,6 +3,7 @@ date = "2026-03-16"
 draft = false
 title = "Lords Curb LGPS Mandates as Cohesion Plan Set Out"
 tags = ['healthcare', 'economy', 'education', 'security', 'regulation']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknuhdbhv2t"
 +++
 
 ## High-Level Summary

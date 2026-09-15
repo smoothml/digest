@@ -3,6 +3,7 @@ date = "2026-01-22"
 draft = false
 title = "Transport Funding Promised as Education Aid Focus Shifts"
 tags = ['transport', 'education', 'devolution', 'foreignpolicy', 'economy']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknumwzai2a"
 +++
 
 ## High-Level Summary

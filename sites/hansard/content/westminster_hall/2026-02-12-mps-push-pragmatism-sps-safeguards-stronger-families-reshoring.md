@@ -3,6 +3,7 @@ date = "2026-02-12"
 draft = false
 title = "MPs Push Pragmatism: SPS Safeguards, Stronger Families, Reshoring"
 tags = ['education', 'employment', 'economy', 'onlinesafety', 'foreignpolicy']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknuk4kiu2w"
 +++
 
 ## High-Level Summary

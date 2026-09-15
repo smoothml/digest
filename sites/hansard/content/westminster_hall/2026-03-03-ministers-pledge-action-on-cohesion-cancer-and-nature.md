@@ -3,6 +3,7 @@ date = "2026-03-03"
 draft = false
 title = "Ministers Pledge Action on Cohesion, Cancer and Nature"
 tags = ['environment', 'healthcare', 'regulation', 'economy', 'immigration']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknuiskvy2c"
 +++
 
 ## High-Level Summary

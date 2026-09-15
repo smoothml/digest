@@ -3,6 +3,7 @@ date = "2026-01-05"
 draft = false
 title = "Lords Add Oversight, Chagossian Referendum to Diego Garcia Bill"
 tags = ['defence', 'foreignpolicy', 'security', 'environment', 'economy']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknupmniw25"
 +++
 
 ## High-Level Summary

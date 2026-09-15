@@ -3,6 +3,7 @@ date = "2026-02-04"
 draft = false
 title = "ISC Oversight Secured as Commons Demands Mandelson Papers"
 tags = ['onlinesafety', 'ai', 'security', 'environment', 'transport']
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvknuldwqr22"
 +++
 
 ## High-Level Summary
