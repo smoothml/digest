@@ -209,7 +209,7 @@ sequoia init
 
 Init writes `sequoia.json`, drops the verification file at `static/.well-known/site.standard.publication`, and creates a `.gitignore` in the site folder. Delete that `.gitignore`. The root one already covers the state file.
 
-Init drops the empty path prefix and the ignore list, so replace the config with this, keeping the `publicationUri` it wrote:
+Add `pathTemplate` and `ignore` to the config:
 
 ```json
 {
