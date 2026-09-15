@@ -1,8 +1,6 @@
 # Deploying a new site
 
-This guide takes a new site in `sites/<name>/` from an empty folder to a live
-website with a verified [standard.site](https://standard.site) publication on
-the AT Protocol. It reflects how `hansard` (orderly.bot) was set up.
+This guide takes a new site in `sites/<name>/` from an empty folder to a live website with a verified [standard.site](https://standard.site) publication on the AT Protocol. It reflects how `hansard` (orderly.bot) was set up.
 
 A site consists of:
 
@@ -15,35 +13,25 @@ A site consists of:
 | Sequoia config | `sites/<name>/sequoia.json` |
 | Task wiring | `Taskfile.yml` and `.env` |
 
-Generating content for a new source is separate work in `src/digest` and
-`scripts/summarise_<name>.sh`. This guide covers only the site and its
-publishing.
+Generating content for a new source is separate work in `src/digest` and `scripts/summarise_<name>.sh`. This guide covers only the site and its publishing.
 
 ## Prerequisites
 
 - `hugo`, `task`, `rsync`, and an SSH key for the web host.
-- Node 20 or newer and the Sequoia CLI: `npm i -g sequoia-cli`. With asdf,
-  run `asdf reshim nodejs` afterwards, and reinstall if you change Node
-  version.
+- Node 20 or newer and the Sequoia CLI: `npm i -g sequoia-cli`. With asdf, run `asdf reshim nodejs` afterwards, and reinstall if you change Node version.
 - `goat`, the AT Protocol CLI: `go install github.com/bluesky-social/goat@latest`.
-- A domain with hosting that serves files under `/.well-known/`, including
-  extensionless ones, and serves `did.json` as JSON.
+- A domain with hosting that serves files under `/.well-known/`, including extensionless ones, and serves `did.json` as JSON.
 - An email address not already used on an Eurosky account.
 
 ## 1. Create the Hugo site
 
-Create `sites/<name>/` with `hugo.toml`, `layouts/`, `content/`, and
-`static/.well-known/`. Set `baseURL` to the site's domain.
+Create `sites/<name>/` with `hugo.toml`, `layouts/`, `content/`, and `static/.well-known/`. Set `baseURL` to the site's domain.
 
-Keep Hugo's default URL scheme, so a post at `content/<section>/<file>.md`
-is served at `/<section>/<file>/`. Sequoia derives each record's URL from the
-file path in the same way, and the two must agree. Use lowercase, hyphenated
-filenames.
+Keep Hugo's default URL scheme, so a post at `content/<section>/<file>.md` is served at `/<section>/<file>/`. Sequoia derives each record's URL from the file path in the same way, and the two must agree. Use lowercase, hyphenated filenames.
 
 ## 2. Register the site with Task
 
-In `Taskfile.yml`, add `<name>` to the `enum` under `__validate_site`, and add
-an entry for it to each of the three maps:
+In `Taskfile.yml`, add `<name>` to the `enum` under `__validate_site`, and add an entry for it to each of the three maps:
 
 ```yaml
 SITE_TO_IDENTITY:
@@ -64,23 +52,18 @@ SITE_IDENTITY_<NAME>=<path to ssh key>
 
 ## 3. Deploy the plain site
 
-The AT Protocol steps below need the site live first, so deploy it now
-without Sequoia:
+The AT Protocol steps below need the site live first, so deploy it now without Sequoia:
 
 ```bash
 task build SITE=<name>
 task deploy-site SITE=<name>
 ```
 
-`deploy-site` only uploads `public/`, so always build before it. Check the
-site in a browser.
+`deploy-site` only uploads `public/`, so always build before it. Check the site in a browser.
 
 ## 4. Create the identity
 
-The site's domain becomes its AT Protocol identity, `did:web:<domain>`.
-Whoever can write to the web root controls the identity, and the identity
-lasts only as long as the domain and hosting do. There is no way to change a
-`did:web` identity into a `did:plc` one later.
+The site's domain becomes its AT Protocol identity, `did:web:<domain>`. Whoever can write to the web root controls the identity, and the identity lasts only as long as the domain and hosting do. There is no way to change a `did:web` identity into a `did:plc` one later.
 
 Generate a temporary key. Keep the secret in a password manager:
 
@@ -88,8 +71,7 @@ Generate a temporary key. Keep the secret in a password manager:
 goat key generate --type K-256
 ```
 
-Write `sites/<name>/static/.well-known/did.json`, with the public key minus
-its `did:key:` prefix:
+Write `sites/<name>/static/.well-known/did.json`, with the public key minus its `did:key:` prefix:
 
 ```json
 {
@@ -131,15 +113,11 @@ goat resolve did:web:<domain>
 goat resolve <domain>
 ```
 
-The endpoint must be `https://eurosky.social` exactly. The PDS compares it
-as a string.
+The endpoint must be `https://eurosky.social` exactly. The PDS compares it as a string.
 
 ## 5. Create the PDS account
 
-Eurosky gates sign-up behind a captcha, and its sign-up form does not accept
-a handle with a dot in it. So the account is created with a raw request that
-carries three things: proof you control the DID, a captcha code, and the
-`did` field.
+Eurosky gates sign-up behind a captcha, and its sign-up form does not accept a handle with a dot in it. So the account is created with a raw request that carries three things: proof you control the DID, a captcha code, and the `did` field.
 
 Sign the proof. Give it an hour so it outlives the captcha code:
 
@@ -167,12 +145,7 @@ curl -X POST "https://eurosky.social/xrpc/com.atproto.server.createAccount" \
   }'
 ```
 
-Get the code. Open
-`https://eurosky.social/gate/signup?handle=<domain>&state=x`, solve the
-captcha, and copy the `code` value from the address bar of the page it
-redirects to. The code is bound to the handle, lasts five minutes, and works
-once. Paste it in and run the command straight away. A JSON reply containing
-your DID means it worked. The account starts deactivated, by design.
+Get the code. Open `https://eurosky.social/gate/signup?handle=<domain>&state=x`, solve the captcha, and copy the `code` value from the address bar of the page it redirects to. The code is bound to the handle, lasts five minutes, and works once. Paste it in and run the command straight away. A JSON reply containing your DID means it worked. The account starts deactivated, by design.
 
 If it fails:
 
@@ -186,18 +159,14 @@ If it fails:
 
 ## 6. Swap in the PDS's key and activate
 
-The PDS signs the account's data, so the DID document must name the PDS's
-key, not the one from step 4. That key only served to prove control during
-sign-up.
+The PDS signs the account's data, so the DID document must name the PDS's key, not the one from step 4. That key only served to prove control during sign-up.
 
 ```bash
 goat account login --pds-host https://eurosky.social -u did:web:<domain> -p <password>
 goat account plc recommended
 ```
 
-Take the `verificationMethods.atproto` value, drop the `did:key:` prefix, and
-put it in `publicKeyMultibase` in `did.json`. Build and deploy the site.
-Then:
+Take the `verificationMethods.atproto` value, drop the `did:key:` prefix, and put it in `publicKeyMultibase` in `did.json`. Build and deploy the site. Then:
 
 ```bash
 goat resolve did:web:<domain>
@@ -205,25 +174,19 @@ goat account activate
 goat account status
 ```
 
-Activation fetches `did.json` fresh and fails with "verification method does
-not match" until the new key is live.
+Activation fetches `did.json` fresh and fails with "verification method does not match" until the new key is live.
 
 ## 7. Set up Sequoia
 
-Create an app password for the account. In the Bluesky app, sign in with
-hosting provider `eurosky.social` and identifier `<domain>`, then under
-settings, privacy and security, app passwords. Store it with Sequoia:
+Create an app password for the account. In the Bluesky app, sign in with hosting provider `eurosky.social` and identifier `<domain>`, then under settings, privacy and security, app passwords. Store it with Sequoia:
 
 ```bash
 sequoia auth
 ```
 
-Give the handle `<domain>` and the app password. Sequoia finds the PDS from
-the handle. This login does not expire. Do not use `sequoia login`, whose
-browser session lapses after two weeks.
+Give the handle `<domain>` and the app password. Sequoia finds the PDS from the handle. This login does not expire. Do not use `sequoia login`, whose browser session lapses after two weeks.
 
-Run init from inside the site folder. Sequoia searches upward for its config,
-so there must be no `sequoia.json` above it:
+Run init from inside the site folder. Sequoia searches upward for its config, so there must be no `sequoia.json` above it:
 
 ```bash
 cd sites/<name>
@@ -244,13 +207,9 @@ sequoia init
 | Show in Discover feed? | yes |
 | Automatic Bluesky posting? | no, unless wanted |
 
-Init writes `sequoia.json`, drops the verification file at
-`static/.well-known/site.standard.publication`, and creates a `.gitignore`
-in the site folder. Delete that `.gitignore`. The root one already covers the
-state file.
+Init writes `sequoia.json`, drops the verification file at `static/.well-known/site.standard.publication`, and creates a `.gitignore` in the site folder. Delete that `.gitignore`. The root one already covers the state file.
 
-Init drops the empty path prefix and the ignore list, so replace the config
-with this, keeping the `publicationUri` it wrote:
+Init drops the empty path prefix and the ignore list, so replace the config with this, keeping the `publicationUri` it wrote:
 
 ```json
 {
@@ -269,9 +228,7 @@ with this, keeping the `publicationUri` it wrote:
 }
 ```
 
-`identity` names which stored login this site uses. Once two accounts are
-stored, Sequoia prompts on every publish for any config that lacks it, so add
-it to every site's config, `hansard` included.
+`identity` names which stored login this site uses. Once two accounts are stored, Sequoia prompts on every publish for any config that lacks it, so add it to every site's config, `hansard` included.
 
 Check the paths, then publish:
 
@@ -280,10 +237,7 @@ sequoia publish --dry-run
 sequoia publish
 ```
 
-Every path in the dry run should look like `/<section>/<file>/`. If any start
-with `/posts`, the config was not applied. The first publish creates one
-record per post and adds an `atUri` line to each Markdown file. Commit
-`sequoia.json`, the verification file, and those frontmatter changes.
+Every path in the dry run should look like `/<section>/<file>/`. If any start with `/posts`, the config was not applied. The first publish creates one record per post and adds an `atUri` line to each Markdown file. Commit `sequoia.json`, the verification file, and those frontmatter changes.
 
 ## 8. Deploy
 
@@ -295,12 +249,10 @@ task deploy SITE=<name>
 
 It runs, in order:
 
-1. `sequoia sync --update-frontmatter`, which relinks any regenerated post to
-   its existing record instead of creating a duplicate.
+1. `sequoia sync --update-frontmatter`, which relinks any regenerated post to its existing record instead of creating a duplicate.
 2. `sequoia publish`, which creates or updates records for changed posts.
 3. `hugo build`.
-4. `sequoia inject`, which adds two `<link>` tags to each post's HTML so
-   readers can verify page and record belong together.
+4. `sequoia inject`, which adds two `<link>` tags to each post's HTML so readers can verify page and record belong together.
 5. `rsync` to the host.
 
 Confirm it worked:
@@ -311,18 +263,12 @@ curl -s https://<domain>/<section>/<file>/ | grep site.standard
 goat account status
 ```
 
-The first prints the publication's `at://` address. The second shows two
-link tags. Then browse `https://pds.ls/at://<domain>` to see the records as
-the network does.
+The first prints the publication's `at://` address. The second shows two link tags. Then browse `https://pds.ls/at://<domain>` to see the records as the network does.
 
 ## Day to day
 
 - Each deploy touches the frontmatter of new posts. Commit those changes.
-- Regenerated posts are handled by the sync step. Deleted posts leave their
-  record behind on the PDS. Sequoia never deletes records.
-- Every deploy needs the PDS reachable. If it is down, deploy the site alone
-  with `task build` then `task deploy-site`.
-- The app password sits in `~/.config/sequoia/credentials.json`. Treat it
-  like the SSH key. Revoke it from the account settings if it leaks.
-- To change the PDS or its key later, edit `did.json` and redeploy. The DID
-  document is the only source of truth for the identity.
+- Regenerated posts are handled by the sync step. Deleted posts leave their record behind on the PDS. Sequoia never deletes records.
+- Every deploy needs the PDS reachable. If it is down, deploy the site alone with `task build` then `task deploy-site`.
+- The app password sits in `~/.config/sequoia/credentials.json`. Treat it like the SSH key. Revoke it from the account settings if it leaks.
+- To change the PDS or its key later, edit `did.json` and redeploy. The DID document is the only source of truth for the identity.
