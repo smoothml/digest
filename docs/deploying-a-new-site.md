@@ -268,7 +268,39 @@ The first prints the publication's `at://` address. The second shows two link ta
 ## Day to day
 
 - Each deploy touches the frontmatter of new posts. Commit those changes.
-- Regenerated posts are handled by the sync step. Deleted posts leave their record behind on the PDS. Sequoia never deletes records.
+- Regenerated posts are handled by the sync step. Deleted posts leave their record behind on the PDS. Sequoia never deletes records. See below.
 - Every deploy needs the PDS reachable. If it is down, deploy the site alone with `task build` then `task deploy-site`.
 - The app password sits in `~/.config/sequoia/credentials.json`. Treat it like the SSH key. Revoke it from the account settings if it leaks.
 - To change the PDS or its key later, edit `did.json` and redeploy. The DID document is the only source of truth for the identity.
+
+## Deleting a post
+
+Sequoia has no delete command. Removing the Markdown file removes the page from the site but leaves the record on the PDS, where readers still see it. Delete the record with goat.
+
+Log in once with the app password:
+
+```bash
+goat account login --pds-host https://eurosky.social -u <domain> -p <app password>
+```
+
+Find the record key. It is the last segment of the `atUri` line in the post's frontmatter, after `site.standard.document/`. Then:
+
+```bash
+goat record delete --collection site.standard.document --rkey <rkey>
+```
+
+Do it in this order, or the record comes back:
+
+1. Delete the Markdown file from `content/`, or set `draft = true` in it to keep the text. Sequoia skips drafts.
+2. Delete the record with goat.
+3. `task deploy SITE=<name>` as normal.
+
+The order matters because Sequoia never notices a deletion. Its state file still holds the record's address, and if the post's content later changes, `publish` writes to that address, which recreates the record. Once the file is gone the stale state entry is harmless.
+
+Renamed or regenerated posts leave old records behind too. To find them, run `sequoia sync` inside `sites/<name>/` and read the "Unmatched" section, which prints the path and `at://` address of every record with no local file. Delete each with the command above. To list everything on the PDS:
+
+```bash
+goat record ls <domain> --collection site.standard.document
+```
+
+Deletion is immediate on the PDS and the relay broadcasts it, but each reader app re-indexes on its own schedule, so a deleted post can linger in a feed for a while.
