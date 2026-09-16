@@ -3,10 +3,11 @@ import tomllib
 import unicodedata
 from datetime import date
 from pathlib import Path
-from typing import TypedDict, cast
+from typing import TypedDict
 
 import tomli_w
 from loguru import logger
+from pydantic import TypeAdapter, ValidationError
 
 from digest.constants import POST_BASE_PATH_TEMPLATE
 
@@ -14,6 +15,7 @@ _SLUG_STRIP_RE = re.compile(r"[-\s]+")  # Collapse runs of dashes/space
 _SLUG_CLEAN_RE = re.compile(
     r"[^\w\s-]"
 )  # Drop punctuation (keeps letters, numbers, _, and -)
+_POST_GLOB = "**/[!_]*.md"  # Hugo reserves a leading underscore for section pages
 
 
 class Metadata(TypedDict):
@@ -23,6 +25,9 @@ class Metadata(TypedDict):
     draft: bool
     title: str
     tags: list[str]
+
+
+_METADATA_ADAPTER = TypeAdapter(Metadata)
 
 
 def get_post_base_path(site: str, section: str | None = None) -> Path:
@@ -87,20 +92,23 @@ def read_post_metadata(path: Path) -> Metadata:
 
     Returns:
         Dictionary of metadata.
+
+    Raises:
+        tomllib.TOMLDecodeError: If the frontmatter is not valid TOML.
+        pydantic.ValidationError: If the frontmatter does not match `Metadata`.
     """
     with path.open("r", encoding="utf-8") as f:
         content = f.read()
 
     data = tomllib.loads(content.lstrip("+").split("+++")[0].strip())
-    metadata = cast(Metadata, data)
-    return metadata
+    return _METADATA_ADAPTER.validate_python(data)
 
 
 def get_all_tags(site: str) -> set[str]:
-    """Get unique tags from all posts in a directory.
+    """Get unique tags from all posts in a site.
 
     Args:
-        dir: Directory containing posts.
+        site: Name of the site.
 
     Returns:
         Set of unique tags.
@@ -111,13 +119,13 @@ def get_all_tags(site: str) -> set[str]:
     if not dir_path.is_dir():
         raise ValueError(f"Path {dir_path} is not a directory")
     tags: set[str] = set()
-    for path in dir_path.glob("**/*.md"):
+    for path in dir_path.glob(_POST_GLOB):
         try:
             metadata = read_post_metadata(path)
-        except tomllib.TOMLDecodeError:
+        except (tomllib.TOMLDecodeError, ValidationError):
             logger.warning(f"Skipping post with malformed frontmatter: {path}")
             continue
-        tags.update(metadata.get("tags", []))
+        tags.update(metadata["tags"])
     return tags
 
 
