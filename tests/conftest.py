@@ -37,11 +37,6 @@ def caplog(caplog: pytest.LogCaptureFixture) -> Iterator[pytest.LogCaptureFixtur
 def isolated_settings(monkeypatch: pytest.MonkeyPatch) -> Iterator[None]:
     """Keep ambient credentials and cached settings out of every test.
 
-    Removing the variables means the suite runs with no credentials unless a
-    test asks for them, so reintroducing import-time settings construction
-    breaks collection again. Clearing the caches stops one test's settings
-    leaking into the next.
-
     Args:
         monkeypatch: The built-in monkeypatch fixture.
 
