@@ -1,7 +1,8 @@
 from __future__ import annotations
 
+from collections.abc import Iterable
 from dataclasses import dataclass
-from typing import Iterable, Literal, Optional
+from typing import Literal
 from xml.etree import ElementTree as ET
 
 
@@ -10,14 +11,14 @@ class Paragraph:
     pid: str
     text: str
     italic: bool = False
-    qnum: Optional[str] = None
+    qnum: str | None = None
 
 
 @dataclass(frozen=True)
 class Speech:
     id: str
-    speakername: Optional[str]
-    type: Optional[str]
+    speakername: str | None
+    type: str | None
     paragraphs: list[Paragraph]
 
 
