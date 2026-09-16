@@ -3,6 +3,7 @@ from datetime import date
 from pathlib import Path
 
 import pytest
+from pydantic import ValidationError
 
 from digest.site import format_post, get_all_tags, read_post_metadata, slugify
 
@@ -159,3 +160,82 @@ def test_slugify_empty_string_logs_warning_and_returns_empty(
 
     assert slugify("") == ""
     assert ("warning", "Empty string provided to slugify") in stub.messages
+
+
+def test_read_post_metadata_coerces_date_string_to_date(tmp_path: Path) -> None:
+    """Frontmatter serialises the date as a string; reading returns a date."""
+    post = format_post("Body text.", date(2025, 1, 1), "Title", ["energy"])
+    path = tmp_path / "post.md"
+    path.write_text(post, encoding="utf-8")
+
+    metadata = read_post_metadata(path)
+
+    assert metadata["date"] == date(2025, 1, 1)
+
+
+@pytest.mark.parametrize(
+    "frontmatter",
+    [
+        pytest.param('title = "Title"\ntags = "energy"', id="tags-not-a-list"),
+        pytest.param('title = "Title"\ntags = [1, 2]', id="tags-not-strings"),
+        pytest.param('title = "Title"\ndraft = "maybe"', id="draft-not-a-bool"),
+        pytest.param('title = "Title"\ndate = "not-a-date"', id="date-unparseable"),
+        pytest.param('draft = false\ntitle = "Title"\ntags = []', id="date-missing"),
+        pytest.param(
+            'date = 2025-01-01\ntitle = "Title"\ntags = []', id="draft-missing"
+        ),
+        pytest.param("date = 2025-01-01\ndraft = false\ntags = []", id="title-missing"),
+        pytest.param(
+            'date = 2025-01-01\ndraft = false\ntitle = "Title"', id="tags-missing"
+        ),
+        pytest.param('title = "Commons"\nmenu = "main"\nweight = 3', id="index-page"),
+    ],
+)
+def test_read_post_metadata_rejects_invalid_frontmatter(
+    tmp_path: Path, frontmatter: str
+) -> None:
+    """Frontmatter that does not match the metadata schema is rejected."""
+    path = tmp_path / "post.md"
+    path.write_text(f"+++\n{frontmatter}\n+++\n\nBody.", encoding="utf-8")
+
+    with pytest.raises(ValidationError):
+        read_post_metadata(path)
+
+
+def test_get_all_tags_skips_post_with_invalid_frontmatter(
+    tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    """A post whose frontmatter fails validation must not pollute the tag set."""
+    monkeypatch.setattr("digest.site.get_post_base_path", lambda site: tmp_path)
+
+    good = format_post("Body.", date(2025, 1, 1), "Good", ["alpha", "beta"])
+    (tmp_path / "good.md").write_text(good, encoding="utf-8")
+    (tmp_path / "invalid.md").write_text(
+        '+++\ntitle = "Invalid"\ntags = "gamma"\n+++\n\nBody.', encoding="utf-8"
+    )
+
+    tags = get_all_tags("hansard")
+
+    assert tags == {"alpha", "beta"}
+
+
+def test_get_all_tags_ignores_section_index_pages(
+    tmp_path: Path, monkeypatch: pytest.MonkeyPatch, caplog: pytest.LogCaptureFixture
+) -> None:
+    """Section index pages are not posts, so they are never read or warned about."""
+    monkeypatch.setattr("digest.site.get_post_base_path", lambda site: tmp_path)
+
+    good = format_post("Body.", date(2025, 1, 1), "Good", ["alpha"])
+    (tmp_path / "good.md").write_text(good, encoding="utf-8")
+    (tmp_path / "_index.md").write_text(
+        '+++\ntitle = "Commons"\nmenu = "main"\nweight = 3\n+++\n', encoding="utf-8"
+    )
+    (tmp_path / "commons").mkdir()
+    (tmp_path / "commons" / "_index.md").write_text(
+        '+++\ntitle = "Commons"\nweight = 3\n+++\n', encoding="utf-8"
+    )
+
+    tags = get_all_tags("hansard")
+
+    assert tags == {"alpha"}
+    assert caplog.text == ""
