@@ -45,9 +45,6 @@ def caplog(caplog: pytest.LogCaptureFixture) -> Iterator[pytest.LogCaptureFixtur
 def isolated_settings(monkeypatch: pytest.MonkeyPatch) -> Iterator[None]:
     """Keep ambient credentials and cached settings out of every test.
 
-    Settings read the repository .env file, which on a developer machine holds
-    a live key, so detach that source as well as the environment variables.
-
     Args:
         monkeypatch: The built-in monkeypatch fixture.
 
@@ -56,8 +53,8 @@ def isolated_settings(monkeypatch: pytest.MonkeyPatch) -> Iterator[None]:
     """
     for variable in ("OPENAI_API_KEY", "OPENAI_BASE_URL", "DATA_CACHE_URL"):
         monkeypatch.delenv(variable, raising=False)
-    for settings_class in (ApplicationSettings, HansardSummariserAgentSettings):
-        monkeypatch.setitem(settings_class.model_config, "env_file", None)
+    monkeypatch.setitem(ApplicationSettings.model_config, "env_file", None)
+    monkeypatch.setitem(HansardSummariserAgentSettings.model_config, "env_file", None)
     get_application_settings.cache_clear()
     get_openai_provider.cache_clear()
     get_hansard_summariser_agent_settings.cache_clear()

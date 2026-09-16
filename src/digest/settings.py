@@ -9,11 +9,6 @@ from digest.constants import ROOT_DIR
 class ApplicationSettings(BaseSettings):
     """Application settings.
 
-    Values come from the environment, falling back to the repository .env
-    file so the CLI runs the same way inside and outside Task. That file also
-    holds the deployment variables the Taskfile reads, so extra keys are
-    ignored rather than rejected.
-
     Attributes:
         openai_api_key: Key used to authenticate against the OpenAI API.
         openai_base_url: Base URL of the OpenAI API, when not the default.

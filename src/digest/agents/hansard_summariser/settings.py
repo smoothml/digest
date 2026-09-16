@@ -12,11 +12,6 @@ from digest.constants import ROOT_DIR
 class HansardSummariserAgentSettings(BaseSettings):
     """Settings for the Hansard summariser agent.
 
-    Values come from the environment, falling back to the repository .env
-    file so the CLI behaves the same way inside and outside Task. That file
-    also holds variables belonging to other settings and to the Taskfile, so
-    extra keys are ignored rather than rejected.
-
     Attributes:
         model: OpenAI model used by every summariser agent.
         summary_reasoning_effort: Reasoning effort for the draft summary agent.
