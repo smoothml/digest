@@ -1,3 +1,5 @@
+from functools import lru_cache
+
 from pydantic_ai.providers.openai import OpenAIProvider
 from pydantic_settings import BaseSettings
 
@@ -13,8 +15,24 @@ class ApplicationSettings(BaseSettings):
     data_cache_url: str = f"file://{ROOT_DIR}/data"
 
 
-application_settings = ApplicationSettings()
-openai_provider = OpenAIProvider(
-    api_key=application_settings.openai_api_key,
-    base_url=application_settings.openai_base_url,
-)
+@lru_cache
+def get_application_settings() -> ApplicationSettings:
+    """Get the application settings, reading the environment on first call.
+
+    Returns:
+        The application settings.
+    """
+    return ApplicationSettings()
+
+
+@lru_cache
+def get_openai_provider() -> OpenAIProvider:
+    """Get the OpenAI provider, building it on first call.
+
+    Returns:
+        The OpenAI provider configured from the application settings.
+    """
+    settings = get_application_settings()
+    return OpenAIProvider(
+        api_key=settings.openai_api_key, base_url=settings.openai_base_url
+    )

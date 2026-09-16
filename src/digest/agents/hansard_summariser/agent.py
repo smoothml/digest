@@ -18,7 +18,7 @@ from digest.agents.hansard_summariser.prompts import (
 )
 from digest.agents.hansard_summariser.schemas import DraftSummary, FinalSummary
 from digest.agents.hansard_summariser.settings import hansard_summariser_agent_settings
-from digest.settings import openai_provider
+from digest.settings import get_openai_provider
 
 
 def _get_default_model() -> OpenAIResponsesModel:
@@ -28,7 +28,7 @@ def _get_default_model() -> OpenAIResponsesModel:
         The default OpenAI model instance.
     """
     return OpenAIResponsesModel(
-        hansard_summariser_agent_settings.model, provider=openai_provider
+        hansard_summariser_agent_settings.model, provider=get_openai_provider()
     )
 
 

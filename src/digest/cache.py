@@ -2,7 +2,7 @@ from pathlib import Path
 
 import fsspec
 
-from digest.settings import application_settings
+from digest.settings import get_application_settings
 
 
 class DataCache:
@@ -14,7 +14,7 @@ class DataCache:
         Args:
             url: Base URL for the data cache.
         """
-        self._url = (url or application_settings.data_cache_url).rstrip("/")
+        self._url = (url or get_application_settings().data_cache_url).rstrip("/")
 
     def read(self, path: str | Path) -> str | bytes:
         """Read data from the data cache.
