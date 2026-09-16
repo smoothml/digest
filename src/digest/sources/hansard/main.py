@@ -157,43 +157,37 @@ class HansardDataSource(BaseDataSource[[date, HansardSourceType, bool], Debate])
     def _get_content(self, dt: date, source: HansardSourceType) -> str:
         """Get content for a specific source and date.
 
+        Probes successive versions until one is flagged as the latest. A 404
+        means there are no further versions, so the most recent version already
+        fetched is returned instead.
+
         Args:
             dt: Date to get content for.
             source: Source to get content for.
 
         Returns:
             String containing the raw XML content.
+
+        Raises:
+            requests.exceptions.HTTPError: If the first version is absent, or
+                any version returns an error status.
         """
-        content_found = False
-        failed = False
-        version_idx = 0
-        response_str = ""
-        while not content_found and not failed:
-            path = self._get_url_path(dt, source, ascii_lowercase[version_idx])
+        last_fetched = ""
+        for version in ascii_lowercase:
+            path = self._get_url_path(dt, source, version)
             response = self._http.get(f"{BASE_URL}/{path}")
-            if response.status_code == requests.codes.not_found:
-                # Mark interaction as failed if no content found.
-                failed = True
-                if not content_found:
-                    # If no earlier versions found, raise.
-                    response.raise_for_status()
-            elif response.status_code == requests.codes.ok:
-                # If content is found, parse it.
-                response_str = response.content.strip().decode("utf-8")
-                root = ElementTree.fromstring(response_str)
-                if root.attrib.get("latest") == "yes":
-                    content_found = True
-                else:
-                    version_idx += 1
-                    if version_idx >= len(ascii_lowercase):
-                        failed = True
-            else:
-                response.raise_for_status()
-        if failed and content_found:
-            logger.warning(
-                f"Latest version not found for {source} on {dt}. Returning latest version."
-            )
-        return response_str
+            if response.status_code == requests.codes.not_found and last_fetched:
+                break
+            response.raise_for_status()
+            content = response.content.strip().decode("utf-8")
+            if ElementTree.fromstring(content).attrib.get("latest") == "yes":
+                return content
+            last_fetched = content
+        logger.warning(
+            f"No version flagged latest for {source} on {dt}. "
+            "Returning the most recent version fetched."
+        )
+        return last_fetched
 
 
 def get_hansard_data_source() -> HansardDataSource:
