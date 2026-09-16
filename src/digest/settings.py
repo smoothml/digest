@@ -1,13 +1,18 @@
 from functools import lru_cache
 
 from pydantic_ai.providers.openai import OpenAIProvider
-from pydantic_settings import BaseSettings
+from pydantic_settings import BaseSettings, SettingsConfigDict
 
 from digest.constants import ROOT_DIR
 
 
 class ApplicationSettings(BaseSettings):
     """Application settings."""
+
+    model_config = SettingsConfigDict(
+        env_file=ROOT_DIR / ".env",
+        extra="ignore",
+    )
 
     openai_api_key: str
     openai_base_url: str | None = None

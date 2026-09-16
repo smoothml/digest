@@ -5,7 +5,11 @@ from collections.abc import Iterator
 import pytest
 from loguru import logger
 
-from digest.settings import get_application_settings, get_openai_provider
+from digest.settings import (
+    ApplicationSettings,
+    get_application_settings,
+    get_openai_provider,
+)
 
 
 @pytest.fixture
@@ -37,6 +41,12 @@ def caplog(caplog: pytest.LogCaptureFixture) -> Iterator[pytest.LogCaptureFixtur
 def isolated_settings(monkeypatch: pytest.MonkeyPatch) -> Iterator[None]:
     """Keep ambient credentials and cached settings out of every test.
 
+    Removing the variables and neutralising the env_file source means the suite
+    runs with no credentials unless a test asks for them, so reintroducing
+    import-time settings construction breaks collection again and ambient .env
+    files cannot leak into tests. Clearing the caches stops one test's settings
+    leaking into the next.
+
     Args:
         monkeypatch: The built-in monkeypatch fixture.
 
@@ -45,6 +55,7 @@ def isolated_settings(monkeypatch: pytest.MonkeyPatch) -> Iterator[None]:
     """
     for variable in ("OPENAI_API_KEY", "OPENAI_BASE_URL", "DATA_CACHE_URL"):
         monkeypatch.delenv(variable, raising=False)
+    monkeypatch.setitem(ApplicationSettings.model_config, "env_file", None)
     get_application_settings.cache_clear()
     get_openai_provider.cache_clear()
     yield

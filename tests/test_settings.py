@@ -3,8 +3,10 @@
 import os
 import subprocess
 import sys
+from pathlib import Path
 
 import pytest
+from pydantic import ValidationError
 
 from digest import cache, settings
 from digest.cache import DataCache
@@ -79,3 +81,55 @@ def test_importing_module_does_not_require_credentials(module: str) -> None:
     )
 
     assert result.returncode == 0, result.stderr
+
+
+def test_settings_reads_dotenv_file(
+    tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    """Settings load variables from the configured env_file.
+
+    Args:
+        tmp_path: Pytest temporary directory fixture.
+        monkeypatch: Pytest monkeypatch fixture.
+    """
+    env_file = tmp_path / ".env"
+    env_file.write_text(
+        "OPENAI_API_KEY=dotenv-key\nOPENAI_BASE_URL=https://dotenv.test/v1\n"
+    )
+
+    monkeypatch.setitem(ApplicationSettings.model_config, "env_file", env_file)
+
+    app_settings = ApplicationSettings()
+    assert app_settings.openai_api_key == "dotenv-key"
+    assert app_settings.openai_base_url == "https://dotenv.test/v1"
+
+
+def test_settings_ignores_extra_attributes_from_dotenv(
+    tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    """Extra variables in .env (e.g. Taskfile variables) are ignored without error.
+
+    Args:
+        tmp_path: Pytest temporary directory fixture.
+        monkeypatch: Pytest monkeypatch fixture.
+    """
+    env_file = tmp_path / ".env"
+    env_file.write_text(
+        "OPENAI_API_KEY=dotenv-key\n"
+        "SITE_IDENTITY=test-site\n"
+        "SITE_USER=deployer\n"
+        "SITE_HOST=example.com\n"
+    )
+
+    monkeypatch.setitem(ApplicationSettings.model_config, "env_file", env_file)
+
+    app_settings = ApplicationSettings()
+    assert app_settings.openai_api_key == "dotenv-key"
+
+
+def test_isolated_settings_neutralises_dotenv() -> None:
+    """The root conftest neutralises env_file so ambient files do not satisfy settings."""
+    assert ApplicationSettings.model_config.get("env_file") is None
+    with pytest.raises(ValidationError) as exc_info:
+        ApplicationSettings()
+    assert "openai_api_key" in str(exc_info.value)
