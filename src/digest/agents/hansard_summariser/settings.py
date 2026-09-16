@@ -1,9 +1,12 @@
 """Settings for the Hansard summariser agent."""
 
+from functools import lru_cache
+
 from pydantic import Field
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
 from digest.agents.hansard_summariser.constants import ReasoningEffort
+from digest.constants import ROOT_DIR
 
 
 class HansardSummariserAgentSettings(BaseSettings):
@@ -18,7 +21,11 @@ class HansardSummariserAgentSettings(BaseSettings):
         max_tokens: Maximum number of tokens a summariser agent may generate.
     """
 
-    model_config = SettingsConfigDict(env_prefix="HANSARD_SUMMARISER_")
+    model_config = SettingsConfigDict(
+        env_prefix="HANSARD_SUMMARISER_",
+        env_file=ROOT_DIR / ".env",
+        extra="ignore",
+    )
 
     model: str = Field(default="gpt-5.6-luna", min_length=1)
     summary_reasoning_effort: ReasoningEffort = "medium"
@@ -28,4 +35,11 @@ class HansardSummariserAgentSettings(BaseSettings):
     max_tokens: int = Field(default=128000, gt=0)
 
 
-hansard_summariser_agent_settings = HansardSummariserAgentSettings()
+@lru_cache
+def get_hansard_summariser_agent_settings() -> HansardSummariserAgentSettings:
+    """Get the agent settings, reading the environment on first call.
+
+    Returns:
+        The Hansard summariser agent settings.
+    """
+    return HansardSummariserAgentSettings()

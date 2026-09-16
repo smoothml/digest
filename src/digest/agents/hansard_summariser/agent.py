@@ -17,7 +17,9 @@ from digest.agents.hansard_summariser.prompts import (
     TITLE_SYSTEM_PROMPT,
 )
 from digest.agents.hansard_summariser.schemas import DraftSummary, FinalSummary
-from digest.agents.hansard_summariser.settings import hansard_summariser_agent_settings
+from digest.agents.hansard_summariser.settings import (
+    get_hansard_summariser_agent_settings,
+)
 from digest.settings import get_openai_provider
 
 
@@ -28,7 +30,7 @@ def _get_default_model() -> OpenAIResponsesModel:
         The default OpenAI model instance.
     """
     return OpenAIResponsesModel(
-        hansard_summariser_agent_settings.model, provider=get_openai_provider()
+        get_hansard_summariser_agent_settings().model, provider=get_openai_provider()
     )
 
 
@@ -43,7 +45,7 @@ def _get_model_settings(effort: ReasoningEffort) -> OpenAIResponsesModelSettings
     """
     return OpenAIResponsesModelSettings(
         openai_reasoning_effort=effort,
-        max_tokens=hansard_summariser_agent_settings.max_tokens,
+        max_tokens=get_hansard_summariser_agent_settings().max_tokens,
     )
 
 
@@ -61,7 +63,7 @@ def create_summary_agent(
     return Agent[None, DraftSummary](
         model or _get_default_model(),
         model_settings=_get_model_settings(
-            hansard_summariser_agent_settings.summary_reasoning_effort
+            get_hansard_summariser_agent_settings().summary_reasoning_effort
         ),
         system_prompt=SUMMARY_SYSTEM_PROMPT,
         output_type=DraftSummary,
@@ -82,7 +84,7 @@ def create_editor_agent(
     agent = Agent[str, FinalSummary](
         model or _get_default_model(),
         model_settings=_get_model_settings(
-            hansard_summariser_agent_settings.editor_reasoning_effort
+            get_hansard_summariser_agent_settings().editor_reasoning_effort
         ),
         deps_type=str,
         output_type=FinalSummary,
@@ -109,7 +111,7 @@ def create_title_agent(model: OpenAIResponsesModel | None = None) -> Agent[None,
     return Agent[None, str](
         model or _get_default_model(),
         model_settings=_get_model_settings(
-            hansard_summariser_agent_settings.title_reasoning_effort
+            get_hansard_summariser_agent_settings().title_reasoning_effort
         ),
         system_prompt=TITLE_SYSTEM_PROMPT,
         output_type=str,
@@ -130,7 +132,7 @@ def create_tag_agent(
     agent = Agent[set[str], list[str]](
         model or _get_default_model(),
         model_settings=_get_model_settings(
-            hansard_summariser_agent_settings.tag_reasoning_effort
+            get_hansard_summariser_agent_settings().tag_reasoning_effort
         ),
         deps_type=set[str],
         output_type=list[str],
