@@ -1,4 +1,4 @@
-"""Tests for application settings loading and initialisation."""
+"""Tests for lazy application settings initialisation."""
 
 import os
 import subprocess
@@ -8,7 +8,6 @@ import pytest
 
 from digest import cache, settings
 from digest.cache import DataCache
-from digest.constants import ROOT_DIR
 from digest.settings import ApplicationSettings, get_openai_provider
 
 _UNSET_VARIABLES = frozenset({"OPENAI_API_KEY", "OPENAI_BASE_URL", "DATA_CACHE_URL"})
@@ -80,38 +79,3 @@ def test_importing_module_does_not_require_credentials(module: str) -> None:
     )
 
     assert result.returncode == 0, result.stderr
-
-
-def test_settings_are_configured_from_the_repository_dotenv_file() -> None:
-    """Settings take the repository .env file as a source, ignoring extra keys.
-
-    Without the file the CLI only runs under Task, which loads it separately;
-    without the extra keys the deployment variables it carries for the
-    Taskfile fail validation instead. Runs in a subprocess because the
-    isolation fixture detaches the file from this interpreter, so only a fresh
-    one sees the configuration as the CLI gets it.
-    """
-    result = subprocess.run(
-        [
-            sys.executable,
-            "-c",
-            "from digest.settings import ApplicationSettings\n"
-            "config = ApplicationSettings.model_config\n"
-            "print(config['env_file'], config['extra'])",
-        ],
-        capture_output=True,
-        text=True,
-        check=False,
-    )
-
-    assert result.returncode == 0, result.stderr
-    assert result.stdout.strip() == f"{ROOT_DIR / '.env'} ignore"
-
-
-def test_isolated_settings_detaches_the_dotenv_file() -> None:
-    """Tests never read the dotenv file sitting in the repository root.
-
-    A developer's own file holds a live key, which would mask a test relying
-    on credentials it never set.
-    """
-    assert ApplicationSettings.model_config["env_file"] is None

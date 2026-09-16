@@ -17,7 +17,9 @@ from digest.agents.hansard_summariser.agent import (
 )
 from digest.agents.hansard_summariser.constants import ReasoningEffort
 from digest.agents.hansard_summariser.schemas import DraftSummary, FinalSummary
-from digest.agents.hansard_summariser.settings import hansard_summariser_agent_settings
+from digest.agents.hansard_summariser.settings import (
+    get_hansard_summariser_agent_settings,
+)
 
 AgentName = Literal["summary", "editor", "title", "tag"]
 SummariserAgent = (
@@ -139,7 +141,7 @@ def test_default_model_uses_configured_model_name(
     Args:
         monkeypatch: Pytest fixture for patching settings attributes.
     """
-    monkeypatch.setattr(hansard_summariser_agent_settings, "model", "test-model")
+    monkeypatch.setattr(get_hansard_summariser_agent_settings(), "model", "test-model")
     model = _get_default_model()
     assert isinstance(model, OpenAIResponsesModel)
     assert model.model_name == "test-model"
@@ -160,7 +162,7 @@ def test_get_model_settings_carries_effort_and_max_tokens(
     Args:
         monkeypatch: Pytest fixture for patching settings attributes.
     """
-    monkeypatch.setattr(hansard_summariser_agent_settings, "max_tokens", 4096)
+    monkeypatch.setattr(get_hansard_summariser_agent_settings(), "max_tokens", 4096)
     assert _get_model_settings("xhigh") == OpenAIResponsesModelSettings(
         openai_reasoning_effort="xhigh", max_tokens=4096
     )
@@ -192,16 +194,16 @@ def test_each_agent_uses_its_own_reasoning_effort(
         expected_effort: The reasoning effort that factory should pick up.
     """
     monkeypatch.setattr(
-        hansard_summariser_agent_settings, "summary_reasoning_effort", "none"
+        get_hansard_summariser_agent_settings(), "summary_reasoning_effort", "none"
     )
     monkeypatch.setattr(
-        hansard_summariser_agent_settings, "editor_reasoning_effort", "low"
+        get_hansard_summariser_agent_settings(), "editor_reasoning_effort", "low"
     )
     monkeypatch.setattr(
-        hansard_summariser_agent_settings, "title_reasoning_effort", "high"
+        get_hansard_summariser_agent_settings(), "title_reasoning_effort", "high"
     )
     monkeypatch.setattr(
-        hansard_summariser_agent_settings, "tag_reasoning_effort", "xhigh"
+        get_hansard_summariser_agent_settings(), "tag_reasoning_effort", "xhigh"
     )
 
     assert _create_agent(name).model_settings == _get_model_settings(expected_effort)

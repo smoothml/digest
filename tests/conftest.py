@@ -5,6 +5,10 @@ from collections.abc import Iterator
 import pytest
 from loguru import logger
 
+from digest.agents.hansard_summariser.settings import (
+    HansardSummariserAgentSettings,
+    get_hansard_summariser_agent_settings,
+)
 from digest.settings import (
     ApplicationSettings,
     get_application_settings,
@@ -52,9 +56,12 @@ def isolated_settings(monkeypatch: pytest.MonkeyPatch) -> Iterator[None]:
     """
     for variable in ("OPENAI_API_KEY", "OPENAI_BASE_URL", "DATA_CACHE_URL"):
         monkeypatch.delenv(variable, raising=False)
-    monkeypatch.setitem(ApplicationSettings.model_config, "env_file", None)
+    for settings_class in (ApplicationSettings, HansardSummariserAgentSettings):
+        monkeypatch.setitem(settings_class.model_config, "env_file", None)
     get_application_settings.cache_clear()
     get_openai_provider.cache_clear()
+    get_hansard_summariser_agent_settings.cache_clear()
     yield
     get_application_settings.cache_clear()
     get_openai_provider.cache_clear()
+    get_hansard_summariser_agent_settings.cache_clear()
