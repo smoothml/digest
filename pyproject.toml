@@ -13,11 +13,8 @@ dependencies = [
     "pydantic>=2.11.7",
     "pydantic-ai-slim[openai]>=2.9,<3",
     "pydantic-settings>=2.10.1",
-    "selenium>=4.34.2",
-    "setuptools>=80.9.0",
     "tomli-w>=1.2.0",
     "typer>=0.16.0",
-    "undetected-chromedriver>=3.5.5",
 ]
 
 [project.scripts]
