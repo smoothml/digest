@@ -1,0 +1,49 @@
++++
+date = "2026-09-16"
+draft = false
+title = "Lords Debate IPP Reform, Debt Pressures and Retirement Rules"
+tags = [
+    "justice",
+    "regulation",
+    "economy",
+    "parliament",
+    "transport",
+]
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvrbuor76e25"
++++
+
+## High-Level Summary
+The House of Lords questioned the Government on the recall system for prisoners serving indeterminate sentences for public protection (IPP), business-rates avoidance, Government debt interest and the recall of a United States diplomat during an investigation. The Government reiterated its intention to legislate to end IPP sentences during the current Parliament, described action on business-rates avoidance and debt management, and undertook to seek or provide information in several areas. The House also agreed motions concerning procedure, Standing Orders and the handling of future business, while the E-Scooters (Safety and Sale) Bill [HL] received a First Reading. The main debate concerned retirement and participation requirements for Members of the House, and the motion to take note of the relevant committee report was agreed; the transcript records no division on that motion.
+
+## Detailed Summary
+### IPP prisoners: recall system
+Lord Garnier asked about reform of the recall system for prisoners serving IPP sentences. Lord Lemos said that the Government would bring forward legislation “to end the IPP sentence once and for all by the end of this Parliament”. He also said that recall remained a public-protection measure, that safeguards had been strengthened and that all IPP licence recall decisions were now agreed by senior HMPPS decision-makers. He reported that “There has been a 31% decrease in IPP recalls in 2025 compared with 2024.”
+
+Members questioned the reasoning, length and consequences of recalls, including recalls where there had been no further offence. Lord Lemos said that risk-assessed recall reviews had resulted in the re-release of 61 IPP prisoners before their scheduled parole hearings. He confirmed that families would be consulted—“Yes, we will.”—and said that victim liaison officers had already issued 375 notices. He undertook to seek comparative reoffending figures for released IPP prisoners and return to Lord Wolfson and others. The timing of legislation was not stated in the transcript; Lord Lemos said only that the Government were “very actively working on it”.
+
+### Business-rates avoidance schemes
+Lord Sikka asked what action would be taken against business-rates avoidance schemes and their promoters. Lord Wilson of Sedgefield said that a Court of Appeal judgment had closed down the box-shifting scheme by which repeated periods of empty-property relief were sought: “the attempt to secure repeated periods of empty property relief using box shifting failed.” He said that local authorities could withdraw empty-property relief where they were satisfied that a scheme fell within the ruling. He also said that the Government were “committed to consulting on a general anti-avoidance rule, covering all local authorities”.
+
+Members raised rogue rating agents, enforcement resources, alleged snail-farm schemes and nominal charitable occupation of empty premises. Lord Wilson said he would write about snail-farm relief and about prosecutions of enablers; on the latter, he said, “I can look into it and write to the noble Baroness with the answer.” He also described a £4.3 billion support package linked to the 2026 revaluation, saying that over half of ratepayers would see no bill increases in 2026-27. No timetable for the proposed general anti-avoidance rule, or figures on prosecutions, was stated in the transcript.
+
+### Government debt interest
+Baroness Neville-Rolfe asked how the Government planned to reduce the annual £110 billion interest bill. Lord Pitt-Watson identified the overall level of borrowing, global interest rates and the UK’s premium over the G7 average as contributing factors. He said that the remedy included “sustained fiscal discipline”, respect for the independence of the Bank of England and respect for the Office for Budget Responsibility.
+
+Members also raised spending, index-linked gilts, defence borrowing, losses from the Bank of England’s bond sales and public-sector productivity. Lord Pitt-Watson said that borrowing in 2025-26 was projected to be the lowest for six years and below the OECD average for the first time since 2004: “our borrowing will be the lowest for six years”. He offered to write on the questions about index-linked gilts and defence borrowing, and said he did not have the figures on bond-sale losses to hand. After Lord Purvis quoted the Debt Management Office’s website describing it as part of HM Treasury, Lord Pitt-Watson said, “I apologise if I have made an error.” The requested figures and written responses had not been provided in the transcript.
+
+### US diplomat recalled during investigation
+Baroness Brinton asked about reports that United States officials had removed from the United Kingdom a diplomat accused of possessing indecent images of children without informing UK authorities. Lord Hanson of Flint said that the United States embassy had recalled the individual to the United States and that “The Metropolitan Police was notified on 25 August and remains in contact with US law enforcement.” He declined to comment further while the investigation was live and said that diplomats were expected to respect UK law.
+
+Members compared the case with the Anne Sacoolas case and asked about the timing of the notification, possible protocol breaches and whether the Metropolitan Police could interview the individual. Lord Hanson said that “the US investigation relating to indecent images of children is ongoing in the United States” and that UK officials had discussed the case with the embassy. He distinguished it from the Harry Dunn case, but said that the Government intended to accept all 12 recommendations arising from the earlier review—“We intend to accept all those recommendations.” The transcript does not state whether notification preceded or followed the recall, whether any protocol was breached or whether the individual could be interviewed. The Minister said that the Government would update Harry Dunn’s family by the end of the year.
+
+### E-Scooters (Safety and Sale) Bill [HL] and House procedure motions
+The E-Scooters (Safety and Sale) Bill [HL], introduced by Baroness McIntosh of Pickering, concerned safety requirements, unlawful use on roads and other public places, modification equipment, consumer information and enforcement powers. It received a First Reading and was ordered to be printed: “The Bill was introduced by Baroness McIntosh of Pickering, read a first time and ordered to be printed.”
+
+The House then agreed the Procedure and Privileges motion, which covered behaviour and courtesy, attendance during debates, reading speeches, dress, Oral Question timings and speaking times at later Bill stages. It proposed that the first supplementary question should not exceed 45 seconds and subsequent supplementary questions 30 seconds, and that advisory Back-Bench speaking time at Report and later amending stages should fall from 10 to eight minutes. Lord Ponsonby said that “the clock will flash at eight minutes at those later stages”, while Oral Question timing would continue to be managed by the Chief Whip or party whips. The Procedure and Privileges motion, the amendments to the Standing Orders relating to public business, and the Business of the House motion concerning the Sovereign Grant Bill were all agreed [refs: a1173.4/7; a1174.1/3; a1175.1/3].
+
+### Retirement and participation of Members of the House of Lords
+Baroness Taylor of Bolton introduced the unanimous Retirement and Participation Committee report. It recommended that “all Peers over the age of 85 who had not already retired should do so” by July 2029, with the maximum retirement age then reducing by one year annually, and proposed an attendance threshold of 20% averaged over two Sessions. The committee rejected fixed terms after considering transition, reappointment and other disadvantages, and proposed an association and other arrangements for retired Members, including access to the Libraries.
+
+The debate included support for the proposals and objections to an age-based retirement rule, the proposed attendance threshold, the effect on expertise and the legal position of existing Members. Baroness Parminter described the report as “a workable and fair way for us to take charge of our own future”. Lord Wolfson of Tredegar argued that existing life Peers had “a statutory entitlement for life to receive a Writ of Summons and to attend, sit and vote in this House”. He said that a resolution could not override that entitlement, whereas legislation could establish a legally binding requirement.
+
+A further issue was the effect on the Cross Benches and the need to manage appointments as well as departures. Lord Patel calculated that, after three years and without further appointments, the number of Cross-Benchers could fall from 154 to 65. Baroness Smith of Basildon said that the Government supported a Cross-Bench presence of about 20%, acknowledged the small number of recent House of Lords Appointments Commission appointments and said that the matter would be discussed with the Convenor and others. She also described ongoing work by the Chief Whips, the Convenor and House officials on capacity, with a report to be brought forward through the usual channels and presented to the Procedure Committee. She said that she had “not yet responded to the report formally through the Government” and would take account of the debate. The Government’s formal response and decisions on implementation were not stated in the transcript. The motion to take note of the report was agreed—“Motion agreed.”—and the transcript records no division.
