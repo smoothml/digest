@@ -1,0 +1,73 @@
++++
+date = "2026-09-17"
+draft = false
+title = "Lords Confront Prison Pressures Amid Wider Social Policy Debates"
+tags = [
+    "parliament",
+    "education",
+    "mentalhealth",
+    "energy",
+    "justice",
+]
+atUri = "at://did:web:orderly.bot/site.standard.document/3mvtsd3isml26"
++++
+
+## High-Level Summary
+The House of Lords began with the introduction of Lords Wormald and McCobb, followed by questions on the UK’s objectives for its 2027 G20 presidency, defence funding, food-supply resilience, and the citizenship of two Israeli filmmakers. Members then agreed a committee motion on the draft Conversion Practices Bill and considered Commons answers on an overnight visitor levy, education and skills reform, and the Saudi East-West oil pipeline. Debates followed on tax changes affecting independent schools and mental-health pressures in agriculture, before a debate on the prison and probation service addressed overcrowding, rehabilitation, recalls, staffing and support after release. The House adjourned at 6.08 pm.
+
+## Detailed Summary
+### Introductions: Lords Wormald and McCobb
+Sir Christopher Stephen Wormald, having been created Baron Wormald, and David James McCobb, having been created Baron McCobb, were introduced. Each made the solemn affirmation, was supported by the named Peers, signed an undertaking to abide by the Code of Conduct and completed the formalities of introduction. The transcript records that Lord Wormald “was introduced and made the solemn affirmation”, and records the equivalent formalities for Lord McCobb.
+
+### G20 Summit 2027: objectives
+Baroness Twycross said that the process of determining the UK’s objectives and policy agenda for its 2027 G20 presidency was under way. Peers raised women’s rights, beneficial-ownership transparency, displacement and Sudan, artificial intelligence, peace, climate change, debt, defence spending and overseas development assistance. The Minister accepted suggestions for consideration, including on artificial intelligence and climate change, but said that the objectives would be communicated after the US presidency’s Miami summit: “In line with standard practice, we will communicate our objectives following the Miami summit”.
+
+She said that the Government remained committed to women’s rights, international work on peace and a long-term 0.7% aid commitment when fiscal circumstances allowed. Specific policy and operational details remained under review, and the Government intended to update the House in due course. The Minister also offered to write to Lord Pack on international fraud and beneficial ownership.
+
+### Defence funding and welfare
+Lord Pitt-Watson said that defence and welfare should not be presented as mutually exclusive. He said that the Government would honour the NATO commitment of 3.5% by 2035, with the target date for 3% to be set in the spending review, and that the Government would seek to reduce welfare expenditure without arbitrarily penalising people who depended on it. He said: “these two issues are not inextricably linked”.
+
+Peers differed over the implications of welfare savings for poorer, disabled and disadvantaged people, and some Government supporters argued that earlier defence reductions should be taken into account. The Minister said that £4.3 billion in welfare-fraud savings was expected by the end of the Parliament and that further detail on the timing of the 3% target would be provided at the spending review.
+
+### Climate change and food-supply resilience
+Baroness Hayman of Ullock said that rising temperatures and extreme weather created significant risks to UK food security. She outlined £200 million through the Farming Innovation Programme to 2030, £65 million to support farmers affected by recent drought conditions, including an additional £50 million for sustainable farming incentive agreements, and up to £15 million for on-farm reservoirs. Peers raised concerns about harvests, Defra’s preparedness, planning restrictions on reservoirs, gene editing, farmers’ confidence, pollinator decline and the effect of land-use changes on food production.
+
+The Minister said that the Government had made a long-term commitment to maintain overall food production in England by increasing farm profitability and productivity, and that planning issues were being discussed with MHCLG. She also said that the Government were considering the National Audit Office’s findings and working with farmers, producers and the drinks industry to strengthen food security: “Food security is a critical part of the work Defra does”. Further work included discussions with the European Union on gene-editing regulation and action on pollinators and invasive species.
+
+### Citizenship of Yuval Abraham and Rachel Szor; freedom of expression
+Lord Wood of Anfield said that the Government had not made representations to the Government of Israel about the citizenship of documentary film directors Yuval Abraham and Rachel Szor. He said that any action affecting citizenship or civil rights should comply with the rule of law and due process, while recognising the importance of freedom of expression. The Government’s position was: “We have not made representations to the Government of Israel”.
+
+Peers discussed Israel’s judicial safeguards, reports of possible legislation affecting citizenship, and threats or attacks affecting journalists and filmmakers. Lord Wood said that media freedom remained a Foreign Office priority and that journalists covering conflicts should be protected under international humanitarian law. He did not confirm whether the UK would participate in the forthcoming Durban conference, saying that he would return to the question.
+
+### Draft Conversion Practices Bill: committee membership
+The Senior Deputy Speaker moved a motion to appoint a six-member Lords committee to join the committee appointed by the Commons to consider and report on the draft Conversion Practices Bill. The motion set a reporting deadline of 22 January 2027 and gave the committee powers to agree a chair with the Commons committee, send for persons, papers and records, appoint specialist advisers, report from time to time and adjourn within the United Kingdom. The appointed members were Baroness Browning, Baroness Brown of Silvertown, Lord Hope of Craighead, Lord Isaac, Baroness Prentis of Banbury and Lord Scriven. The motion was agreed: “Motion agreed.”
+
+### Overnight visitor levy
+The Commons urgent-question answer stated that foundation and mayoral strategic authorities in England would be empowered to introduce a percentage-based levy on overnight accommodation, following consultation. The Government said that revenues could support local growth and the visitor economy, that local leaders were expected to set out investment plans by early 2028, and that a levy could be introduced before the end of the Parliament.
+
+Peers questioned possible effects on people staying near hospitals, businesses, domestic tourism and cultural institutions. Baroness Blake said that exemptions would be determined locally and rejected compulsory ring-fencing of the proceeds, stating: “We are not ring-fencing because it would not be in the spirit of devolution”. She said that the Government did not recognise UKHospitality’s estimates of 33,000 lost jobs and a £2.2 billion reduction in GDP, and that discussions with the tourism and hospitality sectors would continue.
+
+### Education and skills reform
+The Statement set out proposals for a broader education and skills system combining academic, technical and vocational routes, early intervention, work experience, curriculum and assessment reform, and changes to support children with special educational needs and disabilities. Baroness Cash questioned the evidence for proposed changes to Progress 8, the treatment of GCSE resits, the readiness and content of new technical pathways, and the timetable for implementation. Lord Mohammed supported greater choice but called for parity between academic and technical routes, movement between them, sufficient staff and funding, and effective careers advice and work experience.
+
+Baroness Smith said that the reforms were intended to build on, rather than dismantle, academic education. She clarified that “we are not talking about abolishing resits”, but that a new level 1 stepping-stone qualification would provide additional support before a further GCSE resit. The Government committed to offering two weeks of work experience for every child before 16 and said that mayors’ planned control of the 16-to-19 education budget would not include growth and skills levy funding for 16-to-18 apprenticeships. The Statement also said that further curriculum proposals and SEND legislation would be brought forward in due course; the transcript does not state a specific publication date for the draft curriculum or consultation response.
+
+### Saudi East-West oil pipeline and energy security
+The Commons answer condemned the Houthis’ attacks, reported that Saudi Arabia’s East-West oil pipeline had been temporarily closed after an attack on 11 September, and said that the Saudi Government had not provided a timetable for reopening it. The Government said that UK fuel supplies remained resilient, and that it was working with industry, the devolved Governments, Saudi Arabia and other international partners on contingency planning and the wider regional response.
+
+Peers asked about energy bills, domestic production, the Jackdaw project, the Red Sea and a possible social tariff. Baroness Antrobus said that the UK relied on a diverse range of energy supplies and referred to the removal of VAT from electricity bills from 1 October, a £150 bill discount and the warm home discount. She could not comment on Jackdaw while it was subject to a live regulatory process, and said that diplomacy and work with allies were the preferred response to regional threats.
+
+### Independent schools: VAT and other tax changes
+Lord Lexden’s take-note motion examined the effects since 1 January 2025 of VAT on independent-school fees, the removal of charitable business-rates relief and higher employer national insurance contributions. Several speakers argued that the changes had contributed to fee increases, school closures, pupil movements, pressure on bursaries and SEND provision, and risks to boarding schools, specialist music schools, local economies and education exports. Speakers including Lord Mohammed called for an independent assessment of the policy’s assumptions, modelling and outcomes. Baroness Cash said: “we will—and have pledged to—repeal this policy”.
+
+Baroness Smith defended the measures as a means of raising funds for public services. She said that the combined changes were expected to raise more than £1.8 billion a year by 2029-30, that the Office for Budget Responsibility had revised the expected yield upwards by an average of £40 million a year, and that the estimate of around 35,000 pupils moving into state-funded education remained unchanged. She attributed closures to several factors, not VAT alone, and cited spare capacity in the state sector, protections for local-authority-funded placements named in education, health and care plans, and £7 billion more for SEND than in 2025-26. No independent review was announced in the transcript. The motion was agreed.
+
+### Agriculture: mental-health pressures
+The Bishop of Hereford and other Peers linked mental-health pressures among agricultural workers to financial uncertainty, regulatory change, extreme weather, disease, isolation and stigma. They called for more stable policy and funding, better evidence, accessible early intervention and support delivered through trusted rural organisations. Earl Russell said that the pressures were interconnected and sought better research and a multi-year funding settlement. The Bishop welcomed the £1.5 million farmer welfare grant but said that time-limited grants did not provide sufficient certainty for longer-term planning.
+
+Baroness Hayman said that the suicide prevention strategy for England set an ambition for research and data-linkage projects concerning agricultural workers. She reported 8,500 additional mental-health workers recruited since June 2024 and said that the new three-year farmer welfare grant represented a tripling of previous funding. She also referred to support for the Farming Community Network, fair-dealing rules, the farming road map, flood resilience and farmer collaboration. The Government’s next steps included assessing grant applications, working with the fallen-stock sector, implementing recommendations from the Farming Profitability Review and continuing work on prevention and access to services.
+
+### Prison and Probation Service
+Lord Farmer’s take-note motion prompted a wide-ranging debate on overcrowding, sentence inflation, early release, rehabilitation, family relationships, purposeful activity, addiction treatment, housing, recalls, staffing and racial disparity. Contributors argued that punishment should be distinguished from degrading conditions and that prisons should reduce reoffending through education, work, treatment and stable relationships. The noble and learned Lord Leveson, in his maiden speech, highlighted remand numbers, limited activity in prison, complex needs and homelessness after release, and called for a move from containment towards preparation for life in the community. Other speakers focused on recalls, probation capacity, community sentences, addiction treatment, prison education and racial inequalities.
+
+Lord Lemos said that the Government would provide 14,000 additional prison places but accepted that construction alone could not resolve the capacity problem: “We cannot build our way out of this capacity challenge, though build we must”. He defended the progression model, including a third of a sentence in custody followed by intensive supervision in the community, and offered to arrange an officials’ briefing for Peers. He reported prison-officer staffing at 92% of target, 2,300 probation officers recruited over the previous year and at least 1,300 more planned for 2026-27. He also referred to prison security, vocational training, accommodation after release, women’s intensive-supervision courts and further work on recalls. The independent review chaired by Amber Rudd was expected to report later in the year. Lord Farmer described the debate as collaborative, and the motion was agreed.
