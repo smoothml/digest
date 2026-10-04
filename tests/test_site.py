@@ -8,6 +8,21 @@ from pydantic import ValidationError
 from digest.site import format_post, get_all_tags, read_post_metadata, slugify
 
 
+@pytest.fixture
+def site_dir(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> Path:
+    """Point every site's post directory at a temporary directory.
+
+    Args:
+        tmp_path: The built-in temporary directory fixture.
+        monkeypatch: The built-in monkeypatch fixture.
+
+    Returns:
+        The temporary post directory.
+    """
+    monkeypatch.setattr("digest.site.get_post_base_path", lambda site: tmp_path)
+    return tmp_path
+
+
 @pytest.mark.parametrize(
     "title",
     [
@@ -41,17 +56,13 @@ def test_read_post_metadata_round_trips_format_post(tmp_path: Path, title: str) 
     ],
 )
 def test_get_all_tags_skips_malformed_post(
-    tmp_path: Path,
-    monkeypatch: pytest.MonkeyPatch,
-    caplog: pytest.LogCaptureFixture,
-    frontmatter: str,
+    site_dir: Path, caplog: pytest.LogCaptureFixture, frontmatter: str
 ) -> None:
     """A malformed post is skipped with a warning rather than aborting collection."""
-    monkeypatch.setattr("digest.site.get_post_base_path", lambda site: tmp_path)
 
     good = format_post("Body.", date(2025, 1, 1), "Good", ["alpha", "beta"])
-    (tmp_path / "good.md").write_text(good, encoding="utf-8")
-    (tmp_path / "bad.md").write_text(
+    (site_dir / "good.md").write_text(good, encoding="utf-8")
+    (site_dir / "bad.md").write_text(
         f"+++\n{frontmatter}\n+++\n\nBody.", encoding="utf-8"
     )
 
@@ -134,18 +145,17 @@ def test_read_post_metadata_rejects_malformed_frontmatter(
 
 
 def test_get_all_tags_ignores_section_index_pages(
-    tmp_path: Path, monkeypatch: pytest.MonkeyPatch, caplog: pytest.LogCaptureFixture
+    site_dir: Path, caplog: pytest.LogCaptureFixture
 ) -> None:
     """Section index pages are not posts, so they are never read or warned about."""
-    monkeypatch.setattr("digest.site.get_post_base_path", lambda site: tmp_path)
 
     good = format_post("Body.", date(2025, 1, 1), "Good", ["alpha"])
-    (tmp_path / "good.md").write_text(good, encoding="utf-8")
-    (tmp_path / "_index.md").write_text(
+    (site_dir / "good.md").write_text(good, encoding="utf-8")
+    (site_dir / "_index.md").write_text(
         '+++\ntitle = "Commons"\nmenu = "main"\nweight = 3\n+++\n', encoding="utf-8"
     )
-    (tmp_path / "commons").mkdir()
-    (tmp_path / "commons" / "_index.md").write_text(
+    (site_dir / "commons").mkdir()
+    (site_dir / "commons" / "_index.md").write_text(
         '+++\ntitle = "Commons"\nweight = 3\n+++\n', encoding="utf-8"
     )
 

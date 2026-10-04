@@ -1,5 +1,6 @@
 """Tests for the Hansard data source content retrieval and lifecycle."""
 
+from collections.abc import Callable
 from datetime import date
 from string import ascii_lowercase
 from unittest.mock import MagicMock
@@ -11,7 +12,6 @@ from digest.cache import DataCache
 from digest.http import RetryingHttpClient
 from digest.sources.hansard.constants import HansardSourceType
 from digest.sources.hansard.main import Debate, HansardDataSource
-from tests import TEST_DATA_DIR
 
 _TEST_DATE = date(2025, 9, 1)
 _FALLBACK_WARNING = "No version flagged latest"
@@ -79,30 +79,31 @@ def test_get_returns_newest_available_version(
 
 
 @pytest.mark.parametrize(
-    ("outcome", "fetch_failed"),
+    ("make_outcome", "fetch_failed"),
     [
-        pytest.param(_make_404_response(), False, id="404"),
-        pytest.param(requests.exceptions.Timeout("boom"), True, id="timeout"),
+        pytest.param(_make_404_response, False, id="404"),
+        pytest.param(lambda: requests.exceptions.Timeout("boom"), True, id="timeout"),
         pytest.param(
-            _make_response(
+            lambda: _make_response(
                 requests.codes.ok, b"<html><body>Down for maintenance</body>"
             ),
             True,
             id="unparseable-body",
         ),
         pytest.param(
-            _make_response(requests.codes.ok, b"\xff\xfenot utf-8 content"),
+            lambda: _make_response(requests.codes.ok, b"\xff\xfenot utf-8 content"),
             True,
             id="non-utf8-body",
         ),
     ],
 )
 def test_get_reports_missing_debate(
-    outcome: MagicMock | requests.exceptions.RequestException, fetch_failed: bool
+    make_outcome: Callable[[], MagicMock | requests.exceptions.RequestException],
+    fetch_failed: bool,
 ) -> None:
     """A failed fetch yields no debate, flagged as a fetch failure unless a 404."""
     http_client = MagicMock(spec=RetryingHttpClient)
-    http_client.get.side_effect = [outcome]
+    http_client.get.side_effect = [make_outcome()]
     source = _make_source(http_client)
 
     debate = source.get(_TEST_DATE, HansardSourceType.COMMONS, refresh=True)
@@ -112,13 +113,12 @@ def test_get_reports_missing_debate(
     assert debate.xml_string == ""
 
 
-def test_debate_to_markdown_renders_xml() -> None:
+def test_debate_to_markdown_renders_xml(sample_debate_xml: str) -> None:
     """A debate renders its stored XML through the Markdown parser."""
-    xml = (TEST_DATA_DIR / "2025-09-01-debates.xml").read_text(encoding="utf-8")
     debate = Debate(
         date=_TEST_DATE,
         source=HansardSourceType.COMMONS,
-        xml_string=xml,
+        xml_string=sample_debate_xml,
         exists=True,
     )
 

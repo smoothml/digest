@@ -1,38 +1,36 @@
 """Tests for the retrying HTTP client."""
 
-from unittest.mock import MagicMock, patch
-
 import pytest
 import requests
 import responses
+from responses import matchers
 
 from digest.http import MAX_RETRIES, RetryingHttpClient
 
 _URL = "https://example.test/data.xml"
 
 
-def _make_ok_response() -> MagicMock:
-    response = MagicMock(spec=requests.Response)
-    response.status_code = requests.codes.ok
-    response.content = b"<ok/>"
-    return response
-
-
 @pytest.mark.parametrize(
-    ("client", "expected_timeout"),
+    ("timeout", "expected_timeout"),
     [
-        pytest.param(RetryingHttpClient(), 60, id="default"),
-        pytest.param(RetryingHttpClient(timeout=5), 5, id="configured"),
+        pytest.param(None, 60, id="default"),
+        pytest.param(5.0, 5.0, id="configured"),
     ],
 )
-def test_get_passes_timeout(client: RetryingHttpClient, expected_timeout: int) -> None:
-    """A GET passes the client's timeout, 60 seconds unless configured, to the session."""
-    with patch.object(
-        client._session, "get", return_value=_make_ok_response()
-    ) as mock_get:
-        client.get(_URL)
+@responses.activate
+def test_get_passes_timeout(timeout: float | None, expected_timeout: float) -> None:
+    """A GET sends the client's timeout, 60 seconds unless configured."""
+    responses.add(
+        responses.GET,
+        _URL,
+        status=200,
+        match=[matchers.request_kwargs_matcher({"timeout": expected_timeout})],
+    )
+    client = (
+        RetryingHttpClient() if timeout is None else RetryingHttpClient(timeout=timeout)
+    )
 
-    assert mock_get.call_args.kwargs["timeout"] == expected_timeout
+    assert client.get(_URL).status_code == requests.codes.ok
 
 
 @responses.activate
