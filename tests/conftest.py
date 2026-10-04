@@ -14,6 +14,7 @@ from digest.settings import (
     get_application_settings,
     get_openai_provider,
 )
+from tests import TEST_DATA_DIR
 
 
 @pytest.fixture
@@ -62,3 +63,13 @@ def isolated_settings(monkeypatch: pytest.MonkeyPatch) -> Iterator[None]:
     get_application_settings.cache_clear()
     get_openai_provider.cache_clear()
     get_hansard_summariser_agent_settings.cache_clear()
+
+
+@pytest.fixture
+def sample_debate_xml() -> str:
+    """Load a day of Commons debates in TheyWorkForYou XML.
+
+    Returns:
+        The sample debate XML.
+    """
+    return (TEST_DATA_DIR / "2025-09-01-debates.xml").read_text(encoding="utf-8")

@@ -1,7 +1,7 @@
 """Tests for digest.services.hansard module."""
 
 from datetime import date
-from unittest.mock import AsyncMock, MagicMock, patch
+from unittest.mock import AsyncMock, MagicMock, create_autospec, patch
 
 import pytest
 
@@ -12,15 +12,24 @@ from digest.agents.hansard_summariser.schemas import (
     Summary,
 )
 from digest.services.hansard import create_hansard_summary, publish_hansard_summary
-from digest.sources.hansard.constants import HansardSourceName
+from digest.sources.hansard.constants import HansardSourceName, HansardSourceType
+from digest.sources.hansard.main import Debate, HansardDataSource
+
+_TEST_DATE = date(2025, 1, 15)
 
 
-def _make_mock_debate(*, exists: bool, fetch_failed: bool = False) -> MagicMock:
-    debate = MagicMock()
-    debate.exists = exists
-    debate.fetch_failed = fetch_failed
-    debate.to_markdown.return_value = "# Debate content" if exists else ""
-    return debate
+def _make_data_source(
+    *, xml_string: str = "", exists: bool = False, fetch_failed: bool = False
+) -> MagicMock:
+    data_source: MagicMock = create_autospec(HansardDataSource, instance=True)
+    data_source.get.return_value = Debate(
+        date=_TEST_DATE,
+        source=HansardSourceType.COMMONS,
+        xml_string=xml_string,
+        exists=exists,
+        fetch_failed=fetch_failed,
+    )
+    return data_source
 
 
 def _make_draft_summary() -> DraftSummary:
@@ -47,42 +56,34 @@ def _make_summary() -> Summary:
     )
 
 
-async def test_create_hansard_summary_returns_none_when_no_data() -> None:
-    """Service returns None and logs absence when a date has no debate."""
-    mock_data_source = MagicMock()
-    mock_data_source.get.return_value = _make_mock_debate(exists=False)
+@pytest.mark.parametrize(
+    ("fetch_failed", "message"),
+    [
+        pytest.param(False, "No data found", id="absent"),
+        pytest.param(True, "outage", id="fetch-failed"),
+    ],
+)
+async def test_create_hansard_summary_returns_none_without_debate(
+    caplog: pytest.LogCaptureFixture, fetch_failed: bool, message: str
+) -> None:
+    """Service returns None and logs whether the debate is absent or unreachable."""
+    data_source = _make_data_source(fetch_failed=fetch_failed)
 
-    with patch("digest.services.hansard.logger") as mock_logger:
-        result = await create_hansard_summary(
-            date(2025, 1, 15), HansardSourceName.COMMONS, mock_data_source
-        )
-
-    assert result is None
-    mock_logger.error.assert_called_once()
-    assert "No data found" in mock_logger.error.call_args.args[0]
-
-
-async def test_create_hansard_summary_logs_outage_on_fetch_failure() -> None:
-    """Service distinguishes a fetch failure from a genuinely absent date."""
-    mock_data_source = MagicMock()
-    mock_data_source.get.return_value = _make_mock_debate(
-        exists=False, fetch_failed=True
+    result = await create_hansard_summary(
+        _TEST_DATE, HansardSourceName.COMMONS, data_source
     )
 
-    with patch("digest.services.hansard.logger") as mock_logger:
-        result = await create_hansard_summary(
-            date(2025, 1, 15), HansardSourceName.COMMONS, mock_data_source
-        )
-
     assert result is None
-    mock_logger.error.assert_called_once()
-    assert "outage" in mock_logger.error.call_args.args[0]
+    assert [record.levelname for record in caplog.records] == ["ERROR"]
+    assert message in caplog.text
 
 
-async def test_create_hansard_summary_orchestrates_workflow() -> None:
-    """Service orchestrates the summary generation workflow correctly."""
-    mock_data_source = MagicMock()
-    mock_data_source.get.return_value = _make_mock_debate(exists=True)
+async def test_create_hansard_summary_orchestrates_workflow(
+    sample_debate_xml: str,
+) -> None:
+    """Service fetches the debate, drafts, edits and titles the summary."""
+    data_source = _make_data_source(xml_string=sample_debate_xml, exists=True)
+    debate_markdown = data_source.get.return_value.to_markdown()
 
     draft = _make_draft_summary()
     final = _make_final_summary()
@@ -96,65 +97,27 @@ async def test_create_hansard_summary_orchestrates_workflow() -> None:
         patch("digest.services.hansard.generate_title", mock_generate_title),
     ):
         result = await create_hansard_summary(
-            date(2025, 1, 15), HansardSourceName.COMMONS, mock_data_source
+            _TEST_DATE, HansardSourceName.COMMONS, data_source
         )
 
-    mock_generate_draft.assert_called_once_with("# Debate content")
-    mock_generate_final.assert_called_once_with(draft.to_markdown(), "# Debate content")
+    data_source.get.assert_called_once_with(_TEST_DATE, HansardSourceType.COMMONS)
+    mock_generate_draft.assert_called_once_with(debate_markdown)
+    mock_generate_final.assert_called_once_with(draft.to_markdown(), debate_markdown)
     mock_generate_title.assert_called_once_with(final.to_markdown())
 
     assert result is not None
-    assert isinstance(result, Summary)
     assert result.title == "Test Title"
     assert result.high_level == final.high_level
     assert result.detail == final.detail
     assert result.quality_report == final.quality_report
 
 
-async def test_publish_hansard_summary_calls_get_all_tags() -> None:
-    """Service retrieves existing tags from the hansard site."""
-    summary = _make_summary()
-    mock_get_all_tags = MagicMock(return_value={"economy", "healthcare"})
-    mock_generate_tags = AsyncMock(return_value=["economy", "defence"])
-    mock_create_post = MagicMock()
-
-    with (
-        patch("digest.services.hansard.get_all_tags", mock_get_all_tags),
-        patch("digest.services.hansard.generate_tags", mock_generate_tags),
-        patch("digest.services.hansard.create_hansard_post", mock_create_post),
-    ):
-        await publish_hansard_summary(
-            summary, date(2025, 1, 15), HansardSourceName.COMMONS
-        )
-
-    mock_get_all_tags.assert_called_once_with("hansard")
-
-
-async def test_publish_hansard_summary_calls_generate_tags() -> None:
-    """Service generates tags using the summary markdown and existing tags."""
+async def test_publish_hansard_summary_orchestrates_workflow() -> None:
+    """Service tags the summary against existing site tags, then creates the post."""
     summary = _make_summary()
     existing_tags = {"economy", "healthcare"}
-    mock_get_all_tags = MagicMock(return_value=existing_tags)
-    mock_generate_tags = AsyncMock(return_value=["economy", "defence"])
-    mock_create_post = MagicMock()
-
-    with (
-        patch("digest.services.hansard.get_all_tags", mock_get_all_tags),
-        patch("digest.services.hansard.generate_tags", mock_generate_tags),
-        patch("digest.services.hansard.create_hansard_post", mock_create_post),
-    ):
-        await publish_hansard_summary(
-            summary, date(2025, 1, 15), HansardSourceName.COMMONS
-        )
-
-    mock_generate_tags.assert_called_once_with(summary.to_markdown(), existing_tags)
-
-
-async def test_publish_hansard_summary_calls_create_hansard_post() -> None:
-    """Service creates the post with the summary, date, source, and generated tags."""
-    summary = _make_summary()
     generated_tags = ["economy", "defence"]
-    mock_get_all_tags = MagicMock(return_value={"economy", "healthcare"})
+    mock_get_all_tags = MagicMock(return_value=existing_tags)
     mock_generate_tags = AsyncMock(return_value=generated_tags)
     mock_create_post = MagicMock()
 
@@ -163,24 +126,23 @@ async def test_publish_hansard_summary_calls_create_hansard_post() -> None:
         patch("digest.services.hansard.generate_tags", mock_generate_tags),
         patch("digest.services.hansard.create_hansard_post", mock_create_post),
     ):
-        await publish_hansard_summary(
-            summary, date(2025, 1, 15), HansardSourceName.COMMONS
-        )
+        await publish_hansard_summary(summary, _TEST_DATE, HansardSourceName.COMMONS)
 
+    mock_get_all_tags.assert_called_once_with("hansard")
+    mock_generate_tags.assert_called_once_with(summary.to_markdown(), existing_tags)
     mock_create_post.assert_called_once_with(
-        summary, date(2025, 1, 15), HansardSourceName.COMMONS, generated_tags
+        summary, _TEST_DATE, HansardSourceName.COMMONS, generated_tags
     )
 
 
 async def test_create_hansard_summary_raises_for_unsupported_source() -> None:
     """Service raises ValueError when source is not in SOURCE_NAME_TO_TYPE_MAP."""
-    mock_data_source = MagicMock()
+    data_source = _make_data_source()
 
-    with patch(
-        "digest.services.hansard.SOURCE_NAME_TO_TYPE_MAP",
-        {},
+    with (
+        patch("digest.services.hansard.SOURCE_NAME_TO_TYPE_MAP", {}),
+        pytest.raises(ValueError, match="Unsupported Hansard source"),
     ):
-        with pytest.raises(ValueError, match="Unsupported Hansard source"):
-            await create_hansard_summary(
-                date(2025, 1, 15), HansardSourceName.COMMONS, mock_data_source
-            )
+        await create_hansard_summary(_TEST_DATE, HansardSourceName.COMMONS, data_source)
+
+    data_source.get.assert_not_called()

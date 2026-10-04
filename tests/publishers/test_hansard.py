@@ -50,51 +50,34 @@ def test_create_hansard_post_formats_post_correctly(
     )
 
 
-def test_create_hansard_post_creates_post_in_correct_location(
-    sample_summary: Summary,
+@pytest.mark.parametrize(
+    ("source", "section"),
+    [
+        pytest.param(HansardSourceName.COMMONS, "commons", id="commons"),
+        pytest.param(HansardSourceName.LORDS, "lords", id="lords"),
+        pytest.param(
+            HansardSourceName.WESTMINSTER_HALL,
+            "westminster_hall",
+            id="westminster-hall",
+        ),
+    ],
+)
+def test_create_hansard_post_creates_post_in_source_section(
+    sample_summary: Summary, source: HansardSourceName, section: str
 ) -> None:
-    """Publish function creates post in correct site and section."""
+    """Publish function creates the post in the section matching its source."""
     mock_format_post = MagicMock(return_value="formatted content")
     mock_create_post = MagicMock()
-
-    test_date = date(2025, 1, 15)
 
     with (
         patch("digest.publishers.hansard.format_post", mock_format_post),
         patch("digest.publishers.hansard.create_post", mock_create_post),
     ):
-        create_hansard_post(
-            sample_summary, test_date, HansardSourceName.COMMONS, ["tag1"]
-        )
+        create_hansard_post(sample_summary, date(2025, 1, 15), source, ["tag1"])
 
     mock_create_post.assert_called_once_with(
         site="hansard",
         content="formatted content",
         post_path="2025-01-15-test-summary-title.md",
-        section="commons",
-    )
-
-
-def test_create_hansard_post_uses_lords_section(
-    sample_summary: Summary,
-) -> None:
-    """Publish function uses lords section for Lords source."""
-    mock_format_post = MagicMock(return_value="formatted content")
-    mock_create_post = MagicMock()
-
-    test_date = date(2025, 1, 15)
-
-    with (
-        patch("digest.publishers.hansard.format_post", mock_format_post),
-        patch("digest.publishers.hansard.create_post", mock_create_post),
-    ):
-        create_hansard_post(
-            sample_summary, test_date, HansardSourceName.LORDS, ["tag1"]
-        )
-
-    mock_create_post.assert_called_once_with(
-        site="hansard",
-        content="formatted content",
-        post_path="2025-01-15-test-summary-title.md",
-        section="lords",
+        section=section,
     )

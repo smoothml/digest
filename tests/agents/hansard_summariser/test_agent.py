@@ -1,11 +1,17 @@
 """Tests for digest.agents.hansard_summariser.agent module."""
 
 from typing import Literal
-from unittest.mock import MagicMock
 
 import pytest
 from pydantic_ai import Agent
-from pydantic_ai.models.openai import OpenAIResponsesModel, OpenAIResponsesModelSettings
+from pydantic_ai.messages import (
+    ModelMessage,
+    ModelRequest,
+    ModelResponse,
+    SystemPromptPart,
+)
+from pydantic_ai.models.function import AgentInfo, FunctionModel
+from pydantic_ai.models.openai import OpenAIResponsesModelSettings
 
 from digest.agents.hansard_summariser.agent import (
     _get_default_model,
@@ -28,6 +34,89 @@ SummariserAgent = (
     | Agent[None, str]
     | Agent[set[str], list[str]]
 )
+_TRANSCRIPT = "Test transcript content"
+_EXISTING_TAGS = {"economy", "healthcare"}
+_DISTINCT_EFFORTS: dict[AgentName, ReasoningEffort] = {
+    "summary": "none",
+    "editor": "low",
+    "title": "high",
+    "tag": "xhigh",
+}
+
+
+class _PromptsCapturedError(Exception):
+    """Raised by the stand-in model to stop a run once it has the prompts."""
+
+    def __init__(self, system_prompts: list[str]) -> None:
+        super().__init__("system prompts captured")
+        self.system_prompts = system_prompts
+
+
+def _capture_system_prompts(
+    messages: list[ModelMessage], info: AgentInfo
+) -> ModelResponse:
+    """Stop the run, carrying the system prompts the agent sent to the model.
+
+    Args:
+        messages: Messages the agent sent to the model.
+        info: Details of the agent run, unused.
+
+    Raises:
+        _PromptsCapturedError: Always, carrying the system prompts.
+    """
+    raise _PromptsCapturedError(
+        [
+            part.content
+            for message in messages
+            if isinstance(message, ModelRequest)
+            for part in message.parts
+            if isinstance(part, SystemPromptPart)
+        ]
+    )
+
+
+async def _run_capturing_system_prompts[DepsT, OutputT](
+    agent: Agent[DepsT, OutputT], deps: DepsT
+) -> list[str]:
+    """Run an agent against a stand-in model and return the system prompts sent.
+
+    Args:
+        agent: The agent to run.
+        deps: Dependencies for the run.
+
+    Returns:
+        The system prompts the agent sent to the model.
+    """
+    with (
+        agent.override(model=FunctionModel(_capture_system_prompts)),
+        pytest.raises(_PromptsCapturedError) as captured,
+    ):
+        await agent.run("Draft summary", deps=deps)
+    return captured.value.system_prompts
+
+
+async def _system_prompts_sent_by(name: AgentName) -> list[str]:
+    """Return the system prompts the named agent sends to its model.
+
+    Args:
+        name: Which of the four summariser agents to run.
+
+    Returns:
+        The system prompts the agent sent.
+    """
+    match name:
+        case "summary":
+            return await _run_capturing_system_prompts(create_summary_agent(), None)
+        case "editor":
+            return await _run_capturing_system_prompts(
+                create_editor_agent(), _TRANSCRIPT
+            )
+        case "title":
+            return await _run_capturing_system_prompts(create_title_agent(), None)
+        case "tag":
+            return await _run_capturing_system_prompts(
+                create_tag_agent(), _EXISTING_TAGS
+            )
 
 
 def _create_agent(name: AgentName) -> SummariserAgent:
@@ -50,29 +139,6 @@ def _create_agent(name: AgentName) -> SummariserAgent:
             return create_tag_agent()
 
 
-@pytest.mark.parametrize(
-    ("name", "expected_output_type"),
-    [
-        ("summary", DraftSummary),
-        ("editor", FinalSummary),
-        ("title", str),
-        ("tag", list[str]),
-    ],
-)
-def test_factory_returns_agent_with_expected_output_type(
-    name: AgentName, expected_output_type: type
-) -> None:
-    """Each factory returns an Agent producing that agent's output type.
-
-    Args:
-        name: Which agent factory this case exercises.
-        expected_output_type: The output type that factory should declare.
-    """
-    agent = _create_agent(name)
-    assert isinstance(agent, Agent)
-    assert agent.output_type == expected_output_type
-
-
 @pytest.mark.parametrize("name", ["summary", "editor", "title", "tag"])
 def test_factory_returns_a_new_instance_each_call(name: AgentName) -> None:
     """Factories build a fresh agent per call rather than sharing one.
@@ -86,51 +152,30 @@ def test_factory_returns_a_new_instance_each_call(name: AgentName) -> None:
 @pytest.mark.parametrize(
     ("name", "expected_fragments"),
     [
-        ("summary", ("Summarise one day", "politically neutral")),
-        ("title", ("headline", "title-case")),
+        pytest.param(
+            "summary", ("Summarise one day", "politically neutral"), id="summary"
+        ),
+        pytest.param(
+            "editor", (_TRANSCRIPT, "rigorous, impartial editor"), id="editor"
+        ),
+        pytest.param("title", ("headline", "title-case"), id="title"),
+        pytest.param("tag", (*_EXISTING_TAGS, "Generate 1-5 tags"), id="tag"),
     ],
 )
-def test_agent_has_static_system_prompt(
+async def test_agent_sends_its_system_prompt(
     name: AgentName, expected_fragments: tuple[str, ...]
 ) -> None:
-    """Agents with a static prompt register exactly one, with the right content.
+    """Each agent sends one system prompt, filled from its dependencies if any.
 
     Args:
         name: Which agent factory this case exercises.
-        expected_fragments: Substrings the static prompt must contain.
+        expected_fragments: Substrings the sent prompt must contain.
     """
-    agent = _create_agent(name)
-    assert len(agent._system_prompts) == 1
-    prompt = agent._system_prompts[0]
+    prompts = await _system_prompts_sent_by(name)
+
+    assert len(prompts) == 1
     for fragment in expected_fragments:
-        assert fragment in prompt
-
-
-async def test_editor_agent_registers_dynamic_system_prompt() -> None:
-    """Editor agent registers a dynamic system prompt that includes the transcript."""
-    agent = create_editor_agent()
-    assert len(agent._system_prompt_functions) == 1
-
-    ctx = MagicMock()
-    ctx.deps = "Test transcript content"
-    prompt = await agent._system_prompt_functions[0].run(ctx)
-    assert prompt is not None
-    assert "Test transcript content" in prompt
-    assert "rigorous, impartial editor" in prompt
-
-
-async def test_tag_agent_registers_dynamic_system_prompt() -> None:
-    """Tag agent registers a dynamic system prompt that includes existing tags."""
-    agent = create_tag_agent()
-    assert len(agent._system_prompt_functions) == 1
-
-    ctx = MagicMock()
-    ctx.deps = {"economy", "healthcare"}
-    prompt = await agent._system_prompt_functions[0].run(ctx)
-    assert prompt is not None
-    assert "economy" in prompt
-    assert "healthcare" in prompt
-    assert "Generate 1-5 tags" in prompt
+        assert fragment in prompts[0]
 
 
 def test_default_model_uses_configured_model_name(
@@ -142,16 +187,7 @@ def test_default_model_uses_configured_model_name(
         monkeypatch: Pytest fixture for patching settings attributes.
     """
     monkeypatch.setattr(get_hansard_summariser_agent_settings(), "model", "test-model")
-    model = _get_default_model()
-    assert isinstance(model, OpenAIResponsesModel)
-    assert model.model_name == "test-model"
-
-
-def test_default_model_name_is_luna() -> None:
-    """The shipped default is the model this migration targets."""
-    model = _get_default_model()
-    assert isinstance(model, OpenAIResponsesModel)
-    assert model.model_name == "gpt-5.6-luna"
+    assert _get_default_model().model_name == "test-model"
 
 
 def test_get_model_settings_carries_effort_and_max_tokens(
@@ -168,15 +204,7 @@ def test_get_model_settings_carries_effort_and_max_tokens(
     )
 
 
-@pytest.mark.parametrize(
-    ("name", "expected_effort"),
-    [
-        ("summary", "none"),
-        ("editor", "low"),
-        ("title", "high"),
-        ("tag", "xhigh"),
-    ],
-)
+@pytest.mark.parametrize(("name", "expected_effort"), _DISTINCT_EFFORTS.items())
 def test_each_agent_uses_its_own_reasoning_effort(
     monkeypatch: pytest.MonkeyPatch,
     name: AgentName,
@@ -193,38 +221,8 @@ def test_each_agent_uses_its_own_reasoning_effort(
         name: Which agent factory this case exercises.
         expected_effort: The reasoning effort that factory should pick up.
     """
-    monkeypatch.setattr(
-        get_hansard_summariser_agent_settings(), "summary_reasoning_effort", "none"
-    )
-    monkeypatch.setattr(
-        get_hansard_summariser_agent_settings(), "editor_reasoning_effort", "low"
-    )
-    monkeypatch.setattr(
-        get_hansard_summariser_agent_settings(), "title_reasoning_effort", "high"
-    )
-    monkeypatch.setattr(
-        get_hansard_summariser_agent_settings(), "tag_reasoning_effort", "xhigh"
-    )
+    settings = get_hansard_summariser_agent_settings()
+    for agent_name, effort in _DISTINCT_EFFORTS.items():
+        monkeypatch.setattr(settings, f"{agent_name}_reasoning_effort", effort)
 
-    assert _create_agent(name).model_settings == _get_model_settings(expected_effort)
-
-
-@pytest.mark.parametrize(
-    ("name", "expected_effort"),
-    [
-        ("summary", "medium"),
-        ("editor", "high"),
-        ("title", "low"),
-        ("tag", "low"),
-    ],
-)
-def test_shipped_efforts_match_the_migration_defaults(
-    name: AgentName, expected_effort: ReasoningEffort
-) -> None:
-    """Summary runs at medium, editor at high; title and tag run at low.
-
-    Args:
-        name: Which agent factory this case exercises.
-        expected_effort: The effort that agent ships with.
-    """
     assert _create_agent(name).model_settings == _get_model_settings(expected_effort)

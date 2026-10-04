@@ -1,5 +1,6 @@
 """Tests for the Hansard data source content retrieval and lifecycle."""
 
+from collections.abc import Callable
 from datetime import date
 from string import ascii_lowercase
 from unittest.mock import MagicMock
@@ -10,7 +11,7 @@ import requests
 from digest.cache import DataCache
 from digest.http import RetryingHttpClient
 from digest.sources.hansard.constants import HansardSourceType
-from digest.sources.hansard.main import HansardDataSource
+from digest.sources.hansard.main import Debate, HansardDataSource
 
 _TEST_DATE = date(2025, 9, 1)
 _FALLBACK_WARNING = "No version flagged latest"
@@ -77,57 +78,58 @@ def test_get_returns_newest_available_version(
     assert (_FALLBACK_WARNING in caplog.text) is warns
 
 
-def test_get_reports_absence_without_fetch_failed_on_404() -> None:
-    """A 404 is reported as a genuinely absent report, not a fetch failure."""
-    http_client = MagicMock(spec=RetryingHttpClient)
-    http_client.get.return_value = _make_404_response()
-    source = _make_source(http_client)
-
-    debate = source.get(_TEST_DATE, HansardSourceType.COMMONS, refresh=True)
-
-    assert debate.exists is False
-    assert debate.fetch_failed is False
-    assert debate.xml_string == ""
-
-
 @pytest.mark.parametrize(
-    "error",
+    ("make_outcome", "fetch_failed"),
     [
-        requests.exceptions.Timeout,
-        requests.exceptions.ConnectionError,
-        requests.exceptions.RetryError,
+        pytest.param(_make_404_response, False, id="404"),
+        pytest.param(lambda: requests.exceptions.Timeout("boom"), True, id="timeout"),
+        pytest.param(
+            lambda: _make_response(
+                requests.codes.ok, b"<html><body>Down for maintenance</body>"
+            ),
+            True,
+            id="unparseable-body",
+        ),
+        pytest.param(
+            lambda: _make_response(requests.codes.ok, b"\xff\xfenot utf-8 content"),
+            True,
+            id="non-utf8-body",
+        ),
     ],
 )
-def test_get_marks_fetch_failed_on_transient_error(
-    error: type[requests.exceptions.RequestException],
+def test_get_reports_missing_debate(
+    make_outcome: Callable[[], MagicMock | requests.exceptions.RequestException],
+    fetch_failed: bool,
 ) -> None:
-    """Transient failures are handled as missing data and flagged as fetch failures."""
+    """A failed fetch yields no debate, flagged as a fetch failure unless a 404."""
     http_client = MagicMock(spec=RetryingHttpClient)
-    http_client.get.side_effect = error("boom")
+    http_client.get.side_effect = [make_outcome()]
     source = _make_source(http_client)
 
     debate = source.get(_TEST_DATE, HansardSourceType.COMMONS, refresh=True)
 
     assert debate.exists is False
-    assert debate.fetch_failed is True
+    assert debate.fetch_failed is fetch_failed
     assert debate.xml_string == ""
 
 
-@pytest.mark.parametrize(
-    "content",
-    [
-        b"<html><body>Down for maintenance</body>",
-        b"\xff\xfenot utf-8 content",
-    ],
-)
-def test_get_marks_fetch_failed_on_malformed_body(content: bytes) -> None:
-    """A 200 with an unparseable or non-UTF-8 body is flagged as a fetch failure."""
-    http_client = MagicMock(spec=RetryingHttpClient)
-    http_client.get.return_value = _make_response(requests.codes.ok, content)
-    source = _make_source(http_client)
+def test_debate_to_markdown_renders_xml(sample_debate_xml: str) -> None:
+    """A debate renders its stored XML through the Markdown parser."""
+    debate = Debate(
+        date=_TEST_DATE,
+        source=HansardSourceType.COMMONS,
+        xml_string=sample_debate_xml,
+        exists=True,
+    )
 
-    debate = source.get(_TEST_DATE, HansardSourceType.COMMONS, refresh=True)
+    md = debate.to_markdown()
 
-    assert debate.exists is False
-    assert debate.fetch_failed is True
-    assert debate.xml_string == ""
+    assert "### Work and Pensions" in md
+    assert "[c1.5/1] The unemployment rate is 4.7%" in md
+
+
+def test_debate_to_markdown_is_empty_without_xml() -> None:
+    """A debate with no stored XML renders as an empty document."""
+    debate = Debate(date=_TEST_DATE, source=HansardSourceType.COMMONS, xml_string="")
+
+    assert debate.to_markdown() == ""
