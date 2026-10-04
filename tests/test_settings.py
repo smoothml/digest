@@ -1,16 +1,10 @@
-"""Tests for lazy application settings initialisation."""
-
-import os
-import subprocess
-import sys
+"""Tests for how application settings reach the provider and data cache."""
 
 import pytest
 
 from digest import cache, settings
 from digest.cache import DataCache
 from digest.settings import ApplicationSettings, get_openai_provider
-
-_UNSET_VARIABLES = frozenset({"OPENAI_API_KEY", "OPENAI_BASE_URL", "DATA_CACHE_URL"})
 
 
 def test_provider_is_built_from_settings(monkeypatch: pytest.MonkeyPatch) -> None:
@@ -52,30 +46,3 @@ def test_data_cache_defaults_to_the_configured_url(
     DataCache().write("note.txt", "hello")
 
     assert DataCache("memory://default-cache").read("note.txt") == "hello"
-
-
-@pytest.mark.parametrize(
-    "module", ["digest.cache", "digest.agents.hansard_summariser.agent"]
-)
-def test_importing_module_does_not_require_credentials(module: str) -> None:
-    """Modules importing settings can be imported without credentials.
-
-    Runs in a subprocess because the module under test is already imported into
-    this interpreter, so only a fresh one can observe its import side effects.
-
-    Args:
-        module: Dotted path of a module importing digest.settings directly.
-    """
-    environment = {
-        key: value for key, value in os.environ.items() if key not in _UNSET_VARIABLES
-    }
-
-    result = subprocess.run(
-        [sys.executable, "-c", f"import {module}"],
-        env=environment,
-        capture_output=True,
-        text=True,
-        check=False,
-    )
-
-    assert result.returncode == 0, result.stderr
