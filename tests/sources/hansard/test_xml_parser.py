@@ -2,6 +2,8 @@
 
 from __future__ import annotations
 
+import pytest
+
 from digest.sources.hansard.xml_parser import (
     Heading,
     Speech,
@@ -43,23 +45,20 @@ def test_xml_to_blocks_basic_structure() -> None:
     assert "unemployment" in first_para.text
 
 
-def test_xml_to_markdown_contains_expected_markers() -> None:
-    """Test XML to Markdown contains expected markers."""
-    xml = load_sample_xml()
-    md = xml_to_markdown(xml)
-
-    # Headings rendered
-    assert "## Oral Answers to Questions" in md
-    assert "### Work and Pensions" in md
-
-    # Speech header contains speaker name and type
-    assert "##### Alison Griffiths (Start Question)" in md
-
-    # Paragraph line includes [pid] prefix
-    assert (
-        "[c1.4/1] What assessment she has made of trends in the level of unemployment."
-        in md
-    )
-
-    # Italic paragraphs are wrapped with *...*
-    assert "*The Secretary of State was asked—*" in md
+@pytest.mark.parametrize(
+    "marker",
+    [
+        pytest.param("## Oral Answers to Questions", id="heading"),
+        pytest.param("### Work and Pensions", id="subheading"),
+        pytest.param("##### Alison Griffiths (Start Question)", id="speech-header"),
+        pytest.param(
+            "[c1.4/1] What assessment she has made of trends in the level of"
+            " unemployment.",
+            id="paragraph-pid",
+        ),
+        pytest.param("*The Secretary of State was asked—*", id="italic-paragraph"),
+    ],
+)
+def test_xml_to_markdown_contains_expected_markers(marker: str) -> None:
+    """Rendered Markdown contains headings, speech headers and tagged paragraphs."""
+    assert marker in xml_to_markdown(load_sample_xml())

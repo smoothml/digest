@@ -78,59 +78,41 @@ def test_get_returns_newest_available_version(
     assert (_FALLBACK_WARNING in caplog.text) is warns
 
 
-def test_get_reports_absence_without_fetch_failed_on_404() -> None:
-    """A 404 is reported as a genuinely absent report, not a fetch failure."""
-    http_client = MagicMock(spec=RetryingHttpClient)
-    http_client.get.return_value = _make_404_response()
-    source = _make_source(http_client)
-
-    debate = source.get(_TEST_DATE, HansardSourceType.COMMONS, refresh=True)
-
-    assert debate.exists is False
-    assert debate.fetch_failed is False
-    assert debate.xml_string == ""
-
-
 @pytest.mark.parametrize(
-    "error",
+    ("outcome", "fetch_failed"),
     [
-        requests.exceptions.Timeout,
-        requests.exceptions.ConnectionError,
-        requests.exceptions.RetryError,
+        pytest.param(_make_404_response(), False, id="404"),
+        pytest.param(requests.exceptions.Timeout("boom"), True, id="timeout"),
+        pytest.param(
+            requests.exceptions.ConnectionError("boom"), True, id="connection-error"
+        ),
+        pytest.param(requests.exceptions.RetryError("boom"), True, id="retry-error"),
+        pytest.param(
+            _make_response(
+                requests.codes.ok, b"<html><body>Down for maintenance</body>"
+            ),
+            True,
+            id="unparseable-body",
+        ),
+        pytest.param(
+            _make_response(requests.codes.ok, b"\xff\xfenot utf-8 content"),
+            True,
+            id="non-utf8-body",
+        ),
     ],
 )
-def test_get_marks_fetch_failed_on_transient_error(
-    error: type[requests.exceptions.RequestException],
+def test_get_reports_missing_debate(
+    outcome: MagicMock | requests.exceptions.RequestException, fetch_failed: bool
 ) -> None:
-    """Transient failures are handled as missing data and flagged as fetch failures."""
+    """A failed fetch yields no debate, flagged as a fetch failure unless a 404."""
     http_client = MagicMock(spec=RetryingHttpClient)
-    http_client.get.side_effect = error("boom")
+    http_client.get.side_effect = [outcome]
     source = _make_source(http_client)
 
     debate = source.get(_TEST_DATE, HansardSourceType.COMMONS, refresh=True)
 
     assert debate.exists is False
-    assert debate.fetch_failed is True
-    assert debate.xml_string == ""
-
-
-@pytest.mark.parametrize(
-    "content",
-    [
-        b"<html><body>Down for maintenance</body>",
-        b"\xff\xfenot utf-8 content",
-    ],
-)
-def test_get_marks_fetch_failed_on_malformed_body(content: bytes) -> None:
-    """A 200 with an unparseable or non-UTF-8 body is flagged as a fetch failure."""
-    http_client = MagicMock(spec=RetryingHttpClient)
-    http_client.get.return_value = _make_response(requests.codes.ok, content)
-    source = _make_source(http_client)
-
-    debate = source.get(_TEST_DATE, HansardSourceType.COMMONS, refresh=True)
-
-    assert debate.exists is False
-    assert debate.fetch_failed is True
+    assert debate.fetch_failed is fetch_failed
     assert debate.xml_string == ""
 
 

@@ -106,52 +106,70 @@ def test_agent_has_static_system_prompt(
         assert fragment in prompt
 
 
-async def test_editor_agent_registers_dynamic_system_prompt() -> None:
-    """Editor agent registers a dynamic system prompt that includes the transcript."""
-    agent = create_editor_agent()
+@pytest.mark.parametrize(
+    ("name", "deps", "expected_fragments"),
+    [
+        pytest.param(
+            "editor",
+            "Test transcript content",
+            ("Test transcript content", "rigorous, impartial editor"),
+            id="editor",
+        ),
+        pytest.param(
+            "tag",
+            {"economy", "healthcare"},
+            ("economy", "healthcare", "Generate 1-5 tags"),
+            id="tag",
+        ),
+    ],
+)
+async def test_agent_registers_dynamic_system_prompt(
+    name: AgentName, deps: str | set[str], expected_fragments: tuple[str, ...]
+) -> None:
+    """Agents with run-time context build their prompt from their dependencies.
+
+    Args:
+        name: Which agent factory this case exercises.
+        deps: Dependencies passed to the prompt function.
+        expected_fragments: Substrings the rendered prompt must contain.
+    """
+    agent = _create_agent(name)
     assert len(agent._system_prompt_functions) == 1
 
     ctx = MagicMock()
-    ctx.deps = "Test transcript content"
+    ctx.deps = deps
     prompt = await agent._system_prompt_functions[0].run(ctx)
     assert prompt is not None
-    assert "Test transcript content" in prompt
-    assert "rigorous, impartial editor" in prompt
+    for fragment in expected_fragments:
+        assert fragment in prompt
 
 
-async def test_tag_agent_registers_dynamic_system_prompt() -> None:
-    """Tag agent registers a dynamic system prompt that includes existing tags."""
-    agent = create_tag_agent()
-    assert len(agent._system_prompt_functions) == 1
-
-    ctx = MagicMock()
-    ctx.deps = {"economy", "healthcare"}
-    prompt = await agent._system_prompt_functions[0].run(ctx)
-    assert prompt is not None
-    assert "economy" in prompt
-    assert "healthcare" in prompt
-    assert "Generate 1-5 tags" in prompt
-
-
+@pytest.mark.parametrize(
+    ("configured_model", "expected_model"),
+    [
+        pytest.param(None, "gpt-5.6-luna", id="shipped-default"),
+        pytest.param("test-model", "test-model", id="configured"),
+    ],
+)
 def test_default_model_uses_configured_model_name(
     monkeypatch: pytest.MonkeyPatch,
+    configured_model: str | None,
+    expected_model: str,
 ) -> None:
-    """Model name comes from settings, not a module constant.
+    """Model name comes from settings, which ship with the migration's target.
 
     Args:
         monkeypatch: Pytest fixture for patching settings attributes.
+        configured_model: Model name to set in settings, or None to keep the default.
+        expected_model: Model name the default model should carry.
     """
-    monkeypatch.setattr(get_hansard_summariser_agent_settings(), "model", "test-model")
+    if configured_model is not None:
+        monkeypatch.setattr(
+            get_hansard_summariser_agent_settings(), "model", configured_model
+        )
     model = _get_default_model()
     assert isinstance(model, OpenAIResponsesModel)
-    assert model.model_name == "test-model"
-
-
-def test_default_model_name_is_luna() -> None:
-    """The shipped default is the model this migration targets."""
-    model = _get_default_model()
-    assert isinstance(model, OpenAIResponsesModel)
-    assert model.model_name == "gpt-5.6-luna"
+    assert model.model_name == expected_model
 
 
 def test_get_model_settings_carries_effort_and_max_tokens(

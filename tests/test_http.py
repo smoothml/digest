@@ -34,26 +34,21 @@ def test_build_retry_configures_bounded_exponential_backoff() -> None:
     assert retry.allowed_methods == frozenset({"GET"})
 
 
-def test_get_passes_default_timeout() -> None:
-    """A GET passes the default 60 second timeout to the session."""
-    client = RetryingHttpClient()
+@pytest.mark.parametrize(
+    ("client", "expected_timeout"),
+    [
+        pytest.param(RetryingHttpClient(), 60, id="default"),
+        pytest.param(RetryingHttpClient(timeout=5), 5, id="configured"),
+    ],
+)
+def test_get_passes_timeout(client: RetryingHttpClient, expected_timeout: int) -> None:
+    """A GET passes the client's timeout, 60 seconds unless configured, to the session."""
     with patch.object(
         client._session, "get", return_value=_make_ok_response()
     ) as mock_get:
         client.get(_URL)
 
-    assert mock_get.call_args.kwargs["timeout"] == 60
-
-
-def test_get_passes_configured_timeout() -> None:
-    """A custom timeout is honoured."""
-    client = RetryingHttpClient(timeout=5)
-    with patch.object(
-        client._session, "get", return_value=_make_ok_response()
-    ) as mock_get:
-        client.get(_URL)
-
-    assert mock_get.call_args.kwargs["timeout"] == 5
+    assert mock_get.call_args.kwargs["timeout"] == expected_timeout
 
 
 @responses.activate

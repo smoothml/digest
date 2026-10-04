@@ -7,49 +7,48 @@ from pydantic import ValidationError
 
 from digest.site import format_post, get_all_tags, read_post_metadata, slugify
 
+_ROUND_TRIP_CASES = [
+    pytest.param(
+        'Commons Debates "Net Zero" Strategy', ["energy"], id="embedded-quote"
+    ),
+    pytest.param(
+        '"Commons Backs Net Zero Plan"', ["energy"], id="model-wrapped-quotes"
+    ),
+    pytest.param(r"Backslash C:\Users\test", ["energy"], id="backslash"),
+    pytest.param("Lords Strengthen Victims' Rights", ["energy"], id="apostrophe"),
+    pytest.param("Title", ["children's", "net-zero"], id="tag-apostrophe"),
+]
 
-@pytest.mark.parametrize(
-    "title",
-    [
-        pytest.param('Commons Debates "Net Zero" Strategy', id="embedded-quote"),
-        pytest.param('"Commons Backs Net Zero Plan"', id="model-wrapped-quotes"),
-        pytest.param(r"Backslash C:\Users\test", id="backslash"),
-        pytest.param("Lords Strengthen Victims' Rights", id="apostrophe"),
-    ],
-)
-def test_format_post_title_round_trips_through_tomllib(title: str) -> None:
-    """A title with TOML-significant characters yields parseable frontmatter."""
-    post = format_post("Body text.", date(2025, 1, 1), title, ["energy"])
+
+@pytest.mark.parametrize(("title", "tags"), _ROUND_TRIP_CASES)
+def test_format_post_round_trips_through_tomllib(title: str, tags: list[str]) -> None:
+    """TOML-significant characters in the title or tags yield parseable frontmatter."""
+    post = format_post("Body text.", date(2025, 1, 1), title, tags)
 
     block = post.lstrip("+").split("+++")[0].strip()
     data = tomllib.loads(block)
 
     assert data["title"] == title
+    assert data["tags"] == tags
 
 
-def test_read_post_metadata_returns_title_with_embedded_quote(tmp_path: Path) -> None:
-    """read_post_metadata round-trips a title containing a double quote unchanged."""
-    title = 'Commons Debates "Net Zero" Strategy'
-    post = format_post("Body text.", date(2025, 1, 1), title, ["energy"])
+@pytest.mark.parametrize(("title", "tags"), _ROUND_TRIP_CASES)
+def test_read_post_metadata_round_trips_format_post(
+    tmp_path: Path, title: str, tags: list[str]
+) -> None:
+    """Reading a formatted post returns its metadata, with the date as a date."""
+    post = format_post("Body text.", date(2025, 1, 1), title, tags)
     path = tmp_path / "post.md"
     path.write_text(post, encoding="utf-8")
 
     metadata = read_post_metadata(path)
 
-    assert metadata["title"] == title
-    assert metadata["tags"] == ["energy"]
-
-
-def test_format_post_tags_with_apostrophe_round_trip() -> None:
-    """Tags containing quote characters serialise to valid TOML."""
-    post = format_post(
-        "Body text.", date(2025, 1, 1), "Title", ["children's", "net-zero"]
-    )
-
-    block = post.lstrip("+").split("+++")[0].strip()
-    data = tomllib.loads(block)
-
-    assert data["tags"] == ["children's", "net-zero"]
+    assert metadata == {
+        "date": date(2025, 1, 1),
+        "draft": False,
+        "title": title,
+        "tags": tags,
+    }
 
 
 @pytest.mark.parametrize(
@@ -130,17 +129,6 @@ def test_slugify_empty_string_logs_warning_and_returns_empty(
     """Empty input logs a warning and returns an empty string."""
     assert slugify("") == ""
     assert "Empty string provided to slugify" in caplog.text
-
-
-def test_read_post_metadata_coerces_date_string_to_date(tmp_path: Path) -> None:
-    """Frontmatter serialises the date as a string; reading returns a date."""
-    post = format_post("Body text.", date(2025, 1, 1), "Title", ["energy"])
-    path = tmp_path / "post.md"
-    path.write_text(post, encoding="utf-8")
-
-    metadata = read_post_metadata(path)
-
-    assert metadata["date"] == date(2025, 1, 1)
 
 
 @pytest.mark.parametrize(
