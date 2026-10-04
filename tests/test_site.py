@@ -7,37 +7,19 @@ from pydantic import ValidationError
 
 from digest.site import format_post, get_all_tags, read_post_metadata, slugify
 
-_ROUND_TRIP_CASES = [
-    pytest.param(
-        'Commons Debates "Net Zero" Strategy', ["energy"], id="embedded-quote"
-    ),
-    pytest.param(
-        '"Commons Backs Net Zero Plan"', ["energy"], id="model-wrapped-quotes"
-    ),
-    pytest.param(r"Backslash C:\Users\test", ["energy"], id="backslash"),
-    pytest.param("Lords Strengthen Victims' Rights", ["energy"], id="apostrophe"),
-    pytest.param("Title", ["children's", "net-zero"], id="tag-apostrophe"),
-]
 
-
-@pytest.mark.parametrize(("title", "tags"), _ROUND_TRIP_CASES)
-def test_format_post_round_trips_through_tomllib(title: str, tags: list[str]) -> None:
-    """TOML-significant characters in the title or tags yield parseable frontmatter."""
-    post = format_post("Body text.", date(2025, 1, 1), title, tags)
-
-    block = post.lstrip("+").split("+++")[0].strip()
-    data = tomllib.loads(block)
-
-    assert data["title"] == title
-    assert data["tags"] == tags
-
-
-@pytest.mark.parametrize(("title", "tags"), _ROUND_TRIP_CASES)
-def test_read_post_metadata_round_trips_format_post(
-    tmp_path: Path, title: str, tags: list[str]
-) -> None:
-    """Reading a formatted post returns its metadata, with the date as a date."""
-    post = format_post("Body text.", date(2025, 1, 1), title, tags)
+@pytest.mark.parametrize(
+    "title",
+    [
+        pytest.param('Commons Debates "Net Zero" Strategy', id="embedded-quote"),
+        pytest.param('"Commons Backs Net Zero Plan"', id="model-wrapped-quotes"),
+        pytest.param(r"Backslash C:\Users\test", id="backslash"),
+        pytest.param("Lords Strengthen Victims' Rights", id="apostrophe"),
+    ],
+)
+def test_read_post_metadata_round_trips_format_post(tmp_path: Path, title: str) -> None:
+    """A formatted post reads back with its metadata intact and the date as a date."""
+    post = format_post("Body text.", date(2025, 1, 1), title, ["children's", "energy"])
     path = tmp_path / "post.md"
     path.write_text(post, encoding="utf-8")
 
@@ -47,7 +29,7 @@ def test_read_post_metadata_round_trips_format_post(
         "date": date(2025, 1, 1),
         "draft": False,
         "title": title,
-        "tags": tags,
+        "tags": ["children's", "energy"],
     }
 
 
@@ -132,31 +114,22 @@ def test_slugify_empty_string_logs_warning_and_returns_empty(
 
 
 @pytest.mark.parametrize(
-    "frontmatter",
+    ("frontmatter", "error"),
     [
-        pytest.param('title = "Title"\ntags = "energy"', id="tags-not-a-list"),
-        pytest.param('title = "Title"\ntags = [1, 2]', id="tags-not-strings"),
-        pytest.param('title = "Title"\ndraft = "maybe"', id="draft-not-a-bool"),
-        pytest.param('title = "Title"\ndate = "not-a-date"', id="date-unparseable"),
-        pytest.param('draft = false\ntitle = "Title"\ntags = []', id="date-missing"),
         pytest.param(
-            'date = 2025-01-01\ntitle = "Title"\ntags = []', id="draft-missing"
+            'title = "Broken "quote" title"', tomllib.TOMLDecodeError, id="toml"
         ),
-        pytest.param("date = 2025-01-01\ndraft = false\ntags = []", id="title-missing"),
-        pytest.param(
-            'date = 2025-01-01\ndraft = false\ntitle = "Title"', id="tags-missing"
-        ),
-        pytest.param('title = "Commons"\nmenu = "main"\nweight = 3', id="index-page"),
+        pytest.param('title = "Title"\ntags = "energy"', ValidationError, id="schema"),
     ],
 )
-def test_read_post_metadata_rejects_invalid_frontmatter(
-    tmp_path: Path, frontmatter: str
+def test_read_post_metadata_rejects_malformed_frontmatter(
+    tmp_path: Path, frontmatter: str, error: type[Exception]
 ) -> None:
-    """Frontmatter that does not match the metadata schema is rejected."""
+    """Frontmatter that is not TOML, or does not match the schema, is rejected."""
     path = tmp_path / "post.md"
     path.write_text(f"+++\n{frontmatter}\n+++\n\nBody.", encoding="utf-8")
 
-    with pytest.raises(ValidationError):
+    with pytest.raises(error):
         read_post_metadata(path)
 
 

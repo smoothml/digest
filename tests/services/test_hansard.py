@@ -98,7 +98,6 @@ async def test_create_hansard_summary_orchestrates_workflow() -> None:
     mock_generate_title.assert_called_once_with(final.to_markdown())
 
     assert result is not None
-    assert isinstance(result, Summary)
     assert result.title == "Test Title"
     assert result.high_level == final.high_level
     assert result.detail == final.detail

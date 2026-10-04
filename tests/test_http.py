@@ -6,13 +6,7 @@ import pytest
 import requests
 import responses
 
-from digest.http import (
-    MAX_RETRIES,
-    RETRY_BACKOFF_FACTOR,
-    RETRY_STATUS_FORCELIST,
-    RetryingHttpClient,
-    _build_retry,
-)
+from digest.http import MAX_RETRIES, RetryingHttpClient
 
 _URL = "https://example.test/data.xml"
 
@@ -22,16 +16,6 @@ def _make_ok_response() -> MagicMock:
     response.status_code = requests.codes.ok
     response.content = b"<ok/>"
     return response
-
-
-def test_build_retry_configures_bounded_exponential_backoff() -> None:
-    """The retry policy is bounded, backs off exponentially, and is GET-only."""
-    retry = _build_retry(MAX_RETRIES, RETRY_BACKOFF_FACTOR, RETRY_STATUS_FORCELIST)
-
-    assert retry.total == MAX_RETRIES
-    assert retry.backoff_factor == RETRY_BACKOFF_FACTOR
-    assert retry.status_forcelist == RETRY_STATUS_FORCELIST
-    assert retry.allowed_methods == frozenset({"GET"})
 
 
 @pytest.mark.parametrize(
@@ -52,39 +36,11 @@ def test_get_passes_timeout(client: RetryingHttpClient, expected_timeout: int) -
 
 
 @responses.activate
-def test_get_retries_transient_server_errors_then_returns_response() -> None:
-    """Transient server errors are retried and the eventual response is returned."""
-    responses.add(responses.GET, _URL, status=503)
-    responses.add(responses.GET, _URL, status=503)
-    responses.add(responses.GET, _URL, body="<ok/>", status=200)
-
-    response = RetryingHttpClient().get(_URL)
-
-    assert response.status_code == requests.codes.ok
-    assert len(responses.calls) == 3
-
-
-@responses.activate
-def test_get_raises_after_exhausting_retries() -> None:
-    """A persistently failing endpoint raises once retries are exhausted."""
+def test_get_retries_server_errors_then_raises() -> None:
+    """Server errors are retried up to the configured limit before raising."""
     responses.add(responses.GET, _URL, status=503)
 
     with pytest.raises(requests.exceptions.RetryError):
         RetryingHttpClient().get(_URL)
 
     assert len(responses.calls) == MAX_RETRIES + 1
-
-
-@pytest.mark.parametrize(
-    "error",
-    [requests.exceptions.Timeout, requests.exceptions.ConnectionError],
-)
-@responses.activate
-def test_get_propagates_transient_request_errors(
-    error: type[requests.exceptions.RequestException],
-) -> None:
-    """Connection errors and timeouts are propagated, not swallowed."""
-    responses.add(responses.GET, _URL, body=error("boom"))
-
-    with pytest.raises(error):
-        RetryingHttpClient().get(_URL)

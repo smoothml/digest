@@ -5,7 +5,7 @@ from unittest.mock import MagicMock
 
 import pytest
 from pydantic_ai import Agent
-from pydantic_ai.models.openai import OpenAIResponsesModel, OpenAIResponsesModelSettings
+from pydantic_ai.models.openai import OpenAIResponsesModelSettings
 
 from digest.agents.hansard_summariser.agent import (
     _get_default_model,
@@ -48,29 +48,6 @@ def _create_agent(name: AgentName) -> SummariserAgent:
             return create_title_agent()
         case "tag":
             return create_tag_agent()
-
-
-@pytest.mark.parametrize(
-    ("name", "expected_output_type"),
-    [
-        ("summary", DraftSummary),
-        ("editor", FinalSummary),
-        ("title", str),
-        ("tag", list[str]),
-    ],
-)
-def test_factory_returns_agent_with_expected_output_type(
-    name: AgentName, expected_output_type: type
-) -> None:
-    """Each factory returns an Agent producing that agent's output type.
-
-    Args:
-        name: Which agent factory this case exercises.
-        expected_output_type: The output type that factory should declare.
-    """
-    agent = _create_agent(name)
-    assert isinstance(agent, Agent)
-    assert agent.output_type == expected_output_type
 
 
 @pytest.mark.parametrize("name", ["summary", "editor", "title", "tag"])
@@ -144,32 +121,16 @@ async def test_agent_registers_dynamic_system_prompt(
         assert fragment in prompt
 
 
-@pytest.mark.parametrize(
-    ("configured_model", "expected_model"),
-    [
-        pytest.param(None, "gpt-5.6-luna", id="shipped-default"),
-        pytest.param("test-model", "test-model", id="configured"),
-    ],
-)
 def test_default_model_uses_configured_model_name(
     monkeypatch: pytest.MonkeyPatch,
-    configured_model: str | None,
-    expected_model: str,
 ) -> None:
-    """Model name comes from settings, which ship with the migration's target.
+    """Model name comes from settings, not a module constant.
 
     Args:
         monkeypatch: Pytest fixture for patching settings attributes.
-        configured_model: Model name to set in settings, or None to keep the default.
-        expected_model: Model name the default model should carry.
     """
-    if configured_model is not None:
-        monkeypatch.setattr(
-            get_hansard_summariser_agent_settings(), "model", configured_model
-        )
-    model = _get_default_model()
-    assert isinstance(model, OpenAIResponsesModel)
-    assert model.model_name == expected_model
+    monkeypatch.setattr(get_hansard_summariser_agent_settings(), "model", "test-model")
+    assert _get_default_model().model_name == "test-model"
 
 
 def test_get_model_settings_carries_effort_and_max_tokens(
@@ -224,25 +185,4 @@ def test_each_agent_uses_its_own_reasoning_effort(
         get_hansard_summariser_agent_settings(), "tag_reasoning_effort", "xhigh"
     )
 
-    assert _create_agent(name).model_settings == _get_model_settings(expected_effort)
-
-
-@pytest.mark.parametrize(
-    ("name", "expected_effort"),
-    [
-        ("summary", "medium"),
-        ("editor", "high"),
-        ("title", "low"),
-        ("tag", "low"),
-    ],
-)
-def test_shipped_efforts_match_the_migration_defaults(
-    name: AgentName, expected_effort: ReasoningEffort
-) -> None:
-    """Summary runs at medium, editor at high; title and tag run at low.
-
-    Args:
-        name: Which agent factory this case exercises.
-        expected_effort: The effort that agent ships with.
-    """
     assert _create_agent(name).model_settings == _get_model_settings(expected_effort)

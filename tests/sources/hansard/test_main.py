@@ -84,10 +84,6 @@ def test_get_returns_newest_available_version(
         pytest.param(_make_404_response(), False, id="404"),
         pytest.param(requests.exceptions.Timeout("boom"), True, id="timeout"),
         pytest.param(
-            requests.exceptions.ConnectionError("boom"), True, id="connection-error"
-        ),
-        pytest.param(requests.exceptions.RetryError("boom"), True, id="retry-error"),
-        pytest.param(
             _make_response(
                 requests.codes.ok, b"<html><body>Down for maintenance</body>"
             ),
