@@ -10,7 +10,8 @@ import requests
 from digest.cache import DataCache
 from digest.http import RetryingHttpClient
 from digest.sources.hansard.constants import HansardSourceType
-from digest.sources.hansard.main import HansardDataSource
+from digest.sources.hansard.main import Debate, HansardDataSource
+from tests import TEST_DATA_DIR
 
 _TEST_DATE = date(2025, 9, 1)
 _FALLBACK_WARNING = "No version flagged latest"
@@ -131,3 +132,26 @@ def test_get_marks_fetch_failed_on_malformed_body(content: bytes) -> None:
     assert debate.exists is False
     assert debate.fetch_failed is True
     assert debate.xml_string == ""
+
+
+def test_debate_to_markdown_renders_xml() -> None:
+    """A debate renders its stored XML through the Markdown parser."""
+    xml = (TEST_DATA_DIR / "2025-09-01-debates.xml").read_text(encoding="utf-8")
+    debate = Debate(
+        date=_TEST_DATE,
+        source=HansardSourceType.COMMONS,
+        xml_string=xml,
+        exists=True,
+    )
+
+    md = debate.to_markdown()
+
+    assert "### Work and Pensions" in md
+    assert "[c1.5/1] The unemployment rate is 4.7%" in md
+
+
+def test_debate_to_markdown_is_empty_without_xml() -> None:
+    """A debate with no stored XML renders as an empty document."""
+    debate = Debate(date=_TEST_DATE, source=HansardSourceType.COMMONS, xml_string="")
+
+    assert debate.to_markdown() == ""

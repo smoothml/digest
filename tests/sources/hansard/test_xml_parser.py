@@ -1,10 +1,13 @@
+"""Tests for the Hansard XML parser."""
+
 from __future__ import annotations
 
-from datetime import date
-
-from digest.sources.hansard.constants import HansardSourceType
-from digest.sources.hansard.main import Debate
-from digest.sources.hansard.xml_parser import xml_to_blocks, xml_to_markdown
+from digest.sources.hansard.xml_parser import (
+    Heading,
+    Speech,
+    xml_to_blocks,
+    xml_to_markdown,
+)
 from tests import TEST_DATA_DIR
 
 
@@ -26,8 +29,6 @@ def test_xml_to_blocks_basic_structure() -> None:
     assert blocks, "No blocks parsed from XML"
 
     # First block is an oral heading with combined text
-    from digest.sources.hansard.xml_parser import Heading, Speech
-
     assert isinstance(blocks[0], Heading)
     assert blocks[0].level == "oral"
     assert "Oral Answers to Questions" in blocks[0].text
@@ -62,18 +63,3 @@ def test_xml_to_markdown_contains_expected_markers() -> None:
 
     # Italic paragraphs are wrapped with *...*
     assert "*The Secretary of State was asked—*" in md
-
-
-def test_debate_to_markdown_roundtrip() -> None:
-    """Test Debate to Markdown roundtrip."""
-    xml = load_sample_xml()
-    d = Debate(
-        date=date(2025, 9, 1),
-        source=HansardSourceType.COMMONS,
-        xml_string=xml,
-        exists=True,
-    )
-    md = d.to_markdown()
-    # Spot-check a couple of expectations from above
-    assert "### Work and Pensions" in md
-    assert "[c1.5/1] The unemployment rate is 4.7%" in md
