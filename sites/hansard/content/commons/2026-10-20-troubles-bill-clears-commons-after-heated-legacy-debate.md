@@ -1,0 +1,47 @@
++++
+date = "2026-10-20"
+draft = false
+title = "Troubles Bill Clears Commons After Heated Legacy Debate"
+tags = [
+    "healthcare",
+    "justice",
+    "parliament",
+    "transport",
+    "ai",
+]
+atUri = "at://did:web:orderly.bot/site.standard.document/3mygrufsoqp2q"
++++
+
+## High-Level Summary
+The House began with a statement about Helen Haines, followed by Health and Social Care questions covering NHS services, maternity care, primary care, mental health, dentistry, cancer treatment and social care. Members then considered the Northern Ireland Troubles Bill in Committee, including information retrieval, inquests, prosecution arrangements, veterans’ treatment, reconciliation and UK–Irish co-operation; the Bill subsequently passed Third Reading by 330 votes to 178. The House also presented three Private Members’ Bills, agreed to the introduction of the Social Security (Marriage) Bill, approved delegated-legislation motions and held an adjournment debate on East West Rail between Bedford and Cambridge.
+
+## Detailed Summary
+### Speaker’s statement and Health and Social Care questions
+Lindsay Hoyle told the House that its thoughts were with Helen Haines, the Member of Parliament for Indi in the Australian House of Representatives, who had been critically injured following an incident outside her electoral office. He said that he had written to the Speaker of the Australian House of Representatives, Milton Dick. Health and Social Care questions then covered, among other matters, oversight of Northern Care Alliance NHS Foundation Trust, funeral-services regulation, maternity and neonatal care, primary care, young people’s health, diethylstilbestrol (DES), community hospitals, NHS dentistry, radiotherapy, continuity of care, cancer treatment, pelvic mesh and sodium valproate, and Devon maternity services.
+
+Ministers described existing or proposed action and offered meetings or written follow-up on several local issues. The Government said it would appoint an independent maternity and neonatal commissioner, publish an action plan and extend Sure Start health services for parents and babies to family centres, reaching up to 1,000 family hubs. On funeral-services regulation, Yvette Cooper said the Government was consulting the sector and that “getting the practice right, working with the sector, is very important”. On North Devon maternity services, she said that “the continued local, regional and national pressure will ensure that those services can open as swiftly as possible”. Topical questions also addressed the COVID-19 inquiry’s findings on adult social care, children receiving care in hospital corridors, Healthwatch, medicines supply, surrogacy and local hospital capital projects. The Government said it would report back on Healthwatch before the Committee stage in the House of Lords and that it had begun measuring corridor care, including care involving children.
+
+### Social Security (Marriage) Bill
+Richard Holden sought leave to introduce a Bill to prohibit the recognition, for social-security purposes, of polygamous marriages, marriages within prohibited degrees and certain other marriages between close relatives. He argued that the welfare system should not recognise relationships that are unlawful in the United Kingdom and said that the Bill would “put it beyond doubt that overseas incestuous marriages cannot and should not be recognised in our welfare system for social security purposes”.
+
+The motion for leave was agreed. Holden then presented the Bill; it was read the First time, ordered to be read a Second time on Friday 13 November and printed as Bill 163. The transcript records no Government response to the substance of the proposal.
+
+### Northern Ireland Troubles Bill: Committee consideration
+The Committee considered clauses and amendments concerning the Independent Commission on Information Retrieval (ICIR), resumed inquests, criminal investigations, prosecution guidance, on-the-run letters, civil claims, treatment of former members of the security forces, the definition of close family members, reconciliation and commencement. Chris Bryant said that the Bill enabled the continuation of certain inquests halted on 1 May 2024, while also providing safeguards against unnecessary duplication. He said that no new legacy inquests would be directed after the Legacy Commission completed its work: “this will mean no additional inquests—full stop, punto final”. He described the ICIR as separate from the Legacy Commission and said that it would privately receive and share information about Troubles-related deaths. He also said that the UK and Irish Governments should work “in lockstep” on their legislation and commitments.
+
+Members disagreed about whether resumed inquests should instead be handled by the Legacy Commission, whether “essential” was a sufficient threshold for repeating investigative steps, and whether the Attorney General or Advocate General should consent to certain prosecutions. The Committee rejected amendment 51, which would have prevented the resumption of the Loughgall inquest, by 176 votes to 329, and rejected amendment 32, concerning former members of the armed forces and the Royal Ulster Constabulary, by 117 votes to 331. It agreed Government new clauses on joint prosecution guidance, law-officer consent for specified indictable-only offences, on-the-run letters, civil claims and independent reviews of the effect of specified provisions on former security-force members. Clause 85 was disagreed to, and the commencement provisions were amended to require a statement to Parliament about action taken by the UK and Irish Governments under their joint framework.
+
+### Northern Ireland Troubles Bill: Third Reading and outcome
+At Third Reading, Chris Bryant said that the Bill concerned “honesty, candour, the pursuit of justice and, most importantly, truth”. Alex Burghart welcomed the provisions on on-the-run letters but argued that the Bill should use a “new and compelling” evidence test rather than “essential”, and that outstanding inquests should be handled through the Legacy Commission. Paul Kohler said that the Liberal Democrats would not support the Bill because, in their view, it did not do enough to protect veterans or promote reconciliation and justice for victims. Other Members raised concerns about the Attorney General’s role, disclosure and the effect of the Bill on victims’ access to truth and prosecutorial independence; others supported it as an improvement on the previous framework and as providing statutory safeguards for veterans.
+
+The House agreed to Third Reading by 330 votes to 178 and the Bill was passed. Members referred to the Bill’s further passage in the House of Lords. Chris Bryant also undertook that the ministerial team would continue working with Members and armed-forces associations to refine the Bill before enactment: “I undertake that the whole ministerial team and I will work with her and others ... to get the Bill to the right place by the time it is enacted”.
+
+### Other legislation and delegated business
+Three Bills were presented and given First Reading under Standing Order No. 57: the Artificial Intelligence (Consent and Misuse) Bill, the Utilities (Social Tariff) Bill and the Perinatal Mental Health Assessments Bill. The first concerned consent and remedies relating to artificial-intelligence-generated likenesses; the second concerned social tariffs for energy, broadband and mobile bills; and the third concerned mental-health assessments in NHS antenatal care. Their proposed Second Reading dates were 27 November, 27 November and 13 November respectively.
+
+The House approved draft regulations on electrical safety and hazards in rented housing, mesothelioma lump-sum payments, pneumoconiosis compensation claims and travellers’ allowances. It also ordered that business in the name of the Leader of the Liberal Democrats on 21 October should be treated as an allotted half day.
+
+### East West Rail: Bedford to Cambridge
+In an adjournment debate, Richard Fuller argued that the Bedford-to-Cambridge section of East West Rail would affect rural communities and represented poor value for money. He sought immediate publication of the latest business case, questioned the route through Bedford and North Bedfordshire, raised the possible relevance of Universal Studios and Tempsford development, and asked about the effect of the absence of passenger services and the proposed traction system. He said that “the last time the public were given sight of the business case” showed the railway to be extremely poor value for money.
+
+Justin Madders, responding for the Government, said that East West Rail remained a priority because it was intended to improve regional connectivity and support jobs, homes and growth. He said that the line would be partly electrified for hybrid battery-electric trains, that proposals for a development consent order were being finalised, and that a full business case would be prepared after planning consent. The Minister did not agree to immediate publication, but said that the business case would become public: “it will become a public document, and I can assure him that he will have his opportunity to make further comment on it”. He also undertook to obtain written responses from the Rail Minister on Fuller’s detailed questions. The motion was agreed and the House adjourned.

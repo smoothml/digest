@@ -1,0 +1,72 @@
++++
+date = "2026-10-20"
+draft = false
+title = "Peers Debate National Care, Drought and Armed Forces Reform"
+tags = [
+    "defence",
+    "healthcare",
+    "welfare",
+    "cybersecurity",
+    "environment",
+]
+atUri = "at://did:web:orderly.bot/site.standard.document/3mygrufurig2j"
++++
+
+## High-Level Summary
+The sitting covered questions on post-Holocaust restitution and antisemitism, cash and card payments, corridor care, and drought, followed by a Private Notice Question on the National Security Adviser’s role in tackling antisemitism. The House agreed the Cyber Security and Resilience (Network and Information Systems) Bill order motion and passed the Commercial Payments Bill to the Commons. It considered a Commons Statement on a proposed national care service, including free personal care for older people and further work by Baroness Casey’s independent commission. At Report stage of the Armed Forces Bill, the House agreed amendments on a military homes standard and the Reserve Forces and Cadets Associations, rejected an amendment concerning the European Convention on Human Rights and overseas operations, and agreed other provisions on service police, victims, reserves and service families.
+
+## Detailed Summary
+### Post-Holocaust issues and antisemitism
+Lord Wills asked about progress by the Special Envoy for Post-Holocaust Issues and completion of the role’s remit by the end of 2026. Baroness Winterton of Doncaster said the envoy had engaged internationally and domestically on Holocaust remembrance and education, restitution and antisemitism, and reported to the Minister for Human Rights. She referred to work with the United States and Poland: “The envoy agreed a co-ordinated approach to Holocaust-era restitution in Poland with his US counterpart.”
+
+Peers sought an assessment of tangible progress, raised Poland’s lack of recognised restitution and suggested action through the Council of Europe. The Minister said the Government would continue pressing Poland, offered to arrange a briefing for Peers, and said she would seek figures on British families affected by Nazi-looted property; no dates were given for these steps. The discussion also covered parliamentary and media attention to Israel and antisemitism. The Minister said: “British Jews should not be held to account for actions by the Israeli Government.”
+
+### Cash, card and smart-device payments
+Lord Blunkett asked about declining cash acceptance and the possible reduction in card payments in favour of smart devices, particularly in relation to accessibility for people with sight loss. Lord Pitt-Watson said the Government remained committed to cash as a viable payment method and referred to LINK, the Post Office, Cash Access UK and banking hubs. Cash acceptance by businesses remained voluntary, and he said: “There is no current plan for legislation.”
+
+Peers raised the needs of vulnerable people and pensioners, resilience during payment-system failures, the cost to cash-accepting retailers, stablecoin interoperability and accessible payment terminals. The Minister referred to UK Finance guidance and work with the British Retail Consortium, acknowledged that further work was needed on chip-and-PIN services, and said he would reinforce the issue with UK Finance. The National Payments Vision and a Mastercard point-of-sale resilience project were described as work in progress.
+
+### Corridor care in the National Health Service
+Baroness Pidgeon asked about progress towards ending corridor care. Baroness Merron referred to measures to prevent avoidable admissions, improve patient flow and accelerate safe discharge, including almost £140 million for 14 urgent-care schemes and 25 new or expanded sites. She said: “We are working to end corridor care by the end of this Parliament.”
+
+Peers questioned the completeness of the data, clinical safety, dignity, equipment access, sharing best practice, staff support and the relationship with social care. The Minister said a consistent national definition had been introduced in March and monthly national data had been published since June. She also said specialist teams were working with the most affected trusts, referred to model emergency, acute and discharge pathways, and said guidance allowed for hospital chaplaincy support where corridor care was unavoidable. The Government’s stated next steps were targeted support, additional urgent-care capacity and continued improvement of reporting and discharge pathways.
+
+### Drought, water resilience and policy
+Baroness Ritchie of Downpatrick asked about drought status in England and policies to reduce future impacts. Baroness Hayman of Ullock said: “over 80% of England is in drought” and described a twin-track approach involving water efficiency, leakage reduction and new supply infrastructure, including nine reservoirs.
+
+The discussion covered El Niño, reservoir storage, on-farm reservoirs, abstraction licensing, leakage targets, desalination, nature-based solutions and Thames Water’s financial position. The Minister referred to a further £15 million for on-farm reservoirs and the Environment Agency’s decision to bring the reservoir refill season forward from November to October. She said the water Bill remained an active priority but did not give an introduction date; she also referred to eight proposed desalination schemes and said the Government were considering Thames Water’s position under the special-administration rules. No further decision on the Bill or Thames Water’s status was announced.
+
+### National Security Adviser and antisemitism
+Lord Polak asked about the National Security Adviser’s role in protecting Jewish communities amid antisemitism and violence. Baroness Twycross described the role as co-ordinating security and intelligence issues of strategic importance across government and supporting the National Security Council. She said combating antisemitism required action across government and society, adding: “it cannot just be about security.”
+
+Peers debated the distinction between antisemitism and criticism of Israel, comments attributed to the National Security Adviser’s spouse, the proscription of Palestine Action, protection for places of worship and accountability for councillors. The Minister said that supporting a Palestinian state or criticising the Israeli Government was not inherently antisemitic, while affirming Israel’s right to exist and support for a two-state solution. She said the Government would maintain a cross-government approach, continue protective-security funding, consider public-order and hate-crime legislation, and take away a suggestion concerning councillors’ conduct. The transcript does not state the outcome of any assessment of the National Security Adviser’s spouse’s comments.
+
+### National care service Statement
+The House considered a Statement made in the Commons on the creation of a national care service. The Statement linked demographic ageing, workforce conditions, unpaid carers and pressure on the National Health Service, and announced a long-term plan for a national care service with “fully funded, free personal care for older people”. It also referred to a £500 million fair-pay agreement for care workers, a collective pension scheme, support for unpaid carers and wider use of digital records and preventive technology.
+
+Lord Kamall and Baroness Pidgeon sought detail on scope, eligibility, funding, working-age adults, providers, workforce costs, catastrophic care costs and unpaid carers. Baroness Merron said the service would be person-centred, preventive and integrated with the NHS; Baroness Casey’s independent commission would report in the summer, followed by a Government response. She said family-run services, co-operatives and voluntary providers would remain part of a mixed market, and that the commission would consider people needing care throughout life, including working-age adults. The Government said more than £4.6 billion in additional adult-social-care funding would be available in 2028-29 compared with 2025-26. No final legislative design or implementation timetable was stated in the transcript.
+
+### Cyber Security and Resilience Bill and Commercial Payments Bill
+Baroness Lloyd of Effra moved the order of consideration for Report-stage amendments to the Cyber Security and Resilience (Network and Information Systems) Bill. The order covered Clauses 1 to 22, Schedule 1, Clause 23, Schedule 2, Clauses 24 to 61 and the Title. The motion was agreed: “Motion agreed.”
+
+The Commercial Payments Bill [HL] was read a third time. Lord Leong said legislative consent from Scotland, Wales and Northern Ireland was being pursued and that provisions touching devolved areas were subject to a consent mechanism. A privilege amendment was made, the Bill was read a third time and then passed and sent to the Commons: “Bill passed and sent to the Commons.”
+
+### Armed Forces Bill: covenant, military housing and reserve-force governance
+At Report stage, the House agreed Government Amendment 1, retaining the draft affirmative procedure for regulations bringing Armed Forces covenant guidance into force. Amendment 2, concerning the identification of reservists and regard for mobilisation-related medical fitness, was not moved after the Government argued that a statutory duty could conflict with treatment based on clinical need and that work through the reserves medical-readiness summit was preferable. The House then agreed Amendment 3, which established a statutory military homes standard for single living accommodation, after debate about accommodation standards, recruitment and retention. The division was recorded as: “Ayes 259, Noes 173.”
+
+Government Amendments 4 and 5, clarifying Crown immunity for the acquisition as well as the holding of defence property, were agreed; Amendments 6 and 7 on board representation were not moved. A further debate concerned the proposed reorganisation of the Reserve Forces and Cadets Associations as a single non-departmental public body. Opponents argued that it could weaken regional links, representation and the volunteer ethos, while the Government argued that three reviews had identified fragmented accountability and insufficient responsibility for public money. Amendment 22, removing Clause 39, was agreed on division, with 243 Ayes and 168 Noes, and Amendment 43, removing Schedule 6, was also agreed. The relevant remaining amendments were not moved.
+
+### Armed Forces Bill: victims, service police and stalking
+The House agreed Amendments 11 to 15, requiring the code for victims in the service justice system to be laid before Parliament and brought into force by regulations. It also agreed Government Amendments 44 to 46, extending assault-on-emergency-worker and impersonation protections to service police in the relevant UK jurisdictions. Baroness Brinton withdrew Amendment 7A on a statutory multi-agency stalking intervention programme after the Government said a statutory model was impractical but that multi-agency working, training, guidance and information sharing would continue. The Government also committed to update Parliament on the effectiveness of service stalking protection orders 12 months after commencement.
+
+Baroness Brinton withdrew Amendment 49 on visiting-forces jurisdiction, while Amendments 50 and 51 were not moved. The Government said it was developing robust guidance with the National Police Chiefs’ Council, constabularies, the Crown Prosecution Service and other departments, with decision-making at an appropriate level and data reporting for serious cases. The Minister also undertook to write on how diplomatic considerations would interact with police and prosecutorial decision-making. No statutory multi-agency programme or new parliamentary reporting requirement was agreed.
+
+### Armed Forces Bill: sentencing and overseas operations
+Baroness Brinton withdrew Amendment 16, which would have given the judge advocate sole responsibility for sentencing in courts martial. The Government defended the existing model, under which the judge advocate and military board members decide the sentence together, citing the judge advocate’s legal expertise and the board’s military experience. The Minister said that in 2025 there had been 20 appeal notifications: 12 relating to conviction, seven to sentence, and one to both; no information was recorded on whether a majority decision had departed from the judge advocate’s advice: “No information is recorded about whether a majority decision was made against the advice of a judge advocate.”
+
+The Earl of Minto moved Amendment 56, which would have restricted domestic Human Rights Act proceedings concerning overseas operations and required derogation from the European Convention on Human Rights in specified circumstances. Supporters argued that this would reduce legal uncertainty for service personnel. The Government argued that restricting domestic remedies was inappropriate and that Article 15 provided a case-specific derogation mechanism. The amendment was disagreed to on division, with “Ayes 67, Noes 168.”
+
+### Armed Forces Bill: service-family measures and remaining provisions
+The Government committed to bring forward a revised version at Third Reading of the proposal to waive indefinite-leave-to-remain fees for eligible non-UK family members of serving and former Armed Forces personnel. The amendment was not moved. The Government also said that focus groups would examine leave, with an emphasis on paternity leave, that findings would be shared, that questions on parental and paternity leave were being considered for the 2027 Tri-Service Families Continuous Attitude Survey, and that communications on existing policies would be published. Lord Parkinson withdrew Amendment 52 on salvage claims involving military vessels after the Government said further assessment was needed and that the issue would be raised with the Department for Transport and other departments. The Government’s commitment was: “we therefore commit to bringing forward a revised version of the amendment at Third Reading.”
+
+Amendments 58 and 59 on extent, and Amendment 60 on commencement of the military homes standard, were agreed. Amendment 54 on immigration fees and Amendment 55 on paternity leave were not moved; Amendment 57 on scrutiny of the Defence Investment Plan was also not moved. The House adjourned at 8.21 pm: “House adjourned at 8.21 pm.”
