@@ -1,0 +1,65 @@
++++
+date = "2026-10-21"
+draft = false
+title = "Lords Press Government On Accountability Bill Reforms and Policy Challenges"
+tags = [
+    "parliament",
+    "justice",
+    "defence",
+    "education",
+    "energy",
+]
+atUri = "at://did:web:orderly.bot/site.standard.document/3myjccyftc32w"
++++
+
+## High-Level Summary
+The House of Lords questioned the Government on UK-US discussions, technical education, defence spending and borrowing, and Ofgem’s proposed Market Stabilisation Charge. The Northern Ireland Troubles Bill received a first reading, while the Public Office (Accountability) Bill continued in Committee with debates on misconduct offences, legal aid and parity at inquests, historic court records, compensation schemes, parliamentary privilege and implementation. Ministers made several commitments to continue discussions before Report, including on the drafting of the misconduct offences, support for bereaved families, parity of legal funding, the Hicks family’s concerns and Windrush legal assistance. The Public Office (Accountability) Bill was reported with amendments, and the House adjourned at 7.47 pm.
+
+## Detailed Summary
+### UK-US discussions and reducing international tension
+Lord Campbell-Savours asked about planned discussions with the United States and proposed international-protectorate status for parts of eastern Ukraine. Baroness Anderson of Stoke-on-Trent reaffirmed the UK-US relationship and the Government’s support for Ukraine, saying that the conflict would ultimately end through negotiation but that this would be a decision for President Zelensky. She also said: “We fully support US efforts to secure a just and lasting peace in Ukraine.”
+
+Peers raised concerns about US policy in relation to Ukraine, Iran, Russia, the Falkland Islands, Taiwan and a possible US nuclear posture review. Baroness Anderson said that the Falkland Islanders alone would decide their future and that the UK’s position on Taiwan remained support for a peaceful settlement without force or coercion. She undertook to write to Baroness Bennett of Manor Castle about the nuclear posture review and to speak to colleagues about outstanding appointments. No further specific discussions or decisions were stated in the transcript.
+
+### Technical education and university technical colleges
+Lord Watson of Invergowrie asked whether the new technical education pathways from age 14 would involve expanding university technical colleges (UTCs). Baroness Ramsey of Wall Heath said: “there are currently no plans to invite proposals for further UTCs.” She said that the new routes would provide technical skills, work experience and employer links through schools, colleges or UTCs, and noted that one further UTC was planned to open in Doncaster: “there is one further UTC in the free schools pipeline which is planned to open in Doncaster.”
+
+Lord Watson, Lord Baker of Dorking, Lord Mohammed of Tinsley and Lord Hannan of Kingsclere argued that UTCs and similar specialist provision should have a larger role, citing employer engagement, progression into apprenticeships, youth unemployment and skills needs. The Minister said the Government were developing technical routes across different institutions and agreed to meet Peers who wished to discuss UTCs. She also described technical excellence colleges, backed by £295 million, as a separate programme intended to benefit more than 100,000 learners across 29 colleges by the end of the Parliament. On Wales, she said that education was entirely devolved and that funding for UTCs was a matter for the Welsh Government.
+
+### Public borrowing and defence spending
+Lord Evans of Rainow questioned whether increased borrowing could fund higher defence spending and argued that welfare reductions might be necessary. Lord Pitt-Watson said that the Government would increase defence spending while complying with the fiscal rules: “we will fund defence and we will do so within the fiscal rules.” He cited statements by the International Monetary Fund that the UK had begun consolidating its debt and deficit.
+
+Peers also raised bond-market confidence, defence bonds and the scale and timing of spending. The Minister said there were no plans for hypothecated defence bonds, and that a £15 billion defence investment plan included £10.3 billion already funded, with the source of the remaining £4.7 billion to be addressed in the following week’s Budget. He said that the Government had set a target of 3% and would explain at the spending review how this fitted within the longer-term commitment to reach 3.5% by 2035. The spending review was expected the following year; no further date was given.
+
+### Ofgem’s proposed Market Stabilisation Charge
+Lord Sikka criticised Ofgem’s proposal to reintroduce the Market Stabilisation Charge, arguing that it could increase bills and protect inefficient suppliers. Baroness Curran stressed that Ofgem was independent: “Ofgem is a regulator; it takes decisions independently of government.” She said that the proposal was under consultation and that any intervention would be intended as a temporary backstop to manage disruption and protect customers.
+
+Peers raised wholesale-price volatility, the treatment of suppliers that had hedged their positions, transparency of Ofgem’s modelling and regulators’ accountability. Baroness Curran said that around 30 suppliers had failed when the mechanism was introduced in 2022 and that the Public Accounts Committee had found that its absence could have imposed £2.7 billion in costs on customers. She undertook to take advice on whether Ofgem’s modelling could be published and to do what she could to address the issue. No decision to reintroduce the charge was reported; Ofgem’s consultation was continuing.
+
+### Northern Ireland Troubles Bill: First Reading
+There was no debate or named speaker. The Bill was brought from the Commons, read a first time and ordered to be printed: “The Bill was brought from the Commons, read a first time and ordered to be printed.” No further action was stated in the transcript.
+
+### Public Office (Accountability) Bill: misconduct in public office
+The Committee considered amendments to Clauses 13 and 14 and Schedule 4. Lord Anderson of Ipswich and supporting Peers argued that the offences should clearly apply where obtaining a benefit or causing a detriment was intended, rather than only where it actually occurred. They also argued that the broad reasonable-excuse defence should be replaced or narrowed in line with Law Commission recommendations. Baroness Levitt proposed bringing emergency paramedics within scope, while Lord Marks of Henley-on-Thames supported amendments concerning private contractors, corporate liability and continuing liability after resignation or retirement.
+
+Lord Lemos said that the Government’s policy intention was that actual benefit or detriment should not be required: “it should not matter whether a benefit is actually obtained or a detriment suffered.” He undertook to work with Lord Anderson before Report on making the wording clear. The Government retained the reasonable-excuse approach, opposed extending the offences to corporate bodies, and maintained that front-line healthcare workers should remain outside scope under the existing position, although a review 12 months after commencement could consider whether further categories should be included. Amendment 81 was withdrawn; Amendments 82 to 87 and 88 to 90 were not moved; Clauses 13 to 19 and Schedule 4 were agreed, with the relevant amendments not moved.
+
+### Public Office (Accountability) Bill: legal aid and parity at inquiries and inquests
+Peers debated legal aid for whistleblowers, victims of state failures, bereaved families and seriously injured survivors. Baroness Kramer argued for exceptional legal aid where whistleblowing was in the wider public interest. Lord Wills sought support for Hillsborough families and a review of inquest legal aid. Baroness Chakrabarti, Lord Bach and others argued for early representation for bereaved families and for funding rates comparable with those available to public authorities. The Government resisted a bespoke whistleblower scheme and legal representation for victims in criminal proceedings, but said that the Independent Public Advocate’s business cases would be considered.
+
+Amendment 102, which would have provided non-means-tested legal aid where a public authority was likely to become an interested person, was withdrawn after the Minister acknowledged concerns about delay and said the Government were open to continuing discussions before Report. On funding rates, Lord Lemos said that the Government accepted the objective of fairness but remained concerned about unintended consequences and would continue exploring ways forward. The Government said that inquest legal-aid arrangements would be kept under review from implementation. Amendment 95 was withdrawn; Amendments 117 to 125B, including Amendments 114 and 124, were not moved. Government amendments 96 to 101, 103 and 104, 126 to 135, and 136A to 137 were agreed, and Clause 20 and Schedule 6 were agreed as amended.
+
+### Public Office (Accountability) Bill: correcting historic court records
+Baroness Kennedy of The Shaws proposed a mechanism allowing an affected person, family member or representative to apply for an open-court statement correcting a serious misrepresentation caused by a public authority’s failure to act with candour. She linked the proposal to the Hicks family’s campaign concerning the historical record of the deaths of Victoria and Sarah Hicks at Hillsborough, saying: “What is being sought here is a simple correction of reality.”
+
+Lord Lemos expressed sympathy and acknowledged the later Hillsborough findings, but said that court judgments determined issues on the evidence presented in the relevant proceedings. He warned that a new mechanism could create a risk of de facto relitigation, and that its legal effect and interaction with the original judgment were unclear. The Government could not support the amendment as drafted but offered to work with Peers and the Hicks family on an alternative approach for bringing later authoritative findings to the attention of readers of historic judgments. Amendment 106 was withdrawn.
+
+### Public Office (Accountability) Bill: compensation schemes and Windrush
+Baroness Brinton proposed a Public Authority Compensation Authority to administer compensation schemes and retain institutional expertise. She referred to National Audit Office findings about complexity, delay and retraumatisation, including the recommendation that schemes should minimise retraumatising effects. Baroness Benjamin sought an updated independent review of progress on the Windrush Lessons Learned Review and called for funded legal support, citing continuing concerns about compensation access and implementation.
+
+The Government opposed creating a permanent compensation authority, preferring schemes designed case by case, but acknowledged the importance of institutional knowledge and offered further discussions. Baroness Anderson said: “The Government’s position is that this is best done on a case-by-case basis.” On Windrush, she said that the Home Office had undertaken a comprehensive assessment of progress against all 30 recommendations and was considering the Windrush Commissioner’s proposal for funded legal support. The Minister said that the Government would respond in due course. Amendment 115 was withdrawn; Amendment 116 had been withdrawn from the Marshalled List; and Amendments 117 to 125B were not moved. No new compensation authority or statutory Windrush review was agreed.
+
+### Public Office (Accountability) Bill: parliamentary privilege, review and commencement
+Lord Keen of Elie proposed an amendment expressly protecting Article IX of the Bill of Rights 1689 and the Claim of Right 1689. The Government agreed that parliamentary privilege should be upheld but said the amendment was unnecessary. Baroness Anderson said: “The Government firmly believe in maintaining the current position and this is what the Bill is intended to do.” She added that the Bill contained no express provision setting aside Article IX and that the courts would not construe the offences as applying to proceedings in Parliament. Amendment 125C was withdrawn.
+
+Baroness Falkner of Margravine proposed a review three to four years after enactment. Lord Marks of Henley-on-Thames sought earlier commencement, and Lord Keen raised the risk that the misleading-the-public offence could be politicised. Lord Lemos said that the Government would consider the timing and method of post-legislative scrutiny, intended the new offences to commence within two months of Royal Assent, and would keep the risk of vexatious or politically motivated complaints under review. Amendment 125D was withdrawn; Amendments 145 to 147A and 153 were not moved. Government amendments 138, 139, 141 and 148 to 152 were agreed. The Bill was reported with amendments, the House resumed, and the House adjourned at 7.47 pm.
