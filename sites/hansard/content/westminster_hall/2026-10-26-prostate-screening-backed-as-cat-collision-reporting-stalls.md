@@ -1,0 +1,25 @@
++++
+date = "2026-10-26"
+draft = false
+title = "Prostate Screening Backed as Cat Collision Reporting Stalls"
+tags = [
+    "healthcare",
+    "transport",
+    "regulation",
+]
+atUri = "at://did:web:orderly.bot/site.standard.document/3myvuoc7tyc2m"
++++
+
+## High-Level Summary
+The sitting considered two e-petitions in Westminster Hall: targeted prostate cancer screening and mandatory reporting of collisions involving cats. Members supported earlier detection and improved access to prostate cancer testing, while discussing the evidence, risks of overdiagnosis and the scope and timing of screening. The Minister confirmed that England’s targeted programme for eligible men with a pathogenic BRCA2 variant and relevant family history is planned from 2027, that PSA-testing policy had not changed, and that emerging evidence could inform future recommendations; the prostate cancer motion was agreed. On cat collisions, Members supported better assistance for injured cats and owner notification, but the Government maintained that mandatory reporting could be difficult to enforce and have unintended consequences; the motion lapsed when the sitting adjourned.
+
+## Detailed Summary
+### Prostate cancer screening
+John Lamont introduced e-petition 751472, which had received more than 100,000 signatures, and argued for targeted screening of men at higher risk, including black men, men with relevant family histories and BRCA1 and BRCA2 carriers. Members including Rishi Sunak, Peter Prinsley, Victoria Collins, Bayo Alaba, Luke Evans, Gregory Stafford and others described late diagnoses, personal and constituency experiences, inequalities in access, and the potential benefits and harms of screening. Lamont quoted the petition’s central argument: “Targeted screening for all high-risk men should be the starting point for building a screening programme that can ultimately protect all men.” The planned English programme will offer a PSA test every two years from 2027 to eligible men aged 45 to 61 with a pathogenic BRCA2 variant and a relevant family history; Members noted that the Department of Health and Social Care estimates that about 1,500 men in England will be eligible and that other higher-risk groups are not included.
+
+The case for caution included false positives, overdiagnosis and treatment-related harms, including incontinence and erectile dysfunction. Diana R. Johnson said that the Government was investing in the Transform trial and further work on the screening model, and that evidence concerning black men and other risk groups would be considered as it emerged. She said: “The policy has not changed.” In response to Luke Evans, she said that her understanding was that a man requesting a PSA test from a GP would receive it where he had been given relevant information and the choice was available, while adding that she would write if that understanding was incorrect. The Minister did not state a timetable for publishing model updates in her response; John Lamont asked her to write with a timetable. The question was agreed to, and the House resolved that it had considered the e-petition.
+
+### Reporting road traffic collisions involving cats
+Martin Wrigley introduced e-petition 750612, which had received 189,192 signatures, seeking a legal requirement for drivers to report collisions involving cats. Members argued that injured cats could be left without veterinary treatment and that owners could remain unaware of what had happened. They noted that section 170 of the Road Traffic Act 1988 covers specified animals, including dogs, but not cats, while rule 286 of the Highway Code provides guidance rather than the same statutory reporting duty. Proposals included amending the Act, giving existing guidance statutory effect or creating another legal route, while Members also considered the possible effects on owners of free-roaming cats. Wrigley summarised the practical objective as follows: “Alive or dead, it should be scanned for a microchip, so that its owner can be found and told.”
+
+Cats Protection was reported as concerned that extending the existing framework could create criminal or civil liability for cat owners or encourage cats to be kept indoors. The Royal Society for the Prevention of Cruelty to Animals supported the petition’s aim but questioned whether a reporting duty alone would ensure veterinary treatment or scanning. Justin Madders said that the Department for Environment, Food and Rural Affairs would meet CatsMatter, that officials would examine approaches in other jurisdictions and that he would write to participating Members about the findings. He said that research on the barriers to reuniting roadside animals with their owners was still under review and noted the launch of a single point of search for microchip databases. The Government’s position was that “the existing distinction should remain.” No question was put: the motion lapsed and the sitting adjourned under Standing Order No. 10(14).
