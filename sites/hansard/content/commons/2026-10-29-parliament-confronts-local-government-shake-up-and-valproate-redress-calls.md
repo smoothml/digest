@@ -1,0 +1,52 @@
++++
+date = "2026-10-29"
+draft = false
+title = "Parliament Confronts Local Government Shake-Up and Valproate Redress Calls"
+tags = [
+    "parliament",
+    "transport",
+    "localgovernment",
+    "budget",
+    "healthcare",
+]
+atUri = "at://did:web:orderly.bot/site.standard.document/3mz5g2r5xed2q"
++++
+
+## High-Level Summary
+The sitting opened with tributes to Sue Holt and outgoing Clerk of the House Tom Goldsmith, followed by Transport questions on active travel, rail services, accessibility, aviation, roadworks and related matters. Business questions set out forthcoming parliamentary business and included requests for debates or ministerial action on artificial intelligence, social cohesion, community services and constituency concerns. The Government announced the next phase of local government reorganisation, including five proposals on which it was minded to proceed, the withdrawal of nine earlier decisions, transitional funding and a timetable leading to new councils in 2029. The House then heard a personal statement, resumed the Budget debate—which was adjourned until 2 November—considered a petition on VAT for the hair and beauty sector, and debated sodium valproate, with the Minister confirming that financial redress had not yet been decided while undertaking to pursue the Hughes report with greater urgency.
+
+## Detailed Summary
+### Opening tributes and Transport questions
+The sitting opened with Lindsay Hoyle’s tribute to Sue Holt, who had worked in the House administration for 39 years, and his remarks on Tom Goldsmith’s final day as Clerk of the House. Members associated themselves with those tributes. Transport questions then covered active travel, nuisance behaviour on public transport, disability access, airport charges, roadworks, passenger rail services, aviation regulation, licensing, regional connectivity, Bolton rail services and support for the Royal National Lifeboat Institution.
+
+Ministers cited the third cycling and walking investment strategy, more than £4.5 billion of projected investment to 2030 and £135 million for schemes including Bikeability. Justin Madders said illegal e-bikes “have no place on our roads”, and said he would write to retailers and online marketplaces and meet interested Members. Heidi Alexander said a full lift replacement at Bishop’s Stortford station was planned for 2028 and that officials would meet Greater Anglia about interim disruption. Keir Mather said the review of airport drop-off charges could include “affordability, accessibility, travel behaviour and the experiences of different groups of passengers”. On rail freight, Alexander said there would be no separate strategy; the 40% interim and 75% long-term targets would instead be included in the long-term rail strategy, with Great British Railways expected to set out delivery in its first business plan.
+
+### Business of the House
+Alan Campbell announced business for the weeks beginning 2 and 10 November. The schedule included continuation and conclusion of the Budget debate; remaining stages of the Sporting Events Bill [Lords]; carry-over motions for the Railways Bill and the Cyber Security and Resilience (Network and Information Systems) Bill; the November recess; Second Reading of the Financial Services and Markets Bill [Lords]; an Opposition day; Backbench Business debates; and private Members’ Bills.
+
+Members requested debates or ministerial action on advanced artificial intelligence, protection of faith communities, women’s football coaching, outsourcing, local services, hospice care, community transport, road safety and other constituency issues. Campbell said he was committed to finding time for the postponed advanced AI debate and referred to the Modernisation Committee’s work on the use of parliamentary time. He also said he would raise concerns about minority communities abroad with the Foreign, Commonwealth and Development Office. The Backbench Business Committee said that, subject to the allocation of time, it intended to use 19 November for a debate on the emerging risks of advanced AI and a debate on International Men’s Day.
+
+### Local government reorganisation
+Jim McMahon announced that the first phase of the review of local government reorganisation was complete and that the existing criteria remained appropriate. Subject to representations and parliamentary approval, the Government were minded to implement two unitaries in East Sussex and Brighton and Hove, one in Gloucestershire, three in Oxfordshire, two in Warwickshire and two in Worcestershire. Decisions previously announced for nine other areas—Derbyshire and Derby; Devon, Plymouth and Torbay; Hertfordshire; Kent and Medway; Lancashire, Blackburn with Darwen and Blackpool; Leicestershire, Leicester and Rutland; Lincolnshire, North Lincolnshire and North East Lincolnshire; Nottinghamshire and Nottingham; and Staffordshire and Stoke-on-Trent—were withdrawn for fresh consideration. McMahon said that “every area will have an outcome by early next year”.
+
+There would be at least three weeks for representations on the five areas, with final implementation decisions subject to parliamentary approval. Elections to existing councils would proceed in May 2027, elections to new councils in 2028, and vesting day would be in April 2029, except for Surrey. The Government said that areas would receive half the transition funding previously due, equivalent to £450,000 per new unitary previously announced, while Cambridgeshire and Peterborough and West Sussex would each receive £500,000. Members criticised delay, uncertainty, alleged costs and the absence of published legal advice. McMahon said decisions would be made afresh using submitted proposals, evidence, consultation and financial modelling, and confirmed that legal advice would not be published under the Government’s long-standing policy. He also assured the House that city status would be preserved, including through legislation if necessary. No total cost estimate for the reorganisation process was provided in the transcript.
+
+### Personal statement by Tony Vaughan
+Tony Vaughan made a personal statement about findings by the Parliamentary Commissioner for Standards and the Independent Expert Panel that he had breached Parliament’s bullying and harassment policy on three occasions in February 2025. He accepted the findings in full and described the conduct, including an unwelcome hug, taking a former staff member’s phone without consent and ending calls without explanation.
+
+Vaughan apologised to his former colleague and to the House. He acknowledged the imbalance of power arising from his role as employer, said he had undertaken further training and stated that he would pay closer attention to courtesy, sensitivity and staff welfare. The transcript records no further decision.
+
+### Budget resolutions: income tax charge
+The House resumed debate on the resolution charging income tax for the tax year 2027–28. Andrew Griffith, the Shadow Chancellor, argued that the Budget increased borrowing and taxation without providing a sufficiently funded route to higher defence spending, welfare reform or growth. He described it as “a Budget of ducked decisions” and criticised what he said were higher debt, interest costs and taxes. Other Opposition speakers raised concerns about welfare, the effects of taxes on banks, landlords and savings, business costs, defence funding, energy costs and support for rural, hospitality and other sectors.
+
+Government Members defended measures including the £100 household energy payment, changes to energy charges and VAT, business rates relief, housing investment, support for entrepreneurship, defence investment and regional devolution. Wes Streeting said the Budget would fund the defence investment plan and confirmed a target of 3% of GDP on defence by 2030. Liberal Democrat speakers supported closer economic ties with the European Union, called for further tax and energy measures, and proposed defence bonds and a higher digital services tax. Lucy Rigby said the Government would bring the welfare bill down “as soon as possible”. The debate was adjourned and ordered to resume on Monday 2 November; the transcript records no division.
+
+### Petition on VAT for the hair and beauty sector
+Vikki Slade presented a petition with more than 2,000 signatories calling for a permanent 10% VAT rate for professional hairdressing, barbering, beauty, spa and aesthetics services. The petition argued that the sector supports high streets, local employment and apprenticeships but faces falling employment and apprenticeship starts, and that the 20% VAT rate acts as a barrier to recruitment and growth.
+
+The petition stated that apprenticeship starts had fallen by approximately 84% since 2015 and cited a warning that employment could fall by 93% by the end of the Parliament if the trends continued. The transcript records the presentation of the petition but no ministerial response or decision on the requested VAT reduction.
+
+### Sodium valproate and financial redress
+Cat Smith led an Adjournment debate on the effects of sodium valproate exposure in pregnancy and the case for compensation. She referred to the Cumberlege review’s conclusion that “the state and manufacturers have an ethical responsibility to provide ex gratia payments” and to the Hughes report’s recommendation for a two-stage financial redress scheme, including interim payments. Other Members described the continuing effects on affected children and adults, the ageing of parents, and the need for an independent scheme designed with victims. They also called for permanent and geographically wider clinical services and engagement with victims in Scotland, Wales and Northern Ireland.
+
+Diana R. Johnson, Minister for Public Health and Patient Safety, said that the Government had not yet decided to provide financial redress. She undertook to pursue the Hughes report with greater urgency, meet affected families and work with the devolved Governments. She said that the clinical pilot operating in Manchester and Newcastle was proposed to be extended to a third site and independently evaluated, to inform consideration of a nationally commissioned service in England. She also described existing prescribing controls and pregnancy-prevention measures. The motion to adjourn was agreed and the House adjourned.

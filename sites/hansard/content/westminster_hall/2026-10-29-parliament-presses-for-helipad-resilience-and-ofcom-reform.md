@@ -1,0 +1,26 @@
++++
+date = "2026-10-29"
+draft = false
+title = "Parliament Presses For Helipad Resilience And Ofcom Reform"
+tags = [
+    "healthcare",
+    "regulation",
+    "onlinesafety",
+    "transport",
+]
+atUri = "at://did:web:orderly.bot/site.standard.document/3mz5g2qypkw2b"
++++
+
+## High-Level Summary
+The day’s proceedings covered two Backbench Business debates. Members first considered the case for safeguarded, reliable 24/7 helipad access at major trauma centres and specialist hospitals, discussing clinical need, rural and coastal access, planning constraints, infrastructure, funding and NHS–air ambulance co-ordination. The Government announced that the Department of Health and Social Care and NHS England would scope a strategic review of air ambulance resilience, including hospital helipads and landing sites; the motion was agreed. Members then examined Ofcom’s role and effectiveness across broadcasting, online safety, postal services, broadband, scams, spectrum and network resilience, while the Government outlined ongoing work on enforcement capability, under-16 social-media regulations and the public switched telephone network transition; that motion was also agreed.
+
+## Detailed Summary
+### Major Trauma Centres: Helipads
+Jim Shannon (Strangford) moved the motion and argued for a data-led national policy providing safeguarded, reliable 24/7 on-site helipad access where there was a clear clinical and operational need, rather than a blanket requirement for every hospital. His three main requests were a national policy and implementation roadmap; clearer NHS estates, commissioning and planning safeguards; and a national emergency hospital helipad infrastructure contingency fund to complement charitable funding. Members including Perran Moon, Jayne Kirkham, Ben Maguire, Josh Newbury, Marie Goldman and Damian Hinds raised local and national concerns, including the closed front helipad and delayed access works at Royal Cornwall Hospital, planning risks around existing sites, Broomfield Hospital’s limited availability, and the absence of helipads at New Cross Hospital and Birmingham Children’s Hospital. Shannon said: “this is not a call for every hospital to have a 24/7 on-site helipad.” Ben Maguire said the transfer route at Treliske “introduces delays and safety risks”.
+
+Diana R. Johnson responded for the Government. She said responsibility for hospital helipads and related capital investment currently rests with local NHS organisations, but announced that the Minister for Secondary Care had instructed the Department of Health and Social Care and NHS England to scope “a strategic review of air ambulance resilience, including hospital helipads and landing sites”. She said the review would consider landing facilities, onward transfers, future clinical and aircraft requirements, and existing infrastructure. She also referred to planning protections in the new National Planning Policy Framework and said formal regulation of hospital landing sites was currently expected around 2028. The review’s timetable was not stated in the transcript; Johnson undertook to ask the Minister for Secondary Care what information might be available about timescales. The question was put and agreed, and the motion was resolved.
+
+### Ofcom: Role and Effectiveness
+Vikki Slade (Mid Dorset and North Poole) moved the motion and questioned whether Ofcom had sufficient powers, resources and institutional focus for its expanding remit. Members discussed concerns about broadcasting enforcement, due impartiality and politicians presenting programmes; scam calls and messages; rural broadband and the public switched telephone network (PSTN) transition; Royal Mail performance; online harms and age verification; spectrum policy; and mobile-network resilience. Several Members argued that delayed investigations and repeated fines had not secured adequate outcomes, particularly in postal services and online safety. Slade called for “a formal review of Ofcom’s powers, duties and enforcement framework”. Rebecca Paul said that Ofcom’s operational independence “must go hand in hand with accountability”.
+
+Stephanie Peacock responded for the Government. She said Ofcom’s broadcasting code required due accuracy and due impartiality, and that the Government were considering options concerning politicians presenting programmes that could reasonably be interpreted as news or current affairs. She said the Government had asked Ofcom to publish a clear enforcement strategy and that Ofcom’s chair, Sir Ian Cheshire, was reviewing its enforcement capability. She also said that regulations for the under-16 social-media restriction would be laid before Parliament by the end of the year, that PSTN closure remained on track for 31 January 2027, and that the Government would continue to press Ofcom and Royal Mail over persistent service issues. Peacock said the Government would consider future requests for additional powers pragmatically where they were needed, but made no specific commitment to create a separate postal regulator or introduce compensation for delayed mail. The question was put and agreed, and the motion was resolved.
