@@ -1,0 +1,62 @@
++++
+date = "2026-11-03"
+draft = false
+title = "Budget Battle Dominates as House Tackles Costs, Jobs and Reform"
+tags = [
+    "budget",
+    "economy",
+    "energy",
+    "regulation",
+    "transport",
+]
+atUri = "at://did:web:orderly.bot/site.standard.document/3mzjyff5viw2j"
++++
+
+## High-Level Summary
+The day included Treasury oral questions, topical questions, an urgent question on Poundland, introduction of a Bill on halal and kosher meat labelling, and the final day of the Budget debate. Members debated household energy support, high streets, apprenticeships, public finances, devolution, industrial policy, welfare, defence and living standards, with competing assessments from Government, Opposition and Liberal Democrat speakers. The House granted leave for the food-labelling Bill, agreed the Budget resolutions and recorded divisions on several of them, and presented the Finance Bill for Second Reading the following day. The sitting ended with an adjournment debate on community minibus-driver licensing, with the Government reviewing reform proposals while maintaining that road and passenger safety had to be considered.
+
+## Detailed Summary
+### Treasury oral questions: compensation, household costs and economic policy
+Treasury oral questions covered infected blood compensation, the withdrawal of family protection plans, household living costs, apprenticeships, Scotland’s public services and economic growth, Government borrowing, refinery competitiveness, high streets, child trust funds and advanced manufacturing. John Healey said eligible infected-blood claimants would receive compensation and that Treasury arrangements would not constrain payments: “there is no constraint on the payments that can be made under Treasury rules”. He also described a £100 household energy payment for 20 million households, alongside extensions to VAT and fuel-duty measures and the planned removal of gas standing charges: “A £100 household energy payment will be made directly to people’s bank accounts in 20 million households”. Other Ministers referred to £3.3 billion for apprenticeships, a £2,000 grant for eligible small and medium-sized enterprises recruiting young apprentices, and business-rates support for high streets.
+
+Questioners raised overpayment clawbacks and delays to compensation, the availability of alternative funeral cover, clean-heating support, the local housing allowance freeze, the targeting of the energy payment, borrowing, Rosebank and business competitiveness. Lucy Rigby said access to child trust funds would be simplified for people lacking mental capacity and that a taskforce was working on tracing unclaimed funds: “We have also set up a child trust fund taskforce to improve tracing and to customise communication and engagement”. Emma Reynolds said Acorn’s initial grant funding remained in place until the end of 2026, while future private investment and Government loans or equity were being explored. No division was recorded in this question session.
+
+### Topical Treasury questions
+Topical questions returned to the Budget’s claims on fiscal discipline, energy support, borrowing, business rates, welfare, defence, the United Kingdom’s relationship with the European Union, student loans, mineworkers’ pensions and local economic development. John Healey said: “The Budget confirms that borrowing will fall every year during the next period”. He also said the Budget’s winter support was funded by “a fair and time-limited tax on banks”. Ministers said debt was expected to start falling from 2028–29, and that the full transfer of the mineworkers’ guarantor fund remained to be completed, with work intended to proceed in weeks rather than months.
+
+Opposition and Liberal Democrat speakers questioned the effect of borrowing on interest rates and debt, the use of council-tax bands for energy support, business-rates reform, student-loan repayment thresholds and the Government’s approach to the European Union. The Government said an EU summit on 20 November was still subject to negotiation. Ministers also offered follow-up meetings on food insecurity, a Cumbria rocket-testing proposal and community amateur sports clubs, and referred to the commitment to 350 banking hubs. No division was recorded.
+
+### Poundland: urgent question on jobs and the company’s future
+Kate Dearden responded to concerns about Poundland’s future and its effect on employees, suppliers and communities. At the outset, she said Poundland was trading and was not then in administration, while the Government were establishing the facts and engaging with Poundland, Gordon Brothers and the Union of Shop, Distributive and Allied Workers (USDAW). She said: “there are ongoing commercial negotiations concerning this private business”, and that the Government should not influence the outcome or comment on individual bids. The Minister referred to 12,000 staff and many thousands of suppliers, and said support would be available through the Department for Work and Pensions, the Insolvency Service and local partners if needed.
+
+Gareth Snell and other Members argued that viable bids had allegedly been rejected and asked what powers could be used to protect jobs. Members also called for scrutiny of private-equity and insolvency arrangements and for USDAW to be included in discussions. Bradley Thomas criticised political intervention, while Sarah Olney linked the case to wider pressures on high-street businesses. Dearden said the Government were not intervening in the auction but could press the owners for clarity and action: “Ownership brings responsibilities as well as rights”. She confirmed that USDAW would attend her meeting with Poundland and that the Department for Work and Pensions’ rapid-response service stood ready to support affected workers. Later, Chris Law referred to a notice of intention to enter administration, but the Minister did not confirm that assertion. No decision on ownership or administration was taken; meetings with the company, Gordon Brothers and USDAW were the stated next steps.
+
+### Food Labelling (Halal and Kosher Meat) Bill
+Esther McVey sought leave to introduce a Bill requiring compulsory labelling of halal and kosher meat and products containing such meat. She said the Bill would not prohibit either form of meat, but would address consumer information, religious choice and animal-welfare concerns, including whether animals had been stunned before slaughter: “This Bill does not seek to ban halal or kosher meat; it seeks to introduce clear compulsory labelling”. She argued that voluntary and inconsistent arrangements did not give consumers the information needed to make informed choices.
+
+The question was agreed to. Esther McVey and the named supporters were ordered to present the Bill; it was presented, read the First time and ordered to be read a Second time on Friday 15 January 2027. The transcript records no opposing speech or division.
+
+### Final day of Budget debate: economic strategy and competing assessments
+Jonathan Reynolds presented the Government’s case for the Budget, covering immediate household support, high-street measures, reindustrialisation, business finance, apprenticeships, trade and national security. He referred to a £1 billion business-rates package, the removal of around 70,000 additional small retail, hospitality and leisure properties from business rates, and measures intended to reduce regulatory burdens. In response to an intervention on trade and resilience, he said: “There is no inconsistency in being proud of the services-led nature of the UK economy while recognising the essential contribution of advanced manufacturing”. Emma Reynolds closed the debate for the Government, saying that the following year’s spending review would set out how the United Kingdom would meet the NATO commitment to spend 3.5% of gross domestic product on defence by 2035, including a target of 3% by 2030.
+
+Julia Lopez, Richard Fuller and other Opposition speakers argued that the Budget increased taxes, borrowing and employer costs and did not do enough on welfare, defence, business rates or living standards. Daisy Cooper said the energy payment was poorly targeted and called for an essential energy guarantee using Department for Work and Pensions and HM Revenue and Customs data. Other Members supported or criticised measures on devolution, housing, rough sleeping, life sciences, rural services, defence, youth employment, food insecurity, medicines and reindustrialisation. The Government’s income-tax charge motion was agreed without a division being recorded at that point.
+
+### Budget resolutions and Finance Bill
+The House then considered 108 Ways and Means resolutions and associated money resolutions for the Finance Bill. They covered income-tax rates, corporation tax, the banking surcharge, capital gains tax, employment and investment reliefs, pensions, value added tax, vehicle and environmental duties, alcohol duty, a high-value council-tax surcharge, an oil and gas revenue levy, an international student levy and administrative powers. For 2027–28, the main income-tax rates were resolved as 20%, 40% and 45%; the property and savings rates were resolved as 24%, 44% and 49%.
+
+Recorded divisions included property and savings rates, agreed by 337 votes to 180; the temporary banking-surcharge increase, 420 to 105; business asset disposal relief, 348 to 176; employment-visa charges, 414 to 106; electric-vehicle charging value-added tax treatment, 324 to 88; alcohol-duty rates, 331 to 181; and the high-value council-tax surcharge, 327 to 161. The other listed resolutions were resolved without a recorded division. James Murray presented the Finance Bill, which was read the First time and ordered to be read a Second time the following day.
+
+### Point of order on employment figures
+Daisy Cooper raised a point of order disputing a claim made during the Budget debate that 27 young non-European Union migrants had been hired for every young British person since 2020. She said the report being cited had been debunked and gave a different comparison based on employed young people: “10 UK under-25s are employed for every one non-EU national”.
+
+The Deputy Speaker said that the Chair was not responsible for the accuracy of Members’ speeches and advised that any Member wishing to correct the record should contact Hansard. No further action was recorded.
+
+### Delegated legislation and deferred divisions
+The House approved regulations concerning specified policing purposes under the Border Security, Asylum and Immigration Act 2025, the Renewables Obligation and Electricity Capacity regime, and global human rights and international humanitarian-law sanctions. The relevant questions were agreed to.
+
+Approval of the Housing (Tenancy Deposit Schemes) Order 2026 and the Private Rented Sector Database Regulations 2026 was challenged. The Deputy Speaker’s opinion was recorded as challenged, and the divisions were deferred until the following day under Standing Order No. 41A: “the Division was deferred until tomorrow”.
+
+### Community transport minibus drivers: adjournment debate
+Freddie Van Mierlo raised the shortage and ageing profile of drivers with category D1 entitlement, which covers driving minibuses carrying up to 16 passengers. He said community transport operators faced recruitment difficulties and that obtaining the entitlement could involve theory, practical and medical requirements costing up to £2,000. He supported the Community Transport Association’s proposal for a targeted, training-based route for drivers working for non-profit organisations, with a cost of under £300. Other Members described community transport’s importance to older, disabled and rural residents and noted that electric vehicles and accessibility equipment could increase vehicle weight.
+
+Simon Lightwood acknowledged the sector’s role and cited annual support, including up to £3.8 million through the bus service operators grant and a 60% uplift to eligible community-transport claims until 31 March 2027. He said the Department was actively reviewing the Association’s proposal, but that any change had to take account of road safety: “passenger and road safety must remain at the heart of our consideration of any changes to the licensing regime”. He undertook to write to Tessa Munt about accident data. The question was agreed to and the House adjourned; no policy change was announced.
