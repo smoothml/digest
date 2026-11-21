@@ -1,0 +1,63 @@
++++
+date = "2026-11-19"
+draft = false
+title = "Commons Debates Men’s Wellbeing, AI Risks and National Resilience"
+tags = [
+    "ai",
+    "cybersecurity",
+    "education",
+    "mentalhealth",
+    "housing",
+]
+atUri = "at://did:web:orderly.bot/site.standard.document/3n2s7u4tore2o"
++++
+
+## High-Level Summary
+The sitting began with a private-business procedural order and Cabinet Office questions on public control, civil service pensions, national and digital resilience, the cost of living, procurement, devolution and national security. Business questions were followed by a Select Committee statement on reading for pleasure, presentation of the Commonhold and Leasehold Reform Bill, and Backbench Business debates on International Men’s Day and the emerging risks of advanced artificial intelligence. Both motions were agreed to, with no division recorded in the transcript. The sitting concluded with an adjournment debate on Lancashire Fire and Rescue Service, at which Jim McMahon agreed to a follow-up meeting with Oliver Ryan and representatives of the service.
+
+## Detailed Summary
+### Private-business procedural order
+Before Questions, the House ordered that, notwithstanding Standing Order 71, examination of petitions for private bills presented on or before 27 November 2026 should begin on 17 December 2026. The order was made on the motion of the Chairman of Ways and Means; no further decision or next step was recorded.
+
+### Cabinet Office questions: public control and civil service pensions
+Louise Haigh said the public control taskforce was drawing on expertise from central, regional and local government, business, civil society and academia, and that its work would inform a 10-year plan due to be published the following month. In response to Paul Davies, she paid tribute to Windrush Against Sewage Pollution and the Ilkley Clean River Group and said that “the Parliamentary Secretary, Cabinet Office, will be happy to meet them”.
+
+Most of the pension questions concerned Capita’s backlog, missed deadlines and the effects on pensioners, serving civil servants and bereaved families. Sally Jameson said Capita’s performance had had “unacceptable impacts”, described a five-workstream rectification plan and said the Government were considering future administration arrangements. In response to a later question, she said the scheme was a potential candidate for insourcing and that officials were evaluating long-term options, but opposed immediate termination because it could create “an operational vacuum” and jeopardise monthly payments. Officials were working with the Clerks of the Public Accounts Committee and the Public Administration and Constitutional Affairs Committee on sharing the remedial adviser’s report, subject to market-sensitive considerations. No final decision on insourcing or termination was announced.
+
+### National, climate, cyber and digital resilience
+Ministers outlined measures relating to El Niño, severe weather, emergency preparedness and cyber-attacks, including flood-defence and rail investment, the Be Ready campaign, funding for cyber-defences, the Cyber Security and Resilience (Network and Information Systems) Bill and a forthcoming national cyber action plan. Dan Jarvis said that national resilience required “shared leadership and action across every sector”. After Alistair Carmichael asked about including cyber-security in the food strategy, Jarvis said he would reflect on the suggestion and discuss it with colleagues in the Department for Environment, Food and Rural Affairs. He also said local resilience leaders would be convened shortly; the transcript does not state whether the civil resilience forum had already met.
+
+Digital infrastructure questions covered the transition from the public switched telephone network, power resilience for mobile masts, legacy public-sector systems and artificial intelligence security. Kanishka Narayan said he would take Helen Morgan’s concerns about rural communications during power outages away and ensure she received a full response. He identified the Security Minister as the lead Minister for cyber across government and the Department for Culture, Media and Sport as the lead cyber Department for government and public services. On open-weight models, he said the Government were examining issues including de-biasing and prompt injection.
+
+### Cost of living, procurement and devolution
+Louise Haigh said the cost of living taskforce had introduced measures including a £100 household energy payment, the extension of zero-rated value added tax on electricity bills and energy-debt relief. In response to Danny Beales, she said the taskforce would work across government to explore interventions addressing disproportionately high monthly motor-insurance costs. During topical questions, Hamish Falconer said the effects of any sanitary and phytosanitary agreement on farmers could be assessed more fully once its detail had been agreed.
+
+On Procurement Policy Note 024, Mark Ferguson described the work of the insourcing and market-shaping unit and said there was “no evidence that Departments are accelerating any of their decision-making processes”. On devolution, Sally Jameson said the Government would publish a “Rewiring the State” delivery plan and confirmed that mayors would not be able to offer tax rebates, while noting that mayors already had powers to give grants. She said the plan would not change London’s governance structure, although she offered to meet London Members. Updates or meetings were also offered in relation to Cornwall, the Thames Valley and the Isle of Wight; no specific timetable for the delivery plan was given.
+
+### Business of the House
+Alan Campbell announced business for the following week: Second Reading of the Finance Bill; consideration of Lords amendments to the Armed Forces Bill and the Cyber Security and Resilience (Network and Information Systems) Bill; an Opposition day; two Backbench Business debates; and Private Members’ Bills. Provisional business for the week after included two days in Committee of the whole House on the Finance Bill and an Opposition day.
+
+Members then raised constituency and policy matters including road safety, energy bills, the UK Youth Parliament, Samaritans branches, banking access, leasehold reform, water, civil service pensions, transport and online safety. Campbell agreed to help arrange or seek meetings on several matters, including the UK Youth Parliament and rail-worker welfare. He said the Government would bring forward a strengthened water Bill “when parliamentary time allows”. On the consultation concerning protection of the title of nurse, he said he expected a response and that it would be made to the House, but gave no date.
+
+### Select Committee statement: reading for pleasure
+Helen Hayes gave a Select Committee statement on the Education Committee’s fifth special report, “Reading for Pleasure: Government Response”. She said the evidence linked reading for pleasure with educational attainment, language and communication, wellbeing and empathy, while arguing that children from disadvantaged backgrounds, children with special educational needs and disabilities, and teenage boys were less likely to benefit. She said, “Reading for pleasure is not an optional extra”, and the Committee had called for a national reading guarantee, stronger library provision and a long-term strategy.
+
+Hayes welcomed the Government’s support for Best Start family hubs, the National Year of Reading and work to extend successful primary-school reading-culture programmes into secondary schools. She said the Government had not accepted the national reading guarantee, a statutory requirement for libraries in secondary schools, restored public-library funding or dedicated library outreach officers. Members also discussed the Imagination Library, school library services and reading with children from the earliest stages. Hayes said the Committee would continue to pursue the issue and hold the Government to account.
+
+### Commonhold and Leasehold Reform Bill
+Secretary Angela Rayner presented the Commonhold and Leasehold Reform Bill, supported by the Prime Minister and other Ministers. The Bill covers commonhold land, restrictions on certain new long residential leases, leasehold enfranchisement, ground rent, administration charges, broadband connections, estate management matters and estate rent charges. It was read the First time, ordered to be printed as Bill 189 with explanatory notes, and scheduled for Second Reading the following day. These procedural outcomes were recorded in the transcript; no debate on the Bill took place at presentation.
+
+### Backbench Business: International Men’s Day 2026
+Peter Swallow moved that the House consider International Men’s Day 2026. Members discussed men’s mental and physical health, suicide, domestic and sexual abuse affecting men, paternity and parental leave, boys’ education, youth services, role models, employment and online misogyny. Several Members argued that two weeks of statutory paternity leave was insufficient and supported longer, better-paid leave; they also highlighted men’s sheds, Andy’s Man Club, sports clubs and youth organisations as sources of support. Swallow said, “we can build a safety net that ensures that every young man has somewhere to turn and someone to look up to”.
+
+Jake Richards, the first Minister for Men and Boys, announced a national men and boys summit for early the following year. He said it would draw together cross-departmental policy and begin work towards a charter for men and boys, alongside wider consultation and conversations with men and boys. He also said the parental-leave review would return early the following year. The question was agreed to and the motion was resolved; no division is recorded in the transcript.
+
+### Backbench Business: emerging risks of advanced artificial intelligence
+Members debated the potential benefits and risks of advanced artificial intelligence, including medical and scientific uses, cyber-attacks, autonomous systems, deepfakes, misinformation, employment, data-centre impacts, children’s safety, human rights, military applications and financial stability. Ben Lake, Alex Sobel, Anneliese Dodds and others argued for stronger safeguards, oversight and international co-operation, including proposals for an AI Bill, an independent regulator, a statutory role for the AI Security Institute, international standards and action through the UK’s G20 presidency. Lake argued for safeguards so that AI remained “a tool for humanity” rather than an autonomous system that could harm it.
+
+Danny Kruger and Ben Spencer argued that excessive or poorly designed regulation could weaken UK security, growth and innovation and leave the country dependent on other states. They supported greater domestic computing capacity and data centres, while accepting that harmful uses required controls. Sally Jameson said the Government would independently test models, harden defences and build infrastructure in the UK. She referred to more than £700 million of new Budget funding, the AI Security Institute, the data-centre covenant and proposed measures under the Cyber Security and Resilience Bill. She also said she would ensure that the AI Minister addressed Members’ proposals and would obtain clarification on whether the Bill would include a cross-government risk assessment. The motion was agreed to and resolved; no division is recorded in the transcript.
+
+### Adjournment debate: Lancashire Fire and Rescue Service
+Oliver Ryan sought a sustainable funding solution for Lancashire Fire and Rescue Service. He described a projected recurring savings requirement of £4 million a year by 2030-31 after local savings, and said that further savings could affect fire engines, stations and resilience. He asked about council-tax precept flexibility, retaining any future savings from firefighter pension contributions, capital grants for the service’s estate, and a funding formula that recognised deprivation, rurality, incident risk, on-call sustainability and national-resilience work.
+
+Jim McMahon said Lancashire’s 2026-27 core spending power would increase by almost £3 million and outlined national funding for fire and rescue resilience, including £440,000 for Lancashire’s heavy-lift drone project. He did not settle all four requests at the Dispatch Box, but agreed to a follow-up meeting with Ryan, the chief fire officer and members of the fire authority, with Baroness Blake also attending. The question was agreed to, the House adjourned, and no division was recorded.
